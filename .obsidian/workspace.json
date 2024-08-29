@@ -144,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SEM5/COSC435/Day 1.md",
+                "file": "Excalidraw/Drawing 2024-08-28 10.10.05.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM5/COSC435/Day 1.md",
+                "file": "Excalidraw/Drawing 2024-08-28 10.10.05.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,7 +184,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM5/COSC435/Day 1.md"
+                "file": "Excalidraw/Drawing 2024-08-28 10.10.05.excalidraw.md"
               }
             }
           },
@@ -215,8 +215,9 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "367ccd4fd85ceac2",
+  "active": "d675e1f1c34c28c0",
   "lastOpenFiles": [
+    "SEM5/COSC435/Day 1.md",
     "SEM5/MATH330/Chapter 1 Notes.pdf",
     "Excalidraw/Drawing 2024-08-28 10.10.05.excalidraw.md",
     "Excalidraw/Drawing 2024-08-28 08.48.44.excalidraw.md",
@@ -227,7 +228,6 @@
     "Tasks.md",
     "SEM5/BIOL200/Lab 1.md",
     "Excalidraw/Drawing 2024-08-27 09.41.20.excalidraw.md",
-    "SEM5/COSC435/Day 1.md",
     "SEM5/COSC350/Day 1.md",
     "SEM5/BIOL200/Day 1.md",
     "SEM5/COSC350/KRChapter_1.pptx",
