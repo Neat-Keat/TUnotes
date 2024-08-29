@@ -9,18 +9,29 @@
         "dimension": 68.72611464968153,
         "children": [
           {
-            "id": "367ccd4fd85ceac2",
+            "id": "5a8bab5e2afd37d7",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Media/Pasted image 20240829100551.png"
+              }
+            }
+          },
+          {
+            "id": "1bb8e73104a75d0a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM5/COSC435/Day 1.md",
+                "file": "SEM5/COSC350/Day 2.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "32a263706808588d",
@@ -144,7 +155,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2024-08-28 10.10.05.excalidraw.md",
+                "file": "SEM5/COSC350/Day 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2024-08-28 10.10.05.excalidraw.md",
+                "file": "SEM5/COSC350/Day 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,7 +195,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2024-08-28 10.10.05.excalidraw.md"
+                "file": "SEM5/COSC350/Day 2.md"
               }
             }
           },
@@ -215,11 +226,22 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d675e1f1c34c28c0",
+  "active": "1bb8e73104a75d0a",
   "lastOpenFiles": [
+    "Media/Pasted image 20240829103929.png",
+    "Media/Pasted image 20240829100551.png",
+    "SEM5/COSC350/Day 2.md",
+    "Media/Pasted image 20240829103807.png",
+    "Media/Pasted image 20240829103637.png",
+    "Media/Pasted image 20240829103338.png",
+    "Media/Pasted image 20240829103010.png",
+    "Media/Pasted image 20240829102324.png",
+    "Media/Pasted image 20240829101640.png",
+    "Media/Pasted image 20240829094749.png",
+    "SEM5/COSC350/Day 1.md",
     "SEM5/COSC435/Day 1.md",
-    "SEM5/MATH330/Chapter 1 Notes.pdf",
     "Excalidraw/Drawing 2024-08-28 10.10.05.excalidraw.md",
+    "SEM5/MATH330/Chapter 1 Notes.pdf",
     "Excalidraw/Drawing 2024-08-28 08.48.44.excalidraw.md",
     "SEM5/MATH330/Day 2.md",
     "SEM5/MATH330/Day 1.md",
@@ -228,7 +250,6 @@
     "Tasks.md",
     "SEM5/BIOL200/Lab 1.md",
     "Excalidraw/Drawing 2024-08-27 09.41.20.excalidraw.md",
-    "SEM5/COSC350/Day 1.md",
     "SEM5/BIOL200/Day 1.md",
     "SEM5/COSC350/KRChapter_1.pptx",
     "SEM5/COSC350/Unconfirmed 351974.crdownload",
@@ -241,16 +262,7 @@
     "Excalidraw/Drawing 2024-08-27 08.47.41.excalidraw.md",
     "Excalidraw/Drawing 2024-08-26 18.56.57.excalidraw.md",
     "SEM4/COSC336/Day 23.md/Exported image 20240525213014-2.png",
-    "SEM4/COSC336/Day 23.md/Exported image 20240525213014-1.png",
-    "SEM4/COSC336/Day 23.md/Exported image 20240525213014-0.png",
     "SEM4/COSC290/Lab 6.md 1/Lab 6.md",
-    "SEM4/COSC290/Lab 6.md 1/Exported image 20240525213136-7.png",
-    "SEM4/COSC290/Lab 6.md 1/Exported image 20240525213136-6.png",
-    "SEM4/COSC290/Lab 6.md 1/Exported image 20240525213136-5.png",
-    "SEM4/COSC290/Lab 6.md 1/Exported image 20240525213136-4.png",
-    "SEM4/COSC290/Lab 6.md 1/Exported image 20240525213136-3.png",
-    "SEM4/COSC290/Lab 6.md 1/Exported image 20240525213136-2.png",
-    "SEM4/COSC290/Lab 6.md 1/Exported image 20240525213136-1.png",
     "SEM4/COSC290/Lab 5.md 1/Lab 5.md",
     "SEM4/COSC290/Lab 4.md 1/Lab 4.md",
     "SEM4/COSC290/Lab 3.md 1/Lab 3.md",
@@ -258,7 +270,6 @@
     "SEM4/COSC290/Day 9 1.md/Day 9.md",
     "SEM4/COSC290/Lab 1.md 1/Lab 1.md",
     "SEM4/ITEC201/Day 6.md",
-    "SEM4/ITEC201/Day 5.md",
     "SEM4/COSC290/Lab 6.md 1",
     "SEM4/COSC290/Lab 5.md 1",
     "SEM4/COSC290/Lab 4.md 1"
