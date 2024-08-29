@@ -1,0 +1,1 @@
+ESP always points to the "top" of the stack

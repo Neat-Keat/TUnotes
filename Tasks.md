@@ -1,0 +1,8 @@
+- [ ] 
+- [ ] bio quiz 🔁 every week 
+- [ ] bio readings ch1, ch2 (Tuesday)
+- [ ] 330 hw
+- [ ] COSC435 HW 1 due 2/9
+- [ ] video assignment (friday)
+- [ ] 
+- [ ] 

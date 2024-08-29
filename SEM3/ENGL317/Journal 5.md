@@ -1,0 +1,49 @@
+**ORIGINAL JOURNAL #3**  
+As a future employee, I believe I have a lot to bring to the table. Most relevantly, I would say that my expertise in creating multimedia products is my biggest asset. I attended Cecil County School of Technology, a trade school which not only taught me how to use various professional-grade creation applications like Adobe Photoshop and Unity, but I also have Adobe's Creative Associate certificates in Photoshop, Illustrator, InDesign, Dreamweaver, Animate, After Effects, and Premiere Pro. I have used these skills to grow my own personal brand, having amassed 403.5 thousand likes on Tiktok with two videos reaching over a million views. If you hire me, I can use these skills not only to help develop your own social media identity, but also work on things like the frontend of your website or any advertising material you need.  
+**CHATGPT REVISED JOURNAL #3**  
+I offer a robust skill set in multimedia content creation, honed through my education at the Cecil County School of Technology and my Adobe Creative Associate certifications in Photoshop, Illustrator, InDesign, Dreamweaver, Animate, After Effects, and Premiere Pro. My proficiency in these tools has enabled me to effectively engage and grow a substantial online audience. Notably, I've garnered over 403.5 thousand likes on TikTok, with two videos amassing over a million views. I'm excited about the prospect of applying these skills to enhance your organization's digital presence. Whether it's crafting compelling social media content, improving the frontend of your website, or creating impactful advertising materials, I am ready to contribute my multimedia expertise to drive your brand's success.  
+**QUESTIONS**  
+ChatGPT did not ask me to provide answers to the following questions:
+
+- Make sure you can define technical skills.
+- Know if your tone and info is appropriate to the audience, in this case a prospective employer.
+- Make sure you assert accomplishments.
+- Provide support or in this case anecdotes for your accomplishment statements.
+
+In fact, ChatGPT directly compliments the confidence and enthusiasm in my tone, and even said that I had an “overemphasis on personal achievements”. However, ChatGPT did ask critique my ability to
+
+- add numbers or units of measurement when including details about manpower, money, or time.
+
+**COMPLETE CHATGPT CONVERSATION**  
+—----------------------------------------------------------------------------------------------------------------------------  
+evaluate this excerpt from a job interview about technical skills.  
+As a future employee, I believe I have a lot to bring to the table. Most relevantly, I would say that my expertise in creating multimedia products is my biggest asset. I attended Cecil County School of Technology, a trade school which not only taught me how to use various professional-grade creation applications like Adobe Photoshop and Unity, but I also have Adobe's Creative Associate certificates in Photoshop, Illustrator, InDesign, Dreamweaver, Animate, After Effects, and Premiere Pro. I have used these skills to grow my own personal brand, having amassed 403.5 thousand likes on Tiktok with two videos reaching over a million views. If you hire me, I can use these skills not only to help develop your own social media identity, but also work on things like the frontend of your website or any advertising material you need.  
+—----------------------------------------------------------------------------------------------------------------------------  
+ChatGPT  
+The excerpt from the job interview about technical skills highlights the candidate's qualifications and experiences effectively. Here's an evaluation of the key points:  
+**Confidence and Enthusiasm**: The candidate starts by expressing confidence and enthusiasm about their potential contribution to the role. This demonstrates a positive attitude and eagerness to join the team.  
+**Multimedia Expertise**: The candidate highlights their expertise in creating multimedia products, which is likely relevant to the job they are applying for. Mentioning this as their biggest asset immediately draws attention to their primary technical skill set.  
+**Education and Certifications**: The candidate mentions attending the Cecil County School of Technology and lists specific professional-grade software applications they are familiar with, such as Adobe Photoshop and Unity. Additionally, they mention having Adobe's Creative Associate certificates in multiple Adobe software, showcasing their commitment to skill development and industry-recognized qualifications.  
+**Personal Branding Success**: The candidate provides concrete evidence of their skills by mentioning their success on TikTok, where they've gained a significant following and achieved viral content. This demonstrates practical application of their multimedia skills and ability to engage an audience.  
+**Versatility**: The candidate offers to apply their skills beyond social media, mentioning the potential to work on the frontend of a website and create advertising materials. This versatility suggests they are adaptable and willing to contribute to various aspects of the organization.  
+In summary, this excerpt effectively communicates the candidate's technical skills, qualifications, and enthusiasm for the role. They provide evidence of their abilities and offer to apply their expertise to benefit the prospective employer in multiple ways, which can be seen as a valuable asset for the organization.  
+—----------------------------------------------------------------------------------------------------------------------------  
+be more critical, what are that document's flaws?  
+—----------------------------------------------------------------------------------------------------------------------------  
+ChatGPT  
+Certainly, let's take a more critical look at the document and identify its flaws:  
+**Lack of Specific Job Relevance**: While the candidate mentions their skills and achievements, they don't directly tie them to the specific requirements or responsibilities of the job they are applying for. It would be more effective to explicitly relate their skills to how they would benefit the prospective employer in this particular role.  
+**Overemphasis on Personal Achievements**: While personal achievements like TikTok success are impressive, they may not be directly relevant to all job positions. The candidate spends a significant portion of the document discussing personal branding, which might not be the primary focus of the job they are applying for. It's important to prioritize and emphasize skills and experiences that align with the job description.  
+**Lack of Metrics**: The document mentions that the candidate has "amassed 403.5 thousand likes on Tiktok with two videos reaching over a million views," but it doesn't provide context or metrics for their other achievements. Metrics help quantify the impact of their work and make their accomplishments more tangible.  
+**Assumptions about Employer's Needs**: The candidate assumes that the employer needs help with social media and web development without knowing the specific needs of the company. It would be more effective to research the company's requirements and tailor their pitch accordingly.  
+**Not Addressing Soft Skills**: While technical skills are important, the document doesn't touch upon soft skills like teamwork, communication, or problem-solving, which are often crucial in a professional environment. A well-rounded candidate should demonstrate a balance between technical and interpersonal skills.  
+**Repetitive Phrasing**: The candidate repeatedly uses phrases like "I believe I have a lot to bring to the table" and "If you hire me, I can use these skills." This repetition can make the document sound less engaging and more formulaic.  
+**Lengthy Introduction**: The initial sentence, "As a future employee," is somewhat vague and can be seen as filler. It's better to get straight to the point and grab the employer's attention with a concise introduction.  
+In summary, the document could benefit from more focus on the specific job requirements, metrics to support achievements, and a more tailored approach to addressing the employer's needs. Additionally, a more concise and engaging writing style would improve its overall effectiveness.  
+—----------------------------------------------------------------------------------------------------------------------------  
+how would you write that paragraph?  
+—----------------------------------------------------------------------------------------------------------------------------  
+ChatGPT  
+Certainly, here's a revised version of the paragraph that addresses some of the flaws mentioned earlier:  
+"I offer a robust skill set in multimedia content creation, honed through my education at the Cecil County School of Technology and my Adobe Creative Associate certifications in Photoshop, Illustrator, InDesign, Dreamweaver, Animate, After Effects, and Premiere Pro. My proficiency in these tools has enabled me to effectively engage and grow a substantial online audience. Notably, I've garnered over 403.5 thousand likes on TikTok, with two videos amassing over a million views. I'm excited about the prospect of applying these skills to enhance your organization's digital presence. Whether it's crafting compelling social media content, improving the frontend of your website, or creating impactful advertising materials, I am ready to contribute my multimedia expertise to drive your brand's success."  
+This revised paragraph is more concise, directly emphasizes the candidate's skills, provides evidence of their achievements, and expresses a clear readiness to apply their expertise to benefit the prospective employer.
