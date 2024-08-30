@@ -9,71 +9,37 @@
         "dimension": 68.72611464968153,
         "children": [
           {
-            "id": "5a8bab5e2afd37d7",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Media/Pasted image 20240829100551.png"
-              }
-            }
-          },
-          {
-            "id": "1bb8e73104a75d0a",
+            "id": "d675e1f1c34c28c0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM5/COSC350/Day 2.md",
+                "file": "SEM5/COSC435/Day 1.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
-        "id": "32a263706808588d",
-        "type": "split",
+        "id": "5a6df316d3e8d090",
+        "type": "tabs",
         "dimension": 31.273885350318473,
         "children": [
           {
-            "id": "892bba2d07417eb4",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "d675e1f1c34c28c0",
-                "type": "leaf",
-                "state": {
-                  "type": "excalidraw",
-                  "state": {
-                    "file": "Excalidraw/Drawing 2024-08-28 10.10.05.excalidraw.md"
-                  }
-                }
+            "id": "a03853d643ff4b97",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tasks.md",
+                "mode": "source",
+                "source": false
               }
-            ]
-          },
-          {
-            "id": "5a6df316d3e8d090",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "a03853d643ff4b97",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Tasks.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ]
+            }
           }
-        ],
-        "direction": "horizontal"
+        ]
       }
     ],
     "direction": "vertical"
@@ -155,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2024-08-28 10.10.05.excalidraw.md",
+                "file": "SEM5/COSC435/Day 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2024-08-28 10.10.05.excalidraw.md",
+                "file": "SEM5/COSC435/Day 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -195,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2024-08-28 10.10.05.excalidraw.md"
+                "file": "SEM5/COSC435/Day 1.md"
               }
             }
           },
@@ -226,8 +192,9 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d675e1f1c34c28c0",
+  "active": "39589997cec10ef0",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2024-08-28 10.10.05.excalidraw.md",
     "SEM5/COSC350/Day 2.md",
     "Media/Pasted image 20240829103929.png",
     "Media/Pasted image 20240829100551.png",
@@ -240,7 +207,6 @@
     "Media/Pasted image 20240829094749.png",
     "SEM5/COSC350/Day 1.md",
     "SEM5/COSC435/Day 1.md",
-    "Excalidraw/Drawing 2024-08-28 10.10.05.excalidraw.md",
     "SEM5/MATH330/Chapter 1 Notes.pdf",
     "Excalidraw/Drawing 2024-08-28 08.48.44.excalidraw.md",
     "SEM5/MATH330/Day 2.md",
