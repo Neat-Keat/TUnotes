@@ -6,27 +6,26 @@
       {
         "id": "1522a92a68d7257b",
         "type": "tabs",
-        "dimension": 68.72611464968153,
         "children": [
           {
-            "id": "d675e1f1c34c28c0",
+            "id": "a3d1bf1e55be4dd9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM5/BIOL200/Day 2.md",
+                "file": "SEM5/COSC350/Day 2.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "9e7a398a6f46e4dc",
+            "id": "edb967f24fde0498",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM5/BIOL200/Day 3.md",
+                "file": "SEM5/COSC350/Day 3.md",
                 "mode": "source",
                 "source": false
               }
@@ -34,50 +33,6 @@
           }
         ],
         "currentTab": 1
-      },
-      {
-        "id": "b9af603949c260b2",
-        "type": "split",
-        "dimension": 31.273885350318473,
-        "children": [
-          {
-            "id": "5a6df316d3e8d090",
-            "type": "tabs",
-            "dimension": 80.91603053435115,
-            "children": [
-              {
-                "id": "a78d6fe5bf99c44b",
-                "type": "leaf",
-                "state": {
-                  "type": "excalidraw",
-                  "state": {
-                    "file": "Excalidraw/Drawing 2024-08-30 08.49.16.excalidraw.md"
-                  }
-                }
-              }
-            ]
-          },
-          {
-            "id": "e04699aca8e9f8e3",
-            "type": "tabs",
-            "dimension": 19.083969465648856,
-            "children": [
-              {
-                "id": "a03853d643ff4b97",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Tasks.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -159,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SEM5/BIOL200/Day 3.md",
+                "file": "SEM5/COSC350/Day 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -176,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM5/BIOL200/Day 3.md",
+                "file": "SEM5/COSC350/Day 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -199,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM5/BIOL200/Day 3.md"
+                "file": "SEM5/COSC350/Day 3.md"
               }
             }
           },
@@ -230,21 +185,26 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "9e7a398a6f46e4dc",
+  "active": "edb967f24fde0498",
   "lastOpenFiles": [
-    "Pasted image 20240830094834.png",
-    "Pasted image 20240830094602.png",
-    "Pasted image 20240830094503.png",
-    "Pasted image 20240830094501.png",
-    "Pasted image 20240830094237.png",
-    "Pasted image 20240830094215.png",
-    "Excalidraw/Drawing 2024-08-30 08.49.16.excalidraw.md",
+    "Pasted image 20240903104123.png",
+    "Pasted image 20240903104005.png",
+    "Pasted image 20240903103858.png",
+    "SEM5/COSC350/Day 2.md",
+    "SEM5/COSC350/Day 3.md",
+    "Pasted image 20240903103756.png",
+    "Pasted image 20240903103610.png",
+    "Pasted image 20240903102638.png",
+    "Pasted image 20240903102507.png",
+    "Pasted image 20240903102215.png",
+    "Pasted image 20240903101712.png",
+    "Pasted image 20240903101657.png",
+    "Pasted image 20240903101640.png",
+    "Excalidraw/Drawing 2024-09-03 09.32.12.excalidraw.md",
+    "Excalidraw/Drawing 2024-09-03 09.31.12.excalidraw.md",
+    "SEM5/COSC350/Day 1.md",
     "SEM5/BIOL200/Day 3.md",
-    "Pasted image 20240830093931.png",
-    "Pasted image 20240830093855.png",
-    "Excalidraw/Drawing 2024-08-30 08.49.16.excalidraw.png",
-    "Pasted image 20240830093108.png",
-    "Pasted image 20240830093007.png",
+    "Excalidraw/Drawing 2024-08-30 08.49.16.excalidraw.md",
     "SEM5/BIOL200/Ch 2 F24 - Nature of Molecules.pptx",
     "SEM5/BIOL200/Unconfirmed 191907.crdownload",
     "SEM5/BIOL200/Class 1 F24 - Intro and Science of Biology NEW.pptx",
@@ -253,8 +213,6 @@
     "SEM5/BIOL200/Day 2.md",
     "SEM5/COSC435/Day 1.md",
     "Excalidraw/Drawing 2024-08-28 10.10.05.excalidraw.md",
-    "SEM5/COSC350/Day 2.md",
-    "SEM5/COSC350/Day 1.md",
     "SEM5/MATH330/Chapter 1 Notes.pdf",
     "Excalidraw/Drawing 2024-08-28 08.48.44.excalidraw.md",
     "SEM5/MATH330/Day 2.md",
@@ -274,9 +232,6 @@
     "Excalidraw/Drawing 2024-08-26 18.56.57.excalidraw.md",
     "SEM4/COSC290/Lab 6.md 1/Lab 6.md",
     "SEM4/COSC290/Lab 5.md 1/Lab 5.md",
-    "SEM4/COSC290/Lab 4.md 1/Lab 4.md",
-    "SEM4/COSC290/Lab 3.md 1/Lab 3.md",
-    "SEM4/COSC290/Lab 10.md 1/Lab 10.md",
-    "SEM4/COSC290/Day 9 1.md/Day 9.md"
+    "SEM4/COSC290/Lab 4.md 1/Lab 4.md"
   ]
 }
