@@ -1,4 +1,4 @@
-- [ ]  
+- [ ]  bio reading (sunday)
 - [ ] bio quiz 🔁 every week 
 - [ ] 
 - [ ] 330 hw
