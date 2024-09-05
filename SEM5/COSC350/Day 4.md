@@ -103,11 +103,15 @@ HTTP: hypertext transfer protocol
 IMAP: for mail (how does it relate to POP?)
 SMTP: Simple mail transfer protocol
 DNS: Domain Name System
+FTP: File transfer protocol
+Telnet
 
 TCP: resubmit on lost packet
 UDP: ignore lost packet
 
-IP:
+IP: Internet Protocol
+ICMP: Internet Control Message Protocol
+ARP: Address Resolution Protocol
 routing protocols: not the routers business to see if packet is UDP or TCP, just focus on where to send it next
 
 Ethernet:  "knows the secrets of 0's and 1's" and the physical medium
