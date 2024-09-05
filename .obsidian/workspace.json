@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM5/BIOL200/Day 1.md",
+                "file": "SEM5/COSC350/Day 3.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c86981f34f72694a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SEM5/COSC350/Day 4.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -101,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SEM5/BIOL200/Day 1.md",
+                "file": "SEM5/COSC350/Day 4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM5/BIOL200/Day 1.md",
+                "file": "SEM5/COSC350/Day 4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM5/BIOL200/Day 1.md"
+                "file": "SEM5/COSC350/Day 4.md"
               }
             }
           },
@@ -172,30 +185,35 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "3b7273df9c74d2b4",
+  "active": "c86981f34f72694a",
   "lastOpenFiles": [
+    "Pasted image 20240905103259.png",
+    "Pasted image 20240905103244.png",
+    "Pasted image 20240905103230.png",
+    "Pasted image 20240905103223.png",
+    "Pasted image 20240905103110.png",
+    "Pasted image 20240905102322.png",
+    "Pasted image 20240905102103.png",
+    "Pasted image 20240905101904.png",
+    "Pasted image 20240905101324.png",
+    "Pasted image 20240905101048.png",
+    "Pasted image 20240905100425.png",
+    "SEM5/COSC350/HW_1_Packet_travel_scenario.docx",
+    "SEM5/COSC350/Unconfirmed 591933.crdownload",
+    "SEM5/COSC350/Day 3.md",
+    "SEM5/COSC350/Day 4.md",
+    "SEM5/BIOL200/Day 1.md",
     "SEM5/MATH330/Chapter 2 Notes.pdf",
     "SEM5/MATH330/Math 330 Formulas.pdf",
     "SEM5/MATH330/Chapter 1 Notes.pdf",
     "SEM5/MATH330/Chapter 2 Notes.pdf.crdownload",
     "SEM5/MATH330/Math 330 Formulas.pdf.crdownload",
     "SEM5/MATH330/Day 2.md",
-    "Media/Pasted image 20240904091948.png",
     "Tasks.md",
     "SEM5/BIOL200/Day 4.md",
-    "Media/Pasted image 20240904095006.png",
     "Excalidraw/Drawing 2024-09-04 09.45.43.excalidraw.md",
-    "Media/Pasted image 20240904094512.png",
-    "Media/Pasted image 20240904093935.png",
-    "Media/Pasted image 20240904093600.png",
-    "Media/Pasted image 20240904093556.png",
-    "Media/Pasted image 20240904092945.png",
-    "Media/Pasted image 20240904092521.png",
-    "Media/Pasted image 20240904092311.png",
-    "Media/Pasted image 20240904092127.png",
     "SEM5/BIOL200/Lab 1.md",
     "SEM5/BIOL200/Day 3.md",
-    "SEM5/COSC350/Day 3.md",
     "SEM5/COSC350/Day 2.md",
     "Excalidraw/Drawing 2024-09-03 09.32.12.excalidraw.md",
     "Excalidraw/Drawing 2024-09-03 09.31.12.excalidraw.md",
@@ -204,21 +222,16 @@
     "SEM5/BIOL200/Ch 2 F24 - Nature of Molecules.pptx",
     "SEM5/BIOL200/Unconfirmed 191907.crdownload",
     "SEM5/BIOL200/Class 1 F24 - Intro and Science of Biology NEW.pptx",
-    "SEM5/BIOL200/Unconfirmed 837513.crdownload",
     "SEM5/BIOL200/Day 2.md",
     "SEM5/COSC435/Day 1.md",
     "Excalidraw/Drawing 2024-08-28 10.10.05.excalidraw.md",
     "Excalidraw/Drawing 2024-08-28 08.48.44.excalidraw.md",
     "SEM5/MATH330/Day 1.md",
-    "Untitled",
     "Excalidraw/Drawing 2024-08-27 09.41.20.excalidraw.md",
-    "SEM5/BIOL200/Day 1.md",
-    "SEM5/COSC350/KRChapter_1.pptx",
     "Weekly Tasks.md",
     "Excalidraw/Drawing 2024-08-27 08.48.27.excalidraw.md",
     "SEM1/DFST101/Deaf Culture Notes/Ch.2 Causes of Being Deaf and the Auditory Field.md 1/Ch.2 Causes of Being Deaf and the Auditory Field.md",
     "Excalidraw/Drawing 2024-08-27 08.47.41.excalidraw.md",
-    "Excalidraw/Drawing 2024-08-26 18.56.57.excalidraw.md",
-    "SEM4/COSC290/Lab 6.md 1/Lab 6.md"
+    "Excalidraw/Drawing 2024-08-26 18.56.57.excalidraw.md"
   ]
 }
