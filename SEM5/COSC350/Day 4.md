@@ -1,7 +1,7 @@
 
 HW1
 1.  TCP/IP layers, and what happens in each
-2. do whats written i guess (whats a medium??)
+2. do whats written i guess (whats a medium??) (stuff like fiber optic, radio, etc)
 3.  cam.ac.uk (cambridge university)
 
 no length requirement, do your best
