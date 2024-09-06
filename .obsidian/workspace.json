@@ -23,11 +23,9 @@
             "id": "c86981f34f72694a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "SEM5/COSC350/Day 4.md",
-                "mode": "source",
-                "source": false
+                "file": "Media/Pasted image 20240905103259.png"
               }
             }
           }
@@ -44,7 +42,7 @@
       {
         "id": "9829eb4fb6d71410",
         "type": "tabs",
-        "dimension": 59.443339960238575,
+        "dimension": 80.15873015873017,
         "children": [
           {
             "id": "39589997cec10ef0",
@@ -84,7 +82,7 @@
       {
         "id": "ee82bb0e80eecafe",
         "type": "tabs",
-        "dimension": 40.55666003976143,
+        "dimension": 19.841269841269842,
         "children": [
           {
             "id": "b006ec9c298e4cf5",
@@ -98,7 +96,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 298
   },
   "right": {
     "id": "21dd14f10bbbecf3",
@@ -114,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SEM5/COSC350/Day 4.md",
+                "file": "Media/Pasted image 20240905103259.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM5/COSC350/Day 4.md",
+                "file": "Media/Pasted image 20240905103259.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM5/COSC350/Day 4.md"
+                "file": "Media/Pasted image 20240905103259.png"
               }
             }
           },
@@ -185,23 +183,22 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c86981f34f72694a",
+  "active": "39589997cec10ef0",
   "lastOpenFiles": [
-    "Pasted image 20240905103259.png",
-    "Pasted image 20240905103244.png",
-    "Pasted image 20240905103230.png",
-    "Pasted image 20240905103223.png",
-    "Pasted image 20240905103110.png",
-    "Pasted image 20240905102322.png",
-    "Pasted image 20240905102103.png",
-    "Pasted image 20240905101904.png",
-    "Pasted image 20240905101324.png",
-    "Pasted image 20240905101048.png",
-    "Pasted image 20240905100425.png",
+    "Media/Pasted image 20240905102322.png",
+    "SEM5/COSC350/Day 4.md",
+    "Media/Pasted image 20240905103259.png",
+    "Media/Pasted image 20240905103244.png",
+    "Media/Pasted image 20240905103230.png",
+    "Media/Pasted image 20240905103223.png",
+    "Media/Pasted image 20240905103110.png",
+    "Media/Pasted image 20240905102103.png",
+    "Media/Pasted image 20240905101904.png",
+    "Media/Pasted image 20240905101324.png",
+    "Media/Pasted image 20240905101048.png",
     "SEM5/COSC350/HW_1_Packet_travel_scenario.docx",
     "SEM5/COSC350/Unconfirmed 591933.crdownload",
     "SEM5/COSC350/Day 3.md",
-    "SEM5/COSC350/Day 4.md",
     "SEM5/BIOL200/Day 1.md",
     "SEM5/MATH330/Chapter 2 Notes.pdf",
     "SEM5/MATH330/Math 330 Formulas.pdf",
