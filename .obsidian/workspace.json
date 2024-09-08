@@ -1,0 +1,225 @@
+{
+  "main": {
+    "id": "3ece28ca624200fa",
+    "type": "split",
+    "children": [
+      {
+        "id": "3c33985396cf04d1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a2292ecacad842e6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TUnotes/Tasks.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "508545c11a474699",
+    "type": "split",
+    "children": [
+      {
+        "id": "a4e8af56552c1a51",
+        "type": "tabs",
+        "dimension": 66.06060606060606,
+        "children": [
+          {
+            "id": "92fc75bdf32cd959",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "5b1badf83b74d002",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8ecbb0400a496200",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "fa9ce2fd639142c0",
+        "type": "tabs",
+        "dimension": 33.939393939393945,
+        "children": [
+          {
+            "id": "60a759f0840bbcc5",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "a84831f540f6dab8",
+    "type": "split",
+    "children": [
+      {
+        "id": "d63a3e382f94c519",
+        "type": "tabs",
+        "dimension": 62.1124031007752,
+        "children": [
+          {
+            "id": "33e5ac46fddc2cd6",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2024-08-29 17.38.05.excalidraw.md"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "e3d41c8ebdaf2ad4",
+        "type": "tabs",
+        "dimension": 37.8875968992248,
+        "children": [
+          {
+            "id": "6f1ea41d1c5afc59",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "TUnotes/Tasks.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "5b564ff925671c87",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "TUnotes/Tasks.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "dae59f0ca0787e31",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "d1eff39f9cf18c09",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "TUnotes/Tasks.md"
+              }
+            }
+          },
+          {
+            "id": "58cfb267d7cb4a7b",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "a9524e61af3ea1f0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TUnotes/Tasks.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "92fc75bdf32cd959",
+  "lastOpenFiles": [
+    "TUnotes/SEM5/BIOL200/Day 1.md",
+    "TUnotes/SEM5/BIOL200/Day 2.md",
+    "Pasted image 20240902222334.png",
+    "Pasted image 20240902222333.png",
+    "Pasted image 20240902221713.png",
+    "Pasted image 20240902220359.png",
+    "Pasted image 20240902220351.png",
+    "TUnotes/Tasks.md",
+    "Excalidraw/Drawing 2024-08-29 17.38.05.excalidraw.md",
+    "TUnotes/SEM5/MATH330/Probability and Statistics for Engineers and Scientists 4th Edition.pdf",
+    "TUnotes/SEM1/COSC 175/Data Representation.md/Data Representation.md",
+    "TUnotes/SEM3/COSC237/Day 20.md",
+    "TUnotes/SEM5/COSC350/Day 2.md",
+    "Untitled.canvas",
+    "Excalidraw"
+  ]
+}
