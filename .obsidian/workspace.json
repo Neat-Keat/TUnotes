@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM5/BIOL200/Day 5.md",
+                "file": "SEM5/BIOL200/Lab 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,8 +85,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "21dd14f10bbbecf3",
@@ -102,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SEM5/BIOL200/Day 5.md",
+                "file": "SEM5/BIOL200/Lab 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM5/BIOL200/Day 5.md",
+                "file": "SEM5/BIOL200/Lab 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM5/BIOL200/Day 5.md"
+                "file": "SEM5/BIOL200/Lab 1.md"
               }
             }
           },
@@ -175,6 +174,7 @@
   },
   "active": "a72bc57d6e5b0e98",
   "lastOpenFiles": [
+    "SEM5/BIOL200/Day 5.md",
     "Pasted image 20240906094732.png",
     "Pasted image 20240906094504.png",
     "Pasted image 20240906093817.png",
@@ -185,9 +185,7 @@
     "Pasted image 20240906092645.png",
     "Pasted image 20240906092506.png",
     "Pasted image 20240906091458.png",
-    "Pasted image 20240906091455.png",
     "Excalidraw/Drawing 2024-09-06 09.14.18.excalidraw.md",
-    "SEM5/BIOL200/Day 5.md",
     "SEM5/BIOL200/Day 4.md",
     "Tasks.md",
     "SEM5/COSC350/Day 3.md",
