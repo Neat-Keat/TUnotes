@@ -1,8 +1,8 @@
-|   |   |
-|---|---|
-|Today|Sport as contested Ideological Terrain  <br>Read core values list in resource folder|
-|Monday|America's core values + Mediated Images of Sport  <br>Overview of Exam #1|
-|Wednesday|Exam #1|
+|           |                                                                                      |
+| --------- | ------------------------------------------------------------------------------------ |
+| Today     | Sport as contested Ideological Terrain  <br>Read core values list in resource folder |
+| Monday    | America's core values + Mediated Images of Sport  <br>Overview of Exam #1            |
+| Wednesday | Exam #1                                                                              |
  
 Sport:  
 Physical Activity  
