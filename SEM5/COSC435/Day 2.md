@@ -32,13 +32,16 @@ on the project proposal:
 on the project requirements:
 	need 10 user requirements
 	make them complete sentences
-		1. tempo control
-		2. accent/sound control
-		3. rhythm control
-		4. programmable tempo changes
-		5. accel feature for practice
-		6. met visualizer
-		7. practice timer
+		1. The user should be able to control the tempo of the metronome
+		2. The user should be able to control the sound being played
+		3. The user should be able to accent every Nth beat
+		4. The user should be able to control the rhythm being played back (8th, 16th, triplet note subdivisions)
+		5. The user should be able to program and playback tempo changes
+		6. The user should be able to gradually accelerate the tempo of the metronome
+		7. The user should be able to use the metronome with a visualizer for difficult listening environments
+		8. The user should be able to time and log how long they practice over different intervals (day, week, etc)
+		9. 
+		10. 
 
 
 Assignment 2 is due on the 23rd (2 weeks)
