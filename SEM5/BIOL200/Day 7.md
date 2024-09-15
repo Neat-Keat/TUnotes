@@ -7,11 +7,11 @@ Starches and Glycogen
 these form through *dehydration synthesis*
 by removing a molecule of *water*
 
-C6H12O6+C6H12O6 = C6H22O11 + H2O (Sucrose + Water)
+C6H12O6+C6H12O6 = C12H22O11 + H2O (Sucrose + Water)
 
 polysaccharides = long ass sugars
 
-gluse 
+glucose 
 alpha(1,4) linkage makes starch (amylose)
 beta(1-4) linkage make cellulose (with flipping!)
 	are straighter, and have ADDITIONAL bonds between them
@@ -21,8 +21,7 @@ beta(1-4) linkage make cellulose (with flipping!)
 chains of beta glucose: one's pointed up, next is pointing down (flipped), alternating
 
 Which of the following is the proper hierarchy starting with the simplest?
- A. Carbon < Cellulose < Glucose < Proton
- B. *Proton < Carbon < Glucose < Cellulose*
+ A. *Proton < Carbon < Glucose < Cellulose*
 
 Which of the following is the proper hierarchy starting with the simplest?
  A. Neutron < Oxygen < Glucose < Starch
