@@ -8,29 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d6e79bc912836d53",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Media/Pasted image 20240912094236.png"
-              }
-            }
-          },
-          {
-            "id": "08f4d92c0b849047",
+            "id": "5d5d5d5f67ded3fb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM5/BIOL200/Day 6.md",
+                "file": "SEM5/BIOL200/Day 9.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -112,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SEM5/BIOL200/Day 6.md",
+                "file": "SEM5/BIOL200/Day 9.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM5/BIOL200/Day 6.md",
+                "file": "SEM5/BIOL200/Day 9.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM5/BIOL200/Day 6.md"
+                "file": "SEM5/BIOL200/Day 9.md"
               }
             }
           },
@@ -163,13 +152,21 @@
               "type": "calendar",
               "state": {}
             }
+          },
+          {
+            "id": "5b472ddfa0f07c1a",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -183,23 +180,25 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "08f4d92c0b849047",
+  "active": "5d5d5d5f67ded3fb",
   "lastOpenFiles": [
+    "Pasted image 20240916093647.png",
+    "Pasted image 20240916093436.png",
+    "Pasted image 20240916093243.png",
+    "Pasted image 20240916092807.png",
+    "Pasted image 20240916092709.png",
+    "Pasted image 20240916092654.png",
+    "Pasted image 20240916092643.png",
+    "Pasted image 20240916091706.png",
+    "Pasted image 20240916091522.png",
+    "Pasted image 20240916091510.png",
+    "Pasted image 20240916091501.png",
+    "SEM5/BIOL200/Day 9.md",
+    "SEM5/BIOL200/Day 6.md",
     "SEM5/BIOL200/Day 7.md",
     "SEM5/BIOL200/Day 8.md",
-    "SEM5/BIOL200/Day 6.md",
     "SEM5/BIOL200/Day 5.md",
-    "Pasted image 20240913094514.png",
-    "Pasted image 20240913094513.png",
-    "Pasted image 20240913094453.png",
-    "Media/Pasted image 20240912094236.png",
-    "Media/Pasted image 20240912094241.png",
     "SEM5/COSC350/Day 6.md",
-    "Media/Pasted image 20240912103631.png",
-    "Media/Pasted image 20240912102952.png",
-    "Media/Pasted image 20240912102759.png",
-    "Media/Pasted image 20240912102527.png",
-    "Media/Pasted image 20240912102242.png",
     "SEM5/COSC350/Information_Sources_and_Signals.pptx",
     "SEM5/COSC350/Unconfirmed 217715.crdownload",
     "SEM5/COSC435/Day 2.md",
@@ -228,7 +227,6 @@
     "SEM5/COSC350/Tasks.md",
     "SEM5/BIOL200/Day 1.md",
     "SEM5/MATH330/Day 2.md",
-    "Excalidraw/Drawing 2024-09-04 09.45.43.excalidraw.md",
-    "Excalidraw/Drawing 2024-09-03 09.32.12.excalidraw.md"
+    "Excalidraw/Drawing 2024-09-04 09.45.43.excalidraw.md"
   ]
 }
