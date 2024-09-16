@@ -30,7 +30,7 @@ A.                                                                   3' UAACGACU
 
 Proteins!
 ----------
-'
+
 Proteins are the most diverse group of biological macromolecules, both chemically and functionally!
 
 Protein Functions Include:
@@ -57,7 +57,7 @@ highlighted part is the R Group
 	see if its polar or nonpolar
 	Know the 3 categories
 	CH -> nonpolar
-	NO -> polar (overrides being nonpolar)
+	ON -> polar (overrides being nonpolar)
 	- or + charge = ionic
 
 carbs:
@@ -66,4 +66,8 @@ carbs:
 
 neither carbs nor proteins store info
 	DNA does!
-	
+
+--------------
+5' CGATTAGT 3'
+3' GCTAATCA 5'
+5' ACTAATCG 3'

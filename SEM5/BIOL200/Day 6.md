@@ -20,12 +20,12 @@ The Molecules of Life
 
 - Within cells, small organic molecules are joined together to form larger molecules (macromolecules)
 
-| building blocks -> | Biologic macromolecules |
-| ------------------ | ----------------------- |
-| Sugars ->          | Carbohydrates           |
-| Nucleotides ->     | Nucleic acids           |
-| Amino acids ->     | Proteins                |
-| Fatty Acids ->     | Lipids/membranes        |
+| building blocks ->          | Biologic macromolecules |
+| --------------------------- | ----------------------- |
+| Sugars (monosaccharides) -> | Carbohydrates           |
+| Nucleotides ->              | Nucleic acids           |
+| Amino acids ->              | Proteins                |
+| Fatty Acids ->              | Lipids/membranes        |
 
 Carbon
 - many forms: from graphite to coal to diamonds

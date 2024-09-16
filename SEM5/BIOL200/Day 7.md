@@ -41,7 +41,7 @@ Nucleic acids
 - polymer = nucleic acids
 - monomers = nucleotides
 	- sugar + phospate + nitrogenous base
-	- sugar is deoxyribose in RNA or ribose in RNA
+	- sugar is deoxyribose in DNA or ribose in RNA
 	- Nitrogenouse bases include
 		- purines: adenine and guanince
 		- pyrimidines: thymine, cytosine, uracil
@@ -117,7 +117,7 @@ Ribonucleic acid (RNA)
 - Single-stranded
 - Many roles:
 	- mRNA
-		- \usues info in DNA to specify sequence of amino acids in proteins
+		- uses info in DNA to specify sequence of amino acids in proteins
 	- rRNA
 		- structural part of ribosome 
 	- tRNA
