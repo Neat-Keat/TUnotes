@@ -11,9 +11,11 @@
             "id": "5d5d5d5f67ded3fb",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "SEM5/MATH330/Chapter 3 Notes.pdf"
+                "file": "SEM5/COSC435/Day 2.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -99,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SEM5/MATH330/Chapter 3 Notes.pdf",
+                "file": "SEM5/COSC435/Day 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM5/MATH330/Chapter 3 Notes.pdf",
+                "file": "SEM5/COSC435/Day 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM5/MATH330/Chapter 3 Notes.pdf"
+                "file": "SEM5/COSC435/Day 2.md"
               }
             }
           },
@@ -181,6 +183,8 @@
   },
   "active": "5d5d5d5f67ded3fb",
   "lastOpenFiles": [
+    "SEM5/COSC435/Met App Idea Board.md",
+    "SEM5/MATH330/Chapter 3 Notes.pdf",
     "Media/Pasted image 20240916093647.png",
     "Media/Pasted image 20240916091409.png",
     "SEM5/BIOL200/Day 9.md",
@@ -192,7 +196,6 @@
     "Media/Pasted image 20240916092643.png",
     "Media/Pasted image 20240916091706.png",
     "Media/Pasted image 20240916091522.png",
-    "Media/Pasted image 20240916091510.png",
     "SEM5/BIOL200/Day 6.md",
     "SEM5/BIOL200/Day 7.md",
     "SEM5/BIOL200/Day 8.md",
@@ -201,14 +204,12 @@
     "SEM5/COSC350/Information_Sources_and_Signals.pptx",
     "SEM5/COSC350/Unconfirmed 217715.crdownload",
     "SEM5/COSC435/Day 2.md",
-    "SEM5/COSC435/Met App Idea Board.md",
     "SEM5/COSC350/Day 5.md",
     "SEM5/COSC350/Day 4.md",
     "SEM5/COSC350/Day 3.md",
     "SEM5/COSC350/Day 2.md",
     "SEM5/COSC350/Day 1.md",
     "SEM5/MATH330/Chapter 2 Notes.pdf",
-    "SEM5/MATH330/Chapter 3 Notes.pdf",
     "SEM1/SOCI210/Day7.md",
     "SEM5/COSC350/Overview of Data Communications.pptx",
     "SEM5/COSC350/Unconfirmed 717016.crdownload",
