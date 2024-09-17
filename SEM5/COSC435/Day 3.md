@@ -1,4 +1,4 @@
-Today:
+	Today:
 Lambdas
 	READ STUFF FROM THE SYLLABUS 4HEAD
 
