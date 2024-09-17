@@ -8,31 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5d5d5d5f67ded3fb",
+            "id": "936298637ef2a298",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM5/COSC435/Day 2.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7c398d606a5c8eb4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SEM5/COSC350/Day 6.md",
+                "file": "SEM5/COSC350/Day 7.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -62,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": " ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -114,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SEM5/COSC350/Day 6.md",
+                "file": "SEM5/COSC350/Day 7.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM5/COSC350/Day 6.md",
+                "file": "SEM5/COSC350/Day 7.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM5/COSC350/Day 6.md"
+                "file": "SEM5/COSC350/Day 7.md"
               }
             }
           },
@@ -194,28 +181,32 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "7c398d606a5c8eb4",
+  "active": "936298637ef2a298",
   "lastOpenFiles": [
+    "Pasted image 20240917104414.png",
+    "Pasted image 20240917104059.png",
+    "Pasted image 20240917103304.png",
+    "Pasted image 20240917103151.png",
+    "Pasted image 20240917102032.png",
+    "Pasted image 20240917101908.png",
+    "Pasted image 20240917101745.png",
+    "Pasted image 20240917101639.png",
+    "Pasted image 20240917101431.png",
+    "Pasted image 20240917100723.png",
+    "SEM5/COSC350/Trans_media.pptx",
+    "SEM5/COSC350/Unconfirmed 516285.crdownload",
+    "Pasted image 20240917094231.png",
+    "SEM5/COSC350/Day 6.md",
+    "SEM5/COSC350/Day 7.md",
     "SEM5/COSC435/Day 3.md",
     "SEM5/COSC435/Day 2.md",
     "SEM5/COSC435/Met App Idea Board.md",
     "SEM5/MATH330/Chapter 3 Notes.pdf",
-    "Media/Pasted image 20240916093647.png",
-    "Media/Pasted image 20240916091409.png",
     "SEM5/BIOL200/Day 9.md",
-    "Media/Pasted image 20240916093436.png",
-    "Media/Pasted image 20240916093243.png",
-    "Media/Pasted image 20240916092807.png",
-    "Media/Pasted image 20240916092709.png",
-    "Media/Pasted image 20240916092654.png",
-    "Media/Pasted image 20240916092643.png",
-    "Media/Pasted image 20240916091706.png",
-    "Media/Pasted image 20240916091522.png",
     "SEM5/BIOL200/Day 6.md",
     "SEM5/BIOL200/Day 7.md",
     "SEM5/BIOL200/Day 8.md",
     "SEM5/BIOL200/Day 5.md",
-    "SEM5/COSC350/Day 6.md",
     "SEM5/COSC350/Information_Sources_and_Signals.pptx",
     "SEM5/COSC350/Unconfirmed 217715.crdownload",
     "SEM5/COSC350/Day 5.md",
@@ -231,16 +222,12 @@
     "Excalidraw/Drawing 2024-09-09 19.45.36.excalidraw.md",
     "SEM5/MATH330/Chapter 3 Notes.pdf.crdownload",
     "SEM5/MATH330/Math 330 Formulas.pdf",
-    "SEM5/BIOL200/Ch 3 - Chemical Building Blocks of Life.pptx",
-    "SEM5/BIOL200/Unconfirmed 521734.crdownload",
     "SEM5/BIOL200/Day 4.md",
     "SEM5/BIOL200/Day 3.md",
     "SEM5/BIOL200/Day 2.md",
     "SEM5/BIOL200/Lab 1.md",
     "Excalidraw/Drawing 2024-09-06 09.14.18.excalidraw.md",
     "SEM5/COSC350/Tasks.md",
-    "SEM5/BIOL200/Day 1.md",
-    "SEM5/MATH330/Day 2.md",
-    "Excalidraw/Drawing 2024-09-04 09.45.43.excalidraw.md"
+    "SEM5/BIOL200/Day 1.md"
   ]
 }
