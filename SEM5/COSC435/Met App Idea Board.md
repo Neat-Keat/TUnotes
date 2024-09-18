@@ -10,5 +10,3 @@
 10. The user should get push notifications to remind them to practice
 
 ![[Pasted image 20240911084652.png]]
-
-Hey! Its Nathan from your ENGL317 class! (I was the guy that made the presentation on Nvidia). If you're looking for a group, me and Zeshan are planning on making a metronome app. You're more than welcome to join if you'd like :D
