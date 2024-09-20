@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM5/BIOL200/Day 3.md",
+                "file": "SEM5/BIOL200/Day 8.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SEM5/BIOL200/Day 3.md",
+                "file": "SEM5/BIOL200/Day 8.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM5/BIOL200/Day 3.md",
+                "file": "SEM5/BIOL200/Day 8.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM5/BIOL200/Day 3.md"
+                "file": "SEM5/BIOL200/Day 8.md"
               }
             }
           },
@@ -181,11 +181,15 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "39589997cec10ef0",
+  "active": "80b591c240c3e9ae",
   "lastOpenFiles": [
+    "SEM5/BIOL200/Day 7.md",
+    "SEM5/BIOL200/Day 6.md",
+    "SEM5/BIOL200/Day 5.md",
+    "SEM5/BIOL200/Day 4.md",
+    "SEM5/BIOL200/Day 3.md",
     "SEM5/BIOL200/Day 2.md",
     "SEM5/BIOL200/Day 1.md",
-    "SEM5/BIOL200/Day 3.md",
     "Media/Pasted image 20240919104236.png",
     "Media/Pasted image 20240919093200.png",
     "SEM5/COSC350/Day 1.md",
@@ -214,10 +218,7 @@
     "SEM5/COSC350/Trans_media.pptx",
     "SEM5/COSC350/Unconfirmed 516285.crdownload",
     "SEM5/COSC350/Day 6.md",
-    "SEM5/BIOL200/Day 6.md",
-    "SEM5/BIOL200/Day 7.md",
     "SEM5/BIOL200/Day 8.md",
-    "SEM5/BIOL200/Day 5.md",
     "SEM5/COSC350/Information_Sources_and_Signals.pptx",
     "SEM5/COSC350/Unconfirmed 217715.crdownload",
     "SEM5/COSC350/Day 5.md",
@@ -227,7 +228,6 @@
     "SEM5/MATH330/Chapter 2 Notes.pdf",
     "SEM1/SOCI210/Day7.md",
     "SEM5/COSC350/Overview of Data Communications.pptx",
-    "SEM5/COSC435/Day 1.md",
-    "Excalidraw/Drawing 2024-09-09 19.45.36.excalidraw.md"
+    "SEM5/COSC435/Day 1.md"
   ]
 }

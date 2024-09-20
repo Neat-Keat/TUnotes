@@ -1,7 +1,7 @@
 Starches and Glycogen
 	*Amylose* forms coils, is insoluble in water; unbalanced glucose chains
 	*Amylopectin* branched amylose chains
-	*Glycogen (animals)*: insoluble, branched amylose chains, but much longer chain length and more branches that plant starch
+	*Glycogen (animals)*: insoluble, branched amylose chains, but much longer chain length and more branches than plant starch
 
 *glycosidic linkage* is the bond that forms between 2 sugars
 these form through *dehydration synthesis*
@@ -43,7 +43,7 @@ Nucleic acids
 	- sugar + phospate + nitrogenous base
 	- sugar is deoxyribose in DNA or ribose in RNA
 	- Nitrogenouse bases include
-		- purines: adenine and guanince
+		- purines: adenine and guanine
 		- pyrimidines: thymine, cytosine, uracil
 	- Nucleotides connected by phosphodiester bonds
 
