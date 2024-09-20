@@ -8,41 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "718939e37e102b19",
+            "id": "86028f66808ba989",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM5/BIOL200/Day 10.md",
+                "file": "SEM5/COSC350/Day 8.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "95d46c2565309362",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SEM5/BIOL200/Day 10.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "432dc60fa85e8c4e",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "SEM5/MATH330/Chapter 3 Notes.pdf"
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -124,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SEM5/MATH330/Chapter 3 Notes.pdf",
+                "file": "SEM5/COSC350/Day 8.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM5/MATH330/Chapter 3 Notes.pdf",
+                "file": "SEM5/COSC350/Day 8.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM5/MATH330/Chapter 3 Notes.pdf"
+                "file": "SEM5/COSC350/Day 8.md"
               }
             }
           },
@@ -204,31 +181,36 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "432dc60fa85e8c4e",
+  "active": "86028f66808ba989",
   "lastOpenFiles": [
-    "Media/Pasted image 20240918090807.png",
+    "Pasted image 20240919104236.png",
+    "Pasted image 20240919103707.png",
+    "Pasted image 20240919103448.png",
+    "SEM5/COSC350/Reliability_Channel_Coding.pptx",
+    "SEM5/COSC350/Unconfirmed 373040.crdownload",
+    "Pasted image 20240919100355.png",
+    "Pasted image 20240919095403.png",
+    "Pasted image 20240919095110.png",
+    "Pasted image 20240919094816.png",
+    "Pasted image 20240919094806.png",
+    "Pasted image 20240919094211.png",
+    "Pasted image 20240919093623.png",
+    "Pasted image 20240919093534.png",
+    "SEM5/COSC435/Day 4.md",
+    "SEM5/COSC350/Day 8.md",
+    "SEM5/COSC435/Day 3.md",
+    "SEM5/MATH330/Chapter 1 Notes.pdf",
+    "SEM5/MATH330/Chapter 3 Notes.pdf",
     "SEM5/BIOL200/Day 10.md",
-    "Media/Pasted image 20240918093446.png",
-    "Media/Pasted image 20240918093327.png",
-    "Media/Pasted image 20240918093145.png",
-    "Media/Pasted image 20240918093113.png",
-    "Media/Pasted image 20240918092959.png",
-    "Media/Pasted image 20240918092946.png",
     "Excalidraw/Drawing 2024-09-18 09.28.58.excalidraw.md",
-    "Media/Pasted image 20240918092620.png",
-    "Media/Pasted image 20240918092616.png",
-    "Media/Pasted image 20240918092316.png",
-    "Media/Pasted image 20240918092220.png",
     "Excalidraw/Drawing 2024-09-18 09.10.32.excalidraw.md",
     "SEM5/BIOL200/Day 9.md",
     "SEM5/COSC435/Met App Idea Board.md",
-    "SEM5/COSC435/Day 3.md",
     "SEM5/COSC435/Day 2.md",
     "SEM5/COSC350/Day 7.md",
     "SEM5/COSC350/Trans_media.pptx",
     "SEM5/COSC350/Unconfirmed 516285.crdownload",
     "SEM5/COSC350/Day 6.md",
-    "SEM5/MATH330/Chapter 3 Notes.pdf",
     "SEM5/BIOL200/Day 6.md",
     "SEM5/BIOL200/Day 7.md",
     "SEM5/BIOL200/Day 8.md",
@@ -243,14 +225,9 @@
     "SEM5/MATH330/Chapter 2 Notes.pdf",
     "SEM1/SOCI210/Day7.md",
     "SEM5/COSC350/Overview of Data Communications.pptx",
-    "SEM5/COSC350/Unconfirmed 717016.crdownload",
     "SEM5/COSC435/Day 1.md",
     "Excalidraw/Drawing 2024-09-09 19.45.36.excalidraw.md",
-    "SEM5/MATH330/Chapter 3 Notes.pdf.crdownload",
-    "SEM5/MATH330/Math 330 Formulas.pdf",
     "SEM5/BIOL200/Day 4.md",
-    "SEM5/BIOL200/Day 3.md",
-    "SEM5/BIOL200/Day 2.md",
-    "SEM5/BIOL200/Lab 1.md"
+    "SEM5/BIOL200/Day 3.md"
   ]
 }
