@@ -37,10 +37,9 @@ Triglycerides
 		- low melting point, plant origin, liquid at room temp
 		- Monounsaturated, polyunsaturated
 	- Trans fats produced industrially
-	- 
 	![[Pasted image 20240918091124.png]]
 	glycerol is polar
-	- fatty acids attack to each OH group via dehydration synthesis
+	- fatty acids attach to each OH group via dehydration synthesis
 		- then its a tryglyceride!
 
 ![[Pasted image 20240918091220.png]]

@@ -20,11 +20,13 @@ the polymer for proteins is
 
 be able to list the biologic macromolecules, filling out the table
 
-| biologic macromolecule | polymer | Bond | Examples/functions |
-carbs
-nucleic acids
-proteins
-lipids
+| biologic macromolecule | polymer (monomer?)                                            | Bond                | Examples/functions      |
+| ---------------------- | ------------------------------------------------------------- | ------------------- | ----------------------- |
+| carbs                  | monosaccharides (glucose, other 6C sugars)                    | glycosidic linkage  | storing energy          |
+| nucleic acids          | 5' sugar, nitrogenous base, phosphate group (nucleotides (m)) | phosphodiester bond | form DNA                |
+| proteins               | amino acids (m), polypeptide (p)                              | peptide bonds       | transport, protect, etc |
+| lipids                 | NA                                                            |                     | phospholipid bilayer    |
+
 
 every amino acid has:
 - Central carbon
