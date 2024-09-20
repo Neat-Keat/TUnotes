@@ -5,6 +5,14 @@ where we're headed
 	Ch2 is dense
 		this stuff is *super* important, so pay attention
 
+	1. Hierarchical organization
+	2. Homeostasis
+	3. Evolution
+	4. Use energy
+	5. survive and reproduce
+
+	6. sensitive
+	7. made of cells
 --------------
 class tip of the day:
 	always have paper and something to write with
@@ -55,8 +63,8 @@ Atoms are composed of:
 ![[Pasted image 20240830091250.png]]
 
 * *Atomic number* is unique for each element; equals # of protons
-* *Atomic Mass = # protons + # neutrons*
-* Charge is neutral if #protons = #electrons
+* *Atomic Mass = #  protons + # neutrons*
+* Charge is neutral if # protons = # electrons
 * Electrons in the outermost shell determine chemical properties of each element
 
 ![[Pasted image 20240830091537.png]]
@@ -77,7 +85,7 @@ Neutrons in a typical atom = atomic mass - protons
 	E:: 15
 	AMass: 31
 
-#EX A neutral atom has an atomic mass of 12 and 6 neutrons. WHat is the atomic number and how many electrons does it have?
+#EX A neutral atom has an atomic mass of 12 and 6 neutrons. What is the atomic number and how many electrons does it have?
 	P: 6
 	N: 6
 	E: 6
