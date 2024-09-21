@@ -11,11 +11,9 @@
             "id": "80b591c240c3e9ae",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "SEM5/BIOL200/Day 10.md",
-                "mode": "source",
-                "source": false
+                "file": "SEM5/MATH330/Probability and Statistics for Engineers and Scientists 4th Edition.pdf"
               }
             }
           }
@@ -101,6 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "SEM5/MATH330/Probability and Statistics for Engineers and Scientists 4th Edition.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,6 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "SEM5/MATH330/Probability and Statistics for Engineers and Scientists 4th Edition.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "SEM5/MATH330/Probability and Statistics for Engineers and Scientists 4th Edition.pdf"
+              }
             }
           },
           {
@@ -177,8 +179,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b006ec9c298e4cf5",
+  "active": "80b591c240c3e9ae",
   "lastOpenFiles": [
+    "SEM5/COSC350/Tasks.md",
+    "SEM5/MATH330/Probability and Statistics for Engineers and Scientists 4th Edition.pdf",
     "SEM5/BIOL200/Day 10.md",
     "SEM5/BIOL200/Day 9.md",
     "SEM5/BIOL200/Day 8.md",
@@ -221,9 +225,6 @@
     "SEM5/COSC350/Day 4.md",
     "SEM5/COSC350/Day 3.md",
     "SEM5/COSC350/Day 2.md",
-    "SEM5/MATH330/Chapter 2 Notes.pdf",
-    "SEM1/SOCI210/Day7.md",
-    "SEM5/COSC350/Overview of Data Communications.pptx",
-    "SEM5/COSC435/Day 1.md"
+    "SEM5/MATH330/Chapter 2 Notes.pdf"
   ]
 }
