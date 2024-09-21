@@ -31,7 +31,7 @@
       {
         "id": "9829eb4fb6d71410",
         "type": "tabs",
-        "dimension": 80.15873015873017,
+        "dimension": 71.99191102123356,
         "children": [
           {
             "id": "39589997cec10ef0",
@@ -71,7 +71,7 @@
       {
         "id": "ee82bb0e80eecafe",
         "type": "tabs",
-        "dimension": 19.841269841269842,
+        "dimension": 28.00808897876643,
         "children": [
           {
             "id": "b006ec9c298e4cf5",
@@ -85,7 +85,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 247
   },
   "right": {
     "id": "21dd14f10bbbecf3",
@@ -101,7 +101,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SEM5/BIOL200/Day 10.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +117,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM5/BIOL200/Day 10.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,9 +138,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "SEM5/BIOL200/Day 10.md"
-              }
+              "state": {}
             }
           },
           {
@@ -181,8 +177,9 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "80b591c240c3e9ae",
+  "active": "b006ec9c298e4cf5",
   "lastOpenFiles": [
+    "SEM5/BIOL200/Day 10.md",
     "SEM5/BIOL200/Day 9.md",
     "SEM5/BIOL200/Day 8.md",
     "SEM5/BIOL200/Day 7.md",
@@ -210,7 +207,6 @@
     "SEM5/COSC435/Day 3.md",
     "SEM5/MATH330/Chapter 1 Notes.pdf",
     "SEM5/MATH330/Chapter 3 Notes.pdf",
-    "SEM5/BIOL200/Day 10.md",
     "Excalidraw/Drawing 2024-09-18 09.28.58.excalidraw.md",
     "Excalidraw/Drawing 2024-09-18 09.10.32.excalidraw.md",
     "SEM5/COSC435/Met App Idea Board.md",
