@@ -158,7 +158,7 @@ fun HelloContent() {
 }
 ```
 
-TLDR: define your state outside, pass it inside, then update it in the function
+TLDR define your state outside, pass it inside, then update it in the function
 
 how does it know to redraw??
 	under the hood, the MutableState<String> = remember { mutableStateOf("") } is doing a lot of heavy lifting
@@ -166,7 +166,7 @@ how does it know to redraw??
 *MutableState is what causes the UI to update*
 	it lets the entire UI know something changed, then the UI redraws it
 
-* the remember function remembers the initial object that was created*
+the remember function remembers the initial object that was created
 whenever we update anything, the entire function re-executes
 	this loop reinitializes the initial condition without the remember keyword
 		think of it like a cache
@@ -192,4 +192,11 @@ Enter -> Recompose 0 or more times -> Leave
 useful examples on slideshow
 
 As the state object below is mutated, the Text composable is either rendered or completed removed from the UI
-`
+```
+if (text.value.length % 3 == 0 ){
+	Text(text.value, fontSize = 28.sp)
+}
+```
+use this concept to declutter/ have menus?
+
+Lab time!
