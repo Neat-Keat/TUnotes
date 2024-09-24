@@ -23,14 +23,28 @@
             "id": "cd8b9e9155d77eed",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "SEM5/MATH330/St Normal Table.pdf"
+                "file": "SEM5/COSC435/Day 3.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ce056b6098203350",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SEM5/COSC435/Day 4.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -112,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SEM5/MATH330/St Normal Table.pdf",
+                "file": "SEM5/COSC435/Day 4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM5/MATH330/St Normal Table.pdf",
+                "file": "SEM5/COSC435/Day 4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM5/MATH330/St Normal Table.pdf"
+                "file": "SEM5/COSC435/Day 4.md"
               }
             }
           },
@@ -192,28 +206,36 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "cd8b9e9155d77eed",
+  "active": "ce056b6098203350",
   "lastOpenFiles": [
-    "SEM5/MATH330/Chapter 3 Notes.pdf",
-    "SEM5/MATH330/St Normal Table.pdf",
-    "SEM5/MATH330/St Normal Table.pdf.crdownload",
+    "SEM5/COSC435/Jetpack compose demo.txt",
+    "SEM5/COSC435/Jetpack compose demo.txt.crdownload",
+    "SEM5/COSC435/week03/row_arrangement_visualization.gif",
+    "SEM5/COSC435/week03/mmodel-flow-events.png",
+    "SEM5/COSC435/week03/mmodel-flow-data.png",
+    "SEM5/COSC435/week03/layout.png",
+    "SEM5/COSC435/week03/index.html",
+    "SEM5/COSC435/week03/image07.png",
+    "SEM5/COSC435/week03/image04.png",
+    "SEM5/COSC435/week03/column_arrangement_visualization.gif",
+    "SEM5/COSC435/week03/libs/highlight.js/11.3.1/styles/atom-one-dark.min.css",
+    "SEM5/COSC435/week03/libs/highlight.js/11.3.1/styles",
+    "SEM5/COSC435/week03/libs/highlight.js/11.3.1",
+    "SEM5/COSC435/week03/libs/highlight.js",
+    "SEM5/COSC435/week03/libs/styles/tasklist.css",
+    "SEM5/COSC435/week03/libs/styles/layout.css",
+    "SEM5/COSC435/week03/libs/styles/iota.css",
+    "SEM5/COSC435/week03/libs/styles",
+    "SEM5/COSC435/Day 3.md",
+    "SEM5/COSC435/Day 4.md",
     "Media/Pasted image 20240923091130.png",
     "SEM5/BIOL200/Day 11.md",
     "Media/Pasted image 20240923094552.png",
     "Media/Pasted image 20240923094501.png",
-    "Media/Pasted image 20240923093825.png",
-    "Media/Pasted image 20240923093712.png",
-    "Media/Pasted image 20240923093600.png",
-    "Media/Pasted image 20240923093150.png",
-    "Media/Pasted image 20240923091304.png",
-    "SEM5/BIOL200/Exam 1 slides",
-    "SEM5/BIOL200/Chapter 5 F24 Lipids, Membranes, Transport.pptx",
-    "SEM5/BIOL200/Unconfirmed 869347.crdownload",
     "SEM5/BIOL200/Day 10.md",
     "SEM5/BIOL200/Lab 1.md",
     "SEM5/BIOL200/Day 7.md",
     "conflict-files-obsidian-git.md",
-    "SEM5/MATH330/Probability and Statistics for Engineers and Scientists 4th Edition.pdf",
     "SEM5/BIOL200/Day 5.md",
     "SEM5/BIOL200/Day 6.md",
     "SEM5/BIOL200/Day 9.md",
@@ -222,23 +244,15 @@
     "SEM5/BIOL200/Day 3.md",
     "SEM5/BIOL200/Day 2.md",
     "SEM5/BIOL200/Day 1.md",
-    "Media/Pasted image 20240919104236.png",
-    "Media/Pasted image 20240919093200.png",
     "SEM5/COSC350/Day 1.md",
     "SEM5/COSC350/Day 8.md",
-    "SEM5/COSC350/Reliability_Channel_Coding.pptx",
-    "SEM5/COSC350/Unconfirmed 373040.crdownload",
     "SEM5/COSC435/Day 4.md",
-    "SEM5/COSC435/Day 3.md",
-    "SEM5/MATH330/Chapter 1 Notes.pdf",
     "Excalidraw/Drawing 2024-09-18 09.28.58.excalidraw.md",
     "Excalidraw/Drawing 2024-09-18 09.10.32.excalidraw.md",
     "SEM5/COSC435/Met App Idea Board.md",
     "SEM5/COSC435/Day 2.md",
     "SEM5/COSC350/Day 7.md",
-    "SEM5/COSC350/Trans_media.pptx",
     "SEM5/COSC350/Day 6.md",
-    "SEM5/COSC350/Day 5.md",
-    "SEM5/COSC350/Day 4.md"
+    "SEM5/COSC350/Day 5.md"
   ]
 }
