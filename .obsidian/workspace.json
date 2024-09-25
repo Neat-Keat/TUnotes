@@ -23,9 +23,19 @@
             "id": "45b03b5bbaa682d2",
             "type": "leaf",
             "state": {
+              "type": "image",
+              "state": {
+                "file": "Media/Pasted image 20240924093503.png"
+              }
+            }
+          },
+          {
+            "id": "c3bc3cdd5f3d5dab",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM5/COSC350/Day 9.md",
+                "file": "SEM5/BIOL200/Day 12.md",
                 "mode": "source",
                 "source": false
               }
@@ -78,7 +88,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -160,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SEM5/COSC350/Day 9.md",
+                "file": "SEM5/BIOL200/Day 12.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM5/COSC350/Day 9.md",
+                "file": "SEM5/BIOL200/Day 12.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM5/COSC350/Day 9.md"
+                "file": "SEM5/BIOL200/Day 12.md"
               }
             }
           },
@@ -240,25 +250,28 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "45b03b5bbaa682d2",
+  "active": "c3bc3cdd5f3d5dab",
   "lastOpenFiles": [
-    "Pasted image 20240924104516.png",
-    "Pasted image 20240924104511.png",
-    "Pasted image 20240924104505.png",
-    "Pasted image 20240924104458.png",
-    "Pasted image 20240924104452.png",
-    "Pasted image 20240924104445.png",
-    "Pasted image 20240924104431.png",
-    "Pasted image 20240924104255.png",
-    "Pasted image 20240924103812.png",
-    "Pasted image 20240924103542.png",
-    "Pasted image 20240924103539.png",
+    "Pasted image 20240925094107.png",
+    "Pasted image 20240925094106.png",
+    "Pasted image 20240925094005.png",
+    "Pasted image 20240925093954.png",
+    "Pasted image 20240925093731.png",
+    "Pasted image 20240925092551.png",
+    "Pasted image 20240925092240.png",
+    "Pasted image 20240925091547.png",
+    "Pasted image 20240925091537.png",
+    "Pasted image 20240925091508.png",
+    "Pasted image 20240925091441.png",
+    "SEM5/BIOL200/Unconfirmed 860541.crdownload",
+    "SEM5/BIOL200/Day 11 (Exam 2 content).md",
+    "SEM5/BIOL200/Day 12.md",
+    "SEM5/COSC350/Day 9.md",
     "SEM5/COSC350/Trans_mode.pptx",
     "SEM5/COSC350/Unconfirmed 603238.crdownload",
     "Excalidraw/Drawing 2024-09-24 10.08.25.excalidraw.md",
     "SEM5/BIOL200/Day 10.md",
     "Excalidraw/Drawing 2024-09-24 10.06.01.excalidraw.md",
-    "SEM5/COSC350/Day 9.md",
     "SEM5/COSC350/Day 8.md",
     "SEM5/COSC435/Day 4.md",
     "SEM5/COSC435/Jetpack compose demo.txt",
@@ -268,9 +281,7 @@
     "SEM5/COSC435/week03/libs/highlight.js/11.3.1/styles",
     "SEM5/COSC435/week03/libs/highlight.js/11.3.1",
     "SEM5/COSC435/week03/libs/highlight.js",
-    "SEM5/COSC435/week03/libs/styles/tasklist.css",
     "SEM5/COSC435/Day 3.md",
-    "SEM5/BIOL200/Day 11.md",
     "SEM5/BIOL200/Lab 1.md",
     "SEM5/BIOL200/Day 7.md",
     "conflict-files-obsidian-git.md",
@@ -286,7 +297,6 @@
     "Excalidraw/Drawing 2024-09-18 09.28.58.excalidraw.md",
     "Excalidraw/Drawing 2024-09-18 09.10.32.excalidraw.md",
     "SEM5/COSC435/Met App Idea Board.md",
-    "SEM5/COSC435/Day 2.md",
-    "SEM5/COSC350/Day 7.md"
+    "SEM5/COSC435/Day 2.md"
   ]
 }
