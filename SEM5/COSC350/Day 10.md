@@ -211,3 +211,23 @@ we still have COAX to each residential network
 
 -------------
 
+ALL prior content on Midterm 1
+
+exam will be multiple choice, as well as problem solving(?), error detection and correction Q's
+	bit partiy, checksum, CRC, expain how they all work
+	on BB if lanschool works, otherwise paper
+be able to explain the entire route of a packet from host to host
+	5 layer model
+		App
+		Transport
+		Net
+		Link
+		Physical
+	Switches use bottom 2
+	Routers use bottom 3
+We talked about lots of medium
+	like satellite, fiber, radio, coax, etc
+HFC (hybrid ..., discussed today?)
+transmission delay
+	size of data/speed
+	propagation is about the medium you use
