@@ -21,9 +21,11 @@
             "id": "023d4e3c6bfc896f",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "SEM5/MATH330/Probability and Statistics for Engineers and Scientists 4th Edition.pdf"
+                "file": "SEM5/COSC435/Day 3.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -110,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SEM5/MATH330/Probability and Statistics for Engineers and Scientists 4th Edition.pdf",
+                "file": "SEM5/COSC435/Day 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM5/MATH330/Probability and Statistics for Engineers and Scientists 4th Edition.pdf",
+                "file": "SEM5/COSC435/Day 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM5/MATH330/Probability and Statistics for Engineers and Scientists 4th Edition.pdf"
+                "file": "SEM5/COSC435/Day 3.md"
               }
             }
           },
@@ -193,6 +195,10 @@
   "active": "023d4e3c6bfc896f",
   "lastOpenFiles": [
     "SEM5/MATH330/Probability and Statistics for Engineers and Scientists 4th Edition.pdf",
+    "SEM5/COSC435/COSC435_ScheduleFall2024(1).pdf",
+    "SEM5/COSC435/COSC435_ScheduleFall2024(1).pdf.crdownload",
+    "SEM5/COSC435/COSC435Syllabus.pdf",
+    "SEM5/COSC435/COSC435Syllabus.pdf.crdownload",
     "SEM5/COSC350/Tasks.md",
     "SEM5/BIOL200/Day 10.md",
     "SEM5/BIOL200/Day 9.md",
@@ -230,12 +236,9 @@
     "SEM5/COSC350/Trans_media.pptx",
     "SEM5/COSC350/Unconfirmed 516285.crdownload",
     "SEM5/COSC350/Day 6.md",
-    "SEM5/COSC350/Information_Sources_and_Signals.pptx",
-    "SEM5/COSC350/Unconfirmed 217715.crdownload",
     "SEM5/COSC350/Day 5.md",
     "SEM5/COSC350/Day 4.md",
     "SEM5/COSC350/Day 3.md",
-    "SEM5/COSC350/Day 2.md",
-    "SEM5/MATH330/Chapter 2 Notes.pdf"
+    "SEM5/COSC350/Day 2.md"
   ]
 }
