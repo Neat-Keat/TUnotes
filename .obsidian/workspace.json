@@ -40,9 +40,21 @@
                 "file": "Media/Pasted image 20240927090903.png"
               }
             }
+          },
+          {
+            "id": "428d07d71747699a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -124,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Media/Pasted image 20240927090903.png",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Media/Pasted image 20240927090903.png",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,7 +176,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Media/Pasted image 20240927090903.png"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           },
@@ -204,8 +216,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "39589997cec10ef0",
+  "active": "428d07d71747699a",
   "lastOpenFiles": [
+    "Media/Pasted image 20240927090903.png",
+    "conflict-files-obsidian-git.md",
+    "SEM5/COSC435/COSC435_ScheduleFall2024(1).pdf",
+    "SEM5/COSC435/COSC435Syllabus.pdf",
     "SEM5/BIOL200/Day 11 (Exam 2 content).md",
     "SEM5/BIOL200/Day 13.md",
     "Media/Pasted image 20240927094143.png",
@@ -219,7 +235,6 @@
     "Media/Pasted image 20240927091205.png",
     "Media/Pasted image 20240927091130.png",
     "Media/Pasted image 20240927091126.png",
-    "Media/Pasted image 20240927090903.png",
     "Excalidraw/Drawing 2024-09-27 09.07.46.excalidraw.md",
     "SEM5/BIOL200/Chapter 5 F24 Lipids, Membranes, Transport Part 2.pptx",
     "SEM5/BIOL200/Unconfirmed 736482.crdownload",
@@ -230,8 +245,6 @@
     "SEM5/COSC350/midterm 1.docx",
     "SEM5/COSC350/Unconfirmed 462297.crdownload",
     "SEM5/COSC350/Modul_modem_qam.pptx",
-    "SEM5/COSC350/Unconfirmed 563332.crdownload",
-    "SEM5/MATH330/St Normal Table.pdf",
     "SEM5/COSC350/Day 9.md",
     "Excalidraw/Drawing 2024-09-24 10.08.25.excalidraw.md",
     "SEM5/BIOL200/Day 10.md",
@@ -240,7 +253,6 @@
     "SEM5/COSC435/Day 4.md",
     "SEM5/COSC435/Day 3.md",
     "SEM5/BIOL200/Day 7.md",
-    "conflict-files-obsidian-git.md",
     "SEM5/BIOL200/Day 5.md",
     "SEM5/BIOL200/Day 6.md",
     "SEM5/BIOL200/Day 9.md",
