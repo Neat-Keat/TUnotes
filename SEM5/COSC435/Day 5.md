@@ -265,3 +265,84 @@ fun MessageList(messages: List<Message>) {
 	}
 }
 ```
+
+```
+val messages = (0 <= .. <= 100).map { i -> "Message #${i}"}
+Column {
+	messages.forEach { message ->
+		Text(message, fontSize = 18.sp)
+	}
+}
+```
+this is problematic bc the screen can't fit all the lines, so you need to change your Parent Column to have the Modifier.verticalScroll()), which needs a lot of complicated stuff to work
+
+but jetpack compose is still making the other 80, and wasting CPU resources
+
+how to solve this issue? LazyColumn / Lazy Rows!!
+
+
+previous code changes to:
+```
+val messages = (0 <= .. <= 100).map { i -> "Message #${i}"}
+LazyColumn {
+	items(messages){ message: String ->
+		Text(message, fontSize = 24.sp)
+	}
+}
+```
+
+note:
+	items(messages){ message ->
+			Text(message, fontSize = 24.sp)
+		}
+
+and
+	messages.forEach { message ->
+		Text(message, fontSize = 18.sp)
+	}
+
+are functionally equivalent, but now you can scroll thru the list of messages!
+	the lazyColumn will only be called to scroll when interacted with!
+	can be proved with println(message) and looking at logcat while scrolling
+note that its important not to CallWebAPI() in a lazyColumn for very similar reasons to above
+	if the LazyColumn is too busy, then the user will have lots of lag
+
+think about nesting columns and LazyRows like Netflix lol
+
+------------
+# State Hoisting
+
+In order to make composables reusable, we need to make them stateless
+
+State Hoisting pattern
+	A pattern used to make a composable stateless
+	...
+
+Ex:
+```
+@Composable
+fun HelloScreen(){
+	var name by rememberSaveable { mutableStateOf("") }
+	
+	HelloContent(name = name, onNameChange = { name = it})
+		//"it" is an implicit reference to argument -> only works when function only has 1 argument
+}
+
+@Composable
+fun HelloContent(name: String, onNameChange: (String) -> Unit) {
+	Column(modifier = Modifier.padding(16.dp)) {
+		Text(
+			text = "hello, $name",
+		)
+		OutlinedTextField(
+			value = name,
+			onValueChange = ...
+			...
+		)
+	}
+}
+```
+change state to args so you can use it later basically
+
+
+in lab today, we'll be starting to build a full app week over week, and using state hoisting for future stuffs
