@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM5/COSC350/Day 10.md",
+                "file": "SEM5/BIOL200/Day 14.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "76fe336987ffcf96",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SEM5/BIOL200/Day 15.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 355.01103591918945
+    "width": 200
   },
   "right": {
     "id": "21dd14f10bbbecf3",
@@ -101,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SEM5/COSC350/Day 10.md",
+                "file": "SEM5/BIOL200/Day 15.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM5/COSC350/Day 10.md",
+                "file": "SEM5/BIOL200/Day 15.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM5/COSC350/Day 10.md"
+                "file": "SEM5/BIOL200/Day 15.md"
               }
             }
           },
@@ -181,53 +194,53 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "1ebcb49206862d70",
+  "active": "76fe336987ffcf96",
   "lastOpenFiles": [
+    "Pasted image 20241002094750.png",
+    "Pasted image 20241002094516.png",
+    "Pasted image 20241002093915.png",
+    "Pasted image 20241002093718.png",
+    "Pasted image 20241002093537.png",
+    "Pasted image 20241002093259.png",
+    "Pasted image 20241002092422.png",
+    "Pasted image 20241002092018.png",
+    "Pasted image 20241002091653.png",
+    "Pasted image 20241002091424.png",
+    "SEM5/BIOL200/Day 14.md",
+    "SEM5/BIOL200/Day 15.md",
+    "SEM5/BIOL200/Day 12.md",
+    "SEM5/BIOL200/Day 13.md",
+    "SEM5/BIOL200/Day 10.md",
+    "SEM5/BIOL200/Day 11 (Exam 2 content).md",
+    "SEM5/COSC350/Day 4.md",
+    "SEM5/COSC350/Day 3.md",
+    "SEM5/COSC350/Day 2.md",
+    "SEM5/COSC350/Day 1.md",
+    "SEM5/COSC350/Day 10.md",
     "SEM5/COSC350/Day 9.md",
     "SEM5/COSC350/Day 8.md",
     "SEM5/COSC350/Day 7.md",
     "SEM5/COSC435/Day 5.md",
     "SEM5/COSC350/Day 6.md",
     "SEM5/COSC350/Day 5.md",
-    "SEM5/COSC350/Day 4.md",
-    "SEM5/COSC350/Day 3.md",
-    "SEM5/COSC350/Day 2.md",
-    "SEM5/COSC350/Day 1.md",
     "Media/Pasted image 20240930091512.png",
-    "SEM5/BIOL200/Day 14.md",
-    "Media/Pasted image 20240930094153.png",
-    "Media/Pasted image 20240930094134.png",
-    "Media/Pasted image 20240930093820.png",
-    "Media/Pasted image 20240930093204.png",
-    "Media/Pasted image 20240930093148.png",
-    "Media/Pasted image 20240930092642.png",
     "conflict-files-obsidian-git.md",
-    "SEM5/BIOL200/Day 13.md",
-    "Media/Pasted image 20240927090903.png",
     "SEM5/COSC435/COSC435_ScheduleFall2024(1).pdf",
     "SEM5/COSC435/COSC435Syllabus.pdf",
-    "SEM5/BIOL200/Day 11 (Exam 2 content).md",
-    "Media/Pasted image 20240927094143.png",
-    "Media/Pasted image 20240927093957.png",
     "SEM5/BIOL200/Ch 4 F24 - Cell Structure .pptx",
     "SEM5/BIOL200/Unconfirmed 616817.crdownload",
     "Excalidraw/Drawing 2024-09-27 09.07.46.excalidraw.md",
     "SEM5/BIOL200/Chapter 5 F24 Lipids, Membranes, Transport Part 2.pptx",
     "SEM5/BIOL200/Unconfirmed 736482.crdownload",
-    "SEM5/BIOL200/Day 12.md",
     "SEM5/BIOL200/Lab 1.md",
     "SEM5/MATH330/Chapter 5 Notes.pdf",
-    "SEM5/COSC350/Day 10.md",
     "SEM5/COSC350/midterm 1.docx",
     "SEM5/COSC350/Unconfirmed 462297.crdownload",
     "SEM5/COSC350/Modul_modem_qam.pptx",
     "Excalidraw/Drawing 2024-09-24 10.08.25.excalidraw.md",
-    "SEM5/BIOL200/Day 10.md",
     "Excalidraw/Drawing 2024-09-24 10.06.01.excalidraw.md",
     "SEM5/COSC435/Day 4.md",
     "SEM5/COSC435/Day 3.md",
-    "SEM5/BIOL200/Day 7.md",
-    "SEM5/BIOL200/Day 5.md",
-    "SEM5/BIOL200/Day 6.md"
+    "SEM5/BIOL200/Day 7.md"
   ]
 }
