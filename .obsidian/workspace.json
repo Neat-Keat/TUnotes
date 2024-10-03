@@ -4,18 +4,44 @@
     "type": "split",
     "children": [
       {
+        "id": "ecb90e40b516f32c",
+        "type": "tabs",
+        "dimension": 82.27033352837917,
+        "children": [
+          {
+            "id": "b6ceb0d543875825",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "SEM5/MATH330/Probability and Statistics for Engineers and Scientists 4th Edition.pdf"
+              }
+            }
+          }
+        ]
+      },
+      {
         "id": "82b69426db462a03",
         "type": "tabs",
+        "dimension": 17.729666471620835,
         "children": [
           {
             "id": "b066228fbfa15215",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "SEM5/COSC350/Day 12 (Start of exam 2 content).md",
-                "mode": "source",
-                "source": false
+                "file": "SEM5/MATH330/Probability and Statistics for Engineers and Scientists 4th Edition.pdf"
+              }
+            }
+          },
+          {
+            "id": "e31cfa4cdb106dec",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "SEM5/MATH330/Chapter 5 Notes.pdf"
               }
             }
           }
@@ -85,7 +111,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 307.01103591918945
+    "width": 307.01103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "21dd14f10bbbecf3",
@@ -101,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SEM5/COSC350/Day 12 (Start of exam 2 content).md",
+                "file": "SEM5/MATH330/Probability and Statistics for Engineers and Scientists 4th Edition.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM5/COSC350/Day 12 (Start of exam 2 content).md",
+                "file": "SEM5/MATH330/Probability and Statistics for Engineers and Scientists 4th Edition.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM5/COSC350/Day 12 (Start of exam 2 content).md"
+                "file": "SEM5/MATH330/Probability and Statistics for Engineers and Scientists 4th Edition.pdf"
               }
             }
           },
@@ -183,10 +210,12 @@
   },
   "active": "b066228fbfa15215",
   "lastOpenFiles": [
+    "SEM5/MATH330/Chapter 5 Notes.pdf",
+    "SEM5/MATH330/Probability and Statistics for Engineers and Scientists 4th Edition.pdf",
+    "SEM5/COSC350/Day 12 (Start of exam 2 content).md",
     "SEM5/COSC350/Day 10.md",
     "Media/Pasted image 20241003102647.png",
     "Media/Pasted image 20241003094519.png",
-    "SEM5/COSC350/Day 12 (Start of exam 2 content).md",
     "Media/Pasted image 20241003102642.png",
     "Media/Pasted image 20241003102628.png",
     "Media/Pasted image 20241003101857.png",
@@ -198,10 +227,8 @@
     "SEM5/COSC350/Multiplexing_and_Demultiplexing.pptx",
     "SEM5/COSC350/Unconfirmed 847163.crdownload",
     "SEM5/BIOL200/Day 14.md",
-    "SEM5/MATH330/Probability and Statistics for Engineers and Scientists 4th Edition.pdf",
     "SEM5/MATH330/St Normal Table.pdf",
     "SEM5/MATH330/Solutions Practice questions Test 1.pdf",
-    "SEM5/MATH330/Chapter 5 Notes.pdf",
     "SEM5/MATH330/Day 2.md",
     "SEM5/MATH330/Day 1.md",
     "SEM5/BIOL200/Day 15.md",
