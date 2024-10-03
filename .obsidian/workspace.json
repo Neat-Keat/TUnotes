@@ -4,72 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "84d116a3b4e66130",
+        "id": "82b69426db462a03",
         "type": "tabs",
-        "dimension": 49.43671305500331,
         "children": [
           {
-            "id": "1ebcb49206862d70",
+            "id": "b066228fbfa15215",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM5/BIOL200/Day 14.md",
+                "file": "SEM5/COSC350/Day 12 (Start of exam 2 content).md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "76fe336987ffcf96",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Media/Pasted image 20241002091424.png"
-              }
-            }
-          },
-          {
-            "id": "6022fd683770760e",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "SEM5/MATH330/Probability and Statistics for Engineers and Scientists 4th Edition.pdf"
-              }
-            }
           }
-        ],
-        "currentTab": 2
-      },
-      {
-        "id": "ca529cdf8979316e",
-        "type": "tabs",
-        "dimension": 50.56328694499669,
-        "children": [
-          {
-            "id": "af5ae3ed78775e2e",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "SEM5/MATH330/St Normal Table.pdf"
-              }
-            }
-          },
-          {
-            "id": "8227917a5773290b",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "SEM5/MATH330/Probability and Statistics for Engineers and Scientists 4th Edition.pdf"
-              }
-            }
-          }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -135,7 +85,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 307.01103591918945
   },
   "right": {
     "id": "21dd14f10bbbecf3",
@@ -151,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SEM5/MATH330/Probability and Statistics for Engineers and Scientists 4th Edition.pdf",
+                "file": "SEM5/COSC350/Day 12 (Start of exam 2 content).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM5/MATH330/Probability and Statistics for Engineers and Scientists 4th Edition.pdf",
+                "file": "SEM5/COSC350/Day 12 (Start of exam 2 content).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM5/MATH330/Probability and Statistics for Engineers and Scientists 4th Edition.pdf"
+                "file": "SEM5/COSC350/Day 12 (Start of exam 2 content).md"
               }
             }
           },
@@ -231,26 +181,30 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "8227917a5773290b",
+  "active": "b066228fbfa15215",
   "lastOpenFiles": [
-    "SEM5/MATH330/St Normal Table.pdf",
+    "SEM5/COSC350/Day 10.md",
+    "Media/Pasted image 20241003102647.png",
+    "Media/Pasted image 20241003094519.png",
+    "SEM5/COSC350/Day 12 (Start of exam 2 content).md",
+    "Media/Pasted image 20241003102642.png",
+    "Media/Pasted image 20241003102628.png",
+    "Media/Pasted image 20241003101857.png",
+    "Media/Pasted image 20241003101549.png",
+    "Media/Pasted image 20241003101412.png",
+    "Media/Pasted image 20241003101029.png",
+    "Media/Pasted image 20241003100859.png",
+    "Media/Pasted image 20241003100245.png",
+    "SEM5/COSC350/Multiplexing_and_Demultiplexing.pptx",
+    "SEM5/COSC350/Unconfirmed 847163.crdownload",
+    "SEM5/BIOL200/Day 14.md",
     "SEM5/MATH330/Probability and Statistics for Engineers and Scientists 4th Edition.pdf",
+    "SEM5/MATH330/St Normal Table.pdf",
     "SEM5/MATH330/Solutions Practice questions Test 1.pdf",
     "SEM5/MATH330/Chapter 5 Notes.pdf",
     "SEM5/MATH330/Day 2.md",
     "SEM5/MATH330/Day 1.md",
-    "Media/Pasted image 20241002094750.png",
-    "Media/Pasted image 20241002091424.png",
     "SEM5/BIOL200/Day 15.md",
-    "Media/Pasted image 20241002094516.png",
-    "Media/Pasted image 20241002093915.png",
-    "Media/Pasted image 20241002093718.png",
-    "Media/Pasted image 20241002093537.png",
-    "Media/Pasted image 20241002093259.png",
-    "Media/Pasted image 20241002092422.png",
-    "Media/Pasted image 20241002092018.png",
-    "Media/Pasted image 20241002091653.png",
-    "SEM5/BIOL200/Day 14.md",
     "SEM5/BIOL200/Day 12.md",
     "SEM5/BIOL200/Day 13.md",
     "SEM5/BIOL200/Day 10.md",
@@ -259,7 +213,6 @@
     "SEM5/COSC350/Day 3.md",
     "SEM5/COSC350/Day 2.md",
     "SEM5/COSC350/Day 1.md",
-    "SEM5/COSC350/Day 10.md",
     "SEM5/COSC350/Day 9.md",
     "SEM5/COSC350/Day 8.md",
     "SEM5/COSC350/Day 7.md",
@@ -272,12 +225,8 @@
     "SEM5/BIOL200/Ch 4 F24 - Cell Structure .pptx",
     "SEM5/BIOL200/Unconfirmed 616817.crdownload",
     "Excalidraw/Drawing 2024-09-27 09.07.46.excalidraw.md",
-    "SEM5/BIOL200/Chapter 5 F24 Lipids, Membranes, Transport Part 2.pptx",
-    "SEM5/BIOL200/Unconfirmed 736482.crdownload",
     "SEM5/BIOL200/Lab 1.md",
-    "SEM5/COSC350/midterm 1.docx",
     "Excalidraw/Drawing 2024-09-24 10.08.25.excalidraw.md",
-    "Excalidraw/Drawing 2024-09-24 10.06.01.excalidraw.md",
-    "SEM5/COSC435/Day 4.md"
+    "Excalidraw/Drawing 2024-09-24 10.06.01.excalidraw.md"
   ]
 }
