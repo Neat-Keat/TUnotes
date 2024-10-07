@@ -18,8 +18,31 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "60a4ea37bfbe5b9d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SEM5/BIOL200/Day 16.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "37e7ca8ce79a3edf",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2024-10-04 09.43.33.excalidraw.md"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -101,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SEM5/BIOL200/Day 15.md",
+                "file": "SEM5/BIOL200/Day 16.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM5/BIOL200/Day 15.md",
+                "file": "SEM5/BIOL200/Day 16.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM5/BIOL200/Day 15.md"
+                "file": "SEM5/BIOL200/Day 16.md"
               }
             }
           },
@@ -181,22 +204,28 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b6ceb0d543875825",
+  "active": "60a4ea37bfbe5b9d",
   "lastOpenFiles": [
+    "Pasted image 20241004094458.png",
+    "Excalidraw/Drawing 2024-10-04 09.43.33.excalidraw.md",
+    "SEM5/BIOL200/Day 16.md",
+    "SEM5/BIOL200/Syllabus BIOL200 F24 CW.pdf",
+    "SEM5/BIOL200/Syllabus BIOL200 F24 CW.pdf.crdownload",
+    "Pasted image 20241004091906.png",
+    "Pasted image 20241004091901.png",
+    "Pasted image 20241004091856.png",
+    "Pasted image 20241004091847.png",
+    "Pasted image 20241004091839.png",
+    "Pasted image 20241004091832.png",
+    "Pasted image 20241004091602.png",
+    "Pasted image 20241004091555.png",
+    "Pasted image 20241004091430.png",
+    "Pasted image 20241004091417.png",
+    "SEM5/BIOL200/Day 15.md",
     "SEM5/MATH330/Probability and Statistics for Engineers and Scientists 4th Edition.pdf",
     "SEM5/MATH330/Chapter 5 Notes.pdf",
     "SEM5/COSC350/Day 12 (Start of exam 2 content).md",
     "SEM5/COSC350/Day 10.md",
-    "Media/Pasted image 20241003102647.png",
-    "Media/Pasted image 20241003094519.png",
-    "Media/Pasted image 20241003102642.png",
-    "Media/Pasted image 20241003102628.png",
-    "Media/Pasted image 20241003101857.png",
-    "Media/Pasted image 20241003101549.png",
-    "Media/Pasted image 20241003101412.png",
-    "Media/Pasted image 20241003101029.png",
-    "Media/Pasted image 20241003100859.png",
-    "Media/Pasted image 20241003100245.png",
     "SEM5/COSC350/Multiplexing_and_Demultiplexing.pptx",
     "SEM5/COSC350/Unconfirmed 847163.crdownload",
     "SEM5/BIOL200/Day 14.md",
@@ -204,7 +233,6 @@
     "SEM5/MATH330/Solutions Practice questions Test 1.pdf",
     "SEM5/MATH330/Day 2.md",
     "SEM5/MATH330/Day 1.md",
-    "SEM5/BIOL200/Day 15.md",
     "SEM5/BIOL200/Day 12.md",
     "SEM5/BIOL200/Day 13.md",
     "SEM5/BIOL200/Day 10.md",
@@ -222,11 +250,7 @@
     "conflict-files-obsidian-git.md",
     "SEM5/COSC435/COSC435_ScheduleFall2024(1).pdf",
     "SEM5/COSC435/COSC435Syllabus.pdf",
-    "SEM5/BIOL200/Ch 4 F24 - Cell Structure .pptx",
-    "SEM5/BIOL200/Unconfirmed 616817.crdownload",
     "Excalidraw/Drawing 2024-09-27 09.07.46.excalidraw.md",
-    "SEM5/BIOL200/Lab 1.md",
-    "Excalidraw/Drawing 2024-09-24 10.08.25.excalidraw.md",
-    "Excalidraw/Drawing 2024-09-24 10.06.01.excalidraw.md"
+    "SEM5/BIOL200/Lab 1.md"
   ]
 }
