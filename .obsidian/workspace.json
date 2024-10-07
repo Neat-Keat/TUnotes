@@ -32,6 +32,18 @@
             }
           },
           {
+            "id": "c92ffd1f7d497384",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SEM5/BIOL200/Day 17.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "37e7ca8ce79a3edf",
             "type": "leaf",
             "state": {
@@ -42,7 +54,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -108,7 +120,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 307.01103591918945
+    "width": 307.01103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "21dd14f10bbbecf3",
@@ -124,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SEM5/BIOL200/Day 16.md",
+                "file": "SEM5/BIOL200/Day 17.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM5/BIOL200/Day 16.md",
+                "file": "SEM5/BIOL200/Day 17.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM5/BIOL200/Day 16.md"
+                "file": "SEM5/BIOL200/Day 17.md"
               }
             }
           },
@@ -204,39 +217,43 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "60a4ea37bfbe5b9d",
+  "active": "c92ffd1f7d497384",
   "lastOpenFiles": [
-    "Pasted image 20241004094458.png",
-    "Excalidraw/Drawing 2024-10-04 09.43.33.excalidraw.md",
+    "Pasted image 20241007094837.png",
+    "Pasted image 20241007094255.png",
+    "Pasted image 20241007094238.png",
+    "Pasted image 20241007094015.png",
+    "Pasted image 20241007093742.png",
+    "Pasted image 20241007093528.png",
+    "Pasted image 20241007093512.png",
+    "Pasted image 20241007093201.png",
+    "Pasted image 20241007093154.png",
+    "Pasted image 20241007093108.png",
+    "Pasted image 20241007092537.png",
+    "SEM5/BIOL200/Chapter 6 F24 - Energy and Enzymes.pptx",
+    "SEM5/BIOL200/Unconfirmed 295605.crdownload",
     "SEM5/BIOL200/Day 16.md",
+    "SEM5/BIOL200/Day 17.md",
+    "SEM5/BIOL200/Day 13.md",
+    "SEM5/BIOL200/Day 14.md",
+    "SEM5/BIOL200/Day 15.md",
+    "SEM5/BIOL200/Day 10.md",
+    "SEM5/BIOL200/Day 9.md",
+    "SEM5/BIOL200/Day 11 (Exam 2 content).md",
+    "SEM5/BIOL200/Day 12.md",
+    "Excalidraw/Drawing 2024-10-04 09.43.33.excalidraw.md",
     "SEM5/BIOL200/Syllabus BIOL200 F24 CW.pdf",
     "SEM5/BIOL200/Syllabus BIOL200 F24 CW.pdf.crdownload",
-    "Pasted image 20241004091906.png",
-    "Pasted image 20241004091901.png",
-    "Pasted image 20241004091856.png",
-    "Pasted image 20241004091847.png",
-    "Pasted image 20241004091839.png",
-    "Pasted image 20241004091832.png",
-    "Pasted image 20241004091602.png",
-    "Pasted image 20241004091555.png",
-    "Pasted image 20241004091430.png",
-    "Pasted image 20241004091417.png",
-    "SEM5/BIOL200/Day 15.md",
     "SEM5/MATH330/Probability and Statistics for Engineers and Scientists 4th Edition.pdf",
     "SEM5/MATH330/Chapter 5 Notes.pdf",
     "SEM5/COSC350/Day 12 (Start of exam 2 content).md",
     "SEM5/COSC350/Day 10.md",
     "SEM5/COSC350/Multiplexing_and_Demultiplexing.pptx",
     "SEM5/COSC350/Unconfirmed 847163.crdownload",
-    "SEM5/BIOL200/Day 14.md",
     "SEM5/MATH330/St Normal Table.pdf",
     "SEM5/MATH330/Solutions Practice questions Test 1.pdf",
     "SEM5/MATH330/Day 2.md",
     "SEM5/MATH330/Day 1.md",
-    "SEM5/BIOL200/Day 12.md",
-    "SEM5/BIOL200/Day 13.md",
-    "SEM5/BIOL200/Day 10.md",
-    "SEM5/BIOL200/Day 11 (Exam 2 content).md",
     "SEM5/COSC350/Day 4.md",
     "SEM5/COSC350/Day 3.md",
     "SEM5/COSC350/Day 2.md",
@@ -247,10 +264,6 @@
     "SEM5/COSC435/Day 5.md",
     "SEM5/COSC350/Day 6.md",
     "SEM5/COSC350/Day 5.md",
-    "conflict-files-obsidian-git.md",
-    "SEM5/COSC435/COSC435_ScheduleFall2024(1).pdf",
-    "SEM5/COSC435/COSC435Syllabus.pdf",
-    "Excalidraw/Drawing 2024-09-27 09.07.46.excalidraw.md",
-    "SEM5/BIOL200/Lab 1.md"
+    "conflict-files-obsidian-git.md"
   ]
 }
