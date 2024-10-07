@@ -11,8 +11,12 @@
             "id": "481da95344dc2a0e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Day 6.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -97,6 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Day 6.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,6 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Day 6.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +140,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Day 6.md"
+              }
             }
           },
           {
@@ -175,6 +183,7 @@
   },
   "active": "481da95344dc2a0e",
   "lastOpenFiles": [
+    "Day 6.md",
     "SEM5/MATH330/Chapter 6.pdf",
     "Media/Pasted image 20241007091334.png",
     "SEM5/BIOL200/Day 17.md",
@@ -207,7 +216,6 @@
     "SEM5/COSC350/Multiplexing_and_Demultiplexing.pptx",
     "SEM5/COSC350/Unconfirmed 847163.crdownload",
     "SEM5/MATH330/St Normal Table.pdf",
-    "SEM5/MATH330/Solutions Practice questions Test 1.pdf",
     "SEM5/MATH330/Day 2.md",
     "SEM5/MATH330/Day 1.md",
     "SEM5/COSC350/Day 4.md",
