@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Day 6.md",
+                "file": "SEM5/COSC350/Day 12 (Start of exam 2 content).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "219ba594de77d15b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SEM5/COSC350/Day 13.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 307.01103591918945
+    "width": 307.01103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "21dd14f10bbbecf3",
@@ -101,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Day 6.md",
+                "file": "SEM5/COSC350/Day 13.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Day 6.md",
+                "file": "SEM5/COSC350/Day 13.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Day 6.md"
+                "file": "SEM5/COSC350/Day 13.md"
               }
             }
           },
@@ -181,21 +195,28 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "481da95344dc2a0e",
+  "active": "219ba594de77d15b",
   "lastOpenFiles": [
-    "Day 6.md",
+    "Pasted image 20241008103327.png",
+    "Pasted image 20241008102220.png",
+    "Pasted image 20241008102022.png",
+    "Pasted image 20241008101727.png",
+    "Pasted image 20241008101517.png",
+    "Pasted image 20241008101110.png",
+    "Pasted image 20241008100658.png",
+    "Pasted image 20241008100522.png",
+    "Pasted image 20241008100520.png",
+    "SEM5/COSC350/LANs.pptx",
+    "SEM5/COSC350/Unconfirmed 57028.crdownload",
+    "SEM5/COSC350/group homework #1.docx",
+    "SEM5/COSC350/Unconfirmed 854170.crdownload",
+    "SEM5/COSC350/Day 12 (Start of exam 2 content).md",
+    "SEM5/COSC350/Day 13.md",
+    "SEM5/COSC435/Day 6.md",
+    "Media/Pasted image 20241007201823.png",
+    "Media/Pasted image 20241007201829.png",
     "SEM5/MATH330/Chapter 6.pdf",
-    "Media/Pasted image 20241007091334.png",
     "SEM5/BIOL200/Day 17.md",
-    "Media/Pasted image 20241007094837.png",
-    "Media/Pasted image 20241007094255.png",
-    "Media/Pasted image 20241007094238.png",
-    "Media/Pasted image 20241007094015.png",
-    "Media/Pasted image 20241007093742.png",
-    "Media/Pasted image 20241007093528.png",
-    "Media/Pasted image 20241007093512.png",
-    "Media/Pasted image 20241007093201.png",
-    "Media/Pasted image 20241007093154.png",
     "SEM5/BIOL200/Chapter 6 F24 - Energy and Enzymes.pptx",
     "SEM5/BIOL200/Unconfirmed 295605.crdownload",
     "SEM5/BIOL200/Day 16.md",
@@ -210,12 +231,7 @@
     "SEM5/BIOL200/Syllabus BIOL200 F24 CW.pdf",
     "SEM5/BIOL200/Syllabus BIOL200 F24 CW.pdf.crdownload",
     "SEM5/MATH330/Probability and Statistics for Engineers and Scientists 4th Edition.pdf",
-    "SEM5/MATH330/Chapter 5 Notes.pdf",
-    "SEM5/COSC350/Day 12 (Start of exam 2 content).md",
     "SEM5/COSC350/Day 10.md",
-    "SEM5/COSC350/Multiplexing_and_Demultiplexing.pptx",
-    "SEM5/COSC350/Unconfirmed 847163.crdownload",
-    "SEM5/MATH330/St Normal Table.pdf",
     "SEM5/MATH330/Day 2.md",
     "SEM5/MATH330/Day 1.md",
     "SEM5/COSC350/Day 4.md",
@@ -226,8 +242,6 @@
     "SEM5/COSC350/Day 8.md",
     "SEM5/COSC350/Day 7.md",
     "SEM5/COSC435/Day 5.md",
-    "SEM5/COSC350/Day 6.md",
-    "SEM5/COSC350/Day 5.md",
-    "conflict-files-obsidian-git.md"
+    "SEM5/COSC350/Day 6.md"
   ]
 }
