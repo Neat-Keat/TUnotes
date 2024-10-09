@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "219ba594de77d15b",
+            "id": "4f05fc48307bd17d",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "SEM5/MATH330/Probability and Statistics for Engineers and Scientists 4th Edition.pdf"
+                "file": "SEM5/MATH330/Chapter 6.pdf"
               }
             }
           }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SEM5/MATH330/Probability and Statistics for Engineers and Scientists 4th Edition.pdf",
+                "file": "SEM5/MATH330/Chapter 6.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM5/MATH330/Probability and Statistics for Engineers and Scientists 4th Edition.pdf",
+                "file": "SEM5/MATH330/Chapter 6.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM5/MATH330/Probability and Statistics for Engineers and Scientists 4th Edition.pdf"
+                "file": "SEM5/MATH330/Chapter 6.pdf"
               }
             }
           },
@@ -179,28 +179,33 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "219ba594de77d15b",
+  "active": "4f05fc48307bd17d",
   "lastOpenFiles": [
+    "Media/Pasted image 20241009090515.png",
+    "Media/Pasted image 20241009094156.png",
+    "SEM5/BIOL200/Day 18.md",
+    "Media/Pasted image 20241009094935.png",
+    "Media/Pasted image 20241009094741.png",
+    "Media/Pasted image 20241009094310.png",
+    "Media/Pasted image 20241009093302.png",
+    "Media/Pasted image 20241009092152.png",
+    "Media/Pasted image 20241009092149.png",
+    "Media/Pasted image 20241009091939.png",
+    "Media/Pasted image 20241009091557.png",
+    "Media/Pasted image 20241009091354.png",
+    "Excalidraw/Drawing 2024-10-09 09.08.33.excalidraw.md",
+    "Excalidraw/Drawing 2024-10-09 09.06.13.excalidraw.md",
+    "SEM5/BIOL200/Day 17.md",
+    "SEM5/MATH330/Chapter 5 Notes.pdf",
     "SEM5/MATH330/Probability and Statistics for Engineers and Scientists 4th Edition.pdf",
-    "Media/Pasted image 20241008100520.png",
     "SEM5/COSC350/Day 13.md",
-    "Media/Pasted image 20241008103327.png",
-    "Media/Pasted image 20241008102220.png",
-    "Media/Pasted image 20241008102022.png",
-    "Media/Pasted image 20241008101727.png",
-    "Media/Pasted image 20241008101517.png",
-    "Media/Pasted image 20241008101110.png",
-    "Media/Pasted image 20241008100658.png",
-    "Media/Pasted image 20241008100522.png",
     "SEM5/COSC350/LANs.pptx",
     "SEM5/COSC350/Unconfirmed 57028.crdownload",
     "SEM5/COSC350/group homework #1.docx",
     "SEM5/COSC350/Unconfirmed 854170.crdownload",
     "SEM5/COSC350/Day 12 (Start of exam 2 content).md",
     "SEM5/COSC435/Day 6.md",
-    "Media/Pasted image 20241007201823.png",
     "SEM5/MATH330/Chapter 6.pdf",
-    "SEM5/BIOL200/Day 17.md",
     "SEM5/BIOL200/Chapter 6 F24 - Energy and Enzymes.pptx",
     "SEM5/BIOL200/Unconfirmed 295605.crdownload",
     "SEM5/BIOL200/Day 16.md",
@@ -213,7 +218,6 @@
     "SEM5/BIOL200/Day 12.md",
     "Excalidraw/Drawing 2024-10-04 09.43.33.excalidraw.md",
     "SEM5/BIOL200/Syllabus BIOL200 F24 CW.pdf",
-    "SEM5/BIOL200/Syllabus BIOL200 F24 CW.pdf.crdownload",
     "SEM5/COSC350/Day 10.md",
     "SEM5/MATH330/Day 2.md",
     "SEM5/MATH330/Day 1.md",
@@ -222,9 +226,6 @@
     "SEM5/COSC350/Day 2.md",
     "SEM5/COSC350/Day 1.md",
     "SEM5/COSC350/Day 9.md",
-    "SEM5/COSC350/Day 8.md",
-    "SEM5/COSC350/Day 7.md",
-    "SEM5/COSC435/Day 5.md",
-    "SEM5/COSC350/Day 6.md"
+    "SEM5/COSC350/Day 8.md"
   ]
 }
