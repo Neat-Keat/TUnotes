@@ -11,8 +11,10 @@
             "id": "506fb003233f9157",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "image",
+              "state": {
+                "file": "Media/Pasted image 20241010094900.png"
+              }
             }
           }
         ]
@@ -81,8 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 307.01103591918945,
-    "collapsed": true
+    "width": 307.01103591918945
   },
   "right": {
     "id": "21dd14f10bbbecf3",
@@ -98,6 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Media/Pasted image 20241010094900.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,6 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Media/Pasted image 20241010094900.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +138,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Media/Pasted image 20241010094900.png"
+              }
             }
           },
           {
@@ -174,20 +179,20 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "506fb003233f9157",
+  "active": "39589997cec10ef0",
   "lastOpenFiles": [
     "SEM5/COSC350/Day 14.md",
     "SEM5/COSC350/Day 13.md",
-    "Pasted image 20241010102926.png",
-    "Pasted image 20241010102700.png",
-    "Pasted image 20241010102244.png",
-    "Pasted image 20241010102127.png",
-    "Pasted image 20241010101838.png",
-    "Pasted image 20241010101806.png",
-    "Pasted image 20241010101404.png",
-    "Pasted image 20241010101401.png",
-    "Pasted image 20241010101324.png",
-    "Pasted image 20241010101027.png",
+    "Media/Pasted image 20241010102926.png",
+    "Media/Pasted image 20241010102700.png",
+    "Media/Pasted image 20241010102244.png",
+    "Media/Pasted image 20241010102127.png",
+    "Media/Pasted image 20241010101838.png",
+    "Media/Pasted image 20241010101806.png",
+    "Media/Pasted image 20241010101404.png",
+    "Media/Pasted image 20241010101401.png",
+    "Media/Pasted image 20241010101324.png",
+    "Media/Pasted image 20241010101027.png",
     "SEM5/COSC350/Unconfirmed 553861.crdownload",
     "SEM5/MATH330/Chapter 6.pdf",
     "SEM5/BIOL200/Day 18.md",
