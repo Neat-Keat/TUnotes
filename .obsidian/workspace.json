@@ -11,13 +11,28 @@
             "id": "4f05fc48307bd17d",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "SEM5/MATH330/Chapter 6.pdf"
+                "file": "SEM5/COSC350/Day 13.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4b8e2d854870b07c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SEM5/COSC350/Day 14.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -83,7 +98,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 307.01103591918945
+    "width": 307.01103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "21dd14f10bbbecf3",
@@ -99,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SEM5/MATH330/Chapter 6.pdf",
+                "file": "SEM5/COSC350/Day 14.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM5/MATH330/Chapter 6.pdf",
+                "file": "SEM5/COSC350/Day 14.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM5/MATH330/Chapter 6.pdf"
+                "file": "SEM5/COSC350/Day 14.md"
               }
             }
           },
@@ -179,33 +195,35 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "4f05fc48307bd17d",
+  "active": "4b8e2d854870b07c",
   "lastOpenFiles": [
-    "Media/Pasted image 20241009090515.png",
-    "Media/Pasted image 20241009094156.png",
+    "Pasted image 20241010102926.png",
+    "Pasted image 20241010102700.png",
+    "Pasted image 20241010102244.png",
+    "Pasted image 20241010102127.png",
+    "Pasted image 20241010101838.png",
+    "Pasted image 20241010101806.png",
+    "Pasted image 20241010101404.png",
+    "Pasted image 20241010101401.png",
+    "Pasted image 20241010101324.png",
+    "Pasted image 20241010101027.png",
+    "Pasted image 20241010100932.png",
+    "SEM5/COSC350/Unconfirmed 553861.crdownload",
+    "SEM5/COSC350/Day 13.md",
+    "SEM5/COSC350/Day 14.md",
+    "SEM5/MATH330/Chapter 6.pdf",
     "SEM5/BIOL200/Day 18.md",
-    "Media/Pasted image 20241009094935.png",
-    "Media/Pasted image 20241009094741.png",
-    "Media/Pasted image 20241009094310.png",
-    "Media/Pasted image 20241009093302.png",
-    "Media/Pasted image 20241009092152.png",
-    "Media/Pasted image 20241009092149.png",
-    "Media/Pasted image 20241009091939.png",
-    "Media/Pasted image 20241009091557.png",
-    "Media/Pasted image 20241009091354.png",
     "Excalidraw/Drawing 2024-10-09 09.08.33.excalidraw.md",
     "Excalidraw/Drawing 2024-10-09 09.06.13.excalidraw.md",
     "SEM5/BIOL200/Day 17.md",
     "SEM5/MATH330/Chapter 5 Notes.pdf",
     "SEM5/MATH330/Probability and Statistics for Engineers and Scientists 4th Edition.pdf",
-    "SEM5/COSC350/Day 13.md",
     "SEM5/COSC350/LANs.pptx",
     "SEM5/COSC350/Unconfirmed 57028.crdownload",
     "SEM5/COSC350/group homework #1.docx",
     "SEM5/COSC350/Unconfirmed 854170.crdownload",
     "SEM5/COSC350/Day 12 (Start of exam 2 content).md",
     "SEM5/COSC435/Day 6.md",
-    "SEM5/MATH330/Chapter 6.pdf",
     "SEM5/BIOL200/Chapter 6 F24 - Energy and Enzymes.pptx",
     "SEM5/BIOL200/Unconfirmed 295605.crdownload",
     "SEM5/BIOL200/Day 16.md",
@@ -217,7 +235,6 @@
     "SEM5/BIOL200/Day 11 (Exam 2 content).md",
     "SEM5/BIOL200/Day 12.md",
     "Excalidraw/Drawing 2024-10-04 09.43.33.excalidraw.md",
-    "SEM5/BIOL200/Syllabus BIOL200 F24 CW.pdf",
     "SEM5/COSC350/Day 10.md",
     "SEM5/MATH330/Day 2.md",
     "SEM5/MATH330/Day 1.md",
@@ -225,7 +242,6 @@
     "SEM5/COSC350/Day 3.md",
     "SEM5/COSC350/Day 2.md",
     "SEM5/COSC350/Day 1.md",
-    "SEM5/COSC350/Day 9.md",
-    "SEM5/COSC350/Day 8.md"
+    "SEM5/COSC350/Day 9.md"
   ]
 }
