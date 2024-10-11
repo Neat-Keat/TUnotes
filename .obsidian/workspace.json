@@ -4,35 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "8a85f7344f3455a5",
+        "id": "376ead46ceebac5b",
         "type": "tabs",
         "children": [
           {
-            "id": "4f05fc48307bd17d",
+            "id": "506fb003233f9157",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SEM5/COSC350/Day 13.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4b8e2d854870b07c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SEM5/COSC350/Day 14.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -115,7 +98,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SEM5/COSC350/Day 14.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +114,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM5/COSC350/Day 14.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,9 +135,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "SEM5/COSC350/Day 14.md"
-              }
+              "state": {}
             }
           },
           {
@@ -195,8 +174,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "4b8e2d854870b07c",
+  "active": "506fb003233f9157",
   "lastOpenFiles": [
+    "SEM5/COSC350/Day 14.md",
+    "SEM5/COSC350/Day 13.md",
     "Pasted image 20241010102926.png",
     "Pasted image 20241010102700.png",
     "Pasted image 20241010102244.png",
@@ -207,10 +188,7 @@
     "Pasted image 20241010101401.png",
     "Pasted image 20241010101324.png",
     "Pasted image 20241010101027.png",
-    "Pasted image 20241010100932.png",
     "SEM5/COSC350/Unconfirmed 553861.crdownload",
-    "SEM5/COSC350/Day 13.md",
-    "SEM5/COSC350/Day 14.md",
     "SEM5/MATH330/Chapter 6.pdf",
     "SEM5/BIOL200/Day 18.md",
     "Excalidraw/Drawing 2024-10-09 09.08.33.excalidraw.md",
