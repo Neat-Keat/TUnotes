@@ -84,3 +84,59 @@ movement all require ATP
 	- Catabolism
 	- Anabolism
 - Biochemical Pathways
+
+----
+
+Now, walk thru an exergonic example graph, making sure we know how to read and figure out activation energy and $\Delta$G
+![[Pasted image 20241011093800.png]]
+be able to recreate this graph basically
+also KNOW THE DIFFERENCE BETWEEN ENDERGONIC AND EXERGONIC!!!! #MEMORIZE 
+
+now we review
+
+study guide!
+- be able to label most of a cell on a diagram
+	- both plant, animal, and prokaryote
+- 4 things all cells have in common
+	- cytoplasm
+	- genetic material
+	- ribosomes
+	- plasma membrane
+- cell wall is made of cellulose
+	- plasmodesmata in the cell wall connects adjacent cells
+- Nucleus contains:
+	- surrounded by nuclear envelope
+		- made of 2 membranes
+		- outer layer is contiguous with the RER (physically attached to)
+	- big circular things are nuclear pores
+		- allows certain stuff to enter and exit
+			- like ribosomes, and *mRNA*
+	- dark staining region is the nucleolus
+- prokaryotes have a single circular chromosome
+- eukaryotes have several linear chromosomes
+- plant cells have:
+	- cell wall
+	- central vacuole
+	- chloroplast (and mitochondria!)
+- Endomembrane system!
+	- be able to name all the parts
+- lysosomes break down stuff
+- cytoskeleton stuff
+	- microtubules
+	- intermediate filaments
+	- microfilament
+	- centrioles (made of other stuff)
+	- know how they're different and what they do
+- Structures of choroplast and mitochondria
+	- mitochondria
+		- 2 membranes, their own DNA, etc
+- for membranes:
+	- phospholipid bilayer (label each part)
+	- why only certain stuff can get in
+	- permeability scale
+		- small, nonpolar -> small polar -> large -> ions (not at all)
+		- establishes ion gradients (useful for energy transfer)
+- whats oxidation vs reduction
+	- gain vs loss of an electron
+- enzyme structure
+- types of energy
