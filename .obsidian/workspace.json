@@ -23,16 +23,34 @@
             "id": "758c39cc25eb6e68",
             "type": "leaf",
             "state": {
+              "type": "image",
+              "state": {
+                "file": "Media/Pasted image 20241014193223.png"
+              }
+            }
+          },
+          {
+            "id": "224bb045e90bf409",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM5/COSC435/Day 1.md",
+                "file": "SEM5/COSC350/Day 15.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "33c9f088925359be",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -114,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SEM5/COSC435/Day 1.md",
+                "file": "SEM5/COSC435/Day 6.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM5/COSC435/Day 1.md",
+                "file": "SEM5/COSC435/Day 6.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM5/COSC435/Day 1.md"
+                "file": "SEM5/COSC435/Day 6.md"
               }
             }
           },
@@ -194,16 +212,19 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "758c39cc25eb6e68",
+  "active": "39589997cec10ef0",
   "lastOpenFiles": [
+    "SEM5/COSC350/Powerpoints",
+    "Media/Pasted image 20241014193223.png",
+    "SEM5/COSC350/Day 15.md",
+    "SEM5/COSC435/Day 1.md",
     "SEM5/COSC435/Day 2.md",
     "SEM5/COSC435/Day 3.md",
     "SEM5/COSC435/Day 4.md",
     "SEM5/COSC435/Day 6.md",
     "SEM5/COSC435/Day 7.md",
-    "Pasted image 20241014201444.png",
-    "Pasted image 20241014193231.png",
-    "Pasted image 20241014193223.png",
+    "Media/Pasted image 20241014201444.png",
+    "Media/Pasted image 20241014193231.png",
     "SEM5/MATH330/Chapter 5 Notes.pdf",
     "SEM5/MATH330/Chapter 7 Notes.pdf",
     "SEM5/MATH330/Chapter 7 Notes.pdf.crdownload",
@@ -226,9 +247,9 @@
     "Excalidraw/Drawing 2024-10-09 09.06.13.excalidraw.md",
     "SEM5/BIOL200/Day 17.md",
     "SEM5/MATH330/Probability and Statistics for Engineers and Scientists 4th Edition.pdf",
-    "SEM5/COSC350/LANs.pptx",
+    "SEM5/COSC350/Powerpoints/LANs.pptx",
     "SEM5/COSC350/Unconfirmed 57028.crdownload",
-    "SEM5/COSC350/group homework #1.docx",
+    "SEM5/COSC350/Powerpoints/group homework #1.docx",
     "SEM5/COSC350/Day 12 (Start of exam 2 content).md",
     "SEM5/BIOL200/Day 16.md",
     "SEM5/BIOL200/Day 13.md",
@@ -238,9 +259,6 @@
     "SEM5/BIOL200/Day 9.md",
     "SEM5/BIOL200/Day 11 (Exam 2 content).md",
     "SEM5/BIOL200/Day 12.md",
-    "Excalidraw/Drawing 2024-10-04 09.43.33.excalidraw.md",
-    "SEM5/COSC350/Day 10.md",
-    "SEM5/MATH330/Day 2.md",
-    "SEM5/MATH330/Day 1.md"
+    "Excalidraw/Drawing 2024-10-04 09.43.33.excalidraw.md"
   ]
 }
