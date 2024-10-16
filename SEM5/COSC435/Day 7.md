@@ -11,8 +11,7 @@ MISSED FIRST 25 MINUTES BC OF HOCO PARADE, CHECK RECORDING!!!
 ![[Pasted image 20241014193231.png]]
 *State flows down the UI tree*
 
-
-```
+```kotlin
 if(LocalConfiguration.current.orientation == Configuration.ORIENTATION_LANDSCAPE){
 	LandscapeView{
 		LazyColumn{
@@ -24,7 +23,7 @@ if(LocalConfiguration.current.orientation == Configuration.ORIENTATION_LANDSCAPE
 }
 ```
 
-```
+```kotlin
 @Composable
 fun LandscapeView(content: @Composable () -> Unit) {
 	Row(
@@ -49,7 +48,7 @@ will this relate to the hamburger menu and drop downs?
 
 1. NavController
 NavController maintains a backstack as you navigate through different screens in your app
-```
+```kotlin
 val navController = rememberNavController()
 ```
 
@@ -58,7 +57,7 @@ Create this add the top off your compose view hierarchy
 2. NavHost
 NavHost declares the destinations/routes that your app will navigate to. Each route is a string, similar to a url
 
-```
+```kotlin
 NavHost(navController = navController, startDestination = "screen)
 	composable("screenOne") {ScreenOne(/*...*/) }
 	composable("screenTwo") {ScreenTwo(/*...*/)}
@@ -66,7 +65,7 @@ NavHost(navController = navController, startDestination = "screen)
 
 3. Navigate
 Use .navigate to switch routes. The navigation controller will track the stack and allow the user to backtrack
-```
+```kotlin
 navController.navigate("screenTwo")
 ```
 Avoid passing the NavController to destination controllers. Instead, use....
@@ -80,7 +79,7 @@ if you do it now, you do it through a libs.version.toml file
 
 this file is in Gradle Scrips/libs.versions.toml
 first section is versions, lists versions of dependencies
-```
+```kotlin
 [versions]
 navigation = "2.8.2"   //note navigation can be called anything you want
 
@@ -90,17 +89,17 @@ androidx-navigation-compose = { module = "androidx.navigation:navigation-compose
 ```
 
 the module part is important, it comes from the documentation
-```
+```kotlin
 implementation("androidx.navigation:navigation-compose:$nav_version")
 ```
 
 then, in the build.gradle.kts file:
-```
+```kotlin
 implementation(libs.androidx.navigation.compose) //note that dashes became dots, with libs prepended
 ```
 
 congrats, now your project can use it! lets go back to MainActivity:
-```
+```kotlin
 Scaffold(modifier = Modifier.fillMaxSize()){
 	val navController: NavHostController = rememberNavController()
 	Main(navController)
@@ -142,7 +141,7 @@ sealed class Screens(val route: String){
 navController keeps track of a backStack for you, makes it SUPER useful
 
 note that to access screen 3, you need to add:
-```
+```kotlin
 @Composable
 fun SecondScreen(
 	nav: (String) -> Unit
@@ -174,7 +173,7 @@ do NOT add buttons to get everywhere!!
 utilize the backstack to make everything linear
 
 consider:
-```
+```kotlin
 popUpTo("first") { launchSingeTop(true)} //syntax changed lol
 ```
 
@@ -183,7 +182,7 @@ its not elegant ("not what he wants"), but it works
 
 # Arguments
 Routes can include *arguments*, similar again to a http url path. Arguments can be required (path-based) or optional (query-based)
-```
+```kotlin
 NavHost(navController = navController, startDestination = "screen")
 	composable("ScreenOne") {ScreenOne(//)}
 	composable("screenTwo/{name}") { backStack ->
@@ -195,7 +194,7 @@ navController.navigate("screenTwo/Randy")
 ```
 
 
-```
+```kotlin
 @Composable
 fun FirstScreen(
 	nav: (String) -> Unit
@@ -212,7 +211,7 @@ fun FirstScreen(
 Query parameters can also be used for optional arguments
 - must provide a default
 - or make the parameter nullable
-```
+```kotlin
 "two?name={name}",
 arguments = listOf(navArgument("name") { defaultValue = "Randy"
 })...
@@ -223,7 +222,7 @@ arguments = listOf(navArgument("name") { defaultValue = "Randy"
 
 # Scaffold
 Scaffold has a generic content trailing lambda slot, plus parameters for TopBar, Drawer, BottomBar, and FloatingActionBars. These are all optional.
-```
+```kotlin
 Scaffold(
 	topBar = {
 		topAppBar { // }
