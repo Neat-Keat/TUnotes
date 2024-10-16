@@ -11,9 +11,9 @@
             "id": "224bb045e90bf409",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "image",
               "state": {
-                "file": "SEM5/MATH330/Probability and Statistics for Engineers and Scientists 4th Edition.pdf"
+                "file": "Media/Pasted image 20241015094902.png"
               }
             }
           }
@@ -29,7 +29,7 @@
       {
         "id": "9829eb4fb6d71410",
         "type": "tabs",
-        "dimension": 80.15873015873017,
+        "dimension": 79.01364113326338,
         "children": [
           {
             "id": "39589997cec10ef0",
@@ -69,14 +69,18 @@
       {
         "id": "ee82bb0e80eecafe",
         "type": "tabs",
-        "dimension": 19.841269841269842,
+        "dimension": 20.98635886673662,
         "children": [
           {
             "id": "b006ec9c298e4cf5",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "SEM4/COSC290/Day 9 1.md/Day 9.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -99,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SEM5/MATH330/Probability and Statistics for Engineers and Scientists 4th Edition.pdf",
+                "file": "Media/Pasted image 20241015094902.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM5/MATH330/Probability and Statistics for Engineers and Scientists 4th Edition.pdf",
+                "file": "Media/Pasted image 20241015094902.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM5/MATH330/Probability and Statistics for Engineers and Scientists 4th Edition.pdf"
+                "file": "Media/Pasted image 20241015094902.png"
               }
             }
           },
@@ -179,19 +183,22 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "224bb045e90bf409",
+  "active": "39589997cec10ef0",
   "lastOpenFiles": [
+    "Media/Pasted image 20241015103907.png",
+    "SEM5/MATH330/Probability and Statistics for Engineers and Scientists 4th Edition.pdf",
+    "test.md",
+    "SEM4/COSC290/Day 9 1.md/Day 9.md",
     "SEM5/COSC350/Day 15.md",
-    "Pasted image 20241015103907.png",
-    "Pasted image 20241015103852.png",
-    "Pasted image 20241015103837.png",
-    "Pasted image 20241015103556.png",
-    "Pasted image 20241015095655.png",
-    "Pasted image 20241015095356.png",
+    "Media/Pasted image 20241015103852.png",
+    "Media/Pasted image 20241015103837.png",
+    "Media/Pasted image 20241015103556.png",
+    "Media/Pasted image 20241015095655.png",
+    "Media/Pasted image 20241015095356.png",
     "SEM5/COSC350/Powerpoints/Wired_LAN_(IEEE802.3).pptx",
     "SEM5/COSC350/Powerpoints/Unconfirmed 783674.crdownload",
-    "Pasted image 20241015094909.png",
-    "Pasted image 20241015094902.png",
+    "Media/Pasted image 20241015094909.png",
+    "Media/Pasted image 20241015094902.png",
     "SEM5/COSC350/Computer Networks and Internets 6E Comer.pdf",
     "SEM5/COSC435/Day 6.md",
     "SEM5/COSC350/Powerpoints",
@@ -212,7 +219,6 @@
     "SEM5/COSC350/Day 14.md",
     "SEM5/COSC350/Day 13.md",
     "SEM5/COSC350/Unconfirmed 553861.crdownload",
-    "SEM5/MATH330/Chapter 6.pdf",
     "Excalidraw/Drawing 2024-10-09 09.08.33.excalidraw.md",
     "Excalidraw/Drawing 2024-10-09 09.06.13.excalidraw.md",
     "SEM5/BIOL200/Day 17.md",
@@ -223,8 +229,6 @@
     "SEM5/BIOL200/Day 15.md",
     "SEM5/BIOL200/Day 10.md",
     "SEM5/BIOL200/Day 9.md",
-    "SEM5/BIOL200/Day 11 (Exam 2 content).md",
-    "SEM5/BIOL200/Day 12.md",
-    "Excalidraw/Drawing 2024-10-04 09.43.33.excalidraw.md"
+    "SEM5/BIOL200/Day 11 (Exam 2 content).md"
   ]
 }
