@@ -29,7 +29,7 @@
       {
         "id": "9829eb4fb6d71410",
         "type": "tabs",
-        "dimension": 65.64885496183206,
+        "dimension": 74.62082912032356,
         "children": [
           {
             "id": "39589997cec10ef0",
@@ -69,7 +69,7 @@
       {
         "id": "ee82bb0e80eecafe",
         "type": "tabs",
-        "dimension": 34.35114503816794,
+        "dimension": 25.379170879676437,
         "children": [
           {
             "id": "224bb045e90bf409",
@@ -179,8 +179,9 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "ef2ba624dbb13427",
+  "active": "39589997cec10ef0",
   "lastOpenFiles": [
+    "New Text Document.txt",
     "Media/Pasted image 20241016094911.png",
     "Media/Pasted image 20241016091806.png",
     "Media/Pasted image 20241016092610.png",
