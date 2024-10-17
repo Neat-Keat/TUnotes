@@ -1,6 +1,8 @@
-![[Pasted image 20240826095747.png]]
 class notes on BB > Content Area > Class Notes
-password for ALL class materials is "Math330Notes"
+***password for ALL class materials is "Math330Notes"***\
+
+
+[[Pasted image 20240826095747.png]]
 SPSS software for data analysis
 	accessed through vw@towson.edu
 		need TUID and pass to log in
