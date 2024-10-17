@@ -6,6 +6,7 @@
       {
         "id": "010fb10dd4f9d899",
         "type": "tabs",
+        "dimension": 68.0050987890376,
         "children": [
           {
             "id": "f5b7801244a24783",
@@ -18,19 +19,14 @@
               "icon": "lucide-file-text",
               "title": "Probability and Statistics for Engineers and Scientists 4th Edition"
             }
-          },
-          {
-            "id": "f85d887656d7ea38",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.7.4"
-              },
-              "icon": "lucide-file",
-              "title": "Release Notes 1.7.4"
-            }
-          },
+          }
+        ]
+      },
+      {
+        "id": "cc6fb782aa80cdad",
+        "type": "tabs",
+        "dimension": 31.994901210962396,
+        "children": [
           {
             "id": "f137fcedb85bc1bb",
             "type": "leaf",
@@ -43,6 +39,18 @@
               },
               "icon": "lucide-file",
               "title": "Pics of class notes"
+            }
+          },
+          {
+            "id": "1e08f49c83ec467c",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "20241016_191214.jpg"
+              },
+              "icon": "lucide-image",
+              "title": "20241016_191214"
             }
           }
         ],
@@ -130,7 +138,8 @@
               "title": "Tasks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -150,7 +159,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SEM5/MATH330/Probability and Statistics for Engineers and Scientists 4th Edition.pdf",
+                "file": "Tasks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +169,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Probability and Statistics for Engineers and Scientists 4th Edition"
+              "title": "Backlinks for Tasks"
             }
           },
           {
@@ -169,12 +178,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM5/MATH330/Probability and Statistics for Engineers and Scientists 4th Edition.pdf",
+                "file": "Tasks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Probability and Statistics for Engineers and Scientists 4th Edition"
+              "title": "Outgoing links from Tasks"
             }
           },
           {
@@ -196,10 +205,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM5/MATH330/Probability and Statistics for Engineers and Scientists 4th Edition.pdf"
+                "file": "Tasks.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Probability and Statistics for Engineers and Scientists 4th Edition"
+              "title": "Outline of Tasks"
             }
           },
           {
@@ -242,25 +251,25 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f85d887656d7ea38",
+  "active": "1c901a1127e9b27b",
   "lastOpenFiles": [
-    "SEM5/MATH330/Pics of class notes.md",
     "SEM5/MATH330/Probability and Statistics for Engineers and Scientists 4th Edition.pdf",
+    "20241016_191214.jpg",
+    "SEM5/MATH330/Pics of class notes.md",
+    "20241016_191147.jpg",
+    "20241016_191152.jpg",
+    "20241016_191156.jpg",
+    "20241016_191159.jpg",
+    "20241016_191206.jpg",
+    "20241016_191211.jpg",
+    "20241016_191218.jpg",
+    "20241016_191222.jpg",
+    "SEM5/MATH330/Pics of class notes",
     "Tasks.md",
     "Media/20241016_191226.jpg",
-    "Media/20241016_190806.jpg",
-    "Media/20241016_191222.jpg",
-    "Media/20241016_191218.jpg",
-    "Media/20241016_191214.jpg",
-    "Media/20241016_191211.jpg",
-    "Media/20241016_191206.jpg",
-    "Media/20241016_191159.jpg",
-    "Media/20241016_191156.jpg",
-    "Media/20241016_191152.jpg",
     "SEM5/MATH330/Day 1 (README).md",
     "SEM5/MATH330/Pics of class notes/Untitled.md",
     "SEM5/COSC350/Day 12 (Exam 2 Content).md",
-    "SEM5/MATH330/Pics of class notes",
     "SEM5/MATH330/Lecture notes (Math330Notes)",
     "SEM5/MATH330/Day 2.md",
     "SEM5/MATH330/Lecture notes (Math330Notes)/Chapter 7 Notes.pdf",
