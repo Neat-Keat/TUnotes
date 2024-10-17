@@ -4,49 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "010fb10dd4f9d899",
+        "id": "03fd6384635efaca",
         "type": "tabs",
         "children": [
           {
-            "id": "f5b7801244a24783",
+            "id": "ef2ba624dbb13427",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "SEM5/MATH330/Probability and Statistics for Engineers and Scientists 4th Edition.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Probability and Statistics for Engineers and Scientists 4th Edition"
-            }
-          },
-          {
-            "id": "f85d887656d7ea38",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.7.4"
-              },
-              "icon": "lucide-file",
-              "title": "Release Notes 1.7.4"
-            }
-          },
-          {
-            "id": "f137fcedb85bc1bb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SEM5/MATH330/Pics of class notes.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Pics of class notes"
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -58,7 +27,7 @@
       {
         "id": "9829eb4fb6d71410",
         "type": "tabs",
-        "dimension": 72.90192113245702,
+        "dimension": 65.64885496183206,
         "children": [
           {
             "id": "39589997cec10ef0",
@@ -67,9 +36,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-folder-closed",
-              "title": "Files"
+              }
             }
           },
           {
@@ -84,9 +51,7 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-search",
-              "title": "Search"
+              }
             }
           },
           {
@@ -94,9 +59,7 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "Bookmarks"
+              "state": {}
             }
           }
         ]
@@ -104,30 +67,14 @@
       {
         "id": "ee82bb0e80eecafe",
         "type": "tabs",
-        "dimension": 27.098078867542974,
+        "dimension": 34.35114503816794,
         "children": [
           {
             "id": "224bb045e90bf409",
             "type": "leaf",
             "state": {
               "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
-            "id": "1c901a1127e9b27b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tasks.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Tasks"
+              "state": {}
             }
           }
         ]
@@ -150,7 +97,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SEM5/MATH330/Probability and Statistics for Engineers and Scientists 4th Edition.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,9 +104,7 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Backlinks for Probability and Statistics for Engineers and Scientists 4th Edition"
+              }
             }
           },
           {
@@ -169,12 +113,9 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM5/MATH330/Probability and Statistics for Engineers and Scientists 4th Edition.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from Probability and Statistics for Engineers and Scientists 4th Edition"
+              }
             }
           },
           {
@@ -185,9 +126,7 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
+              }
             }
           },
           {
@@ -196,10 +135,8 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM5/MATH330/Probability and Statistics for Engineers and Scientists 4th Edition.pdf"
-              },
-              "icon": "lucide-list",
-              "title": "Outline of Probability and Statistics for Engineers and Scientists 4th Edition"
+                "file": "SEM5/MATH330/Chapter 7 Notes.pdf"
+              }
             }
           },
           {
@@ -207,9 +144,7 @@
             "type": "leaf",
             "state": {
               "type": "calendar",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "state": {}
             }
           },
           {
@@ -217,13 +152,11 @@
             "type": "leaf",
             "state": {
               "type": "advanced-tables-toolbar",
-              "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
+              "state": {}
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -242,13 +175,19 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f85d887656d7ea38",
+  "active": "39589997cec10ef0",
   "lastOpenFiles": [
     "SEM5/MATH330/Pics of class notes.md",
-    "SEM5/MATH330/Probability and Statistics for Engineers and Scientists 4th Edition.pdf",
-    "Tasks.md",
+    "SEM5/MATH330/Lecture notes (Math330Notes)/Chapter 7 Notes.pdf",
+    "SEM5/MATH330/Lecture notes (Math330Notes)/Chapter 6.pdf",
+    "SEM5/MATH330/Lecture notes (Math330Notes)/Chapter 5 Notes.pdf",
+    "SEM5/MATH330/Lecture notes (Math330Notes)/Chapter 3 Notes.pdf",
+    "SEM5/MATH330/Lecture notes (Math330Notes)/Chapter 2 Notes.pdf",
+    "SEM5/MATH330/Lecture notes (Math330Notes)/Chapter 1 Notes.pdf",
+    "SEM5/MATH330/Lecture notes (Math330Notes)",
+    "SEM5/MATH330/Day 1 (README).md",
+    "SEM5/COSC350/Day 12 (Exam 2 Content).md",
     "Media/20241016_191226.jpg",
-    "Media/20241016_190806.jpg",
     "Media/20241016_191222.jpg",
     "Media/20241016_191218.jpg",
     "Media/20241016_191214.jpg",
@@ -257,25 +196,16 @@
     "Media/20241016_191159.jpg",
     "Media/20241016_191156.jpg",
     "Media/20241016_191152.jpg",
-    "SEM5/MATH330/Day 1 (README).md",
-    "SEM5/MATH330/Pics of class notes/Untitled.md",
-    "SEM5/COSC350/Day 12 (Exam 2 Content).md",
-    "SEM5/MATH330/Pics of class notes",
-    "SEM5/MATH330/Lecture notes (Math330Notes)",
-    "SEM5/MATH330/Day 2.md",
-    "SEM5/MATH330/Lecture notes (Math330Notes)/Chapter 7 Notes.pdf",
-    "New Text Document.txt",
+    "Media/20241016_191147.jpg",
     "SEM5/BIOL200/Day 20 (Exam 3 Content).md",
     "SEM5/BIOL200/Exam 2 Slides",
     "SEM5/BIOL200/Day 11 (Exam 2 Content).md",
     "SEM5/COSC435/Day 7.md",
     "SEM4/COSC290/Day 9 1.md/Day 9.md",
+    "SEM5/MATH330/Probability and Statistics for Engineers and Scientists 4th Edition.pdf",
     "SEM5/COSC350/Day 15.md",
     "SEM5/COSC350/Powerpoints/Wired_LAN_(IEEE802.3).pptx",
-    "SEM5/COSC350/Powerpoints/Unconfirmed 783674.crdownload",
-    "SEM5/COSC350/Computer Networks and Internets 6E Comer.pdf",
     "SEM5/COSC435/Day 6.md",
-    "SEM5/COSC350/Powerpoints",
     "SEM5/COSC435/Day 1.md",
     "SEM5/COSC435/Day 2.md",
     "SEM5/COSC435/Day 3.md",
@@ -288,6 +218,10 @@
     "Excalidraw/Drawing 2024-10-09 09.08.33.excalidraw.md",
     "Excalidraw/Drawing 2024-10-09 09.06.13.excalidraw.md",
     "SEM5/BIOL200/Day 17.md",
-    "SEM5/BIOL200/Day 16.md"
+    "SEM5/COSC350/Day 12 (Start of exam 2 content).md",
+    "SEM5/BIOL200/Day 16.md",
+    "SEM5/BIOL200/Day 13.md",
+    "SEM5/BIOL200/Day 14.md",
+    "SEM5/BIOL200/Day 15.md"
   ]
 }
