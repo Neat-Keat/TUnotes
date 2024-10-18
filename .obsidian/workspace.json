@@ -95,7 +95,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 307.01103591918945
+    "width": 307.01103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "21dd14f10bbbecf3",
@@ -203,8 +204,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "39589997cec10ef0",
+  "active": "fc8d20229198a6e1",
   "lastOpenFiles": [
+    "Pasted image 20241018093748.png",
+    "Pasted image 20241018093617.png",
+    "Pasted image 20241018093342.png",
+    "Pasted image 20241018093302.png",
+    "Pasted image 20241018093200.png",
+    "Pasted image 20241018092808.png",
+    "Pasted image 20241018092538.png",
+    "SEM5/BIOL200/Ch 7 F23 Cellular Respiration, Fermentation & ETC.pptx",
+    "SEM5/BIOL200/Unconfirmed 121527.crdownload",
     "SEM5/BIOL200/Day 20 (Exam 3 Content).md",
     "SEM5/BIOL200/Day 21.md",
     "Media/Pasted image 20241017100546.png",
@@ -212,14 +222,8 @@
     "Media/Pasted image 20241017104451.png",
     "Media/Pasted image 20241017104204.png",
     "Media/Pasted image 20241017104048.png",
-    "Media/Pasted image 20241017104047.png",
-    "Media/Pasted image 20241017104045.png",
     "SEM5/COSC350/Powerpoints/Wireless_Networking_Technologies.pptx",
     "SEM5/COSC350/Powerpoints/Unconfirmed 998018.crdownload",
-    "Media/Pasted image 20241017103515.png",
-    "Media/Pasted image 20241017103208.png",
-    "Media/Pasted image 20241017103018.png",
-    "Media/Pasted image 20241017102931.png",
     "Excalidraw/Drawing 2024-10-17 09.59.37.excalidraw.md",
     "SEM5/COSC350/Day 15.md",
     "SEM5/MATH330/Pics of class notes.md",
@@ -229,10 +233,8 @@
     "SEM5/MATH330/Lecture notes (Math330Notes)/Chapter 3 Notes.pdf",
     "SEM5/MATH330/Lecture notes (Math330Notes)/Chapter 2 Notes.pdf",
     "SEM5/MATH330/Lecture notes (Math330Notes)/Chapter 1 Notes.pdf",
-    "SEM5/MATH330/Lecture notes (Math330Notes)",
     "SEM5/MATH330/Day 1 (README).md",
     "SEM5/COSC350/Day 12 (Exam 2 Content).md",
-    "SEM5/BIOL200/Exam 2 Slides",
     "SEM5/BIOL200/Day 11 (Exam 2 Content).md",
     "SEM5/COSC435/Day 7.md",
     "SEM4/COSC290/Day 9 1.md/Day 9.md",
@@ -249,7 +251,6 @@
     "Excalidraw/Drawing 2024-10-09 09.08.33.excalidraw.md",
     "Excalidraw/Drawing 2024-10-09 09.06.13.excalidraw.md",
     "SEM5/BIOL200/Day 17.md",
-    "SEM5/COSC350/Day 12 (Start of exam 2 content).md",
-    "SEM5/BIOL200/Day 16.md"
+    "SEM5/COSC350/Day 12 (Start of exam 2 content).md"
   ]
 }
