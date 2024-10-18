@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM5/COSC350/Day 16.md",
+                "file": "SEM5/BIOL200/Day 20 (Exam 3 Content).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Day 16"
+              "title": "Day 20 (Exam 3 Content)"
+            }
+          },
+          {
+            "id": "fc8d20229198a6e1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SEM5/BIOL200/Day 21.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Day 21"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -95,8 +110,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 307.01103591918945,
-    "collapsed": true
+    "width": 307.01103591918945
   },
   "right": {
     "id": "21dd14f10bbbecf3",
@@ -204,23 +218,24 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "449744b3f8163277",
+  "active": "39589997cec10ef0",
   "lastOpenFiles": [
-    "Pasted image 20241017104451.png",
-    "Pasted image 20241017104204.png",
-    "Pasted image 20241017104048.png",
-    "Pasted image 20241017104047.png",
-    "Pasted image 20241017104045.png",
+    "SEM5/BIOL200/Day 20 (Exam 3 Content).md",
+    "SEM5/BIOL200/Day 21.md",
+    "Media/Pasted image 20241017100546.png",
+    "SEM5/COSC350/Day 16.md",
+    "Media/Pasted image 20241017104451.png",
+    "Media/Pasted image 20241017104204.png",
+    "Media/Pasted image 20241017104048.png",
+    "Media/Pasted image 20241017104047.png",
+    "Media/Pasted image 20241017104045.png",
     "SEM5/COSC350/Powerpoints/Wireless_Networking_Technologies.pptx",
     "SEM5/COSC350/Powerpoints/Unconfirmed 998018.crdownload",
-    "Pasted image 20241017103515.png",
-    "Pasted image 20241017103208.png",
-    "Pasted image 20241017103018.png",
-    "Pasted image 20241017102931.png",
-    "Pasted image 20241017102647.png",
-    "Pasted image 20241017102207.png",
+    "Media/Pasted image 20241017103515.png",
+    "Media/Pasted image 20241017103208.png",
+    "Media/Pasted image 20241017103018.png",
+    "Media/Pasted image 20241017102931.png",
     "Excalidraw/Drawing 2024-10-17 09.59.37.excalidraw.md",
-    "SEM5/COSC350/Day 16.md",
     "SEM5/COSC350/Day 15.md",
     "SEM5/MATH330/Pics of class notes.md",
     "SEM5/MATH330/Lecture notes (Math330Notes)/Chapter 7 Notes.pdf",
@@ -232,7 +247,6 @@
     "SEM5/MATH330/Lecture notes (Math330Notes)",
     "SEM5/MATH330/Day 1 (README).md",
     "SEM5/COSC350/Day 12 (Exam 2 Content).md",
-    "SEM5/BIOL200/Day 20 (Exam 3 Content).md",
     "SEM5/BIOL200/Exam 2 Slides",
     "SEM5/BIOL200/Day 11 (Exam 2 Content).md",
     "SEM5/COSC435/Day 7.md",
