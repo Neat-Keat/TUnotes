@@ -53,7 +53,7 @@ note that the single branch idea will give you full points despite what the rubr
 # Quiz
 
 1. What's the type of the result?
-```
+``` Kotlin
 data class Person(val name: String, val age: Int)
 (0..10)
 	.map { i -> Person("Joe $i, i) }
@@ -71,5 +71,54 @@ d. List<(String, Int)>
 	a. onStop, onPause
 	b. onStop, onDestroy
 	c. onPause, onStop
-	**d. onPause, onStop, onDestroy**
-	
+	*d. onPause, onStop, onDestroy*
+
+
+3. What is the type of the parameter?
+``` Kotlin
+fun someFunc(
+	callback: //????
+	param: String? = null
+) {
+	...
+	callback(param, param)
+}
+```
+
+a. (String, String) -> Unit
+b. (String) -> String?
+c. (String?) -> String
+*d. (String?, String?) -> Unit*
+
+-----------
+
+# Lab Review
+
+Add padding to the NavHost with modifier = Modifier.padding(top = 40.dp, bottom = 50.dp)
+	this is less than ideal because we're guessing at the padding
+
+instead, look at the padding that the scaffolding gives you
+``` Kotlin
+Scaffold(...){ paddingValues: PaddingValues ->
+	SongsNavGraph(nav, paddingValues)
+}
+```
+and
+
+``` Kotlin
+fun SongsNavGraph(
+	navController: NavHostController = rememberNavController(),
+	paddingValues: PaddingValues
+) {
+	NavHost(
+		modifier = Modifier.padding(paddingValues)
+	)
+}
+```
+
+and boom! padding issue fixed!
+
+now: bottom nav bar dont show whats selected
+```
+valCurrentRoute: String = nav.currentBackStackEntry?.destination?.route ?: ""
+```
