@@ -89,3 +89,29 @@ Energy will be put to use to manufacture ATP
 	- ***Oxygen***
 - for every 2 e- carriers (4 electrons), one 02 is reduced to 2H2O
 - where does the lost free energy go? (not just heat!)
+
+# ATP synthase
+ATP synthesis carried out by a tiny rotary motor driven by proton gradient
+2 subportions of ATP synthase complex:
+	F0 membrane-bound complex
+	F1 complex (stalk and knob) has enzymatic activity.
+Protons travel through F0 channel, which causes F0 to rotate
+Mechanical energy changes confirmation of catalytic domain in F1
+![[Pasted image 20241018094525.png]]
+
+# Chemiosmosis
+- Accumulation of protons in the *intermembrane space* drives protons into the matrix via diffusion, but this occurs slowly since the membrane is relatively impermeable to ions
+- most protons can only reenter matrix thru ATP synthase
+	- Uses energy of gradient to make ATP from ATP + Pi
+	- Process called chemiosmosis
+
+# Energy Yield of Respiration
+theoretical energy yield
+	32 ATP/glucose for bacteria
+	30 ATP/glucose for eukaryotes
+P/O ratio (phosphate-to-oxygen ratio) is the amount of ATP synthesized per O2 molecule
+Theoretical and direct calculation of P/O has been contentious and has changed over time
+
+![[Pasted image 20241018094915.png]]
+![[Pasted image 20241018094954.png]]
+![[Pasted image 20241018095007.png]]
