@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM5/COSC350/Day 17.md",
+                "file": "SEM4/COSC290/Lab 1.md 1/Lab 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Day 17"
+              "title": "Lab 1"
             }
           }
         ]
@@ -95,8 +95,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 307.01103591918945,
-    "collapsed": true
+    "width": 307.01103591918945
   },
   "right": {
     "id": "21dd14f10bbbecf3",
@@ -206,6 +205,15 @@
   },
   "active": "91a72b9ddbed704e",
   "lastOpenFiles": [
+    "SEM4/COSC290/Lab 10.md 1/Lab 10.md",
+    "SEM4/COSC290/Lab 10.md 1/Exported image 20240525213137-3.png",
+    "SEM4/COSC290/Lab 10.md 1/Exported image 20240525213137-0.png",
+    "SEM5/BIOL200/Day 18.md",
+    "Excalidraw/Drawing 2024-10-22 11.18.16.excalidraw.md",
+    "SEM5/BIOL200/Day 20 (Exam 3 Content).md",
+    "SEM5/BIOL200/Day 19.md",
+    "SEM5/BIOL200/Day 21.md",
+    "SEM5/COSC350/Day 17.md",
     "Pasted image 20241022102935.png",
     "Pasted image 20241022102418.png",
     "Pasted image 20241022102317.png",
@@ -214,15 +222,7 @@
     "Pasted image 20241022100837.png",
     "Pasted image 20241022100704.png",
     "Pasted image 20241022100511.png",
-    "Pasted image 20241022095225.png",
-    "Pasted image 20241022094925.png",
-    "Pasted image 20241022094555.png",
-    "SEM5/COSC350/Day 17.md",
-    "SEM5/BIOL200/Day 20 (Exam 3 Content).md",
     "SEM5/COSC435/Day 8.md",
-    "SEM5/BIOL200/Day 21.md",
-    "SEM5/BIOL200/Day 18.md",
-    "SEM5/BIOL200/Day 19.md",
     "SEM5/BIOL200/Ch 7 F23 Cellular Respiration, Fermentation & ETC.pptx",
     "SEM5/BIOL200/Unconfirmed 121527.crdownload",
     "SEM5/COSC350/Day 16.md",
@@ -250,7 +250,6 @@
     "Excalidraw/Drawing 2024-10-11 09.32.53.excalidraw.md",
     "SEM5/COSC350/Day 14.md",
     "SEM5/COSC350/Day 13.md",
-    "Excalidraw/Drawing 2024-10-09 09.08.33.excalidraw.md",
-    "Excalidraw/Drawing 2024-10-09 09.06.13.excalidraw.md"
+    "Excalidraw/Drawing 2024-10-09 09.08.33.excalidraw.md"
   ]
 }
