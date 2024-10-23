@@ -11,15 +11,32 @@
             "id": "91a72b9ddbed704e",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "SEM5/COSC350/Computer Networks and Internets 6E Comer.pdf"
+                "file": "SEM5/BIOL200/Day 21.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Computer Networks and Internets 6E Comer"
+              "icon": "lucide-file",
+              "title": "Day 21"
+            }
+          },
+          {
+            "id": "f11bc87627b8321d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SEM5/BIOL200/Day 23.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Day 23"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -201,8 +218,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "91a72b9ddbed704e",
+  "active": "f11bc87627b8321d",
   "lastOpenFiles": [
+    "SEM5/BIOL200/Exam 2 Slides/Chapter 8 - Photosynthesis F24 (1).pptx",
+    "SEM5/BIOL200/Exam 2 Slides/Unconfirmed 839179.crdownload",
+    "SEM5/BIOL200/Day 21.md",
+    "SEM5/BIOL200/Day 23.md",
+    "SEM5/COSC350/Computer Networks and Internets 6E Comer.pdf",
     "Media/Pasted image 20241021192503.png",
     "SEM4/COSC290/Lab 1.md 1/Lab 1.md",
     "SEM4/COSC290/Lab 10.md 1/Lab 10.md",
@@ -212,7 +234,6 @@
     "Excalidraw/Drawing 2024-10-22 11.18.16.excalidraw.md",
     "SEM5/BIOL200/Day 20 (Exam 3 Content).md",
     "SEM5/BIOL200/Day 19.md",
-    "SEM5/BIOL200/Day 21.md",
     "SEM5/COSC350/Day 17.md",
     "Media/Pasted image 20241022102935.png",
     "Media/Pasted image 20241022102418.png",
@@ -221,7 +242,6 @@
     "Media/Pasted image 20241022100938.png",
     "Media/Pasted image 20241022100837.png",
     "Media/Pasted image 20241022100704.png",
-    "Media/Pasted image 20241022100511.png",
     "SEM5/COSC435/Day 8.md",
     "SEM5/BIOL200/Ch 7 F23 Cellular Respiration, Fermentation & ETC.pptx",
     "SEM5/BIOL200/Unconfirmed 121527.crdownload",
@@ -235,8 +255,6 @@
     "SEM5/MATH330/Lecture notes (Math330Notes)/Chapter 6.pdf",
     "SEM5/MATH330/Lecture notes (Math330Notes)/Chapter 5 Notes.pdf",
     "SEM5/MATH330/Lecture notes (Math330Notes)/Chapter 3 Notes.pdf",
-    "SEM5/MATH330/Lecture notes (Math330Notes)/Chapter 2 Notes.pdf",
-    "SEM5/MATH330/Lecture notes (Math330Notes)/Chapter 1 Notes.pdf",
     "SEM5/MATH330/Day 1 (README).md",
     "SEM5/COSC350/Day 12 (Exam 2 Content).md",
     "SEM5/BIOL200/Day 11 (Exam 2 Content).md",
@@ -247,7 +265,6 @@
     "SEM5/COSC435/Day 2.md",
     "SEM5/COSC435/Day 3.md",
     "SEM5/COSC435/Day 4.md",
-    "Excalidraw/Drawing 2024-10-11 09.32.53.excalidraw.md",
-    "SEM5/COSC350/Day 14.md"
+    "Excalidraw/Drawing 2024-10-11 09.32.53.excalidraw.md"
   ]
 }
