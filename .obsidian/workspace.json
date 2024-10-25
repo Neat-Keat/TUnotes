@@ -25,14 +25,12 @@
             "id": "f11bc87627b8321d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "SEM5/BIOL200/Day 23.md",
-                "mode": "source",
-                "source": false
+                "file": "SEM5/MATH330/Probability and Statistics for Engineers and Scientists 4th Edition.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Day 23"
+              "icon": "lucide-file-text",
+              "title": "Probability and Statistics for Engineers and Scientists 4th Edition"
             }
           }
         ],
@@ -110,8 +108,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 307.01103591918945,
-    "collapsed": true
+    "width": 307.01103591918945
   },
   "right": {
     "id": "21dd14f10bbbecf3",
@@ -221,6 +218,7 @@
   },
   "active": "f11bc87627b8321d",
   "lastOpenFiles": [
+    "SEM5/BIOL200/Day 23.md",
     "Pasted image 20241023094645.png",
     "Pasted image 20241023094504.png",
     "Pasted image 20241023092751.png",
@@ -233,12 +231,10 @@
     "SEM5/BIOL200/Exam 2 Slides/Chapter 8 - Photosynthesis F24 (1).pptx",
     "SEM5/BIOL200/Exam 2 Slides/Unconfirmed 839179.crdownload",
     "SEM5/BIOL200/Day 21.md",
-    "SEM5/BIOL200/Day 23.md",
     "SEM5/COSC350/Computer Networks and Internets 6E Comer.pdf",
     "Media/Pasted image 20241021192503.png",
     "SEM4/COSC290/Lab 1.md 1/Lab 1.md",
     "SEM4/COSC290/Lab 10.md 1/Lab 10.md",
-    "SEM4/COSC290/Lab 10.md 1/Exported image 20240525213137-3.png",
     "SEM5/BIOL200/Day 18.md",
     "Excalidraw/Drawing 2024-10-22 11.18.16.excalidraw.md",
     "SEM5/BIOL200/Day 20 (Exam 3 Content).md",
