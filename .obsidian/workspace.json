@@ -20,6 +20,7 @@
               "icon": "lucide-file",
               "title": "Day 21"
             }
+<<<<<<< HEAD
           },
           {
             "id": "f11bc87627b8321d",
@@ -46,9 +47,11 @@
               "icon": "lucide-file",
               "title": "Day 23"
             }
+=======
+>>>>>>> 8341468ffe6f2e0b3053e30b0b3e8afe90397836
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -230,12 +233,27 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
+<<<<<<< HEAD
   "active": "33fb004789089a92",
   "lastOpenFiles": [
     "SEM5/BIOL200/Day 21.md",
     "conflict-files-obsidian-git.md",
     "SEM5/MATH330/Probability and Statistics for Engineers and Scientists 4th Edition.pdf",
     "Media/Pasted image 20241023094645.png",
+=======
+  "active": "0cdf3a3e649fcb09",
+  "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "SEM5/BIOL200/Day 21.md",
+    "Media/Pasted image 20241023094645.png",
+    "SEM5/COSC435/Day 8.md",
+    "SEM5/COSC350/Powerpoints/Wireless_Networking_Technologies.pptx",
+    "SEM5/COSC350/Day 17.md",
+    "SEM5/COSC350/Day 16.md",
+    "SEM5/BIOL200/Exam 2 Slides/Chapter 8 - Photosynthesis F24 (1).pptx",
+    "SEM5/BIOL200/Exam 2 Slides/Ch 7 F23 Cellular Respiration, Fermentation & ETC.pptx",
+    "SEM5/BIOL200/Day 23.md",
+>>>>>>> 8341468ffe6f2e0b3053e30b0b3e8afe90397836
     "Media/Pasted image 20241023094504.png",
     "Media/Pasted image 20241023092751.png",
     "Media/Pasted image 20241023092449.png",
@@ -244,11 +262,18 @@
     "Media/Pasted image 20241023091519.png",
     "Media/Pasted image 20241023091345.png",
     "Media/Pasted image 20241023091139.png",
+<<<<<<< HEAD
     "Media/Pasted image 20241022235546.png",
     "Excalidraw/Day 13.md",
     "SEM5/BIOL200/Day 23.md",
     "SEM5/BIOL200/Exam 2 Slides/Chapter 8 - Photosynthesis F24 (1).pptx",
     "SEM5/BIOL200/Exam 2 Slides/Unconfirmed 839179.crdownload",
+=======
+    "Media/Pasted image 20241022102935.png",
+    "Excalidraw/Drawing 2024-10-22 11.18.16.excalidraw.md",
+    "Excalidraw/Drawing 2024-10-17 09.59.37.excalidraw.md",
+    "Tasks.md",
+>>>>>>> 8341468ffe6f2e0b3053e30b0b3e8afe90397836
     "SEM5/COSC350/Computer Networks and Internets 6E Comer.pdf",
     "SEM4/COSC290/Lab 1.md 1/Lab 1.md",
     "SEM4/COSC290/Lab 10.md 1/Lab 10.md",
