@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Day 6"
             }
+          },
+          {
+            "id": "dc4d3419dc4508a9",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Media/Pasted image 20241028090503.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20241028090503"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -174,11 +187,24 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d6cd3b47055f72a8",
+  "active": "eda16eee710471a5",
   "lastOpenFiles": [
+    "SEM5/BIOL200/Day 24 (NOT on Quiz!!).md",
+    "Media/Pasted image 20241028094612.png",
+    "Media/Pasted image 20241028094437.png",
+    "Media/Pasted image 20241028094258.png",
+    "Media/Pasted image 20241028094256.png",
+    "Media/Pasted image 20241028093953.png",
+    "Media/Pasted image 20241028093804.png",
+    "Media/Pasted image 20241028093753.png",
+    "Media/Pasted image 20241028093524.png",
+    "Media/Pasted image 20241028092550.png",
+    "Media/Pasted image 20241028092423.png",
+    "SEM5/BIOL200/Exam 2 Slides/Ch 9 F24 Cell Communication.pptx",
+    "SEM5/BIOL200/Exam 2 Slides/Unconfirmed 377624.crdownload",
+    "SEM5/COSC435/Day 6.md",
     "SEM5/COSC435/Day 5.md",
     "SEM5/COSC435/Day 7.md",
-    "SEM5/COSC435/Day 6.md",
     "SEM5/COSC435/Day 3.md",
     "SEM5/COSC435/Day 4.md",
     "SEM5/COSC435/Day 8.md",
@@ -191,11 +217,6 @@
     "SEM5/COSC435/week07/libs/styles/tasklist.css",
     "SEM5/COSC435/week07/libs/styles/layout.css",
     "SEM5/COSC435/week07/libs/styles/iota.css",
-    "SEM5/COSC435/week07/libs/styles",
-    "SEM5/COSC435/week07/libs/reveal.js/4.3.1/plugin/search/search.js",
-    "SEM5/COSC435/week06/activity_lifecycle.png",
-    "SEM5/COSC435/week04/lifecycle-composition.png",
-    "SEM5/COSC435/lifecycle-composition.png",
     "SEM5/COSC435/Day 2.md",
     "SEM5/COSC435/Day 1.md"
   ]
