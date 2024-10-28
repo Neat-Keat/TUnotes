@@ -25,12 +25,12 @@
             "id": "dc4d3419dc4508a9",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "pdf",
               "state": {
-                "file": "Media/Pasted image 20241028090503.png"
+                "file": "SEM5/MATH330/Lecture notes (Math330Notes)/Chapter 8 Notes(1).pdf"
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20241028090503"
+              "icon": "lucide-file-text",
+              "title": "Chapter 8 Notes(1)"
             }
           }
         ],
@@ -187,8 +187,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "eda16eee710471a5",
+  "active": "dc4d3419dc4508a9",
   "lastOpenFiles": [
+    "SEM5/COSC350/Day 17.md",
+    "SEM5/MATH330/Lecture notes (Math330Notes)/Chapter 8 Notes(1).pdf",
+    "SEM5/COSC435/Day 6.md",
+    "Media/Pasted image 20241028090503.png",
+    "SEM5/MATH330/Lecture notes (Math330Notes)/Chapter 8 Notes(1).pdf.crdownload",
     "SEM5/BIOL200/Day 24 (NOT on Quiz!!).md",
     "Media/Pasted image 20241028094612.png",
     "Media/Pasted image 20241028094437.png",
@@ -199,10 +204,8 @@
     "Media/Pasted image 20241028093753.png",
     "Media/Pasted image 20241028093524.png",
     "Media/Pasted image 20241028092550.png",
-    "Media/Pasted image 20241028092423.png",
     "SEM5/BIOL200/Exam 2 Slides/Ch 9 F24 Cell Communication.pptx",
     "SEM5/BIOL200/Exam 2 Slides/Unconfirmed 377624.crdownload",
-    "SEM5/COSC435/Day 6.md",
     "SEM5/COSC435/Day 5.md",
     "SEM5/COSC435/Day 7.md",
     "SEM5/COSC435/Day 3.md",
@@ -215,8 +218,6 @@
     "SEM5/COSC435/week07/libs/highlight.js/11.3.1",
     "SEM5/COSC435/week07/libs/highlight.js",
     "SEM5/COSC435/week07/libs/styles/tasklist.css",
-    "SEM5/COSC435/week07/libs/styles/layout.css",
-    "SEM5/COSC435/week07/libs/styles/iota.css",
     "SEM5/COSC435/Day 2.md",
     "SEM5/COSC435/Day 1.md"
   ]
