@@ -146,7 +146,7 @@ they are important because
 	*ViewModels survive configuration changes*
 
 Declare:
-```
+``` Kotlin
 class MyViewModel : ViewModel() {
 	private val _name: MutableState<String> = mutableStateOf("")
 	val name: State<String> = _name //only expose immutable params
@@ -159,14 +159,14 @@ class MyViewModel : ViewModel() {
 ```
 
 ie at the bottom of your code:
-```
+``` Kotlin
 class MyViewModel : ViewModel() {
 	val name: MutableState<String> = mutableStateOf("")
 }
 ```
 then at the top:
 
-```
+``` Kotlin
 Scaffold(){
 	val vm: MyViewModel by viewModels<MyViewModel>()
 	Greeting(
@@ -180,10 +180,10 @@ put ALL state into it's screen's VM basically (there ARE a few exceptions)
 
 Use
 Important: You can on use the viewModels() function inside an Activity
-```
+``` Kotlin
 override fun OnCreate(...) {
 	setContent {
-		vam vm: MyViewModel by viewModels()
+		vm vm: MyViewModel by viewModels()
 		...
 		MainScreen(
 			vm,
@@ -199,7 +199,7 @@ Best Practice
 - only access ViewModels at the top of your Composable/...\
 - one view model per screen
 
-```
+``` Kotlin
 @Composable
 fun Main() {
 	val vm: MyViewModel by viewModels()
