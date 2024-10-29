@@ -1,5 +1,5 @@
-- [ ] COSC350 assign tasks (tonight)
-- [ ] bio lecture quiz (10/20)
-- [ ] COSC435 record demo (10/17)
+- [ ] 
+- [ ] 
+- [ ] 
 - [ ] Cosc435 work on project (ongoing)
-- [ ] make bio lab pptx
+- [ ] 
