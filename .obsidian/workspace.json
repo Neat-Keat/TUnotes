@@ -8,47 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d6cd3b47055f72a8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SEM5/COSC435/Day 6.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Day 6"
-            }
-          },
-          {
-            "id": "dc4d3419dc4508a9",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "SEM5/MATH330/Lecture notes (Math330Notes)/Chapter 8 Notes(1).pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Chapter 8 Notes(1)"
-            }
-          },
-          {
             "id": "3fd1bf2b9163cecb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM5/COSC435/Day 9.md",
+                "file": "Tasks.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Day 9"
+              "title": "Tasks"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -120,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SEM5/COSC435/Day 6.md",
+                "file": "Tasks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Day 6"
+              "title": "Backlinks for Tasks"
             }
           },
           {
@@ -203,11 +176,12 @@
   },
   "active": "3fd1bf2b9163cecb",
   "lastOpenFiles": [
-    "SEM5/COSC435/Day 8.md",
+    "Media/Pasted image 20241028195548.png",
     "SEM5/COSC435/Day 9.md",
-    "SEM5/MATH330/Lecture notes (Math330Notes)/Chapter 8 Notes(1).pdf",
-    "SEM5/COSC350/Day 17.md",
     "SEM5/COSC435/Day 6.md",
+    "SEM5/MATH330/Lecture notes (Math330Notes)/Chapter 8 Notes(1).pdf",
+    "SEM5/COSC435/Day 8.md",
+    "SEM5/COSC350/Day 17.md",
     "Media/Pasted image 20241028090503.png",
     "SEM5/MATH330/Lecture notes (Math330Notes)/Chapter 8 Notes(1).pdf.crdownload",
     "SEM5/BIOL200/Day 24 (NOT on Quiz!!).md",
@@ -219,7 +193,6 @@
     "Media/Pasted image 20241028093804.png",
     "Media/Pasted image 20241028093753.png",
     "Media/Pasted image 20241028093524.png",
-    "Media/Pasted image 20241028092550.png",
     "SEM5/BIOL200/Exam 2 Slides/Ch 9 F24 Cell Communication.pptx",
     "SEM5/BIOL200/Exam 2 Slides/Unconfirmed 377624.crdownload",
     "SEM5/COSC435/Day 5.md",
