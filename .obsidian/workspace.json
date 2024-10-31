@@ -11,10 +11,12 @@
             "id": "d845cf8591ea4636",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "pdf",
+              "state": {
+                "file": "SEM5/MATH330/Probability and Statistics for Engineers and Scientists 4th Edition.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Probability and Statistics for Engineers and Scientists 4th Edition"
             }
           }
         ]
