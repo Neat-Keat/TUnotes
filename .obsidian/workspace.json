@@ -25,16 +25,32 @@
             "id": "b4a6ba820088a5ae",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "SEM5/BIOL200/Syllabus BIOL200 F24 CW.pdf"
+                "file": "SEM5/COSC350/Day 17.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Syllabus BIOL200 F24 CW"
+              "icon": "lucide-file",
+              "title": "Day 17"
+            }
+          },
+          {
+            "id": "c652be26432f689a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SEM5/BIOL200/Day 25.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Day 25"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -90,7 +106,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "9febab03c44f5ff6",
@@ -167,8 +184,19 @@
               "icon": "calendar-with-checkmark",
               "title": "Calendar"
             }
+          },
+          {
+            "id": "715c56afec27d2df",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -187,31 +215,36 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b4a6ba820088a5ae",
+  "active": "c652be26432f689a",
   "lastOpenFiles": [
+    "Pasted image 20241030094508.png",
+    "Pasted image 20241030094504.png",
+    "Pasted image 20241030094453.png",
+    "Pasted image 20241030092924.png",
+    "Pasted image 20241030092245.png",
+    "Pasted image 20241030092141.png",
+    "Pasted image 20241030091742.png",
+    "Pasted image 20241030091554.png",
+    "Pasted image 20241030090814.png",
+    "Pasted image 20241030090804.png",
+    "Pasted image 20241030090556.png",
+    "SEM5/BIOL200/Day 24.md",
+    "SEM5/BIOL200/Chapter 10 Mitosis and Cell Division F24.pptx",
+    "SEM5/BIOL200/Unconfirmed 298414.crdownload",
+    "SEM5/BIOL200/Day 25.md",
+    "SEM5/COSC350/Day 17.md",
+    "SEM5/BIOL200/Syllabus BIOL200 F24 CW.pdf",
     "SEM5/BIOL200/Day 23.md",
     "SEM5/BIOL200/Day 21.md",
     "SEM5/BIOL200/Day 20 (Exam 3 Content).md",
     "SEM5/BIOL200/Day 19.md",
     "Tasks.md",
     "conflict-files-obsidian-git.md",
-    "Media/Pasted image 20241028195548.png",
     "SEM5/COSC435/Day 9.md",
     "SEM5/COSC435/Day 6.md",
     "SEM5/MATH330/Lecture notes (Math330Notes)/Chapter 8 Notes(1).pdf",
     "SEM5/COSC435/Day 8.md",
-    "SEM5/COSC350/Day 17.md",
-    "Media/Pasted image 20241028090503.png",
     "SEM5/MATH330/Lecture notes (Math330Notes)/Chapter 8 Notes(1).pdf.crdownload",
-    "SEM5/BIOL200/Day 24 (NOT on Quiz!!).md",
-    "Media/Pasted image 20241028094612.png",
-    "Media/Pasted image 20241028094437.png",
-    "Media/Pasted image 20241028094258.png",
-    "Media/Pasted image 20241028094256.png",
-    "Media/Pasted image 20241028093953.png",
-    "Media/Pasted image 20241028093804.png",
-    "Media/Pasted image 20241028093753.png",
-    "Media/Pasted image 20241028093524.png",
     "SEM5/BIOL200/Exam 2 Slides/Ch 9 F24 Cell Communication.pptx",
     "SEM5/BIOL200/Exam 2 Slides/Unconfirmed 377624.crdownload",
     "SEM5/COSC435/Day 5.md",
@@ -222,9 +255,6 @@
     "SEM5/COSC435/week07/index.html",
     "SEM5/COSC435/week07/libs/highlight.js/11.3.1/styles/atom-one-dark.min.css",
     "SEM5/COSC435/week07/libs/highlight.js/11.3.1/styles",
-    "SEM5/COSC435/week07/libs/highlight.js/11.3.1",
-    "SEM5/COSC435/week07/libs/highlight.js",
-    "SEM5/COSC435/week07/libs/styles/tasklist.css",
     "SEM5/COSC435/Day 2.md",
     "SEM5/COSC435/Day 1.md"
   ]
