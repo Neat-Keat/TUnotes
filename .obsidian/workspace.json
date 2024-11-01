@@ -8,15 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d845cf8591ea4636",
+            "id": "d7cee6ef1b09f5c6",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "SEM5/MATH330/Probability and Statistics for Engineers and Scientists 4th Edition.pdf"
+                "file": "Day 19.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Probability and Statistics for Engineers and Scientists 4th Edition"
+              "icon": "lucide-file",
+              "title": "Day 19"
             }
           }
         ]
@@ -108,7 +110,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 307.01103591918945
+    "width": 307.01103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "21dd14f10bbbecf3",
@@ -216,33 +219,35 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d845cf8591ea4636",
+  "active": "d7cee6ef1b09f5c6",
   "lastOpenFiles": [
+    "Pasted image 20241031105150.png",
+    "Pasted image 20241031104238.png",
+    "Pasted image 20241031103832.png",
+    "Pasted image 20241031103826.png",
+    "Pasted image 20241031103813.png",
+    "Pasted image 20241031103805.png",
+    "Pasted image 20241031103458.png",
+    "Pasted image 20241031103352.png",
+    "Pasted image 20241031103343.png",
+    "Pasted image 20241031103244.png",
+    "Pasted image 20241031103238.png",
+    "SEM5/COSC350/Powerpoints/~$WAN_and_Routing.pptx",
+    "SEM5/COSC350/Powerpoints/WAN_and_Routing.pptx",
+    "SEM5/COSC350/Powerpoints/Unconfirmed 490902.crdownload",
+    "SEM5/COSC350/Powerpoints/~$Wired_LAN_(IEEE802.3).pptx",
+    "SEM5/COSC350/Powerpoints/~$The_IEEE_MAC_Sub-Layer.pptx",
+    "SEM5/COSC350/Powerpoints/The_IEEE_MAC_Sub-Layer.pptx",
+    "SEM5/COSC350/Powerpoints/Unconfirmed 318298.crdownload",
+    "SEM5/COSC350/Powerpoints/~$LANs.pptx",
+    "SEM5/COSC350/Powerpoints/~$Extending_LANs.pptx",
+    "Day 19.md",
+    "SEM5/MATH330/Probability and Statistics for Engineers and Scientists 4th Edition.pdf",
     "conflict-files-obsidian-git.md",
     "SEM5/COSC350/Day 18.md",
-    "SEM5/MATH330/Math 330 Formulas.pdf",
-    "SEM5/MATH330/St Normal Table.pdf",
     "Tasks.md",
-    "Media/Pasted image 20241029095027.png",
-    "Media/Pasted image 20241028195548.png",
-    "Media/Pasted image 20241029102307.png",
-    "Media/Pasted image 20241029102305.png",
-    "Media/Pasted image 20241029101425.png",
-    "Media/Pasted image 20241029101225.png",
-    "Media/Pasted image 20241029100847.png",
-    "Media/Pasted image 20241029100612.png",
-    "Media/Pasted image 20241029095957.png",
-    "Media/Pasted image 20241029095858.png",
-    "SEM5/COSC350/Powerpoints/~$Extending_LANs.pptx",
-    "SEM5/COSC350/Powerpoints/Extending_LANs.pptx",
-    "SEM5/COSC350/Powerpoints/Unconfirmed 335256.crdownload",
-    "SEM5/MATH330/Lecture notes (Math330Notes)/Chapter 8 Notes(1).pdf",
     "SEM5/COSC435/Day 9.md",
-    "SEM5/BIOL200/Exam 2 Slides/Ch 9 F24 Cell Communication.pptx",
     "SEM5/BIOL200/Day 24 (NOT on Quiz!!).md",
-    "SEM5/COSC435/week07/libs/reveal.js/4.3.1/plugin/anything/d3/topojson.v1.min.js",
-    "SEM5/COSC435/week07/libs/reveal.js/4.3.1/plugin/anything/d3/queue.v1.min.js",
-    "SEM5/COSC435/week07/libs/reveal.js/4.3.1/plugin/anything/d3/d3.v3.min.js",
     "SEM5/BIOL200/Day 23.md",
     "SEM5/BIOL200/Day 21.md",
     "SEM5/COSC435/Day 8.md",
@@ -261,7 +266,6 @@
     "SEM4/COSC290/Day 9 1.md/Day 9.md",
     "SEM5/COSC350/Day 15.md",
     "SEM5/COSC435/Day 6.md",
-    "SEM5/COSC435/Day 1.md",
-    "SEM5/COSC435/Day 2.md"
+    "SEM5/COSC435/Day 1.md"
   ]
 }
