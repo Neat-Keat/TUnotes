@@ -1,4 +1,4 @@
-where we are:
+here we are:
 - lots of content to cover
 - stuff on BB is rearranged
 	- everything related to lecture is under course content
