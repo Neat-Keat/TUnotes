@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Day 19.md",
+                "file": "SEM5/COSC435/Day 2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Day 19"
+              "title": "Day 2"
             }
           }
         ]
@@ -110,8 +110,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 307.01103591918945,
-    "collapsed": true
+    "width": 307.01103591918945
   },
   "right": {
     "id": "21dd14f10bbbecf3",
@@ -221,17 +220,21 @@
   },
   "active": "d7cee6ef1b09f5c6",
   "lastOpenFiles": [
-    "Pasted image 20241031105150.png",
-    "Pasted image 20241031104238.png",
-    "Pasted image 20241031103832.png",
-    "Pasted image 20241031103826.png",
-    "Pasted image 20241031103813.png",
-    "Pasted image 20241031103805.png",
-    "Pasted image 20241031103458.png",
-    "Pasted image 20241031103352.png",
-    "Pasted image 20241031103343.png",
-    "Pasted image 20241031103244.png",
-    "Pasted image 20241031103238.png",
+    "SEM5/COSC435/Day 1.md",
+    "SEM5/COSC435/Day 3.md",
+    "SEM5/COSC435/Day 2.md",
+    "SEM5/COSC435/Day 9.md",
+    "Media/Pasted image 20241031105150.png",
+    "Day 19.md",
+    "Media/Pasted image 20241031104238.png",
+    "Media/Pasted image 20241031103832.png",
+    "Media/Pasted image 20241031103826.png",
+    "Media/Pasted image 20241031103813.png",
+    "Media/Pasted image 20241031103805.png",
+    "Media/Pasted image 20241031103458.png",
+    "Media/Pasted image 20241031103352.png",
+    "Media/Pasted image 20241031103343.png",
+    "Media/Pasted image 20241031103244.png",
     "SEM5/COSC350/Powerpoints/~$WAN_and_Routing.pptx",
     "SEM5/COSC350/Powerpoints/WAN_and_Routing.pptx",
     "SEM5/COSC350/Powerpoints/Unconfirmed 490902.crdownload",
@@ -241,12 +244,10 @@
     "SEM5/COSC350/Powerpoints/Unconfirmed 318298.crdownload",
     "SEM5/COSC350/Powerpoints/~$LANs.pptx",
     "SEM5/COSC350/Powerpoints/~$Extending_LANs.pptx",
-    "Day 19.md",
     "SEM5/MATH330/Probability and Statistics for Engineers and Scientists 4th Edition.pdf",
     "conflict-files-obsidian-git.md",
     "SEM5/COSC350/Day 18.md",
     "Tasks.md",
-    "SEM5/COSC435/Day 9.md",
     "SEM5/BIOL200/Day 24 (NOT on Quiz!!).md",
     "SEM5/BIOL200/Day 23.md",
     "SEM5/BIOL200/Day 21.md",
@@ -264,8 +265,6 @@
     "SEM5/BIOL200/Day 11 (Exam 2 Content).md",
     "SEM5/COSC435/Day 7.md",
     "SEM4/COSC290/Day 9 1.md/Day 9.md",
-    "SEM5/COSC350/Day 15.md",
-    "SEM5/COSC435/Day 6.md",
-    "SEM5/COSC435/Day 1.md"
+    "SEM5/COSC350/Day 15.md"
   ]
 }
