@@ -82,3 +82,95 @@ After Processing D(min)
 | $\pi$ (previous node) | NiL | S   | a   | a   | c   |
 note that from here, going through the rest of D(min) doesn't change the graph, but you should do it for completeness's sake
 
+# Distance metrics
+- weights on graph edges reflect "cost" of traversing edge
+	- time (delay)
+	- cost
+	- hop count (weight = 1 )
+- resulting shortest path may not have fewest hops
+![[Pasted image 20241105101211.png]]
+
+# Dynamic route computation
+- Network topology may change dynamically
+	- switches may be added
+	- connections may fail
+	- costs for connections may change
+- switches must update routing tables based on topology changes
+
+# Distributed route computation
+- pass information about network topology between nodes
+- update information periodically
+- each node recomputes shortest paths and next hops
+- inject changes into routing tables
+
+# Distance-vector Routing (DVR)
+- knowledge about the whole network:
+	- each packet switch(router) sends out information about the entire network (whatever it has)
+- routing only to neighbors
+	- DVR messages are not broadcast
+	- sends out information only to the packet switches that have direct link
+- Information sharing at regular intervals
+	- sharing occurs whether or not the network has changed
+
+# Link-state Routing
+- Knowledge about the neighborhood
+	- each packet switch sends out information about its neighborhood only
+- to all packet switches
+	- sends information to every other packet switch on the internet (flooding)
+- information sharing when there is a change
+	- sends out information only when there is a change
+
+# Comparison
+- Distance-vector algorithm
+	- very simple to implement
+	- may have convergence problems
+	- used in *RIP* (routing information protocol)
+- Link-state algorithm
+	- much more complex
+	- switches perform independent computations
+	- Used in *OSPF* (open shortest path first)
+
+![[Pasted image 20241105102013.png]]
+
+# Routing Problems
+- Most practical routing mechanisms contains constraints and *heuristics* to prevent problems like routing loops
+- some solutions:
+	- DVR schemes employ *split horizon* (preventing routing loop)
+		- a switch does not send information back to its origin
+	- most practical routing systems introduce *hysteresis*
+		- prevents the software from making many changes in a short time
+- However, in a large network where many links fail and recover frequently, routing problems can occur
+
+![[Pasted image 20241105102427.png]]
+![[Pasted image 20241105102435.png]]
+note that gigabit ethernet needs to disable CSMA/CD bc there will def be collisions on such a long cable
+
+#MEMORIZE 
+> "Extremely important!"
+![[Pasted image 20241105102443.png]]
+
+know the difference between IP routing and MPLS routing
+# Summary
+- WAN can span aribitrary distances and interconnect arbitrarily many computers
+- uses packet switches and point-to-point connections
+- packets switches use store-and-forward and routing tables to deliver packets to destination
+- WANs use hierarchical addressing (2 part address)
+- graph algorithms can be used to compute routing tables
+- two basic routing algorithm
+	- distance vector
+	- link state
+
+---------
+
+previous chapter:
+	we talked about bridges
+		when you connect 2 collision domains, the bridge filters a lot
+		whats important is the source address
+			bridges learn the source address
+
+on the study guide:
+	its posted!!
+	go read it!!
+
+essay Q material:
+	djikstra algorithm lol
