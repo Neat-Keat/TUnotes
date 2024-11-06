@@ -206,7 +206,7 @@ Questions!
 	d. Labrador retriever
 	e. none of the above
 
-16. What happens to the electron's energy as it moves thru the ETF?
+16. What happens to the electron's energy as it moves thru the ETC?
 	a. the electrons gain energy thru each transfer
 	*b. the electrons lose energy thru each transfer*
 	c. the energy content is unchanged
