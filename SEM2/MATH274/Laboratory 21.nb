@@ -1,0 +1,1048 @@
+(* Content-type: application/mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 6.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       145,          7]
+NotebookDataLength[     29017,       1039]
+NotebookOptionsPosition[     25916,        935]
+NotebookOutlinePosition[     27320,        985]
+CellTagsIndexPosition[     27277,        982]
+WindowTitle->FullFileName
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["\<\
+Laboratory 21
+Arc Length and Surfaces of Revolution\
+\>", "Title",
+ CellChangeTimes->{{3.4402463173330383`*^9, 3.4402463185049133`*^9}, 
+   3.544208329539608*^9},
+ TextAlignment->Center,
+ TextJustification->0,
+ FontSize->24],
+
+Cell[CellGroupData[{
+
+Cell["Introduction", "Section",
+ FontSize->18],
+
+Cell[TextData[{
+ "Given a function ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"y", "=", 
+    RowBox[{"f", "(", "x", ")"}]}], TraditionalForm]]],
+ ", ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"a", "\[LessEqual]", "x", "\[LessEqual]", "b"}], TraditionalForm]]],
+ ", we see how to find the length of the curve from ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"(", 
+    RowBox[{"a", ",", 
+     RowBox[{"f", "(", "a", ")"}]}], ")"}], TraditionalForm]]],
+ " to ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"(", 
+    RowBox[{"b", ",", 
+     RowBox[{"f", "(", "b", ")"}]}], ")"}], TraditionalForm]]],
+ ". If this curve is revolved about an axis, it generates a surface of \
+revolution,  and we see how to find the resulting surface area."
+}], "Text",
+ CellChangeTimes->{3.544208354867141*^9},
+ TextJustification->1.]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["21.1 Arc Length", "Section",
+ CellChangeTimes->{
+  3.4402463044580383`*^9, {3.544208347730427*^9, 3.54420835036169*^9}},
+ FontSize->18],
+
+Cell[TextData[{
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " is particularly useful for finding the length of a curve determined by a \
+function ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"y", "=", 
+    RowBox[{"f", "(", "x", ")"}]}], TraditionalForm]]],
+ ". It can be shown that if ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"y", "=", 
+    RowBox[{"f", "(", "x", ")"}]}], TraditionalForm]]],
+ " is a differentiable function, then the length of the arc of the curve \
+determined by this function from  ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"x", "=", "a"}], TraditionalForm]]],
+ " to ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"x", "=", "b"}], TraditionalForm]]],
+ " is \n\t",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{
+     StyleBox[
+      SubsuperscriptBox["\[Integral]", "a", "b"],
+      ScriptLevel->0], 
+     RowBox[{
+      SqrtBox[
+       RowBox[{"1", "+", 
+        SuperscriptBox[
+         RowBox[{"(", 
+          RowBox[{"y", " ", "'"}], ")"}], "2"]}]], 
+      StyleBox["\[ThinSpace]",
+       ScriptLevel->0], 
+      StyleBox[
+       RowBox[{"\[DifferentialD]", "x"}],
+       ScriptLevel->0]}]}], 
+    StyleBox["=",
+     ScriptLevel->0], 
+    RowBox[{
+     StyleBox[
+      SubsuperscriptBox["\[Integral]", "a", "b"],
+      ScriptLevel->0], 
+     RowBox[{
+      SqrtBox[
+       RowBox[{"1", "+", 
+        SuperscriptBox[
+         RowBox[{"(", 
+          RowBox[{
+           RowBox[{"f", " ", "'"}], 
+           RowBox[{"(", "x", ")"}]}], ")"}], "2"]}]], 
+      StyleBox["\[ThinSpace]",
+       ScriptLevel->0], 
+      StyleBox[
+       RowBox[{"\[DifferentialD]", "x"}],
+       ScriptLevel->0]}]}]}], TraditionalForm]]],
+ ".\nOther than some special cases, such integrals are impossible to \
+calculate without using numerical methods, so that ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " is especially useful. Before we calculate arc lengths, let us evaluate \
+some integrals of the above type. We start with the function ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"y", "=", 
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{"2", "/", "3"}], ")"}], 
+     SuperscriptBox["x", 
+      RowBox[{"3", "/", "2"}]]}]}], TraditionalForm]]],
+ ", from ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"x", "=", "0"}], TraditionalForm]]],
+ " to ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"x", "=", "1"}], TraditionalForm]]],
+ ". The integral to be calculated is then ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    StyleBox[
+     SubsuperscriptBox["\[Integral]", "0", "1"],
+     ScriptLevel->0], 
+    RowBox[{
+     SqrtBox[
+      RowBox[{"1", "+", "x"}]], 
+     StyleBox["\[ThinSpace]",
+      ScriptLevel->0], 
+     StyleBox[
+      RowBox[{"\[DifferentialD]", "x"}],
+      ScriptLevel->0]}]}], TraditionalForm]]],
+ ", since ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"y", "'"}], "=", 
+    SuperscriptBox["x", 
+     RowBox[{"1", "/", "2"}]]}], TraditionalForm]]],
+ "."
+}], "Text",
+ CellChangeTimes->{
+  3.5442083579354477`*^9, {3.544208484547107*^9, 3.5442085000996623`*^9}},
+ TextJustification->1.],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Integrate", "[", 
+   RowBox[{
+    RowBox[{"Sqrt", "[", 
+     RowBox[{"1", "+", "x"}], "]"}], ",", "x"}], "]"}], " "}]], "Input"],
+
+Cell[TextData[{
+ "We see that the ",
+ StyleBox["Integrate", "Input"],
+ " command will find the anti-derivative when it exists. The actual value of \
+the arc length between ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"(", 
+    RowBox[{"0", ",", "0"}], ")"}], TraditionalForm]]],
+ " and ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"(", 
+    RowBox[{"1", ",", 
+     RowBox[{"2", "/", "3"}]}], ")"}], TraditionalForm]]],
+ " is then:"
+}], "Text",
+ CellChangeTimes->{
+  3.5442083597786317`*^9, {3.5442085203846908`*^9, 3.544208523432996*^9}},
+ TextJustification->1.],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Integrate", "[", 
+   RowBox[{
+    RowBox[{"Sqrt", "[", 
+     RowBox[{"1", "+", "x"}], "]"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"x", ",", "0", ",", "1"}], "}"}]}], "]"}], " "}]], "Input",
+ CellChangeTimes->{{3.544208532025855*^9, 3.5442085349861507`*^9}}],
+
+Cell[TextData[{
+ "Suppose we want to find the length of the arc of the sine curve ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"y", "=", 
+    RowBox[{"sin", " ", 
+     RowBox[{"(", "x", ")"}], " "}]}], TraditionalForm]]],
+ "from ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"(", 
+    RowBox[{"0", ",", "0"}], ")"}], TraditionalForm]]],
+ " to ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"(", 
+    RowBox[{"\[Pi]", ",", "0"}], ")"}], TraditionalForm]]],
+ ". "
+}], "Text",
+ CellChangeTimes->{3.5442083611707706`*^9},
+ TextJustification->1.],
+
+Cell[BoxData[{
+ RowBox[{"Clear", "[", "f", "]"}], "\n", 
+ RowBox[{
+  RowBox[{"f", "[", "x_", "]"}], " ", ":=", " ", 
+  RowBox[{"Sin", "[", "x", "]"}]}], "\n", 
+ RowBox[{"Plot", "[", 
+  RowBox[{
+   RowBox[{"f", "[", "x", "]"}], ",", " ", 
+   RowBox[{"{", 
+    RowBox[{"x", " ", ",", "0", ",", "  ", "Pi"}], "}"}], ",", " ", 
+   RowBox[{"PlotStyle", "\[Rule]", "Red"}]}], "]"}]}], "Input",
+ CellChangeTimes->{3.544208558474499*^9}],
+
+Cell[BoxData[
+ RowBox[{"Integrate", "[", 
+  RowBox[{
+   RowBox[{"Sqrt", "[", 
+    RowBox[{"1", "+", 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"f", "'"}], "[", "x", "]"}], ")"}], "^", "2"}]}], "]"}], ",", 
+   "x"}], "]"}]], "Input",
+ CellChangeTimes->{3.5442085656042123`*^9}],
+
+Cell[TextData[{
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " is not able to give a simple answer as no anti-derivative of ",
+ Cell[BoxData[
+  FormBox[
+   SqrtBox[
+    RowBox[{"1", "+", 
+     RowBox[{
+      SuperscriptBox["cos", "2"], "(", "x", ")"}]}]], TraditionalForm]]],
+ " in terms of elementary functions exists. However, ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " can give an approximate numerical value for the integral as follows:"
+}], "Text",
+ TextJustification->1.],
+
+Cell[BoxData[
+ RowBox[{"NIntegrate", "[", 
+  RowBox[{
+   RowBox[{"Sqrt", "[", 
+    RowBox[{"1", "+", 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"f", "'"}], "[", "x", "]"}], ")"}], "^", "2"}]}], "]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"x", ",", "0", ",", "Pi"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.5442085888365355`*^9, 3.544208592044856*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Experiment 21.1", "Section",
+ CellChangeTimes->{3.4402463057705383`*^9, 3.544208366938348*^9},
+ FontSize->18],
+
+Cell[TextData[{
+ "For each of the following curves ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"y", "=", 
+    RowBox[{"f", "(", "x", ")"}]}], TraditionalForm]]],
+ ", determine whether or not the integrand in the arc length expression has \
+an anti-derivative in terms of elementary functions. In each case determine a \
+numerical value for the arc length between the ",
+ Cell[BoxData[
+  FormBox["x", TraditionalForm]]],
+ "-values indicated.\t\n\t1.  ",
+ Cell[BoxData[
+  FormBox[
+   StyleBox[
+    RowBox[{
+     RowBox[{"f", "(", "x", ")"}], " ", "=", 
+     RowBox[{
+      FractionBox[
+       SuperscriptBox["x", "3"], "3"], "+", 
+      FractionBox["1", 
+       RowBox[{"4", "x"}]]}]}], "DisplayFormula"], TraditionalForm]]],
+ ",  ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"a", "=", "1"}], ",", " ", 
+    RowBox[{"b", "=", "2"}]}], TraditionalForm]]],
+ Cell[BoxData[
+  FormBox[".", TraditionalForm]]],
+ "\n\t2.  ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"f", "(", "x", ")"}], " ", "=", " ", 
+    SqrtBox[
+     RowBox[{"1", "-", 
+      SuperscriptBox["x", "2"]}]]}], TraditionalForm]]],
+ ", ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"a", "=", "0"}], TraditionalForm]]],
+ ", ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"b", "=", "1"}], TraditionalForm]]],
+ ".\n\t3. ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"f", "(", "x", ")"}], " ", "=", 
+    RowBox[{"arctan", " ", 
+     RowBox[{"(", "x", ")"}]}]}], TraditionalForm]]],
+ ", ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"a", "=", "0"}], TraditionalForm]]],
+ ", ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"b", "=", "1"}], TraditionalForm]]],
+ ".  \n\t4. ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{
+     RowBox[{"f", "(", "x", ")"}], "=", 
+     RowBox[{
+      RowBox[{"3", 
+       SuperscriptBox["x", "2"]}], "-", "1"}]}], ",", " ", 
+    RowBox[{"a", "=", "0"}], ",", " ", 
+    RowBox[{"b", "=", "1"}]}], TraditionalForm]]],
+ ".\n\t5. ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{
+     RowBox[{"f", "(", "x", ")"}], "=", 
+     RowBox[{"ln", "(", "x", ")"}]}], ",", " ", 
+    RowBox[{"a", "=", "1"}], ",", " ", 
+    RowBox[{"b", "=", "e"}]}], TraditionalForm]]],
+ "."
+}], "Text",
+ CellChangeTimes->{
+  3.5442083634109945`*^9, {3.5442086051741686`*^9, 3.5442086328329344`*^9}},
+ TextJustification->1.]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["21.2 Surfaces of Revolution  ", "Section",
+ CellChangeTimes->{
+  3.4402463073486633`*^9, {3.5442083716668205`*^9, 3.544208372914945*^9}},
+ FontSize->18],
+
+Cell[TextData[{
+ "If the function ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"y", "=", 
+    RowBox[{"f", "(", "x", ")"}]}], TraditionalForm]]],
+ " is rotated about a line, the surface area of the solid of revolution which \
+is formed is given by the formula:\n\t",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"S", "=", 
+    RowBox[{"2", "\[Pi]", 
+     RowBox[{
+      StyleBox[
+       SubsuperscriptBox["\[Integral]", "a", "b"],
+       ScriptLevel->0], 
+      RowBox[{
+       RowBox[{"r", "(", "x", ")"}], 
+       SqrtBox[
+        RowBox[{"1", "+", 
+         SuperscriptBox[
+          RowBox[{"(", 
+           RowBox[{
+            RowBox[{"f", " ", "'"}], 
+            RowBox[{"(", "x", ")"}]}], ")"}], "2"]}]], 
+       StyleBox["\[ThinSpace]",
+        ScriptLevel->0], 
+       StyleBox[
+        RowBox[{"\[DifferentialD]", "x"}],
+        ScriptLevel->0]}]}]}]}], TraditionalForm]]],
+ ",\nwhere ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"r", "(", "x", ")"}], TraditionalForm]]],
+ " is the distance between the graph of ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"f", "(", "x", ")"}], TraditionalForm]]],
+ " and the axis of revolution (so we require ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"r", "(", "x", ")"}], "\[GreaterEqual]", "0"}], TraditionalForm]]],
+ "). When the rotation is about the ",
+ Cell[BoxData[
+  FormBox["x", TraditionalForm]]],
+ "-axis, ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"r", "(", "x", ")"}], "=", 
+    RowBox[{"f", "(", "x", ")"}]}], TraditionalForm]]],
+ ", but when the rotation is about the ",
+ Cell[BoxData[
+  FormBox["y", TraditionalForm]]],
+ "-axis, ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"r", "(", "x", ")"}], "=", "x"}], TraditionalForm]]],
+ ". As an example, let us rotate ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"y", "=", 
+    RowBox[{"sin", " ", 
+     RowBox[{"(", "x", ")"}]}]}], TraditionalForm]]],
+ " about the ",
+ Cell[BoxData[
+  FormBox["x", TraditionalForm]]],
+ "-axis, between the lines ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"x", "=", "0"}], TraditionalForm]]],
+ ", and ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"x", "=", "\[Pi]"}], TraditionalForm]]],
+ ". In this case ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"r", "(", "x", ")"}], "=", 
+    RowBox[{"sin", " ", 
+     RowBox[{"(", "x", ")"}]}]}], TraditionalForm]]],
+ ". We can use the module ",
+ StyleBox["rev", "Input"],
+ " introduced in the lab on volumes of revolution, having calling parameters ",
+ Cell[BoxData[
+  FormBox["f", TraditionalForm]]],
+ ", ",
+ Cell[BoxData[
+  FormBox["a", TraditionalForm]]],
+ " and ",
+ Cell[BoxData[
+  FormBox["b", TraditionalForm]]],
+ ", to obtain an idea what the surface looks like."
+}], "Text",
+ CellChangeTimes->{{3.544208376731327*^9, 3.5442083797076244`*^9}, {
+  3.5442086500966606`*^9, 3.544208705505201*^9}},
+ TextJustification->1.],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"rev", "[", 
+   RowBox[{"f_", ",", "a_", ",", "b_"}], "]"}], ":=", 
+  RowBox[{"Module", "[", 
+   RowBox[{
+    RowBox[{"{", "t", "}"}], ",", "\[IndentingNewLine]", 
+    RowBox[{"ParametricPlot3D", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"x", ",", 
+        RowBox[{
+         RowBox[{"f", "[", "x", "]"}], " ", 
+         RowBox[{"Cos", "[", "t", "]"}]}], ",", " ", 
+        RowBox[{
+         RowBox[{"f", "[", "x", "]"}], " ", 
+         RowBox[{"Sin", "[", "t", "]"}]}]}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"x", ",", "a", ",", "b"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"t", ",", "0", ",", 
+        RowBox[{"2", "Pi"}]}], "}"}]}], "]"}]}], "]"}]}]], "Input",
+ CellChangeTimes->{
+  3.4402464660830383`*^9, {3.544208709930643*^9, 3.544208737138364*^9}}],
+
+Cell[BoxData[{
+ RowBox[{"Clear", "[", 
+  RowBox[{"f", ",", "x"}], "]"}], "\n", 
+ RowBox[{
+  RowBox[{"f", "[", "x_", "]"}], ":=", " ", 
+  RowBox[{"Sin", "[", "x", "]"}]}], "\n", 
+ RowBox[{"rev", "[", 
+  RowBox[{"f", ",", "0", ",", "Pi"}], "]"}]}], "Input",
+ CellChangeTimes->{3.5442087580414543`*^9}],
+
+Cell["The surface area is then:", "Text"],
+
+Cell[BoxData[
+ RowBox[{"Integrate", "[", 
+  RowBox[{
+   RowBox[{"2", "Pi", "*", 
+    RowBox[{"f", "[", "x", "]"}], "*", 
+    RowBox[{"Sqrt", "[", 
+     RowBox[{"1", "+", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"f", "'"}], "[", "x", "]"}], ")"}], "^", "2"}]}], "]"}]}], 
+   ",", 
+   RowBox[{"{", 
+    RowBox[{"x", ",", "0", ",", "Pi"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.5442087623468847`*^9, 3.5442087811557655`*^9}}],
+
+Cell["or rather:", "Text"],
+
+Cell[BoxData[
+ RowBox[{"NIntegrate", "[", 
+  RowBox[{
+   RowBox[{"2", "Pi", "*", 
+    RowBox[{"f", "[", "x", "]"}], "*", 
+    RowBox[{"Sqrt", "[", 
+     RowBox[{"1", "+", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"f", "'"}], "[", "x", "]"}], ")"}], "^", "2"}]}], "]"}]}], 
+   ",", 
+   RowBox[{"{", 
+    RowBox[{"x", ",", "0", ",", "Pi"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.5442087873313828`*^9, 3.544208796644314*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Experiment 21.2", "Section",
+ CellChangeTimes->{3.4402463085674133`*^9, 3.544208389899644*^9},
+ FontSize->18],
+
+Cell[TextData[{
+ "Find the surface area of the solid of revolution obtained when the part of \
+the curve ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"y", "=", 
+    RowBox[{"f", "(", "x", ")"}]}], TraditionalForm]]],
+ " between the lines ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"x", "=", "a"}], TraditionalForm]]],
+ " and ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"x", "=", "b"}], TraditionalForm]]],
+ " is rotated. Give a 3D parametric plot of the surfaces in each case. (",
+ StyleBox["NOTE:",
+  FontWeight->"Bold"],
+ "  You will need the ",
+ StyleBox["ParametricPlot3D", "Input"],
+ " command to complete this experiment).\n\t1.  ",
+ Cell[BoxData[
+  FormBox[
+   StyleBox[
+    RowBox[{
+     RowBox[{"f", "(", "x", ")"}], " ", "=", " ", 
+     FractionBox[
+      RowBox[{"8", "x"}], 
+      RowBox[{"(", 
+       RowBox[{"1", "+", 
+        SuperscriptBox["x", "2"]}], ")"}]]}], "DisplayFormula"], 
+   TraditionalForm]]],
+ ", ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"a", "=", "0"}], ",", " ", 
+    RowBox[{"b", "=", "10"}]}], TraditionalForm]]],
+ Cell[BoxData[
+  FormBox[".", TraditionalForm]]],
+ " (Rotate about the ",
+ Cell[BoxData[
+  FormBox["x", TraditionalForm]]],
+ "-axis and use ",
+ StyleBox["NIntegrate", "Input"],
+ ").\n\t2.  ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"f", "(", "x", ")"}], " ", "=", " ", 
+    RowBox[{"ln", "(", "x", ")"}]}], TraditionalForm]]],
+ ", ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"a", "=", "1"}], ",", " ", 
+    RowBox[{"b", "=", "e"}]}], TraditionalForm]]],
+ ".  (Rotate about the ",
+ Cell[BoxData[
+  FormBox["y", TraditionalForm]]],
+ "-axis and recall that ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " uses ",
+ StyleBox["Log[x]", "Input"],
+ " for the natural log function).\n\t3. ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{
+     RowBox[{"f", "(", "x", ")"}], "=", 
+     RowBox[{"arctan", "(", "x", ")"}]}], ",", " ", 
+    RowBox[{"a", "=", "0"}], ",", " ", 
+    RowBox[{"b", "=", "1."}]}], TraditionalForm]]],
+ "\n\t4. Do the rotation about the line ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"x", "=", "3"}], TraditionalForm]]],
+ ", for the function in part 2."
+}], "Text",
+ CellChangeTimes->{
+  3.5442083947561293`*^9, {3.544208818387488*^9, 3.5442089114137897`*^9}},
+ TextJustification->1.]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["21.3 Surface Area and Volume of a Torus  ", "Section",
+ CellChangeTimes->{
+  3.4402463095674133`*^9, {3.544208401235777*^9, 3.544208402715925*^9}},
+ FontSize->18],
+
+Cell[TextData[{
+ "If we rotate a circle about the ",
+ Cell[BoxData[
+  FormBox["y", TraditionalForm]]],
+ "-axis, we obtain the doughnut shape known as a torus. We can illustrate \
+this by rotating the top and bottom halves of the circle ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{
+     SuperscriptBox[
+      RowBox[{"(", 
+       RowBox[{"x", "-", "2"}], ")"}], "2"], "+", 
+     SuperscriptBox["y", "2"]}], "=", "1"}], TraditionalForm]]],
+ ". To graph the region to be revolved we use:"
+}], "Text",
+ CellChangeTimes->{
+  3.544208405356189*^9, {3.544208928195468*^9, 3.544208929607609*^9}},
+ TextJustification->1.],
+
+Cell[BoxData[{
+ RowBox[{"Clear", "[", 
+  RowBox[{"f", ",", "g"}], "]"}], "\n", 
+ RowBox[{
+  RowBox[{"f", "[", "x_", "]"}], ":=", 
+  RowBox[{"Sqrt", "[", 
+   RowBox[{"1", "-", 
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{"x", "-", "2"}], ")"}], "^", "2"}]}], "]"}]}], "\n", 
+ RowBox[{
+  RowBox[{"g", "[", "x_", "]"}], ":=", 
+  RowBox[{"-", 
+   RowBox[{"Sqrt", "[", 
+    RowBox[{"1", "-", 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{"x", "-", "2"}], ")"}], "^", "2"}]}], "]"}]}]}]}], "Input"],
+
+Cell[BoxData[
+ RowBox[{"Plot", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"f", "[", "x", "]"}], ",", 
+     RowBox[{"g", "[", "x", "]"}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"x", ",", "1", ",", "3"}], "}"}], ",", 
+   RowBox[{"AspectRatio", "\[Rule]", "Automatic"}], ",", 
+   RowBox[{"AxesLabel", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{"\"\<x\>\"", ",", " ", "\"\<y\>\""}], "}"}]}], ",", 
+   RowBox[{"PlotRange", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"0", ",", "3"}], "}"}], ",", "All"}], "}"}]}]}], 
+  "]"}]], "Input",
+ CellChangeTimes->{
+  3.4402465315361633`*^9, {3.4402465964580383`*^9, 3.4402466054580383`*^9}, {
+   3.544208939346583*^9, 3.5442089706907167`*^9}}],
+
+Cell[TextData[{
+ "Now rotate the circle about the ",
+ Cell[BoxData[
+  FormBox["y", TraditionalForm]]],
+ "-axis:"
+}], "Text"],
+
+Cell[BoxData[
+ RowBox[{"Show", "[", "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{"ParametricPlot3D", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"x", " ", 
+        RowBox[{"Cos", "[", "t", "]"}]}], ",", 
+       RowBox[{"x", " ", 
+        RowBox[{"Sin", "[", "t", "]"}]}], ",", 
+       RowBox[{"f", "[", "x", "]"}]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"x", ",", "1", ",", "3"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"t", ",", "0", ",", 
+       RowBox[{"2", "Pi"}]}], "}"}]}], "]"}], ",", "\[IndentingNewLine]", 
+   RowBox[{"ParametricPlot3D", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"x", " ", 
+        RowBox[{"Cos", "[", "t", "]"}]}], ",", 
+       RowBox[{"x", " ", 
+        RowBox[{"Sin", "[", "t", "]"}]}], ",", 
+       RowBox[{"g", "[", "x", "]"}]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"x", ",", "1", ",", "3"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"t", ",", "0", ",", 
+       RowBox[{"2", "Pi"}]}], "}"}]}], "]"}], ",", 
+   RowBox[{"PlotRange", "\[Rule]", "All"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.4402466518799133`*^9, 3.4402467057236633`*^9}, {
+  3.4402468086142883`*^9, 3.4402468626924133`*^9}, {3.4402469676611633`*^9, 
+  3.4402469977705383`*^9}, {3.544208983236971*^9, 3.544209016198267*^9}}],
+
+Cell[TextData[{
+ "This solid has volume ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"V", "=", 
+    RowBox[{"4", "\[Pi]", " ", 
+     RowBox[{
+      StyleBox[
+       SubsuperscriptBox["\[Integral]", "1", "3"],
+       ScriptLevel->0], 
+      RowBox[{"x", " ", 
+       RowBox[{"f", "(", "x", ")"}], 
+       StyleBox["\[ThinSpace]",
+        ScriptLevel->0], 
+       StyleBox[
+        RowBox[{"\[DifferentialD]", "x"}],
+        ScriptLevel->0]}]}]}]}], TraditionalForm]]],
+ ", which we can use ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " to evaluate:"
+}], "Text",
+ CellChangeTimes->{3.544208407804434*^9},
+ TextJustification->1.],
+
+Cell[BoxData[
+ RowBox[{"Integrate", "[", 
+  RowBox[{
+   RowBox[{"4", "Pi", "*", "x", "*", 
+    RowBox[{"f", "[", "x", "]"}]}], ",", 
+   RowBox[{"{", 
+    RowBox[{"x", ",", "1", ",", "3"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.544209037196367*^9, 3.5442090483324804`*^9}}],
+
+Cell[TextData[{
+ "The surface area is given by ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[CapitalSigma]", "=", 
+    RowBox[{"4", "\[Pi]", " ", 
+     RowBox[{
+      StyleBox[
+       SubsuperscriptBox["\[Integral]", "1", "3"],
+       ScriptLevel->0], 
+      RowBox[{"x", 
+       SqrtBox[
+        RowBox[{"1", "+", 
+         SuperscriptBox[
+          RowBox[{"[", 
+           RowBox[{
+            RowBox[{"f", "'"}], 
+            RowBox[{"(", "x", ")"}]}], "]"}], "2"]}]], 
+       StyleBox["\[ThinSpace]",
+        ScriptLevel->0], 
+       StyleBox[
+        RowBox[{"\[DifferentialD]", "x"}],
+        ScriptLevel->0]}]}]}]}], TraditionalForm]]],
+ ", which we evaluate as follows:"
+}], "Text",
+ CellChangeTimes->{3.5442084087985334`*^9},
+ TextJustification->1.],
+
+Cell[BoxData[
+ RowBox[{"Integrate", "[", 
+  RowBox[{
+   RowBox[{"4", "Pi", "*", "x", "*", 
+    RowBox[{"Sqrt", "[", 
+     RowBox[{"1", "+", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"f", "'"}], "[", "x", "]"}], "^", "2"}]}], "]"}]}], ",", 
+   RowBox[{"{", 
+    RowBox[{"x", ",", "1", ",", "3"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.544209063460993*^9, 3.5442090768373303`*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Experiment  21.3", "Section",
+ CellChangeTimes->{3.4402463103642883`*^9, 3.5442084124438972`*^9},
+ FontSize->18],
+
+Cell[TextData[{
+ "1. Using different values for ",
+ Cell[BoxData[
+  FormBox["a", TraditionalForm]]],
+ " and ",
+ Cell[BoxData[
+  FormBox["b", TraditionalForm]]],
+ " ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"(", 
+    RowBox[{"a", "<", "b"}], ")"}], TraditionalForm]]],
+ ", find the volume ",
+ Cell[BoxData[
+  FormBox["V", TraditionalForm]]],
+ " and surface area ",
+ Cell[BoxData[
+  FormBox["\[CapitalSigma]", TraditionalForm]]],
+ " obtained by rotating the circle ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{
+     SuperscriptBox[
+      RowBox[{"(", 
+       RowBox[{"x", "-", "b"}], ")"}], "2"], "+", 
+     SuperscriptBox["y", "2"]}], "=", 
+    SuperscriptBox["a", "2"]}], TraditionalForm]]],
+ "  about the ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"y", "-"}], TraditionalForm]]],
+ "axis, and hence conjecture a formula for the volume and surface area of a \
+torus obtained by rotating a circle of radius ",
+ Cell[BoxData[
+  FormBox["a", TraditionalForm]]],
+ " about a line distance ",
+ Cell[BoxData[
+  FormBox["b", TraditionalForm]]],
+ " from the center of the circle. (Optional exercise: Prove that your formula \
+is correct using calculus).\n\n2. Use ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " to determine the formula for the volume of the torus in Experiment 1 for \
+general values of ",
+ Cell[BoxData[
+  FormBox["a", TraditionalForm]]],
+ " and ",
+ Cell[BoxData[
+  FormBox["b", TraditionalForm]]],
+ " (",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " will perform the symbolic integration necessary for the volume, but may \
+cause some difficulty with the surface area.)."
+}], "Text",
+ TextJustification->1.]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Credits", "Section",
+ FontSize->18],
+
+Cell["\<\
+These laboratories were created by Raouf Boules, Geoffrey Goodson, Ohoe Kim \
+and Michael O'Leary for use in the Calculus courses of Towson University. \
+Commercial use is prohibited without permission of the authors. \
+Non-commercial use is permitted, provided this credit section is retained.\
+\>", "Text",
+ CellChangeTimes->{{3.5442091996346087`*^9, 3.5442092053211775`*^9}},
+ TextJustification->1.]
+}, Open  ]]
+}, Open  ]]
+},
+ScreenStyleEnvironment->"Working",
+WindowToolbars->"EditBar",
+WindowSize->{1920, 998},
+WindowMargins->{{-8, Automatic}, {Automatic, -8}},
+WindowTitle->"FullFileName",
+PrintingCopies->1,
+PrintingStartingPageNumber->1,
+PrintingPageRange->{32000, 32000},
+PageHeaders->{{
+   Cell[
+    TextData[{
+      StyleBox[
+       CounterBox["Page"], "PageNumber"], " ", "|", " ", 
+      StyleBox[
+       ValueBox["FileName"], "Header"]}], "Header", 
+    CellMargins -> {{0, Inherited}, {Inherited, Inherited}}], None, None}, {
+  None, None, 
+   Cell[
+    TextData[{
+      StyleBox[
+       ValueBox["FileName"], "Header"], " ", "|", " ", 
+      StyleBox[
+       CounterBox["Page"], "PageNumber"]}], "Header", 
+    CellMargins -> {{Inherited, 0}, {Inherited, Inherited}}]}},
+PageFooters->{{None, None, None}, {None, None, None}},
+PageHeaderLines->{False, False},
+PageFooterLines->{False, False},
+PrintingOptions->{"FacingPages"->True,
+"FirstPageFace"->Right,
+"FirstPageFooter"->True,
+"FirstPageHeader"->False,
+"Magnification"->1.,
+"PaperOrientation"->"Portrait",
+"PaperSize"->{612, 792}},
+ShowSelection->True,
+FontFamily->"Times New Roman",
+FontSize->14,
+FrontEndVersion->"10.0 for Microsoft Windows (64-bit) (July 1, 2014)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[593, 23, 234, 8, 112, "Title"],
+Cell[CellGroupData[{
+Cell[852, 35, 46, 1, 58, "Section"],
+Cell[901, 38, 794, 26, 30, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1732, 69, 141, 3, 58, "Section"],
+Cell[1876, 74, 2997, 109, 136, "Text"],
+Cell[4876, 185, 163, 5, 31, "Input"],
+Cell[5042, 192, 552, 19, 31, "Text"],
+Cell[5597, 213, 292, 8, 31, "Input"],
+Cell[5892, 223, 523, 20, 30, "Text"],
+Cell[6418, 245, 429, 11, 72, "Input"],
+Cell[6850, 258, 300, 10, 31, "Input"],
+Cell[7153, 270, 494, 15, 42, "Text"],
+Cell[7650, 287, 381, 11, 31, "Input"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[8068, 303, 115, 2, 58, "Section"],
+Cell[8186, 307, 2278, 85, 170, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[10501, 397, 158, 3, 58, "Section"],
+Cell[10662, 402, 2805, 99, 111, "Text"],
+Cell[13470, 503, 823, 23, 52, "Input"],
+Cell[14296, 528, 299, 8, 72, "Input"],
+Cell[14598, 538, 41, 0, 30, "Text"],
+Cell[14642, 540, 462, 14, 31, "Input"],
+Cell[15107, 556, 26, 0, 30, "Text"],
+Cell[15136, 558, 461, 14, 31, "Input"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[15634, 577, 115, 2, 58, "Section"],
+Cell[15752, 581, 2273, 82, 142, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[18062, 668, 168, 3, 58, "Section"],
+Cell[18233, 673, 621, 18, 32, "Text"],
+Cell[18857, 693, 498, 17, 72, "Input"],
+Cell[19358, 712, 736, 21, 31, "Input"],
+Cell[20097, 735, 124, 5, 30, "Text"],
+Cell[20224, 742, 1304, 34, 72, "Input"],
+Cell[21531, 778, 630, 23, 53, "Text"],
+Cell[22164, 803, 282, 7, 31, "Input"],
+Cell[22449, 812, 756, 26, 53, "Text"],
+Cell[23208, 840, 395, 11, 31, "Input"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[23640, 856, 118, 2, 58, "Section"],
+Cell[23761, 860, 1634, 56, 89, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[25432, 921, 41, 1, 58, "Section"],
+Cell[25476, 924, 412, 7, 49, "Text"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
