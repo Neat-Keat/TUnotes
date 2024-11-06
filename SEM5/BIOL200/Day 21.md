@@ -345,11 +345,10 @@ here we study the last one
 	- hundreds of accessory pigment molecules
 	- gather photons and feed the captured light energy to the reaction center
 - reaction center
-	- 1 ore more chlorophyll a molecules
+	- 1 or more chlorophyll $\alpha$ molecules
 	- passes excited electrons out of the photosystem to electron acceptor
 ![[Pasted image 20241022235546.png]]
 
-=======
 > this is a topic you should be able to write and draw with
 
 ------
@@ -373,7 +372,7 @@ for glycolysis to continue, NADH must be recycled to NAD+ by either:
 
 # Fate of Pyruvate
 - depends on oxygen avalibility
-	- when oxygen is present, pyrivate is oxidized to acetyl coenzyme ! (acetyl-CoA) which enters the citric acid cycle
+	- when oxygen is present, pyrivate is oxidized to acetyl coenzyme! (acetyl-CoA) which enters the citric acid cycle
 		- aerobic respiration
 	- Without oxygen, pyruvate is reduced in order to oxidize NADH back to NAD+
 		- Fermentation.
