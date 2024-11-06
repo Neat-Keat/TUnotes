@@ -416,8 +416,8 @@ for glycolysis to continue, NADH must be recycled to NAD+ by either:
 Glucose has been oxidized to:
 - 6 CO2
 - 4 ATP
-- -10 NADH
-- -2 FADH2
+- 10 NADH
+- 2 FADH2
 note NADH and FADH2 proceed to the electron transport chain
 
 Electron transfer has released 53kcal/mol of energy by gradual energy extraction
@@ -466,4 +466,3 @@ Theoretical and direct calculation of P/O has been contentious and has changed o
 ![[Pasted image 20241018094915.png]]
 ![[Pasted image 20241018094954.png]]
 ![[Pasted image 20241018095007.png]]
->>>>>>> 5023c7600cc30fb1a8f53a28c97ce79697e0ca29
