@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 ![[Pasted image 20241022220923.png]]
 
 Aerobic respiration has 4 steps:
@@ -10,7 +10,7 @@ Aerobic respiration has 4 steps:
 		1. can only pass back thru with the ATP Synthase Enzyme
 
 in the matrix of the mitochondria:
-	the end of the ETD: electrons that have lost their energy HAVE to go to a final electron acceptor (ie Oxygen in Aerobic respiration)
+	the end of the ETC: electrons that have lost their energy HAVE to go to a final electron acceptor (ie Oxygen in Aerobic respiration)
 
 # Energy yield of respiration
 Theoretical energy yield
