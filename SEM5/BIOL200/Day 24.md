@@ -1,4 +1,4 @@
-Ch9 today!!
+.  Ch9 today!!
 
 W deadline in a week lulw
 
@@ -119,7 +119,7 @@ Steroid Hormones
 - act as regulators of gene expression
 - diverse and far-ranging effects, longer acting
 
-*** Gene Expression = Transcription + Translation***
+***Gene Expression = Transcription + Translation***
 
 ![[Pasted image 20241028093524.png]]
 
