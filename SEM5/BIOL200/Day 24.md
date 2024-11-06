@@ -168,7 +168,7 @@ Cellular response follows - depends on cellular response proteins
 ![[Pasted image 20241028094258.png]]
 
 # Example: The Insulin Receptor
-- activated receptor has phosphoryylated sites that allow docking
+- activated receptor has phosphorylated sites that allow docking
 - insulin is a protein hormone that helps to maintain a constant blood glucose level
 - insulin binds to an RTK; insulin response protein binds to the phosphorylated receptor and is itself phosphorylated; signal is transmitted downstream to lower blood sugar
 ![[Pasted image 20241028094437.png]]
