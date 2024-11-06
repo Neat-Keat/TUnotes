@@ -1,5 +1,6 @@
 {
   "showUnsupportedFiles": true,
   "promptDelete": false,
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "autoPairBrackets": true
 }

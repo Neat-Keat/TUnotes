@@ -1,7 +1,7 @@
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CMiPYHNNg28?si=Iqjs8WBZUwb1zJdR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Sunlight --(captured and converted into)--> ATP and NADPH
-	NADPH is not a type! its a high energy electron carrier!
+	NADPH is not a typo! its a high energy electron carrier!
 
 this chemical energy  is used to drive the Calvin Cycle (endergonic!)
 	it does a process called Carbon Fixation
@@ -33,7 +33,7 @@ the red and purple wavelengths of light excite the electrons in azocaseine
 fluorescence -> releasing energy as light
 as opposed to releasing it as heat
 
-Light exctes electrons in pigments
+Light excites electrons in pigments
 	Absorbed light excites electrons
 	Fates for excited electrons:
 		- Drop back down to a lower energy fluorescence.
@@ -104,8 +104,8 @@ d. NADPH to Photosystem II to Photosystem I to O2
 		- stored for later use
 
 # Three phases of Calvin cycle
-1.  Cinarbon fixation
-	- RuBP + CO2 -> PGAin
+1.  Carbon fixation
+	- RuBP + CO2 -> P Gain
 
 
 carbon gets added on to make G3P in the calvin cycle
@@ -115,9 +115,9 @@ carbon gets added on to make G3P in the calvin cycle
 
 
 # Energy cycle
-- photosythesis uses the products of respiration as starting substrates
+- photosynthesis uses the products of respiration as starting substrates
 - respiration uses the products of photosynthesis as starting substrates
-- producction of glucose from G3P even uses part of the ancient glycolytic pathway, run in reverse
+- production of glucose from G3P even uses part of the ancient glycolytic pathway, run in reverse
 - Principal proteins involved in electron transport and ATP production in plants are evolutionarily related to those in the mitochondria
 
 ![[Pasted image 20241023094645.png]]

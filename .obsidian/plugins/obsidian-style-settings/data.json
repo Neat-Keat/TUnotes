@@ -1,0 +1,10 @@
+{
+  "catppuccin-theme-settings@@catppuccin-theme-accents": "ctp-accent-green",
+  "catppuccin-icon-styles@@ctp-icon-hide": false,
+  "catppuccin-interface-styles@@ctp-bold-folder-title": false,
+  "catppuccin-font-styles@@ctp-bold": "var(--ctp-yellow)",
+  "catppuccin-font-styles@@ctp-strikethrough": "var(--ctp-red)",
+  "catppuccin-pdf@@ctp-pdf-darken": true,
+  "catppuccin-tag-styles@@ctp-tag-pill": true,
+  "catppuccin-tag-styles@@ctp-tag-pill-color": "var(--ctp-teal)"
+}

@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 ![[Pasted image 20241022220923.png]]
 
 Aerobic respiration has 4 steps:
@@ -10,7 +10,7 @@ Aerobic respiration has 4 steps:
 		1. can only pass back thru with the ATP Synthase Enzyme
 
 in the matrix of the mitochondria:
-	the end of the ETD: electrons that have lost their energy HAVE to go to a final electron acceptor (ie Oxygen in Aerobic respiration)
+	the end of the ETC: electrons that have lost their energy HAVE to go to a final electron acceptor (ie Oxygen in Aerobic respiration)
 
 # Energy yield of respiration
 Theoretical energy yield
@@ -206,7 +206,7 @@ Questions!
 	d. Labrador retriever
 	e. none of the above
 
-16. What happens to the electron's energy as it moves thru the ETF?
+16. What happens to the electron's energy as it moves thru the ETC?
 	a. the electrons gain energy thru each transfer
 	*b. the electrons lose energy thru each transfer*
 	c. the energy content is unchanged
@@ -345,11 +345,10 @@ here we study the last one
 	- hundreds of accessory pigment molecules
 	- gather photons and feed the captured light energy to the reaction center
 - reaction center
-	- 1 ore more chlorophyll a molecules
+	- 1 or more chlorophyll $\alpha$ molecules
 	- passes excited electrons out of the photosystem to electron acceptor
 ![[Pasted image 20241022235546.png]]
 
-=======
 > this is a topic you should be able to write and draw with
 
 ------
@@ -373,7 +372,7 @@ for glycolysis to continue, NADH must be recycled to NAD+ by either:
 
 # Fate of Pyruvate
 - depends on oxygen avalibility
-	- when oxygen is present, pyrivate is oxidized to acetyl coenzyme ! (acetyl-CoA) which enters the citric acid cycle
+	- when oxygen is present, pyrivate is oxidized to acetyl coenzyme! (acetyl-CoA) which enters the citric acid cycle
 		- aerobic respiration
 	- Without oxygen, pyruvate is reduced in order to oxidize NADH back to NAD+
 		- Fermentation.
@@ -417,8 +416,8 @@ for glycolysis to continue, NADH must be recycled to NAD+ by either:
 Glucose has been oxidized to:
 - 6 CO2
 - 4 ATP
-- -10 NADH
-- -2 FADH2
+- 10 NADH
+- 2 FADH2
 note NADH and FADH2 proceed to the electron transport chain
 
 Electron transfer has released 53kcal/mol of energy by gradual energy extraction
@@ -467,4 +466,3 @@ Theoretical and direct calculation of P/O has been contentious and has changed o
 ![[Pasted image 20241018094915.png]]
 ![[Pasted image 20241018094954.png]]
 ![[Pasted image 20241018095007.png]]
->>>>>>> 5023c7600cc30fb1a8f53a28c97ce79697e0ca29

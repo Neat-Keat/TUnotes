@@ -190,9 +190,9 @@ Current view integrates 2 concepts
 
 # 3 checkpoints
 1. G1/S checkpoint
-	1. cell "decideds" to divide
+	1. cell "decides" to divide
 	2. primary point for external signal influence
-2. G2/M cheeckpoint
+2. G2/M checkpoint
 	1. cell makes a commitment to mitosis
 	2. Assesses success of DNA replication
 3. Late metaphase (spindle) checkpoint

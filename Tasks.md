@@ -1,5 +1,6 @@
-- [ ] 
-- [ ] 
-- [ ] 
+- [ ] COSC350 research proposal 11/10
+- [ ] Study for COSC350 Test
+- [ ] MATH330 HW 11/13
 - [ ] Cosc435 work on project (ongoing)
-- [ ] 
+- [ ] Memorize OL packet
+- [ ] COSC435 Assignment 6 11/24

@@ -133,12 +133,12 @@ Fermentation
 ![[Pasted image 20241016094309.png]]
 
 ### Glycolysis
-	means sugar breaking
-	split to 2 3 carbon molecules called Pyruvate
-	an ancient pathway that all cells can do
-	happens in the cytoplasm
+means sugar breaking
+split to 2 3 carbon molecules called Pyruvate
+an ancient pathway that all cells can do
+happens in the cytoplasm
 
-- Converts 1 glucose (6 carbons) to 2 pyruvate (3 carbons)
+- Converts 1 glucose (6 carbons) to 2 pyruvate (3 carbons each)
 - 10-step biochemical pathway (dont need to memorize)
 - Occurs in the cytoplasm
 - *Net* production of 2 ATP by substrate-level phosphorylation (takes 2 to start, so it releases 4 lol)
