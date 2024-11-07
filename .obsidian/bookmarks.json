@@ -1,24 +1,184 @@
 {
   "items": [
     {
-      "type": "folder",
-      "ctime": 1730958178453,
-      "path": "SEM5/BIOL200"
+      "type": "group",
+      "ctime": 1730961193332,
+      "items": [
+        {
+          "type": "folder",
+          "ctime": 1730961238120,
+          "path": "SEM1/COSC109"
+        },
+        {
+          "type": "folder",
+          "ctime": 1730961227289,
+          "path": "SEM1/COSC 175"
+        },
+        {
+          "type": "folder",
+          "ctime": 1730961242862,
+          "path": "SEM1/DFST101"
+        },
+        {
+          "type": "folder",
+          "ctime": 1730961251232,
+          "path": "SEM1/ENGL102"
+        },
+        {
+          "type": "folder",
+          "ctime": 1730961255876,
+          "path": "SEM1/MUSA160 (Timeless)"
+        },
+        {
+          "type": "folder",
+          "ctime": 1730961261845,
+          "path": "SEM1/SOCI210"
+        }
+      ],
+      "title": "SEM1"
+    },
+    {
+      "type": "group",
+      "ctime": 1730961197066,
+      "items": [
+        {
+          "type": "folder",
+          "ctime": 1730961275456,
+          "path": "SEM2/ASTR161"
+        },
+        {
+          "type": "folder",
+          "ctime": 1730961280052,
+          "path": "SEM2/COMM131"
+        },
+        {
+          "type": "folder",
+          "ctime": 1730961283666,
+          "path": "SEM2/COSC236"
+        },
+        {
+          "type": "folder",
+          "ctime": 1730961289200,
+          "path": "SEM2/MATH274"
+        },
+        {
+          "type": "folder",
+          "ctime": 1730961292757,
+          "path": "SEM2/MUSA161"
+        },
+        {
+          "type": "folder",
+          "ctime": 1730961297161,
+          "path": "SEM2/TSEM102"
+        }
+      ],
+      "title": "SEM2"
+    },
+    {
+      "type": "group",
+      "ctime": 1730961200539,
+      "items": [
+        {
+          "type": "folder",
+          "ctime": 1730961310693,
+          "path": "SEM3/CIS377"
+        },
+        {
+          "type": "folder",
+          "ctime": 1730961314020,
+          "path": "SEM3/COSC237"
+        },
+        {
+          "type": "folder",
+          "ctime": 1730961317467,
+          "path": "SEM3/ENGL317"
+        },
+        {
+          "type": "folder",
+          "ctime": 1730961323877,
+          "path": "SEM3/MATH263"
+        },
+        {
+          "type": "folder",
+          "ctime": 1730961327311,
+          "path": "SEM3/MUSA160 (Reign Cycle)"
+        },
+        {
+          "type": "folder",
+          "ctime": 1730961330126,
+          "path": "SEM3/PHYS103"
+        }
+      ],
+      "title": "SEM3"
+    },
+    {
+      "type": "group",
+      "ctime": 1730961203167,
+      "items": [
+        {
+          "type": "folder",
+          "ctime": 1730961335021,
+          "path": "SEM4/COSC290"
+        },
+        {
+          "type": "folder",
+          "ctime": 1730961338847,
+          "path": "SEM4/COSC336"
+        },
+        {
+          "type": "folder",
+          "ctime": 1730961341899,
+          "path": "SEM4/COSC418"
+        },
+        {
+          "type": "folder",
+          "ctime": 1730961346178,
+          "path": "SEM4/ITEC201"
+        },
+        {
+          "type": "folder",
+          "ctime": 1730961349421,
+          "path": "SEM4/MUSA161"
+        }
+      ],
+      "title": "SEM4"
+    },
+    {
+      "type": "group",
+      "ctime": 1730961161643,
+      "items": [
+        {
+          "type": "folder",
+          "ctime": 1730958192532,
+          "path": "SEM5/COSC350"
+        },
+        {
+          "type": "folder",
+          "ctime": 1730958198102,
+          "path": "SEM5/COSC435"
+        },
+        {
+          "type": "folder",
+          "ctime": 1730958202638,
+          "path": "SEM5/MATH330"
+        },
+        {
+          "type": "folder",
+          "ctime": 1730958178453,
+          "path": "SEM5/BIOL200"
+        },
+        {
+          "type": "folder",
+          "ctime": 1730961171561,
+          "path": "SEM5/MUSA360 (Who,...)"
+        }
+      ],
+      "title": "SEM5"
     },
     {
       "type": "folder",
-      "ctime": 1730958192532,
-      "path": "SEM5/COSC350"
-    },
-    {
-      "type": "folder",
-      "ctime": 1730958198102,
-      "path": "SEM5/COSC435"
-    },
-    {
-      "type": "folder",
-      "ctime": 1730958202638,
-      "path": "SEM5/MATH330"
+      "ctime": 1730965601599,
+      "path": "Daily Notes"
     }
   ]
 }
