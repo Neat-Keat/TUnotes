@@ -42,7 +42,7 @@ Multiplexing and Demultiplexing
 - Can be used with analog signals
 	- each carrier is assigned a separate channel
 - *Modulation* equipment is needed
-	- move each signal to the required frequqncy band
+	- move each signal to the required frequency band
 - *Multiplexing* equipment is needed
 	- combine the modulated signals
 - *Modulated signal* requires a certain bandwidth called channel
@@ -51,7 +51,7 @@ Multiplexing and Demultiplexing
 - Each communicating pair gets a private transmission path
 - some limitations in FDM
 	- interference may occur if channels are too close
-	- demultiplexer must devide the signal into separate carriers
+	- demultiplexer must divide the signal into separate carriers
 	- FCC in USA regulates adequate spacing
 	- Carrier frequencies must have a *guard band*
 - Figures 11.4 and 11.5 show an example
@@ -62,14 +62,14 @@ Multiplexing and Demultiplexing
 
 # Range of Frequencies Per Channel
 - FDM susceptible to noise and distortion
-- Most FDM systems assign each sender and receiver pair a range of frequencnies
+- Most FDM systems assign each sender and receiver pair a range of frequencies
 - FDM can choose how the frequencies are used
 - Two primary ways:
 	- increase the data rate
 	- Increase *immnity* to interference
 - To increase the overall data rate
 	- a sender divides the frequency range of the channel into *K* carriers
-	- sends *1/K* of the data over each carrier
+	- sends *1 / K* of the data over each carrier
 
 - A sender can perform FDM within an allocated channel
 - to increase immunity to interference
@@ -121,7 +121,7 @@ Ex: DWDM: assign each source a specific wavelength (channel) and transmit all th
 
 # Time Division Multiplexing (TDM)
 - TDM does not rely on special properties of electromagnetic energy
-	- multiplexing in time simple means transmitting an item from one source, then transmitting an item from another source, and so on
+	- multiplexing in time simply means transmitting an item from one source, then transmitting an item from another source, and so on
 ![[Pasted image 20241003100245.png]]
 
 # Synchronous Time Division Multiplexing
