@@ -24,24 +24,31 @@ const searchTerm = "- [ ]"; // This is the syntax for unchecked to-dos in Obsidi
 const files = app.vault.getMarkdownFiles();
 let todos = [];
 
+// Specify the folder to exclude (e.g., "Archived/")
+const excludeFolder = "DailyNotes/";
+
 for (const file of files) {
+    // Skip files in the specified folder
+    if (file.path.startsWith(excludeFolder)) continue;
+
     const content = await app.vault.cachedRead(file);
-    
+
     // Find all lines with unchecked to-dos
     const matches = content.match(/^ *- \[ \] .+/gm);
     
     if (matches) {
-        todos.push(`###### ${file.basename}`);
+        todos.push(`#### ${file.basename}`);
         todos.push(...matches);
     }
 }
 
 if (todos.length > 0) {
-    tR += `### Current To-Dos:\n` + todos.join("\n");
+    tR += `### Current To-Dos\n` + todos.join("\n");
 } else {
     tR += "No current to-dos found.";
 }
 %>
+
 ----------
 <%*
 const fortunesFile = tp.file.find_tfile("fortunes");
