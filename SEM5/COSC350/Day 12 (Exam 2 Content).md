@@ -212,7 +212,7 @@ Ex: DWDM: assign each source a specific wavelength (channel) and transmit all th
 - several channels simultaneously share the same
 - Used in some cellular telephone system and some satellite communication
 - Cellular telephone version is called Code Division Multi-Access (CDMA)
-	- When CDM is used to allow multiple users to share a single communications channel
+	- When CDMA is used to allow multiple users to share a single communications channel
 	- another important application of CDMA is the GPS
 
 # CDM (or spread spectrum)
@@ -222,11 +222,11 @@ Ex: DWDM: assign each source a specific wavelength (channel) and transmit all th
 	- CDM doesn't rely on physical properties but on values from orthogonal vector spaces
 
 - At any point in time, each sender has a value to transmit, *$V_i$*
-	- the senders each multiple *$C_i x V_i$* and transmit the results
+	- the senders each multiply *$C_i x V_i$* and transmit the results
 - Simultaneous transmission
 	- the values are added together
 	- over the same frequency band
-- To extract value *V_i*, a receiver multiplies the sum by *$C_i$*
+- To extract value *$V_i$*, a receiver multiplies the sum by *$C_i$*
 	- Ex: $C_1 V_1, C_2 V_2$ -> $C_1 V_1 + C_2 V_2$ (transmission) -> $(C_1 V_1 + C_2 V_2) * C_1$(extraction of $V_1$)
 
 # CDM

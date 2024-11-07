@@ -45,8 +45,8 @@ byte stuffing =/ bit stuffing
 
 -----------
 # The IEEE MAC sublayer
-slides not posted??
 
+![[The_IEEE_MAC_Sub-Layer.pptx]]
 # Introduction
 - multiple, independent computers must coordinate to access a shared medium
 - Three approaches:
@@ -117,31 +117,36 @@ Taxonomy of mechanisms for multi-access:
 - No central control managing when computers transmit on ether
 - ethernet employs CSMA to coordinate transmission among multiple attached computers
 - *Carrier Sense with Multiple Access*
-	- ...
-	- ...
+	- Multiple access - multiple computers are attached and any can be transmitter
+	- Carrier sense - computer wanting to transmit tests ether for carrier before transmitting
 
 # Collision Detection - CD (IEEE 802.3)
 - Even with CSMA, 2 computers may transmit simultaneously
-	- 3 states are possible, contention, transmit, idle
+	- 3 states are possible: contention, transmit, idle
 		- contention period is 2x the time that the signal travels 2 farthest stations
 	- Both check ether at the same time, find it idle, and begin transmitting
 	- Window for transmission depends on speed of propagation in ether
 
-- ...
-- ...
-- ...
-- ...
-
+- Signals from 2 computers will interfere with each other
+- Overlapping frames is called a *collision*
+	- no harm to hardware
+	- data from both frames is garbled
+	- send out collision presence signal
 # Ethernet CD
-- ...
-- ...
-- ...
-- ...
+- Ethernet interfaces include hardware to detect transmission
+- monitors outgoing signal
+- garbled signal is interpreted as a collision
+- after collision is detected, computer stops transmitting
 
 # Recovery from collision
 - computer that detects a collision sends special signal to force all other interfaces to detect collision
-- ...
-- ...
+- computer then waits for Ether to be idle before transmitting
+- if both computers wait same length of time, frames will collide again
+- standard specifies maximum delay, and both computers choose random delay less than maximum
+
+- after waiting, computers use carrier sense to avoid subsequent collision
+	- computer with shorter delay will go first
+	- other computers may transmit first
 
 # Binary Exponential backoff
 - even with random delays, collisions may occur
@@ -153,26 +158,30 @@ Taxonomy of mechanisms for multi-access:
 	- when i = 3, k is between 0 and 7
 
 # Limited connectivity with wireless
-...
-...
-...
-
-
+In contrast with wired LAN, not all participants may be able to reach each other
+- low signal strength
+- propagation blocked by walls, etc.
+	- cant depend on CD; not all participants may hear
+- Wireless LANs use a modified access protocol known as CSMA with *Collision Avoidance* (CSMA/CA)
 # CSMA/CA
-- for computer 1, computer 3 may not be visible....
-- ....
-- ...
+- for computer 1, computer 3 may not be visible. So when computer 1 and computer 3 transmit at the same time to computer 2, it will detect a collision. It is called the "hidden station" problem.
+![[Pasted image 20241106202249.png]]
 
 Wireless uses *collision avoidance* rather than collision detection
 - transmitting computer sends very short message to receiver
 - receiver responds with short message reserving slot for transmitter
 - response from receiver is *broadcast* so all potential transmitters receive reservation
+![[Pasted image 20241106202313.png]]
 
 # Collisions
-- ...
-- ...
-- ...
-- ...
+- Receiver may receive simultaneous requests
+	- results in collision at receiver
+	- *Both* requests are lost
+	- neither transmitter receives reservation; both use backoff and retry
+- Receiver may receive closely spaced requests
+	- selects one
+	- selected transmitter sends message
+	- transmitter not selected uses backoff and retries
 
 -------------
 # Wired Lan PPTX
@@ -186,7 +195,7 @@ Wireless uses *collision avoidance* rather than collision detection
 	- single coax cable - the *ether*
 	- multiple computers connect
 - one Ethernet cable is sometimes called a *segment*
-	- limited to 500 meters in length (for 10base5)
+	- limited to 500 meters in length (for $10_5$)
 		- 100 meters for Gigabit Ethernet and fast ethernet (over copper)
 	- Minimum separation between connections is 3 meters
 

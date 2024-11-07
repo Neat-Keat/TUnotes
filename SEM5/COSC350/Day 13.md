@@ -42,7 +42,7 @@ why do we distinguish between WAN and LAN?
 	- they offer a *dedicated* connection between 2 telephones
 ![[Pasted image 20241008100522.png]]
 3 general properties:
-1. Point-to-pont cmmunication
+1. Point-to-pont communication
 2. Three steps:
 	1. circuit creation, use, and termination
 	2. *switched* or *permanent*
@@ -134,7 +134,7 @@ Orthogonal Frequency Division Multiplexing Access - OFDMA
 Bus Topology:
 	- bus topology usually consists of a single cable to which computers attach
 	- the ends of a bus network must be *terminated*
-		- to prevent electrival signals from *reflecting* back along the bus
+		- to prevent electrical signals from *reflecting* back along the bus
 	- Any computer attached to a bus can send on the cable
 		- and all computers receive the signal
 	- Because all computers attach directly to the cable

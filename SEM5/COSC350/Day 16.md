@@ -89,7 +89,7 @@ ARP is dynamic, uses DHCP
 - IEEE developed a standard for Ethernet (1983) and attempted to redefine the Ethernet frame format
 - IEEE 802.3 Ethernet
 - The major difference is on the interpretation of the type field
-	- The 802.3 Standart:
+	- The 802.3 Standard:
 		- interprets "type" field as a packet length
 		- 8-byte extra header is added
 	- The extra header
@@ -130,7 +130,7 @@ ARP is dynamic, uses DHCP
 ![[Pasted image 20241017102647.png]]
 
 - A hub emulates a physical cable
-	- making the entire system operate like a convential Ethernet
+	- making the entire system operate like a conventional Ethernet
 - A system that uses a hub in CSMA/CD
 	- receives a copy of each frame
 	- uses the address to determine
@@ -164,7 +164,7 @@ ARP is dynamic, uses DHCP
 - to remain *backwards compatible*
 	- standards for the higher-speed versions specify how to determine speed automatically
 	- slow down, if necessary, to accommodate older devices
-	- for example, if an old device uses *10BaseT* and a new device uses *1000BaseT*, the new device will *autosense*
+	- for example, if an old device uses *$10_T$* and a new device uses *$1000_T$*, the new device will *autosense*
 
 ![[Pasted image 20241017103208.png]]
 ## Twisted Pair Connectors and Cables

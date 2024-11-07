@@ -2,5 +2,7 @@
   "showUnsupportedFiles": true,
   "promptDelete": false,
   "alwaysUpdateLinks": true,
-  "autoPairBrackets": true
+  "autoPairBrackets": true,
+  "showLineNumber": false,
+  "readableLineLength": true
 }

@@ -4,3 +4,4 @@
 - [ ] Cosc435 work on project (ongoing)
 - [ ] Memorize OL packet
 - [ ] COSC435 Assignment 6 11/24
+- [ ] study for MATH330 quiz (ch8,9)

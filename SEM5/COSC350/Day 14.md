@@ -124,7 +124,7 @@ LANs pptx
 	- only the intended recipient should process the packet
 - Demultiplexing uses an identifier known as an address
 - each computer is assigned a unique address
-- each address consists of *48* bits; IEEE uses the term *Medis Access Control* address (or simply MAC address)
+- each address consists of *48* bits; IEEE uses the term *Media Access Control* address (or simply MAC address)
 	- same as *Ethernet address*
 - IEEE allocates a *unique* address for each piece of interface
 	- each *Network Interface Card* (NIC) contains a unique IEEE address
@@ -154,7 +154,7 @@ LANs pptx
 - the efficiency comes from a shared medium
 - in a typical LAN
 	- each computer on the LAN *monitors* the shared medium
-	- *extraces* a copy of each packet and determines the address
+	- *extracts* a copy of each packet and determines the address
 	- determine whether the packet should be *processed* or *ignored*
 - Algorithm 13.1 gives the algorithm a computer uses to process packets
 
