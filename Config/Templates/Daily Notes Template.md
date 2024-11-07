@@ -1,5 +1,5 @@
 # Good morning NK!
-### Today is {{Date: dddd, MM-DD-YYYY}}
+### Today's #DailyNote is for {{Date: dddd, MM-DD-YYYY}}
 <%*
 const file = tp.file.find_tfile("Classes");
 const content = await app.vault.read(file);
@@ -18,6 +18,7 @@ if (match) {
     tR += "No classes scheduled for today.";
 }
 %>
+------------
 <%*
 const searchTerm = "- [ ]"; // This is the syntax for unchecked to-dos in Obsidian
 const files = app.vault.getMarkdownFiles();
@@ -30,7 +31,7 @@ for (const file of files) {
     const matches = content.match(/^ *- \[ \] .+/gm);
     
     if (matches) {
-        todos.push(`#### ${file.basename}`);
+        todos.push(`###### ${file.basename}`);
         todos.push(...matches);
     }
 }
@@ -41,15 +42,16 @@ if (todos.length > 0) {
     tR += "No current to-dos found.";
 }
 %>
-
-Good luck out there! Remember to eat, sleep, and stay hydrated :D
-
+----------
 <%*
 const fortunesFile = tp.file.find_tfile("fortunes");
 const fortunesContent = await app.vault.read(fortunesFile);
 const fortunesArray = fortunesContent.split("%").map(fortune => fortune.trim()).filter(fortune => fortune);
 const randomFortune = fortunesArray[Math.floor(Math.random() * fortunesArray.length)];
-tR += `Quote of the Day:\n> ${randomFortune}`;
+tR += `### Quote of the Day:\n\n ${randomFortune}`;
 %>
 
+-------
 
+Good luck out there! Remember to eat, sleep, and stay hydrated :D
+Today's lecture notes are linked below!
