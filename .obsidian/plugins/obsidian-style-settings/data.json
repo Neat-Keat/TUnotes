@@ -6,5 +6,12 @@
   "catppuccin-font-styles@@ctp-strikethrough": "var(--ctp-red)",
   "catppuccin-pdf@@ctp-pdf-darken": false,
   "catppuccin-tag-styles@@ctp-tag-pill": true,
-  "catppuccin-tag-styles@@ctp-tag-pill-color": "var(--ctp-teal)"
+  "catppuccin-tag-styles@@ctp-tag-pill-color": "var(--ctp-teal)",
+  "obsidian-prism-theme@@color-schemes-dt": "pt-color-scheme-indigo-dt",
+  "obsidian-prism-theme@@color-scheme-style-dt": "pt-color-scheme-style-minimal-dt",
+  "obsidian-prism-theme@@dark-accent-color-preset": "pt-accent-color-blue-dt",
+  "obsidian-prism-theme@@highlight-text-accent-dt": "pt-highlight-text-accent-dt",
+  "obsidian-prism-theme@@pt-custom-vault-banner": false,
+  "obsidian-prism-theme@@pt-focused-mode": false,
+  "obsidian-prism-theme@@pt-icons-accent": false
 }
