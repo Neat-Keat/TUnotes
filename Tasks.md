@@ -1,9 +1,0 @@
-- [ ] COSC350 research proposal 11/10
-- [x] Study for COSC350 Test ✅ 2024-11-06
-- [ ] MATH330 HW 11/13 
-- [ ] Cosc435 work on project (ongoing)
-- [ ] Memorize OL packet
-- [ ] COSC435 Assignment 6 11/24
-- [ ] study for MATH330 quiz (ch8,9)
-
-
