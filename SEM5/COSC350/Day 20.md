@@ -73,7 +73,6 @@ after processing D(min that hasn't been processed) (here its "a")
 | --------------------- | --- | --- | --- | --- | --- |
 | D (min found dist.)   | 0   | 2   | 4   | 3   | 8   |
 | $\pi$ (previous node) | NiL | S   | a   | a   | S   |
-|                       |     |     |     |     |     |
 
 After Processing D(min)
 

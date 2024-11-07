@@ -213,7 +213,7 @@ Finish for other PPTXs lmfaoo
 - Forwarding table must guarantee the following:
 -  Universal communication
 	◦Must contain a valid next-hop route for each possible destination address
--Optimal routes
+- Optimal routes
 	◦The next-hop value must point to the shortest path to the destination
 - In case of Network failures
 	◦Forwarding should be changed to alternate available path
