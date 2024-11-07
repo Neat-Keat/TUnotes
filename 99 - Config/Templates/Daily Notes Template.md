@@ -1,19 +1,21 @@
 # Good morning NK!
 ### Today's #DailyNote is for {{Date: dddd, MM-DD-YYYY}}
 
+<<[[<%tp.date.now("MM-DD-YYYY", "P-1D") %>]] <<
+\>>[[<%tp.date.now("MM-DD-YYYY", "P+1D")%>]]>>
+
 ------------
 <%*
-// Script to read the day's classes defined in "99 - Config/Classes" and create a new file for each based on the given template in "99 - Config/Templates".
+// Script to read the day's classes defined in "99 - Config/Classes", and create a new file for each based on the given template in "99 - Config/Templates".
 
-// Locate the class configuration file
-const file = await tp.file.find_tfile("Classes");
+const file = tp.file.find_tfile("Classes");
 const content = await app.vault.read(file);
-const sem = "06 - Fall '24"; // Change this for a new semester
+const sem = "06 - Fall '24"; // Change this for a new semester!
 
-// Get the current day name
-const day = tp.date.now("dddd"); // "dddd" returns the full name of the day
+// Get the current day name.
+const day = tp.date.now("dddd"); // "dddd" returns the full name of the day.
 
-// Define the regex to match today's classes in the configuration file
+// Updated regex to capture all lines under the day's heading until the next heading or the end of the file.
 const regex = new RegExp(`## ${day}\\n((?:- .+\\n?)*)`, "m");
 const match = content.match(regex);
 
@@ -23,25 +25,16 @@ if (match) {
     
     for (const className of classes) {
         const newFileName = `${sem}/${className}/Day X Lecture Notes`;
-        const templatePath = `99 - Config/Templates/${className}_Template`; // Adjust this to the path of your template
-
-        // Locate and read the template content, then create a new note with it
-        const templateFile = await tp.file.find_tfile(templatePath);
-        if (templateFile) {
-            const templateContent = await app.vault.read(templateFile);
-            await tp.file.create(newFileName, templateContent);
-            tR += `- [${className}](${newFileName})\n`;
-        } else {
-            tR += `- ${className}: Template not found at ${templatePath}\n`;
-        }
+        const templatePath = `99 - Config/Templates/${className} Template`; // Adjust this to the path of your template.
+        
+        // Create a new note for each class using the template path as the first argument
+        await tp.file.create_new("", newFileName);
+        tR += `- [${className}](${newFileName})\n`;
     }
 } else {
     tR += "No classes scheduled for today.";
 }
 %>
-
-
-
 
 ------------
 <%*
@@ -52,7 +45,7 @@ const files = app.vault.getMarkdownFiles();
 let todos = [];
 
 // Specify the folder to exclude (e.g., "Archived/")
-const excludeFolder = "Archived/";
+const excludeFolder = "01 - DailyNotes";
 
 for (const file of files) {
     // Skip files in the specified folder
@@ -88,6 +81,5 @@ tR += `### Quote of the Day:\n\n ${randomFortune}`;
 %>
 
 -------
-
 Good luck out there! Remember to eat, sleep, and stay hydrated :D
 Today's lecture notes are linked below!

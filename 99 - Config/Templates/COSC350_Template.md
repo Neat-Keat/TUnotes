@@ -2,13 +2,11 @@
 aliases:
   - Data Communications
   - Networking
-  - Data Communications and Networking
-  - COSC350 {{Date}}
+  - COSC350 <%tp.date.now("MM-DD-YYYY")%>
 tags:
   - "#COSC350"
 ---
+From: [[<%tp.date.now("MM-DD-YYYY")%>]]
 
-From: [[{{Date}}]]
-
--------
-# Day  ({{Date}})
+---
+# Day  (<%tp.date.now("MM-DD-YYYY")%>)

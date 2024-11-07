@@ -1,6 +1,6 @@
 {
   "command_timeout": 5,
-  "templates_folder": "Config/Templater",
+  "templates_folder": "99 - Config/Templates",
   "templates_pairs": [
     [
       "",
@@ -15,8 +15,20 @@
   "enable_folder_templates": true,
   "folder_templates": [
     {
-      "folder": "",
-      "template": ""
+      "folder": "06 - Fall '24/COSC350",
+      "template": "99 - Config/Templates/COSC350_Template.md"
+    },
+    {
+      "folder": "06 - Fall '24/BIOL200",
+      "template": "99 - Config/Templates/BIOL200_Template.md"
+    },
+    {
+      "folder": "06 - Fall '24/COSC435",
+      "template": "99 - Config/Templates/COSC435_Template.md"
+    },
+    {
+      "folder": "06 - Fall '24/MATH330",
+      "template": "99 - Config/Templates/MATH330_Template.md"
     }
   ],
   "enable_file_templates": false,
