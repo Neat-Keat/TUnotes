@@ -5,5 +5,7 @@
   "obsidian-excalidraw-plugin",
   "obsidian-tasks-plugin",
   "obsidian-style-settings",
-  "templater-obsidian"
+  "templater-obsidian",
+  "obsidian-reading-time",
+  "obsidian-icons-plugin"
 ]
