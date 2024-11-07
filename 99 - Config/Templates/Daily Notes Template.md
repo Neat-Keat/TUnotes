@@ -90,7 +90,7 @@ const fortunesArray = fortunesContent.split("%").map(fortune => fortune.trim()).
 const randomFortune = fortunesArray[Math.floor(Math.random() * fortunesArray.length)];
 tR += `### Quote of the Day:\n\n ${randomFortune}`;
 %>
->>>>>>> 2d4638f7d6963f0df6851b641b0dc4adb2afa20e
+
 
 -------
 
