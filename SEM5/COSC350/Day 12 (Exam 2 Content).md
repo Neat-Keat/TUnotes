@@ -10,7 +10,7 @@ solutions in lecture notes and textbook
 Multiplexing and Demultiplexing
 
 # Multiplexing Concepts
-- typically, w communicating stations will not utilize the fullc apacity of a data link
+- typically, w communicating stations will not utilize the full capacity of a data link
 - for efficiency, it should be possible to share that capacity
 - such sharing is called multiplexing
 
