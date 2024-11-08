@@ -15,3 +15,4 @@ Today was exam 2!!
 
 recall:
 - [ ] #COSC350 project proposal 📅 11/10
+- [ ] 
