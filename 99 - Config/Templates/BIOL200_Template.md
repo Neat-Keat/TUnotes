@@ -2,12 +2,12 @@
 aliases:
   - Bio
   - Biology
-  - BIOL200 [[11-07-2024]]
+  - BIOL200 <%tp.date.now("MM-DD-YYYY")%>
 tags:
   - "#BIOL200"
 ---
-From: [[11-07-2024]]
+From: [[<%tp.date.now("MM-DD-YYYY")%>]]
 
 ------
-# Day  ([[11-07-2024]])
+# Day  ([[<%tp.date.now("MM-DD-YYYY")%>]]) 
 

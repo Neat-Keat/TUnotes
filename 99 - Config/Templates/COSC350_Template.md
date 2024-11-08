@@ -2,11 +2,11 @@
 aliases:
   - Data Communications
   - Networking
-  - COSC350 11-07-2024
+  - COSC350 <%tp.date.now("MM-DD-YYYY")%>
 tags:
   - "#COSC350"
 ---
-From: [[11-07-2024]]
+From: [[<%tp.date.now("MM-DD-YYYY")%>]]
 
 ---
-# Day  (11-07-2024)
+# Day  (<%tp.date.now("MM-DD-YYYY")%>)
