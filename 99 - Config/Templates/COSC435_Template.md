@@ -3,11 +3,11 @@ aliases:
   - Android
   - App Development
   - Kotlin
-  - COSC435 [[<%tp.date.now("MM-DD-YYYY")%>]]
+  - COSC435 [[11-07-2024]]
 tags:
   - "#COSC435"
 ---
-From: [[<%tp.date.now("MM-DD-YYYY")%>]]
+From: [[11-07-2024]]
 
 -------
-# Day  ([[<%tp.date.now("MM-DD-YYYY")%>]])
+# Day  ([[11-07-2024]])
