@@ -209,3 +209,5 @@ proposed model:
 IoT data integrity is hard bc of how dynamic the data is
 - blockchain framework for a Data Integrity Service improves integrity reliable cuts out the need for Third Party Auditors 
 ## Introduction
+> • The paper replaces Integrity Management Service from the centralized node with a fully decentralized blockchain based Data Integrity Service. This eliminates the trust requirements on Third Party Auditors and increases the reliability of Data Integrity Service
+
