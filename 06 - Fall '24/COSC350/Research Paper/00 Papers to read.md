@@ -156,3 +156,32 @@ MEC is a promising paradigm
 
 -----------
 
+# BSDCE - IOV: Blockchain-Based Secure Data Collection and Exchange Scheme for IoV in 5G Environment
+
+## Abstract
+> During communication between vehicles, roadside units, and control rooms, data confidentiality and privacy are critical issues that require effective measures
+
+> Due to its decentralization, stability, and transaction tracking capabilities, Blockchain as an emerging technology presents a potential solution for IoV security
+
+## Introduction
+IoV includes
+- vehicles
+- roadside units (RSUs)
+- control rooms (CRs)
+- Registration authority (RA)
+- pedestrians
+
+Intelligent Transportation Systems (ITS)
+Vehicle-to-everything (V2X)
+	- data from V2X can improve traffic control, 
+	- system efficiency enhancement, 
+	- transportation system environmental sustainability
+
+proposed model:
+![[Pasted image 20241108194721.png]]
+## Related Work
+>To make sure that a connected vehicle can be believed to be who they claim to be, approved IoV authentication is necessary
+
+>Consequently, the implication of strong authentication is considered the most crucial step toward an IoV secure environment
+
+
