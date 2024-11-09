@@ -184,4 +184,28 @@ proposed model:
 
 >Consequently, the implication of strong authentication is considered the most crucial step toward an IoV secure environment
 
+> A blockchain-based authentication and key agreement protocol are proposed for the multi-Trusted Authority (TA) network model [25]. The TA computing load is transferred to the RSUs, increasing authentication efficiency. Additionally, blockchain technology is used to manage the multiple TAs to manage the ledger storing vehicle information, making it possible for the vehicles to quickly accomplish crossTA authentication with approved resistance against threats.
 
+> An authentication scheme for IoV over blockchain based on ECC, hash function, and blockchain technique is introduced by [26]. A sequence of six consecutive steps, namely, initialization, registration, mutual authentication, key sharing, consensus, and certificate update, are included in the proposed scheme. It may accomplish confidentiality, integrity, authenticity, privacy, anonymity, non-repudiation, and perfect secrecy. Therefore, it is resistant to assaults like DDoS, replay, man-in-the-middle, identity theft, traffic analysis, masquerading, and session key disclosure attacks.
+
+> In [35], lightweight authentication is presented for emergency vehicles using a trusted authority as a central point. The proposed protocol is based on the strategy that a vehicle is mutually authenticated in its first integration to the IoV environment with the closest RSU using an authentication protocol. After that, re-authentication of the vehicle with the next RSUs is accomplished with less computing operation, which contributes to a decrease in the time cost.
+
+> Due to the real-time nature of the IoV network, the main goal becomes to design a secure and TABLE 1. Symbol and abbreviations. lightweight authentication system
+
+## BSDCE-IoV: Blockchain-Based Secure Data Collection and Exchange Schemes
+### Blockchain
+> blockchain-based applications enjoy high data availability, trustworthiness, scalable environment, security, and privacy.
+
+> Blockchain enhances transaction transparency by requiring that each node maintain a complete copy of the database. Before updating their databases, participating nodes must approve each new transaction to reach a consensus. The self-executing code known as a ‘‘smart contract’’ operates independently of any central authority and is triggered once its criteria are met [43].
+
+## Comparative Analysis
+### Communication Cost
+![[Pasted image 20241108201952.png]]
+![[Pasted image 20241108202054.png]]
+
+---------
+# Blockchain based Data Integrity Service Framework for IoT data
+## Abstract
+IoT data integrity is hard bc of how dynamic the data is
+- blockchain framework for a Data Integrity Service improves integrity reliable cuts out the need for Third Party Auditors 
+## Introduction
