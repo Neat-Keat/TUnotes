@@ -2,5 +2,5 @@
   "folder": "01 - DailyNotes",
   "template": "99 - Config/Templates/Daily Notes Template",
   "format": "MM-DD-YYYY",
-  "autorun": true
+  "autorun": false
 }
