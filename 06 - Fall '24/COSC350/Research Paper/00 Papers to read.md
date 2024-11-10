@@ -157,7 +157,7 @@ MEC is a promising paradigm
 -----------
 
 # BSDCE - IOV: Blockchain-Based Secure Data Collection and Exchange Scheme for IoV in 5G Environment
-
+![[BSDCE-IoV_Blockchain-Based_Secure_Data_Collection_and_Exchange_Scheme_for_IoV_in_5G_Environment.pdf]]
 ## Abstract
 > During communication between vehicles, roadside units, and control rooms, data confidentiality and privacy are critical issues that require effective measures
 
@@ -205,9 +205,50 @@ proposed model:
 
 ---------
 # Blockchain based Data Integrity Service Framework for IoT data
+
+![[Blockchain-Based-Data-Integrity-Service-Framework-for-IoT-Data.pdf]]
 ## Abstract
 IoT data integrity is hard bc of how dynamic the data is
 - blockchain framework for a Data Integrity Service improves integrity reliable cuts out the need for Third Party Auditors 
 ## Introduction
 > • The paper replaces Integrity Management Service from the centralized node with a fully decentralized blockchain based Data Integrity Service. This eliminates the trust requirements on Third Party Auditors and increases the reliability of Data Integrity Service
+
+## Background
+### Blockchain
+generally, blockchain is a time stamped chain of blocks jointly maintained by every participating node.
+- blocks are containers that aggregate transactions
+- blocks are chained together cryptographically
+- blocks are digitally signed and chained to previous block by including its hash value
+- new blocks only append to the end -> immutable
+- existing transactions cant be updated or deleted
+
+> Smart contracts [12] were introduced as autonomous programs that are deployed and running across the blockchain network. Smart contracts can express triggers, conditions, and even an entire business process [19]. For example, a smart contract-enabled escrow service can hold funds until the obligations defined in the smart contract have been fulfilled. Ethereum is the most popular secondgeneration blockchain and views a smart contract as a firstclass element.
+
+### Peer-to-Peer file system
+attempts to make global distributed file system
+- AFS in academia
+- Napster
+- KaZaA
+- BitTorrent
+	- supports over 100 million simultaneous users
+in P2P, computers can be both client AND server -> symmetric communication
+	dramatically improves scalability
+## Key Components in Blockchain based Date Integrity Service Framework
+> Ethereum blockchain is expected to enable consensus with an average duration of 12.6s. Although at the time when we write this paper, the blockchain consensus time is still longer than this (16-18s per block
+
+>we believe a constant short time consensus can be implemented in the near future with the progress of network and consensus algorithms.
+
+![[Pasted image 20241108225717.png]]
+- DOA -> Data Owners Application
+- DCAs -> Data Consumer Applications
+- CSS -> Cloud Storage Service
+- DIS -> Data Integrity Service
+
+### Cloud Storage Service
+- general purpose data storage for owners -> Amazon S3, IBM BlueMix, Microsoft Azure, Digital ocean
+- Data sharing between owners and consumers: P2P file system
+
+------------
+
+# A Blockchain-based Method Ensuring Integrity of Shared Data in a Distributed-Control Intersection Network
 
