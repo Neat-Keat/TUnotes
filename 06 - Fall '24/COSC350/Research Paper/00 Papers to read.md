@@ -261,3 +261,6 @@ distributed control over traffic intersections:
 ## Introduction
 traditional, centralized stoplights struggle to accommodate dynamic demands of congested road networks
 - work has been done to move to a distributed model, but without the blockchain
+- biggest challenge is integrity of shared data among participating entities
+	- tampered date -> crashed, increased congestion, etc
+	- 
