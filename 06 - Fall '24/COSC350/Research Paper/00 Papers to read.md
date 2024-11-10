@@ -251,4 +251,13 @@ in P2P, computers can be both client AND server -> symmetric communication
 ------------
 
 # A Blockchain-based Method Ensuring Integrity of Shared Data in a Distributed-Control Intersection Network
+## Abstract
+distributed control over traffic intersections:
+- could ensure smooth traffic flow and reduce congestion
+- maintaining security and integrity could be challenging
+	- think of tampering and modifications
+	- solved with blockchain in this paper
+
+## Introduction
+
 
