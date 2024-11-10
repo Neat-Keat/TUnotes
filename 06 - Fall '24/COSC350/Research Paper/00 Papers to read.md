@@ -262,5 +262,30 @@ distributed control over traffic intersections:
 traditional, centralized stoplights struggle to accommodate dynamic demands of congested road networks
 - work has been done to move to a distributed model, but without the blockchain
 - biggest challenge is integrity of shared data among participating entities
-	- tampered date -> crashed, increased congestion, etc
-	- 
+	- tampered data -> crashed, increased congestion, etc
+		- solve tampering with blockchain!
+## Related Works
+- traditional intersections evolve to use wireless sensor networks
+
+>employed a combination of fuzzy Q-learning (QL) and agent technologies to create a traffic light control framework. Each individual agent engages with neighboring agents, receiving rewards for their decisions. The control choices are determined based on the input of vehicle numbers to schedule the duration of the green traffic light phase. The primary objective is to optimize the reward and minimize the average delay time
+
+> A. Bagloee et al. discussed how a blockchain-based platform can facilitate the deployment of tradable mobility permits (TMP), along with related benefits like dynamic toll pricing, emergency vehicle priority, heavy truck platooning, and connected vehicles
+
+## Blockchain Fundamentals
+
+![[Pasted image 20241109194703.png]]
+
+- Decentralization
+- Immutability
+- Transparency
+- Consensus Mechanisms
+- Data Integrity
+- Smart Contracts
+- Security
+- Auditability
+
+> By leveraging these features, a blockchain-based approach can enhance the integrity of shared data in a distributed-control intersection network, reducing the risk of data manipulation, promoting trust among network participants, and contribu
+
+## Proposed Methodology
+### Problem Modeling
+![[Pasted image 20241109195434.png]]
