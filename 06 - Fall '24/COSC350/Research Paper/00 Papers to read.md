@@ -222,7 +222,7 @@ generally, blockchain is a time stamped chain of blocks jointly maintained by ev
 - new blocks only append to the end -> immutable
 - existing transactions cant be updated or deleted
 
-> Smart contracts [12] were introduced as autonomous programs that are deployed and running across the blockchain network. Smart contracts can express triggers, conditions, and even an entire business process [19]. For example, a smart contract-enabled escrow service can hold funds until the obligations defined in the smart contract have been fulfilled. Ethereum is the most popular secondgeneration blockchain and views a smart contract as a firstclass element.
+> Smart contracts [12] were introduced as autonomous programs that are deployed and running across the blockchain network. Smart contracts can express triggers, conditions, and even an entire business process [19]. For example, a smart contract-enabled escrow service can hold funds until the obligations defined in the smart contract have been fulfilled. Ethereum is the most popular second generation blockchain and views a smart contract as a first class element.
 
 ### Peer-to-Peer file system
 attempts to make global distributed file system
@@ -233,7 +233,7 @@ attempts to make global distributed file system
 	- supports over 100 million simultaneous users
 in P2P, computers can be both client AND server -> symmetric communication
 	dramatically improves scalability
-## Key Components in Blockchain based Date Integrity Service Framework
+## Key Components in Blockchain based Data Integrity Service Framework
 > Ethereum blockchain is expected to enable consensus with an average duration of 12.6s. Although at the time when we write this paper, the blockchain consensus time is still longer than this (16-18s per block
 
 >we believe a constant short time consensus can be implemented in the near future with the progress of network and consensus algorithms.
