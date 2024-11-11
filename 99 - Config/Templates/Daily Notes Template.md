@@ -28,13 +28,16 @@ if (match) {
         const templatePath = `99 - Config/Templates/${className} Template`; // Adjust this to the path of your template.
         
         // Create a new note for each class using the template path as the first argument
-        await tp.file.create_new("", newFileName);
-        tR += `- [${className}](${newFileName})\n`;
+        const createdFile = await tp.file.create_new(tp.file.find_tfile(templatePath), newFileName);
+        
+        // Link to the newly created file
+        tR += `- [[${createdFile.basename}|${className}]]\n`;
     }
 } else {
     tR += "No classes scheduled for today.";
 }
 %>
+
 
 ------------
 <%*
