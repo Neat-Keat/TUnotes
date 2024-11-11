@@ -14,5 +14,5 @@ From: [[11-07-2024]]
 Today was exam 2!!
 
 recall:
-- [ ] #COSC350 project proposal 📅 11/10
+- [x] #COSC350 project proposal 📅 11/10 ✅ 2024-11-10
 - [ ] 

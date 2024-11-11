@@ -16,7 +16,7 @@ From: [[11-08-2024]]
 Slides: 
 
 no work posted yet, but know:
-- [ ] #BIOL200 Quiz on 11/08 lecture 📅 11/11
+- [x] #BIOL200 Quiz on 11/08 lecture 📅 11/11 ✅ 2024-11-10
 - [ ] #BIOL200 Smartbooks
 
 last day of regular classes is: 12/9

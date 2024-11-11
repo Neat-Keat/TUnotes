@@ -57,7 +57,7 @@ for (const file of files) {
     const matches = content.match(/^ *- \[ \] .+/gm);
     
     if (matches) {
-        todos.push(`#### ${file.basename}`);
+        todos.push(`#### [[${file.basename}]]`);
         todos.push(...matches);
     }
 }
