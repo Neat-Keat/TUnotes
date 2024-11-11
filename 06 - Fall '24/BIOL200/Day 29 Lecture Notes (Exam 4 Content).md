@@ -34,6 +34,8 @@ Final is W [[12-11-2024]] @ 8-10am
 	- breaks down a helix (DNA!!)
 - Replication bubble
 - Replication Fork
+- DNA Pol III
+- DNA Pol I
 
 
 0) Origin

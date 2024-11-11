@@ -1,6 +1,6 @@
 # Classes
 ## Monday
-- BIO200
+- BIOL200
 - MATH330
 - MUSA360 (Who,...)
 - COSC435
