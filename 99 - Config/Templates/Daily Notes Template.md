@@ -25,13 +25,15 @@ if (match) {
     
     for (const className of classes) {
         const newFileName = `${sem}/${className}/Day X Lecture Notes`;
-        const templatePath = `99 - Config/Templates/${className} Template`; // Adjust this to the path of your template.
+        const templatePath = `99 - Config/Templates/${className}_Template`; // Adjust this to the path of your template.
         
         // Create a new note for each class using the template path as the first argument
-        const createdFile = await tp.file.create_new(tp.file.find_tfile(templatePath), newFileName);
+        
+		await tp.file.create_new(tp.file.find_tfile(templatePath), newFileName, false)
+
         
         // Link to the newly created file
-        tR += `- [[${createdFile.basename}|${className}]]\n`;
+        tR += `- [${className}](${newFileName})\n`;
     }
 } else {
     tR += "No classes scheduled for today.";
