@@ -137,8 +137,6 @@ see relevant .txt file
 The TextField Does not update
 	its our responsibility to hold the state of the user's input
 ```
-
-
 @Composable
 fun HelloContent() {
 	//this is how we add state
