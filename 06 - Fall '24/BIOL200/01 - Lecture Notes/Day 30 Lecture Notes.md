@@ -1,9 +1,22 @@
+---
+aliases:
+  - Bio
+  - Biology
+  - BIOL200 11-11-2024
+tags:
+  - "#BIOL200"
+---
+From: [[11-11-2024]]
+
+------
+# Day  ([[11-11-2024]]) 
+
 
 today: Finish DNA replication
 ![[Ch 14 Nucleic Acids, DNA replication F24.pptx]]
 
 # Reminders
-- [ ] #BIOL200 check for Unit 4 Smartbook assignmets
+- [x] #BIOL200 check for Unit 4 Smartbook assignmets ✅ 2024-11-13
 - [ ] #BIOL200 Quiz this weekend
 - SI sessions continue on schedule
 

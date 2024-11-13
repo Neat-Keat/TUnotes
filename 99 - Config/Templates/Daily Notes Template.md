@@ -24,7 +24,7 @@ if (match) {
     tR += `### ${day}'s Classes\n`;
     
     for (const className of classes) {
-        const newFileName = `${sem}/${className}/01 - Lecture Notes/Day X Lecture Notes`;
+        const newFileName = `${sem}/${className}/01 - Lecture Notes/Day X`;
         const templatePath = `99 - Config/Templates/${className}_Template`; // Adjust this to the path of your template.
         
         // Create a new note for each class using the template path as the first argument
