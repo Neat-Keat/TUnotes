@@ -7,7 +7,7 @@ tags:
   - "#COSC350"
   - "#COSC350/IPProtocolAddress"
 ---
-From: [[11-12-2024]]
+From: [[12]]
 
 ---
 # Day  (11-12-2024)

@@ -8,10 +8,10 @@ tags:
   - "#DNAReplication"
   - BIOL200/CH14
 ---
-From: [[11-08-2024]]
+From: [[08]]
 
 ------
-# Day 29 ([[11-08-2024]]) 
+# Day 29 ([[08]]) 
 
 Slides: 
 

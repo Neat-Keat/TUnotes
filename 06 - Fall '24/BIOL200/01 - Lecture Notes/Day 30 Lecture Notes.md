@@ -6,10 +6,10 @@ aliases:
 tags:
   - "#BIOL200"
 ---
-From: [[11-11-2024]]
+From: [[11]]
 
 ------
-# Day  ([[11-11-2024]]) 
+# Day  ([[11]]) 
 
 
 today: Finish DNA replication

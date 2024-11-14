@@ -7,10 +7,10 @@ aliases:
 tags:
   - "#COSC435"
 ---
-From: [[11-11-2024]]
+From: [[11]]
 
 -------
-# Day 11 ([[11-11-2024]])
+# Day 11 ([[11]])
 
 # Agenda
 - coding task 1

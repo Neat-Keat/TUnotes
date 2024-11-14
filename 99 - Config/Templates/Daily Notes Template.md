@@ -1,8 +1,7 @@
 # Good morning NK!
 ### Today's #DailyNote is for {{Date: dddd, MM-DD-YYYY}}
 
-<<[[<%tp.date.now("MM-DD-YYYY", "P-1D") %>]] <<
-\>>[[<%tp.date.now("MM-DD-YYYY", "P+1D")%>]]>>
+<<[[<%tp.date.now("MM-DD-YYYY", "P-1D") %>]]<<                \>>[[<%tp.date.now("MM-DD-YYYY", "P+1D")%>]]>>
 
 ------------
 <%*
@@ -33,13 +32,12 @@ if (match) {
 
         
         // Link to the newly created file
-        tR += `- [${className}](${newFileName})\n`;
+        tR += `- [[${newFileName}|${className}]]\n`;
     }
 } else {
     tR += "No classes scheduled for today.";
 }
 %>
-
 
 ------------
 <%*

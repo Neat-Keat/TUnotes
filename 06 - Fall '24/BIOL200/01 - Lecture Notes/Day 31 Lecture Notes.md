@@ -9,10 +9,10 @@ tags:
   - BIOL200/CH14
 cssclasses: []
 ---
-From: [[11-13-2024]]
+From: [[13]]
 
 ------
-# Day  31 ([[11-13-2024]]) 
+# Day 31 ([[13]]) 
 
 ![[Ch 14 Nucleic Acids, DNA replication F24.pptx]]
 
