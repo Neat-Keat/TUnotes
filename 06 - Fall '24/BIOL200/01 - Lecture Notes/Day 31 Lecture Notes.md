@@ -7,8 +7,7 @@ tags:
   - "#BIOL200"
   - BIOL200/CH11
   - BIOL200/CH14
-cssclasses:
-  - minecraft
+cssclasses: []
 ---
 From: [[11-13-2024]]
 
