@@ -1,9 +1,9 @@
 {
   "accentColor": "",
   "cssTheme": "Vanilla AMOLED",
-  "interfaceFontFamily": "JetBrains Mono Regular",
-  "textFontFamily": "JetBrains Mono Regular",
-  "monospaceFontFamily": "JetBrains Mono Regular",
+  "interfaceFontFamily": "JetBrains Mono",
+  "textFontFamily": "JetBrains Mono",
+  "monospaceFontFamily": "JetBrains Mono",
   "baseFontSize": 13,
   "baseFontSizeAction": true,
   "nativeMenus": false,

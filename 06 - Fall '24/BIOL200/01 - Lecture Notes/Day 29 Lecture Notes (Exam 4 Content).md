@@ -17,7 +17,7 @@ Slides:
 
 no work posted yet, but know:
 - [x] #BIOL200 Quiz on 11/08 lecture 📅 11/11 ✅ 2024-11-10
-- [ ] #BIOL200 Smartbooks
+- [x] #BIOL200 Smartbooks ✅ 2024-11-14
 
 last day of regular classes is: 12/9
 Final is W [[12-11-2024]] @ 8-10am
