@@ -1,4 +1,13 @@
 {
   "accentColor": "",
-  "cssTheme": "Prism"
+  "cssTheme": "Vanilla AMOLED",
+  "interfaceFontFamily": "JetBrains Mono Regular",
+  "textFontFamily": "JetBrains Mono Regular",
+  "monospaceFontFamily": "JetBrains Mono Regular",
+  "baseFontSize": 13,
+  "baseFontSizeAction": true,
+  "nativeMenus": false,
+  "enabledCssSnippets": [
+    "Colored Sidebar Items"
+  ]
 }
