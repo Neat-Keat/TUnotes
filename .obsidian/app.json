@@ -4,5 +4,6 @@
   "alwaysUpdateLinks": true,
   "autoPairBrackets": true,
   "showLineNumber": false,
-  "readableLineLength": true
+  "readableLineLength": true,
+  "showRibbon": true
 }
