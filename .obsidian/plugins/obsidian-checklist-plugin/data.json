@@ -1,5 +1,5 @@
 {
-  "todoPageName": "todo, ingredients",
+  "todoPageName": "ingredients",
   "showChecked": false,
   "showAllTodos": false,
   "autoRefresh": true,
@@ -10,6 +10,8 @@
   "sortDirectionSubGroups": "new->old",
   "includeFiles": "",
   "lookAndFeel": "classic",
-  "_collapsedSections": [],
+  "_collapsedSections": [
+    "08 - Recipes/04 - Recipes/Untitled.md"
+  ],
   "_hiddenTags": []
 }

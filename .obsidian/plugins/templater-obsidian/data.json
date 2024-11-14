@@ -29,6 +29,14 @@
     {
       "folder": "06 - Fall '24/MATH330",
       "template": "99 - Config/Templates/MATH330_Template.md"
+    },
+    {
+      "folder": "08 - Recipes/04 - Recipes",
+      "template": "99 - Config/Templates/Recipe_Template.md"
+    },
+    {
+      "folder": "",
+      "template": ""
     }
   ],
   "enable_file_templates": false,

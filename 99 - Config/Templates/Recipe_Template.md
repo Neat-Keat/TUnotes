@@ -1,7 +1,10 @@
 ---
-alias:
-source:
-tags: recipe
+aliases: 
+source: 
+tags:
+  - recipe
+cssclasses:
+  - page-manila
 ---
 ### Recipe Name 
 
@@ -9,7 +12,7 @@ tags: recipe
 
 ### Ingredients
 #ingredients 
-- [x] balls
+- [x] 
 
 ---
 #### Intro:
@@ -17,6 +20,3 @@ tags: recipe
 
 ---
 #### Directions
-
-
-#### FINISH:
