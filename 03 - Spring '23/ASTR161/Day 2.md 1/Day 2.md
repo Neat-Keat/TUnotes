@@ -1,6 +1,6 @@
-|   |   |
-|---|---|
-|Today|Chapter 2 – Patterns in the Sky  <br>￼1. Precession  <br>* pull of the moon  <br>* long period ~26,000 years  <br>* pole star  <br>* change of seasons  <br>￼2. Moon Phases  <br>3. Eclipses  <br>* solar eclipses  <br>* lunar eclipses  <br>* line of nodes  <br>* Bailey's Beads|
+|       |                                                                                                                                                                                                                                                                                     |
+| ----- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Today | Chapter 2 – Patterns in the Sky  <br>￼1. Precession  <br>* pull of the moon  <br>* long period ~26,000 years  <br>* pole star  <br>* change of seasons  <br>￼2. Moon Phases  <br>3. Eclipses  <br>* solar eclipses  <br>* lunar eclipses  <br>* line of nodes  <br>* Bailey's Beads |
  
 NGC = New General Catalog
  
