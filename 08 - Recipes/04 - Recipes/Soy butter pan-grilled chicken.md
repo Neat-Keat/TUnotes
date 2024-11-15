@@ -14,16 +14,16 @@ cssclasses:
 
 ### Ingredients
 #ingredients 
-- [ ] 2 pounds chicken thighs, cut into 2 x 1 inch chunks
-- [ ] 1 cup milk
-- [ ] 3 tablespoons soy sauce
-- [ ] 1 teaspoon ground black pepper
-- [ ] 8 garlic cloves, minced
-- [ ] 2 teaspoons minced ginger
-- [ ] ¼ cup rice syrup (corn syrup, honey, or sugar to your taste)
-- [ ] 1 tablespoon vegetable oil
-- [ ] 2 tablespoons unsalted butter
-- [ ] 1 or 2 green onions, chopped
+- [x] 2 pounds chicken thighs, cut into 2 x 1 inch chunks
+- [x] 1 cup milk
+- [x] 3 tablespoons soy sauce
+- [x] 1 teaspoon ground black pepper
+- [x] 8 garlic cloves, minced
+- [x] 2 teaspoons minced ginger
+- [x] ¼ cup rice syrup (corn syrup, honey, or sugar to your taste)
+- [x] 1 tablespoon vegetable oil
+- [x] 2 tablespoons unsalted butter
+- [x] 1 or 2 green onions, chopped
 
 ---
 #### Intro:
