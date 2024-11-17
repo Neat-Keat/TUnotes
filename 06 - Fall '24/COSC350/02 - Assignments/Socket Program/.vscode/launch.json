@@ -9,6 +9,34 @@
             "name": "TCPClient_Enhanced",
             "request": "launch",
             "mainClass": "TCPClient_Enhanced",
+            "projectName": "Socket Program_9f04b6b0"
+        },
+        {
+            "type": "java",
+            "name": "TCPServer_Enhanced",
+            "request": "launch",
+            "mainClass": "TCPServer_Enhanced",
+            "projectName": "Socket Program_9f04b6b0"
+        },
+        {
+            "type": "java",
+            "name": "SocketClientExample",
+            "request": "launch",
+            "mainClass": "SocketClientExample",
+            "projectName": "Socket Program_9f04b6b0"
+        },
+        {
+            "type": "java",
+            "name": "ClientGUI",
+            "request": "launch",
+            "mainClass": "ClientGUI",
+            "projectName": "Socket Program_9f04b6b0"
+        },
+        {
+            "type": "java",
+            "name": "TCPClient_Enhanced",
+            "request": "launch",
+            "mainClass": "TCPClient_Enhanced",
             "projectName": "COSC350Project_99f10ebe"
         },
         {
