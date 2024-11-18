@@ -48,11 +48,12 @@ const files = app.vault.getMarkdownFiles();
 let todos = [];
 
 // Specify the folder to exclude (e.g., "Archived/")
-const excludeFolder = "01 - DailyNotes";
+const excludeDNotes = "01 - DailyNotes";
+const excludeRecipes = "08 - Recipes";
 
 for (const file of files) {
     // Skip files in the specified folder
-    if (file.path.startsWith(excludeFolder)) continue;
+    if (file.path.startsWith(excludeDNotes || excludeRecipes)) continue;
 
     const content = await app.vault.cachedRead(file);
 
