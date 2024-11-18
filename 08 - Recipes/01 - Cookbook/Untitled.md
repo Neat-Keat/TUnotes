@@ -1,5 +1,5 @@
 Korean:
 ```dataview
-LIST FROM #recipe AND #ko
+LIST FROM #recipe AND #Korean
 ```
 
