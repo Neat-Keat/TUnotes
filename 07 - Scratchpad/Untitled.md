@@ -1,3 +1,10 @@
+---
+aliases: 
+cssclasses: []
+---
+
+
+
 ![[Pasted image 20241115142001.png]]
 
 !V = {}
