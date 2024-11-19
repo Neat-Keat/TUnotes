@@ -41,13 +41,14 @@ divide this class into 2 groups
 - Total points assigned: 2. Exceptional report may get extra credit up to 5 additional points
 
 
-| Group Name | Task                     | Details                                                                  |
-| ---------- | ------------------------ | ------------------------------------------------------------------------ |
-| 4          | TU Backbone architecture | Equipment, cable, speed, location                                        |
-| 3 (us!!)   | Networking technologies  | Ethernet, wi-fi, etc (interactions between equipment), software as well? |
-| 1          | Network Equipment        | Inside and outside of buildings                                          |
-|            | Router/backup router     | USM (University System Maryland) interface, type, capacity, brand, etc.  |
-| 5          | IP address structure     | Public, private                                                          |
+| Group Name | Task                      | Details                                                                  |
+| ---------- | ------------------------- | ------------------------------------------------------------------------ |
+| 4          | TU Backbone architecture  | Equipment, cable, speed, location                                        |
+| 3 (us!!)   | Networking technologies   | Ethernet, wi-fi, etc (interactions between equipment), software as well? |
+| 1          | Network Equipment         | Inside and outside of buildings                                          |
+| 6          | Router/backup router      | USM (University System Maryland) interface, type, capacity, brand, etc.  |
+|            | IP address structure      | Public, private                                                          |
+| 5          | Cloud Storage, web server | Capacity, speed, backup...                                               |
 
 ## Due 11/24
 ---------
