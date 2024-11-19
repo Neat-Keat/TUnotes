@@ -4,7 +4,7 @@
   "interfaceFontFamily": "JetBrains Mono",
   "textFontFamily": "JetBrains Mono",
   "monospaceFontFamily": "JetBrains Mono",
-  "baseFontSize": 10,
+  "baseFontSize": 13,
   "baseFontSizeAction": true,
   "nativeMenus": false,
   "enabledCssSnippets": [

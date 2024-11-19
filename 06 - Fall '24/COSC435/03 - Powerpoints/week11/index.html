@@ -1,0 +1,583 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Reveal JS presentation</title>
+
+  <meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+  <meta name="author" content="Hakim El Hattab">
+
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="libs/reveal.js/4.3.1/reset.css">
+  <link rel="stylesheet" href="libs/reveal.js/4.3.1/reveal.css">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+  <!-- highlight Theme -->
+  
+  <link rel="stylesheet" href="libs/highlight.js/11.3.1/styles/base16/material.min.css">
+  
+	
+		
+	<link rel="stylesheet" href="libs/reveal.js/4.3.1/plugin/chalkboard/style.css">
+	
+	
+	
+	
+
+
+
+  <!-- Revealjs Theme -->
+  
+  <link rel="stylesheet" href="libs/reveal.js/4.3.1/theme/simple.css" id="theme">
+  
+  
+
+  <link rel="stylesheet" href="libs/styles/tasklist.css">
+	<link rel="stylesheet" href="libs/styles/iota.css">
+	<link rel="stylesheet" href="libs/styles/layout.css">
+
+
+  <!-- Revealjs Theme -->
+  
+
+   <!-- css list -->
+	
+
+   
+
+</head>
+
+<body>
+
+   
+
+  <div class="reveal">
+
+    <!-- Any section element inside of this container is displayed as a slide -->
+    <div class="slides">
+
+      
+
+
+    
+        <section >
+            
+            <h2>Android App Development</h2>
+<h4>Towson University</h4>
+<h5>Randy Valis</h5>
+<h5>Fall 2024</h5>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h2>Agenda</h2>
+<ul>
+<li>Coding task 1</li>
+<li>Review (REST/Network)</li>
+<li>Images</li>
+<li>Services/WorkManager</li>
+<li>Notifications</li>
+</ul>
+
+            </section>
+    
+
+
+
+    
+    <section>
+        <section >
+            <h2>Services /  WorkManager</h2>
+
+            </section>
+        
+            <section >
+                <h3>Service</h3>
+<ul>
+<li>Can run in the background without a UI</li>
+<li>Still runs on the UI thread, though</li>
+<li>Potential use cases:
+<ol>
+<li>Download/upload large files</li>
+<li>Play music</li>
+<li>Persistent socket connections</li>
+</ol>
+</li>
+<li>Foreground services must display a notification</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <p>Subclass Service</p>
+<pre><code class="language-kotlin">class MyService : Service() 
+</code></pre>
+
+            </section>
+        
+            <section >
+                <h3>Service Types</h3>
+<ul>
+<li>Foreground Started</li>
+<li>Background Started</li>
+<li>Bound</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h3>Modern Services</h3>
+<ul>
+<li>JobService</li>
+<li>WorkManager</li>
+</ul>
+<p>Both use a scheduler to efficiently schedule background tasks.</p>
+
+            </section>
+        
+            <section >
+                <h3><a href="https://developer.android.com/topic/libraries/architecture/workmanager">WorkManager</a></h3>
+<ul>
+<li>Uses the JobManager (and JobService) under the hood for efficient scheduling</li>
+<li>Has first-class support for coroutines</li>
+</ul>
+<pre><code class="language-groovy">implementation &quot;androidx.work:work-runtime-ktx:2.7.1&quot;
+</code></pre>
+
+            </section>
+        
+            <section >
+                <h3>How to</h3>
+<ul>
+<li>Create a WorkRequest (one-time or periodic)</li>
+<li>Optionally set Constraints</li>
+<li>Schedule the WorkRequest</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h3>Constraints</h3>
+<p>Constraints allow background jobs to be scheduled only when certain constraints are met.</p>
+<ol>
+<li>NetworkType</li>
+<li>Battery level</li>
+<li>Idle status</li>
+<li>Charging status</li>
+<li>Disk storage amount</li>
+</ol>
+
+            </section>
+        
+            <section >
+                <pre><code class="language-kotlin">
+val constraints = Constraints.Builder()
+   .setRequiredNetworkType(NetworkType.UNMETERED)
+   .setRequiresCharging(true)
+   .build()
+
+val myWorkRequest: WorkRequest =
+   OneTimeWorkRequestBuilder&lt;MyWork&gt;()
+       .setConstraints(constraints)
+       .build()
+</code></pre>
+
+            </section>
+        
+            <section >
+                <h3>Input data</h3>
+<p>Sometimes, your background worker will require some initial data, like a uri to download from. The Worker class allows passing key/value pairs to your worker.</p>
+<pre><code class="language-kotlin">// Define the Worker requiring input
+class UploadWork(appContext: Context, workerParams: WorkerParameters)
+   : Worker(appContext, workerParams) {
+
+   override fun doWork(): Result {
+       val imageUriInput =
+           inputData.getString(&quot;IMAGE_URI&quot;) ?: return Result.failure()
+
+       uploadFile(imageUriInput)
+       return Result.success()
+   }
+   ...
+}
+
+// Create a WorkRequest for your Worker and sending it input
+val myUploadWork = OneTimeWorkRequestBuilder&lt;UploadWork&gt;()
+   .setInputData(workDataOf(
+       &quot;IMAGE_URI&quot; to &quot;http://...&quot;
+   ))
+   .build()
+</code></pre>
+
+            </section>
+        
+            <section >
+                <h3>Progress</h3>
+<p>Sometimes, it’s helpful to display background process progress. Workers provide a convenient way to observe progress.</p>
+<pre><code class="language-kotlin">override suspend fun doWork(): Result {
+    val firstUpdate = workDataOf(&quot;Progress&quot; to 0)
+    val lastUpdate = workDataOf(&quot;Progress&quot; to 100)
+    setProgress(firstUpdate)
+    delay(delayDuration)
+    setProgress(lastUpdate)
+    return Result.success()
+}
+</code></pre>
+
+            </section>
+        
+            <section >
+                <h3>Observe progress</h3>
+<pre><code class="language-kotlin">WorkManager.getInstance(applicationContext)
+    // requestId is the WorkRequest id
+    .getWorkInfoByIdLiveData(requestId)
+    .observe(observer, Observer { workInfo: WorkInfo? -&gt;
+            if (workInfo != null) {
+                val progress = workInfo.progress
+                val value = progress.getInt(&quot;Progress&quot;, 0)
+                // Do something with progress information
+            }
+    })
+</code></pre>
+
+            </section>
+        
+            <section >
+                <h3>Foreground</h3>
+<p>Setting a worker as a long-running foreground task requires a notification</p>
+<pre><code class="language-kotlin">override suspend doWork() : Result {
+    ...
+    // ForegroundInfo requires a notification
+    setForeground(ForegroundInfo(...)) 
+    ...
+}
+</code></pre>
+
+            </section>
+        
+
+    </section>
+    
+
+
+
+    
+    <section>
+        <section >
+            <h2><a href="https://developer.android.com/guide/topics/ui/notifiers/notifications">Notifications</a></h2>
+
+            </section>
+        
+            <section >
+                <h3>Parts of a Notification</h3>
+<p><img src="notification_parts.png" alt="Parts"></p>
+<ol>
+<li>Small Icon (required)</li>
+<li>App Name (system provided)</li>
+<li>Timestamp (system provided)</li>
+<li>Large Icon</li>
+<li>Title</li>
+<li>Text</li>
+</ol>
+
+            </section>
+        
+            <section >
+                <h3>Channels</h3>
+<p>Starting with Android 8, all notifications must be assigned a Channel.</p>
+<p>Users can turn on/off notifications by channel and assign channels different priorities.</p>
+
+            </section>
+        
+            <section >
+                <h3>Example</h3>
+<ol>
+<li>Build the notification</li>
+<li>Using the NotificationManager, call notify</li>
+<li>Update a notification by using the same ID</li>
+</ol>
+<pre><code class="language-kotlin">var builder = NotificationCompat.Builder(this, CHANNEL_ID)
+        .setSmallIcon(R.drawable.notification_icon)
+        .setContentTitle(textTitle)
+        .setContentText(textContent)
+        .setPriority(NotificationCompat.PRIORITY_DEFAULT)
+
+NotificationManager.notify(id, builder.build())
+</code></pre>
+
+            </section>
+        
+            <section >
+                <h3>Tap action</h3>
+<p>Users typically expect to tap a notification and open your app</p>
+<ol>
+<li>Create a PendingIntent</li>
+<li>setContentIntent() on the notification</li>
+</ol>
+<pre><code class="language-kotlin">val intent = Intent(this, AlertDetails::class.java).apply {
+    flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
+}
+val pendingIntent: PendingIntent = PendingIntent.getActivity(this, 0, intent, 0)
+
+...
+builder.setContentIntent(pendingIntent)
+...
+</code></pre>
+
+            </section>
+        
+
+    </section>
+    
+
+
+    </div>
+
+
+  </div>
+
+  <div class="line top"></div>
+  <div class="line bottom"></div>
+  <div class="line left"></div>
+  <div class="line right"></div>
+
+  <script src="libs/reveal.js/4.3.1/reveal.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/notes/notes.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/markdown/markdown.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/highlight/highlight.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/math/math.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/fullscreen/plugin.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/animate/plugin.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/animate/svg.min.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/anything/plugin.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/anything/Chart.min.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/anything/d3/d3.v3.min.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/anything/d3.patch.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/anything/d3/queue.v1.min.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/anything/d3/topojson.v1.min.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/anything/function-plot.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/customcontrols/plugin.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/embed-tweet/plugin.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/chart/chart.min.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/chart/plugin.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/verticator/verticator.js"></script>
+
+<script src="libs/reveal.js/4.3.1/plugin/zoom/zoom.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/search/search.js"></script>
+
+
+
+<!--	<script src="libs/reveal.js/4.3.1/plugin/audio-slideshow/plugin.js"></script>  -->
+<!--	<script src="libs/reveal.js/4.3.1/plugin/audio-slideshow/recorder.js"></script>-->
+<!--	<script src="libs/reveal.js/4.3.1/plugin/audio-slideshow/RecordRTC.js"></script>-->
+
+  
+
+<script>
+  const printPlugins = [
+      RevealNotes,
+      RevealHighlight,
+      RevealMath.MathJax3,
+      RevealAnimate,
+      
+			RevealEmbedTweet,
+			RevealChart,
+		];
+
+		const plugins =  [...printPlugins,
+		RevealZoom, 
+		RevealSearch, 
+				RevealMarkdown, 
+				
+				RevealFullscreen,
+				RevealAnything,
+				//RevealAudioSlideshow,
+				//RevealAudioRecorder,
+				
+				// poll
+				// question
+				// seminar
+				Verticator 
+				 ]
+
+
+		// Also available as an ES module, see:
+		// https://revealjs.com/initialization/
+		Reveal.initialize({
+			controls: true,
+      controlsTutorial: true,
+      controlsLayout: 'bottom-right',
+      controlsBackArrows: 'faded',
+      progress: true,
+      slideNumber: false,
+      //#showSlideNumber "all" "print" "speaker"
+      hash: true, //# hash: false,
+      //# respondToHashChanges: true,
+      //# history: false,
+      keyboard: true,
+      //#keyboardCondition: null,
+      overview: true,
+      center: true,
+      touch: true,
+      loop: false,
+      rtl: false,
+      //#navigationMode: 'default', linear grid
+      shuffle: false,
+      fragments: true,
+      fragmentInURL: false,
+      embedded: false,
+      help: true,
+      //#pause: true
+      showNotes: false,
+      autoPlayMedia: false, // TODO fix this to a nullable value
+      //#preloadIframes: null. true false
+      //#autoAnimate: true
+      //#autoAnimateMatcher: null,
+      //#autoAnimateEasing: 'ease',
+      //autoAnimateDuration: 1.0,
+      //#autoAnimateUnmatched: true
+      //#autoAnimateStyles: []
+      autoSlide: 0, // TODO fix this to a falseable value
+      autoSlideStoppable: true,
+      autoSlideMethod: '0',
+      defaultTiming: 120,
+      mouseWheel: false,
+      //#previewLinks: false
+      //#postMessage: true, // TODO : this can cause issues with the vscode api ???
+      //#postMessageEvents: false,
+      //#focusBodyOnPageVisibilityChange: true,
+      transition: 'slide',
+      transitionSpeed: 'default',
+      backgroundTransition: 'fade',
+      //#pdfMaxPagesPerSlide: Number.POSITIVE_INFINITY,
+      //#pdfSeparateFragments: true,
+      //#pdfPageHeightOffset: -1,
+      viewDistance: 3,
+      //#mobileViewDistance: 2,
+      display: 'block',
+      //#hideInactiveCursor: true,
+      //#hideCursorTime: 5000
+
+      // Parallax Background
+      parallaxBackgroundImage: '',
+      parallaxBackgroundSize: '',
+      parallaxBackgroundHorizontal: 0,
+      parallaxBackgroundVertical: 0,
+
+      //Presentation Size
+      width: 960,
+			height: 700,
+			margin: 0.04,
+      minScale: 0.2,
+      maxScale: 2,
+      disableLayout: false,
+
+      audio: {
+        prefix: 'audio/', // audio files are stored in the "audio" folder
+        suffix: '.ogg', // audio files have the ".ogg" ending
+        textToSpeechURL: null, // the URL to the text to speech converter
+        defaultNotes: false, // use slide notes as default for the text to speech converter
+        defaultText: false, // use slide text as default for the text to speech converter
+        advance: 0, // advance to next slide after given time in milliseconds after audio has played, use negative value to not advance
+        autoplay: false, // automatically start slideshow
+        defaultDuration: 5, // default duration in seconds if no audio is available
+        defaultAudios: true, // try to play audios with names such as audio/1.2.ogg
+        playerOpacity: 0.05, // opacity value of audio player if unfocused
+        playerStyle: 'position: fixed; bottom: 4px; left: 25%; width: 50%; height:75px; z-index: 33;', // style used for container of audio controls
+        startAtFragment: false, // when moving to a slide, start at the current fragment or at the start of the slide
+      },
+      
+			customcontrols: {
+					controls: [
+      						{
+						  id: 'toggle-overview',
+						  title: 'Toggle overview (O)',
+						  icon: '<i class="fa fa-th"></i>',
+						  action: 'Reveal.toggleOverview();'
+						}
+						
+				]
+			},
+			chart: {
+					defaults: { 
+						color: 'lightgray', // color of labels
+						scale: { 
+							beginAtZero: true, 
+							ticks: { stepSize: 1 },
+							grid: { color: "lightgray" } , // color of grid lines
+						},
+					},
+					line: { borderColor: [ "rgba(20,220,220,.8)" , "rgba(220,120,120,.8)", "rgba(20,120,220,.8)" ], "borderDash": [ [5,10], [0,0] ] }, 
+					bar: { backgroundColor: [ "rgba(20,220,220,.8)" , "rgba(220,120,120,.8)", "rgba(20,120,220,.8)" ]}, 
+					pie: { backgroundColor: [ ["rgba(0,0,0,.8)" , "rgba(220,20,20,.8)", "rgba(20,220,20,.8)", "rgba(220,220,20,.8)", "rgba(20,20,220,.8)"] ]},
+					radar: { borderColor: [ "rgba(20,220,220,.8)" , "rgba(220,120,120,.8)", "rgba(20,120,220,.8)" ]}, 
+			},
+			math: {
+				mathjax: 'https://cdn.jsdelivr.net/gh/mathjax/mathjax@2.7.8/MathJax.js',
+				config: 'TeX-AMS_HTML-full',
+				// pass other options into `MathJax.Hub.Config()`
+				TeX: { Macros: { RR: "{\\bf R}" } }
+				},
+				anything: [ 
+				{
+		className: "plot",
+		defaults: {width:500, height: 500, grid:true},
+		initialize: (function(container, options){ options.target = "#"+container.id; functionPlot(options) })
+	 },
+	 {
+		className: "chart",  
+		initialize: (function(container, options){ container.chart = new Chart(container.getContext("2d"), options);  })
+	 },
+	 {
+		className: "anything",
+		initialize: (function(container, options){ if (options && options.initialize) { options.initialize(container)} })
+	 },
+					],
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: (window.location.search.match(/print-pdf/gi) ? printPlugins : plugins ) 
+		});
+			
+
+
+	    // Change chalkboard theme : 
+		function changeTheme(input) {
+			var config = {};
+			config.theme = input.value;
+			Reveal.getPlugin("RevealChalkboard").configure(config);
+			input.blur();
+		}
+
+		// // Handle the message inside the webview
+        // window.addEventListener('message', event => {
+
+        //     const message = event.data; // The JSON data our extension sent
+
+        //     switch (message.command) {
+        //         case 'refactor':
+        //             Reveal.toggleHelp();
+        //     }
+        // });
+
+		if (window.location.search.match(/print-pdf-now/gi)) {
+      		setTimeout(() => {
+				window.print();
+			  }, 2500);
+			
+    }
+</script>
+
+</body>
+
+</html>
