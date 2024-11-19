@@ -211,6 +211,8 @@ val getContent = registerForActivityResult(GetContent()) {
 getContent.launch("image/*")
 ```
 
+use this to open youtube or spotify in the met app?
+
 # Custom Contracts
 
 ``` Kotlin
