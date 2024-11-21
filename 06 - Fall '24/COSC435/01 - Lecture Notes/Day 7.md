@@ -68,8 +68,7 @@ Use .navigate to switch routes. The navigation controller will track the stack a
 ```kotlin
 navController.navigate("screenTwo")
 ```
-Avoid passing the NavController to destination controllers. Instead, use....
-....
+Avoid passing the NavController to destination controllers. Instead, use state hoisting and expose a function to navigate
 
 in order to use this library, you have to add it to your project!
 how?
