@@ -10,7 +10,7 @@ cssclasses:
 From: [[2024/11/21]]
 
 ---
-# Day  (11-21-2024)
+# Day 25 (11-21-2024)
 
 Today's and Tuesday's lecture on IP addresses
 then thanksgiving break
