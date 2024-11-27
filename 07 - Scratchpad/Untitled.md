@@ -3,7 +3,8 @@ aliases:
 cssclasses: []
 ---
 
-
+5' CTGAC 3'
+3' GACUG 5' or 5' GUCAG 3'
 ![[Pasted image 20241122104340.png]]
 ![[Pasted image 20241122113317.png]]
 ![[Pasted image 20241122113133.png]]

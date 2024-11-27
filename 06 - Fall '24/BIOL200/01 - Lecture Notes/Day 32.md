@@ -11,7 +11,7 @@ cssclasses: []
 From: [[2024/11/15]]
 
 ------
-# Day  ([[11-15-2024]]) 
+# Day 32 ([[11-15-2024]]) 
 
 Schedule wise:
 - SI session 11:30 today
