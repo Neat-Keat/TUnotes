@@ -244,16 +244,16 @@ val nr = NetworkRequest.Builder()
 	.build()
 cm.requestNetwork(nr, object: ConnectivityManager.NetworkCallback() {
 	override fun onAvailable{
-	...
+		super.onAvailable(network)
+		Log.i("Connected")
 	}
 
 	override fun onLost(network: Network) {
-	...
+		super.onLost(network)
+		Log.i("Not connected")
 	}
 }
-...
-...
-...
+)
 ```
 
 its useful to know if you're on cell or wifi so that you dont accidentally use all of a client's data allowance
