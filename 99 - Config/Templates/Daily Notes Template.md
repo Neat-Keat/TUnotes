@@ -1,7 +1,7 @@
 # Good morning NK!
 ### Today's #DailyNote is for {{Date: dddd, MM-DD-YYYY}}
 
-<<[[<%tp.date.now("MM-DD-YYYY", "P-1D") %>]]<<                \>>[[<%tp.date.now("MM-DD-YYYY", "P+1D")%>]]>>
+<<[[<%tp.date.now("MM/DD/YYYY", "P-1D") %>]]<<                \>>[[<%tp.date.now("MM/DD/YYYY", "P+1D")%>]]>>
 
 ------------
 <%*
