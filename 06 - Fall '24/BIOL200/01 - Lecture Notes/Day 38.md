@@ -28,7 +28,7 @@ lowest of 4 exams gets dropped
 
 ------
 
-# Euakryotic Transcription
+# Eukaryotic Transcription
 - 3 different RNA polymerases
 	- RNA polymerase I transcribes rRNA
 	- ==RNA polymerase II== transcribes mRNA and some snRNA
