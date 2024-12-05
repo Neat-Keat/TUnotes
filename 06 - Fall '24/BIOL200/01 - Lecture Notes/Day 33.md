@@ -122,7 +122,7 @@ offspring produced by crossing two true-breeding strains
 for every trait Mendel studied, all $F_1$ plants resembled same parent (for example purple flower)
 
 - Referred to visible trait as *dominant*
-- alternative trit (ex. white flower) was *recessive*
+- alternative trait (ex. white flower) was *recessive*
 
 No plants with intermediate characteristics of parents were produced, meaning no blending inheritance
 
@@ -133,13 +133,13 @@ P Generation  (true-breeding parents)
 			|
 			v
 $F_1$ generation (hybrids!)
-	all plants had purpple flowers
+	all plants had purple flowers
 
 $F_2$ generation
 ...
 ...
 
-# 3:1 is actuall 1:2:1
+# 3:1 is actually 1:2:1
 $F_2$ plants
 	3/4 plants with the dominant form
 	1/4 plants with the recessive form
