@@ -49,7 +49,7 @@ Final is W [[12-11-2024]] @ 8-10am
 - requires 3 things
 	1. something to copy
 		- parental DNA molecule
-		- called the templatee
+		- called the template
 	2. Something to do the copying
 		- enzymes
 	3. Building blocks to make copy
@@ -89,7 +89,7 @@ how does DNA polymerase "know" to add the right nucleotide  {C, T, A, G} to matc
 * ...
 * ...
 
-1 origin of rplication, copy around the circle in both directions, end with 2 tangles circle!
+1 origin of replication, copy around the circle in both directions, end with 2 tangles circle!
 
 ![[Pasted image 20241108093232.png]]
 

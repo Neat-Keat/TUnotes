@@ -58,7 +58,7 @@ Mitosis and meiosis generally go together, but they're separated in lecture to h
 - meiosis vs mitosis
 
 # Cell types
-- 3 main classifications of cells"
+- 3 main classifications of cells
 	- Somatic cells //soma = body -> all the cells of your body
 		- diploid
 		- divide by mitosis
@@ -119,7 +119,7 @@ mitosis = 2 identical diploid cells
 meiosis = 4 nonidentical gametes
 
 # Features of Meiosis
-- Meiosis includes *2* rounds oof division
+- Meiosis includes *2* rounds of division
 	- meiosis I and ...
 	- ...
 - ...

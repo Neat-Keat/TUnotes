@@ -9,7 +9,7 @@ tags:
 From: [[11]]
 
 ------
-# Day  ([[11]]) 
+# Day 30 ([[11]]) 
 
 
 today: Finish DNA replication
@@ -17,7 +17,7 @@ today: Finish DNA replication
 
 # Reminders
 - [x] #BIOL200 check for Unit 4 Smartbook assignmets ✅ 2024-11-13
-- [ ] #BIOL200 Quiz this weekend
+- [x] #BIOL200 Quiz this weekend ✅ 2024-12-04
 - SI sessions continue on schedule
 
 ---------
