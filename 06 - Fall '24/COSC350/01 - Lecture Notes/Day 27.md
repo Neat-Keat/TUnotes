@@ -145,4 +145,142 @@ Router sees old (incoming) value and replaces it with new number (internal addre
 
 # TCP/UDP
 ![[UDP_TCP.pptx]]
-	
+
+A
+T - decide whether to use UDP/TCP
+N
+L
+P
+
+UDP is "dumb" protocol
+- doesnt do anything on msg lost, delivered, etc
+- no mechanism to recover lost packets
+- Used when you dont want to receive late packets, but rather discard them
+
+Use TCP when every bit matters
+- like banking info!
+
+![[Pasted image 20241205095750.png]]
+![[Pasted image 20241205095903.png]]
+UDP does "best effort", but not responsible for lost, out-of-order, duplicate packets
+- only security feature is an opti checksum
+![[Pasted image 20241205100004.png]]
+![[Pasted image 20241205100010.png]]
+
+![[Pasted image 20241205100402.png]]
+![[Pasted image 20241205100409.png]]
+![[Pasted image 20241205100413.png]]
+
+# TCP
+> Notoriously complicated protocol
+> provides reliable data delivery, but using unreliable datagram delivery
+> best effort again lol
+
+![[Pasted image 20241205100606.png]]
+![[Pasted image 20241205100631.png]]
+uses 3-way handshake
+uses graceful shutdown
+
+![[Pasted image 20241205100800.png]]
+
+How does the left know if their battle plans made it to the right?
+	they dont!
+
+![[Pasted image 20241205101047.png]]
+
+![[Pasted image 20241205101214.png]]
+think about Macy's in the Towson Mall:
+- they're having a huge sale on shoes!
+you cant walk up to the mall and demand shoes, you have to go to the Macys in the mall!
+
+your PC is the mall, services are the stores
+
+![[Pasted image 20241205101444.png]]
+![[Pasted image 20241205101449.png]]
+P2P communication
+![[Pasted image 20241205101538.png]]
+recall duplicate packets come from a packet "killing a dragon"
+
+![[Pasted image 20241205101705.png]]
+SEND/ACK with timer basically
+![[Pasted image 20241205101814.png]]
+on Host 1:
+- vertical distance between send message 3 and retransmission timer expires is the time-out window
+![[Pasted image 20241205101852.png]]
+![[Pasted image 20241205101913.png]]
+![[Pasted image 20241205101917.png]]
+too short -> duplicate packets -> inefficient
+too long -> communication slows down
+
+![[Pasted image 20241205102015.png]]
+RTO -> Retransmission TimeOut
+
+![[Pasted image 20241205102038.png]]
+
+#MEMORIZE
+> to set timeout value:
+> 	we measure ==Round-Trip Time==
+
+![[Pasted image 20241205102229.png]]
+need to be aware of which packet is being acknowledged, but we use TCP sliding window to figure this out!
+
+![[Pasted image 20241205102407.png]]
+Suppose you're managing a Greyhound bus:
+- you have 6 packets to take care of
+As a sender, you only send packets 1,2,3 at first
+- receiver only gets 2
+
+![[Pasted image 20241205102841.png]]
+![[Pasted image 20241205102844.png]]
+![[Pasted image 20241205103019.png]]
+"all the magic is in the header"
+	source and destination is identical to UDP
+	sequence & ack number are unique
+	"not that complicated as you can see"
+"if you understand sliding window youll understand all that"
+
+![[Pasted image 20241205103121.png]]
+#MEMORIZE 3-way handshake
+
+note that handshake also uses random sequence numbers to label each communication
+
+| Host 1 | Host 2 |
+| ------ | ------ |
+| Syn    |        |
+|        | Ack    |
+| Ack    |        |
+![[Pasted image 20241205103224.png]]
+code part of header determines if Syn, Ack, or Ack
+if client denied, just retry with new random numbers!
+
+![[Pasted image 20241205103438.png]]
+
+windows terminal > netstat
+lets you see what you're communicating with and state of communications
+![[Pasted image 20241205103646.png]]
+
+![[Pasted image 20241205103718.png]]
+![[Pasted image 20241205103849.png]]
+
+Thats it!
+We've covered all the course material!
+
+study guide for final:
+![[final study guide.docx]]
+
+given a subnet, how to divide into 16 further subnets?
+	4 bits = 16, last 4 bits determine new subnets
+
+given 2 IP addresses, see if theyre in the same network?
+	use subnet mask, see if its the same
+
+pass MTU? #MEMORIZE
+- multiple networks, each has a max size of packet that can go through
+- set IP = dont fragment
+- if MTU doesnt allow that size, then ICMP will report "I cant go through!"
+- smallest MTU across all networks
+
+![[Pasted image 20241205104514.png]]
+if A sends a packet of size 1200, MTU wont allow it, ICMP reports back to fragment
+same with MTU 700, needs to be < smallest MTU to be successful
+
