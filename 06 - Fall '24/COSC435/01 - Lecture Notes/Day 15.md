@@ -49,3 +49,25 @@ can sign into spotify
 
 say you want to go on a 10 minute walk
 - generates a ~10 minute playlist for you!
+
+------
+
+# Group 6: Recipe Record
+
+Stores recipes for users to reference off their phone instead of a recipe book
+	kind of incomplete but neat!!
+
+----------
+
+# Group 5: SplitLife
+
+Speedrun split application
+essentially a stopwatch lulw
+
+
+
+
+
+------
+
+# Group 8:
