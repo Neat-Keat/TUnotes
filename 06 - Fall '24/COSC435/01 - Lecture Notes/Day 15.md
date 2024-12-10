@@ -45,7 +45,7 @@ cumulative 4head
 # Group 2: NewMu
 
 Generate unique playlists based on lengths of time
-can sign into spotify
+can sign into spotify, but does nothing
 
 say you want to go on a 10 minute walk
 - generates a ~10 minute playlist for you!
@@ -55,7 +55,7 @@ say you want to go on a 10 minute walk
 # Group 6: Recipe Record
 
 Stores recipes for users to reference off their phone instead of a recipe book
-	kind of incomplete but neat!!
+	kind of incomplete but neat!
 
 ----------
 
@@ -65,9 +65,27 @@ Speedrun split application
 essentially a stopwatch lulw
 
 
-
-
-
 ------
 
-# Group 8:
+# Group 8: TrackIt
+
+task management software
+tracks all entered tasks, lets you organize them
+notifications to remind you to do upcoming tasks
+
+tasks dont save :skull:
+
+git merge issues apparently
+
+----
+
+# Group 4: NutriFit
+
+arch linux guy cant use peripherals moment lulw
+oluwafemi thought he was in group 2
+
+food/workout logging
+
+---------
+
+# Group 10:
