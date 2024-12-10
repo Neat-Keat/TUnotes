@@ -43,7 +43,7 @@ Fluid Mosaic Model
 ![[Pasted image 20240923091304.png]]
 
 Cellular membrane components
-1. *Phhospholipid bilayer*
+1. *Phospholipid bilayer*
 	1. flexible matrix, barrier to permeability
 2. *Transmembrane proteins*
 	1. integral membrane proteins
