@@ -95,7 +95,7 @@ dont need to memorize structure, but know what flagella are and what they do (sp
 - all multi-cellular organisms are eukaryotes, and some unicellular organisms are eukaryotes -> there ARE single celled eukaryotes
 
 Eu = "True"
-Kary"kernel"
+Kary = "kernel"
 	means they have a nucleus!!
 
 compare and contrast Eukaryotes and Prokaryotes #MEMORIZE
@@ -125,7 +125,7 @@ be able to identify the name & function of all parts just from the images
 - nucleolus - region where ribosomal RNA synthesis takes place
 - Nuclear envelope
 	- 2 phospholipid bilayers
-	- nucluear pores - control passage in and out
+	- nuclear pores - control passage in and out
 	- nuclear lamina - network of fibers on inner surface; made of nuclear lamins; give nucleus shape (looks like a mesh)
 - In eukaryotes, the DNA is divided into multiple linear chromosomes and organized into chromatin
 	- chromatin = chromosomes + protein
