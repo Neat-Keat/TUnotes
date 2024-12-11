@@ -67,7 +67,7 @@ G0 is just an idle period of lol
 - G1, S, and G2 phases
 	- G1 - cells undergo major portion of growth
 	- S - replicate DNA
-	- G2 - chromosomes coil more tightly using motot proteins; centrioles replicate; tubulin synthesis
+	- G2 - chromosomes coil more tightly using motor proteins; centrioles replicate; tubulin synthesis
 	![[Pasted image 20241101091826.png]]
 	#MEMORIZE have to know each of the phases and understand whats happening in each picture
 

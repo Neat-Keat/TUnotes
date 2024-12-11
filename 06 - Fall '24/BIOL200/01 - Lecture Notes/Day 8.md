@@ -28,8 +28,8 @@ A.                                                                   3' UAACGACU
                 flipped to be    5' CUCUCAGCAAU 3
 
 
-Proteins!
-----------
+# Proteins!
+-------
 
 Proteins are the most diverse group of biological macromolecules, both chemically and functionally!
 

@@ -53,7 +53,7 @@ Vesicle: "a small, mini membrane-bound compartment"
 - variety of enzyme-bearing, membrane-enclosed vesicles
 - primary way cells organize their metabolism
 - *Peroxisomes*
-	- contain enzymes involved in th e oxidation of fatty acids
+	- contain enzymes involved in the oxidation of fatty acids
 	- hydrogen peroxide produced as by-product - rendered harmless by catalase
 
 # Vacuoles
