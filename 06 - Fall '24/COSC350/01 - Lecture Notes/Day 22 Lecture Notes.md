@@ -72,7 +72,7 @@ group leader needs to prepare:
 - [ ] group meeting to decide which 
 
 
-![[IP_Protocol_Addresses.pptx]]
+![[CH 21 IP_Protocol_Addresses.pptx]]
 
 
 # IP Protocol Addresses

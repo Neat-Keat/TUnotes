@@ -11,7 +11,7 @@ expect MC, T/F, and essay Qs
 
 list of topics to know (incomplete):
 
-from: 	![[LANs.pptx]]
+from: 	![[CH 13 LANs.pptx]]
 - Circuit Switching
 - Packet Switching
 	- the difference between the two
@@ -45,7 +45,7 @@ from: 	![[LANs.pptx]]
 - Bit and Byte stuffing
 	- why and how
 
-from:![[The_IEEE_MAC_Sub-Layer.pptx]]
+from:![[CH 14 The_IEEE_MAC_Sub-Layer.pptx]]
 - Overview
 	- ![[Pasted image 20241031100146.png]]
 - which technology belongs to which category
@@ -84,7 +84,7 @@ from:![[The_IEEE_MAC_Sub-Layer.pptx]]
 	- know what it takes to recover
 
 From:
-![[Wired_LAN_(IEEE802.3).pptx]]
+![[CH 15 Wired_LAN_(IEEE802.3).pptx]]
 
 - Ethernet
 	- ethernet frame format:

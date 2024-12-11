@@ -31,7 +31,7 @@ lecture notes
 
 Intro to data communication
 
-![[KRChapter_1.pptx]]
+![[CH 1,2,3 KRChapter_1.pptx]]
 goals:
 * get "feel", "big picture" intro to terms
 * more depth, detail later

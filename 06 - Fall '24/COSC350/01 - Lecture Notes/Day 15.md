@@ -46,7 +46,7 @@ byte stuffing =/ bit stuffing
 -----------
 # The IEEE MAC sublayer
 
-![[The_IEEE_MAC_Sub-Layer.pptx]]
+![[CH 14 The_IEEE_MAC_Sub-Layer.pptx]]
 # Introduction
 - multiple, independent computers must coordinate to access a shared medium
 - Three approaches:

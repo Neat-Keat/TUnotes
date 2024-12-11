@@ -41,7 +41,7 @@ decide who's covering what
 
 
 --------
-![[IP_Datagrams.pptx]]
+![[CH 22 IP_Datagrams.pptx]]
 
 recall 135.62.150.3/26
 
@@ -211,7 +211,7 @@ Reply is unicast
 
 ------
 
-![[Support Protocols.pptx]]
+![[CH 23 Support Protocols.pptx]]
 
 # Support Protocols and Technologies
 

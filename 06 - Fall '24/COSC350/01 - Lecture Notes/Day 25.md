@@ -24,7 +24,7 @@ Then 1 more class session
 ---------
 
 
-![[IP_Protocol_Addresses.pptx]]
+![[CH 21 IP_Protocol_Addresses.pptx]]
 
 ![[Pasted image 20241121093328.png]]
 The last 2 written bits represent subnets!
@@ -202,7 +202,7 @@ TU doesnt like IPv6 bc of private IP
 
 # IP Datagrams & Datagram Forwarding
 
-![[IP_Datagrams.pptx]]
+![[CH 22 IP_Datagrams.pptx]]
 
 
 # Introduction

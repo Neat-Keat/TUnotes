@@ -53,7 +53,7 @@ divide this class into 2 groups
 ## Due 11/24
 ---------
 
-![[IP_Protocol_Addresses.pptx]]
+![[CH 21 IP_Protocol_Addresses.pptx]]
 
 why IP and MAC?
 	MAC is structured differently depending on manufacturer (?)

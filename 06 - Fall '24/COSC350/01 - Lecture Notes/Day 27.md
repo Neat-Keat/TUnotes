@@ -16,7 +16,7 @@ today:
 - finish supporting protocols: TCP & UDP
 - go over study guide
 
-![[Support Protocols.pptx]]
+![[CH 23 Support Protocols.pptx]]
 
 final exam covers from midterm II to what we cover today
 
@@ -144,7 +144,7 @@ Router sees old (incoming) value and replaces it with new number (internal addre
 ----
 
 # TCP/UDP
-![[UDP_TCP.pptx]]
+![[CH 24, 25 UDP_TCP.pptx]]
 
 A
 T - decide whether to use UDP/TCP
