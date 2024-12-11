@@ -88,4 +88,42 @@ food/workout logging
 
 ---------
 
-# Group 10:
+# Group 10: 
+
+wasnt here lulw
+
+
+
+---------
+
+# Group 1: The Habit Tracker
+
+strives to help users become more disciplined in their daily tasks, while also adding a bit of fun through a streak system!
+
+like BeReal for accountability tasks!
+
+
+------
+
+# Group 9: Spendle
+
+Expense Management Application
+shows the user live updates of the S&P500 which is cool!
+neat pi chart and bar chart visualizers of prices by category!
+
+
+
+------
+
+# Group 7: Rhyme Tyme
+Angel Ocadiaz lulw
+
+The ultimate songwriting companion for creatives to create music.
+- Offers tools to:
+	- organize, edit, and enhance lyrics and chords
+	- get rhyming assistance for lyrics
+	- enables music creation on the go
+
+auto rhymer is sick actually
+functioning piano is wild
+	its a bunch of buttons LMFAOOO
