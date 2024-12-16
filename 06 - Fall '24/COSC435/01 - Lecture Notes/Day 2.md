@@ -137,7 +137,8 @@ Functions
 	- Parameter types must be declared as well as return types
 
 
-```fun sayHello(msg: String): String { 
+``` kotlin
+fun sayHello(msg: String): String { 
 	return "Hello, ${msg.uppercase()}!!!"
 }
 sayHello("World")
@@ -153,7 +154,8 @@ control flow
 	- like a switch statement on steroids
 	- can switch on values, types,...
 
-```fun sayHello(msg: String): String { 
+``` kotlin
+fun sayHello(msg: String): String { 
 	return "Hello, ${msg.uppercase()}!!!"
 }
 val msg: String? = sayHello("World")
@@ -169,7 +171,8 @@ Data Classes
 - cant be extended (class is final)
 - auto-generates getters, setters, equals(), hashCode(), toString(), and copy()
 
-```data class User(val name: String)
+```kotlin
+data class User(val name: String)
 
 val user1: User = User("Bob")
 ```

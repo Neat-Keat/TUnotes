@@ -23,7 +23,7 @@ agenda!
 Q 1. 
 What type does the following function return?
 
-```
+``` kotlin
 fun example(): ???? {
 	var x: String? = null
 	val y = x?.toInt()
@@ -33,11 +33,11 @@ fun example(): ???? {
 a. String?
 b. String
 c. Int
-d. *Int?*
+d. ==Int?==
 
 Q2.
 what is the type of the following x variable?
-```
+``` kotlin
 fun example() {
 	val x = { y: Int ->
 		(y+1).toString()
@@ -46,13 +46,13 @@ fun example() {
 ```
 a. String
 b. Int
-c.*(Int) -> String*
+c. ==(Int) -> String==
 d. (String) -> Int
 
 note the type signatures of the lambda function denoted by the arrow!
 # Lambdas
 -----------
-```
+``` kotlin
 val x = { }
 ```
 this is valid syntax, it assigns a function to the variable x (of type function)"
@@ -61,7 +61,7 @@ this is valid syntax, it assigns a function to the variable x (of type function)
 		of the form (parameters) -> (output)
 
 now consider:
-```
+``` kotlin
 val x: () -> String = {
 	val myLocalVar = "hello"
 	myLocalVar
@@ -72,7 +72,7 @@ return type is of the last expression in the {}
 	Above example returns a type String
 	recall there's no return keyword, its done implicitly
 
-```
+``` kotlin
 val x: () -> String = {
 	val myLocalVar = "hello"
 	myLocalVar + " world"
@@ -82,7 +82,7 @@ x()     //outputs "Hello World"
 ```
 
 passing a single variable (named "arg)
-```
+``` kotlin
 val x: (String) -> String = { arg -> 
 	val myLocalVar = "hello"
 	myLocalVar + " world"
@@ -93,7 +93,7 @@ x("ANDROID")     //outputs "Hello World"
 
 passing >1 variable
 
-```
+``` kotlin
 val x: (String, Int) -> String = { arg1: String, arg2: Int ->
 	val myLocalVar = "hello"
 	myLocalVar + " world"
@@ -105,7 +105,7 @@ x("ANDROID")     //outputs "Hello World"
 when to use a lambda over a function?
 	consider:
 
-```
+``` kotlin
 fun HigherOrder1(callback: () -> Unit){
 	callback()
 }
@@ -136,7 +136,7 @@ see relevant .txt file
 
 The TextField Does not update
 	its our responsibility to hold the state of the user's input
-```
+``` kotlin
 @Composable
 fun HelloContent() {
 	//this is how we add state
@@ -190,11 +190,13 @@ Enter -> Recompose 0 or more times -> Leave
 useful examples on slideshow
 
 As the state object below is mutated, the Text composable is either rendered or completed removed from the UI
-```
+
+```kotlin
 if (text.value.length % 3 == 0 ){
 	Text(text.value, fontSize = 28.sp)
 }
 ```
+
 use this concept to declutter/ have menus?
 
 Lab time!

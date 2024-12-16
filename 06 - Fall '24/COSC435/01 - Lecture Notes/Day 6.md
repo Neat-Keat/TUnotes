@@ -15,12 +15,12 @@ why the themes weren't working last week:
 		if its set to true, then a block of code runs to dynamically make one based on your wallpaper
 		make sure to set that flag to false to use a custom theme lol
 	in MainActivity.kt:
-```
+``` kotlin
 JetpackComposeDemoTheme(dynamicColor = false)
 ```
 must do this for final!!
 can also do
-~~~
+~~~ kotlin
 (dynamicColor = false, darkTheme = true)
 ~~~
 to force dark theme!
@@ -45,7 +45,7 @@ handle events to modify state at the entry point of your functions (ie MainScree
 # Compose Preview
 
 only executes in the IDE, allows for rapid UI development bc you dont have to constantly rebuild
-```
+``` kotlin
 @ExperimentalFoundationApi
 @Preview(showBackground = true)
 @Composable
@@ -88,7 +88,7 @@ the default methods need to be manually overwritten
 
 
 in MainActivity.kt:
-```
+``` kotlin
 class MainActivity:ComponentActivity() {
 	override fun onCreate(){
 		super.onCreate()

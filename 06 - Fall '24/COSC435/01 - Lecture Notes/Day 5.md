@@ -39,7 +39,7 @@ on the final project: make small incremental steps towards it! (best way to do i
 # Review
 last week, we moved on from static UI to interactive UI with simple event handling
 	recall:
-```
+``` kotlin
 TextField -> onTextChange: ((String) -> Unit)?
 Button -> onClick: () -> Unit
 ```
@@ -48,7 +48,7 @@ recall the ((String) -> Unit)? represents that it takes a String *argument*, and
 
 now consider the Checkbox:
 	OnCheckedChange: (Boolean) -> Unit
-```
+``` kotlin
 val checked = remember { mutableStateOf(false) }
 
 @Composable
@@ -68,23 +68,23 @@ remember that when you click the checkbox, the ENTIRE function reexecutes!!
 From last week's slides, we skipped:
 
 Delegate
-```
+``` kotlin
 var name by remember{} 
 ```
 
 is syntactic sugar for
-```
+``` kotlin
 val (value, setValue) = remember{}
 ```
 
 Where setValue is a function for setting the state value Using by syntax requires
-```
+``` kotlin
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.setValue
 ```
 
 applying this to the checkbox, it becomes:
-```
+``` kotlin
 var checked: Boolean by remember { mutableStateOf(false) }
 	//dont forget to import state.getValue & .setValue
 
@@ -115,7 +115,7 @@ from a dev's POV, it means that there's pre-built components that already use th
 note that Material Design has a heavy focus on Primary and secondary colors and *animations*
 
 simple button lol
-```
+``` kotlin
 Button({}){
 	Text("Click")
 }
@@ -123,7 +123,7 @@ Button({}){
 
 what do we need to know?
 	Material Theming is a systematic way to customize Material Design to better reflect an app's brand. A Material Theme contains color, typography, and shape attributes
-```
+``` kotlin
 MaterialTheme(
 	colorScheme = ...
 	typography = ...
@@ -136,7 +136,7 @@ final needs to customize this, its found
 	colors can change from a color picker in the gutter of your code!
 
 in theme.kt, theres a composable that defines the used theme! look for 
-```
+``` kotlin
 val colorScheme = when {
 	...
 }
@@ -144,7 +144,7 @@ val colorScheme = when {
 around line 43?
 
 in MainActivity.kt, towards the top:
-```
+``` kotlin
 (Project Name)Theme{
 	...
 		MainScreen()
@@ -154,7 +154,7 @@ in MainActivity.kt, towards the top:
 (project Name)Theme defines what theme your project uses, as defined in Theme.kt
 
 Dark Theme
-```
+``` kotlin
 @Composable
 fun MyTheme(
 	darkTheme: Boolean = isSystemInDarkTheme(),
@@ -178,7 +178,7 @@ back on the m3 website, theres a link to a builder tool!
 
 Typography
 Specify your theme's text styles
-```
+``` kotlin
 val MyTypography = Typography(
 	titleLarge = TextStyle(
 		fontFamily = Rubik,
@@ -199,7 +199,7 @@ val MyTypography = Typography(
 allows for mass refactoring basically
 
 in your MainScreen(), now you can use these values with:
-```
+``` kotlin
 Text(text.value, style = MaterialTheme.typography.titleLarge //or whatever)
 ```
 
@@ -219,7 +219,7 @@ the Map({}) is a function on a list
 	or [1, 2, 3].filter{}
 
 Map
-```
+``` kotlin
 val things: List<Thing> =
 (0..10).map{i ->
 	Thing(i, ...)
@@ -230,7 +230,8 @@ map transforms a list of objects: T into a list of objects: S
 	ie Map: List<T> -> List<S> 
 
 in class demo:
-```
+
+``` kotlin
 val newList = 
 (o <= .. <= 10).map {i: Int -> (i * 2).toString() }
 	//returns [0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20], where each element is a String
@@ -240,7 +241,7 @@ val newList =
 this idea of performing functions on functions is CRITICAL to how we'll progress in the class
 
 filter is very similar:
-```
+``` kotlin
 val filteredList =
 	(0<=..<=10).filter{ i: Int -> i  % 2 == 0 }
 	//returns [0, 2, 4, 6, 8, 10]
@@ -248,7 +249,7 @@ val filteredList =
 ```
 
 on ForEach
-```
+``` kotlin
 (0<=..<=10).forEach { i -> println(i) }
 	//prints each num 1 thru 10 on its own line
 ```
@@ -256,7 +257,7 @@ whats the diff between map and for each?
 
 
 naive approach:
-```
+``` kotlin
 @Composable
 fun MessageList(messages: List<Message>) {
 	Column {
@@ -266,7 +267,7 @@ fun MessageList(messages: List<Message>) {
 }
 ```
 
-```
+``` kotlin
 val messages = (0 <= .. <= 100).map { i -> "Message #${i}"}
 Column {
 	messages.forEach { message ->
@@ -282,7 +283,7 @@ how to solve this issue? LazyColumn / Lazy Rows!!
 
 
 previous code changes to:
-```
+``` kotlin
 val messages = (0 <= .. <= 100).map { i -> "Message #${i}"}
 LazyColumn {
 	items(messages){ message: String ->
@@ -319,7 +320,7 @@ State Hoisting pattern
 	...
 
 Ex:
-```
+``` kotlin
 @Composable
 fun HelloScreen(){
 	var name by rememberSaveable { mutableStateOf("") }

@@ -25,7 +25,7 @@ reviewing Kotlin concepts
 - difference between var and val
 	- var is mutable
 	- val is mutable
-	``` 
+	``` kotlin
 		var hello: String? = "Hello World"
 		hello = null
 		hello?.length
@@ -43,7 +43,7 @@ Jetpack makes UI from Kotlin functions!
 when > switch
 
 class declarations!
-```
+``` kotlin
 data class User(val name: String)
 
 val user1: User = User("Bob")
@@ -121,14 +121,14 @@ Jetpack Compose Basics
 
 Composables
 UIs are built by combining (or composing) Composable functions, each of which produce a part of the UI
-```
+``` kotlin
 @Composable
 fun Hello() {
 	Text("Hello World")
 }
 ```
 
-```
+``` kotlin
 Text()
 Button{
 	Text()
@@ -146,7 +146,7 @@ you can put function definitions wherever you want
 	important for what functions are able to access
 		those outside of everything only have access to what you pass it
 
-```
+``` kotlin
 @Composable
 fun MainScreen() {
 	Column(){
@@ -165,7 +165,7 @@ in kotlin, {...} indicates a function (more specifically, a lambda)
 	a lambda is just a function without a name
 
 Alignment/Arrangement
-```
+``` kotlin
 Column(
 	horizontalAlignment = Alignment.CenterHorizontally,
 	verticalArrangement = Arrangement.SpaceEvenly
