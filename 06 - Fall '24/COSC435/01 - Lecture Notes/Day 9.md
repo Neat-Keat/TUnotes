@@ -19,14 +19,14 @@ last concepts for it are covered next week
 # Quiz
 Coroutines always run on a background thread.
 	a. True
-	*b. False*
+	==b. False==
 		(they run on the main thread by default, too much will slow down the app)
 
 To start a coroutine, use:
 	a. Thread.start           //starts a new thread lol
 	b. Coroutine.start    //dont start, you launch
 	c. Coroutine.launch
-	*d. CoroutineScope.launch*
+	==d. CoroutineScope.launch==
 
 ------------
 
