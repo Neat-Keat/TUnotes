@@ -61,7 +61,7 @@ data class Person(val name: String, val age: Int)
 	.map { a -> a.age }
 ```
 
-*a. List<Int>*
+a. ==List\<Int>==
 b. List<String>
 c. List<Person>
 d. List<(String, Int)>
@@ -71,8 +71,7 @@ d. List<(String, Int)>
 	a. onStop, onPause
 	b. onStop, onDestroy
 	c. onPause, onStop
-	*d. onPause, onStop, onDestroy*
-
+	d. ==onPause, onStop, onDestroy==
 
 3. What is the type of the parameter?
 ``` Kotlin
@@ -88,7 +87,7 @@ fun someFunc(
 a. (String, String) -> Unit
 b. (String) -> String?
 c. (String?) -> String
-*d. (String?, String?) -> Unit*
+d. ==(String?, String?) -> Unit==
 
 -----------
 
