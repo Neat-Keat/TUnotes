@@ -3,6 +3,38 @@ aliases:
 cssclasses: []
 ---
 
+
+
+#This is a Header
+## This is a smaller Header
+###### This is the smallest header
+
+``` Python 
+println("Hello World")
+```
+
+
+*this text is italicized*
+**this text is bold**
+
+==hello world==
+
+~~strikethrough~~
+
+blfnjdklsabfdsjkla
+
+
+
+
+
+
+
+
+
+
+
+
+
 5' CTGAC 3'
 3' GACUG 5' or 5' GUCAG 3'
 ![[Pasted image 20241122104340.png]]

@@ -14,10 +14,10 @@ cssclasses:
 
 ### Ingredients
 #ingredients 
-- [x] 2 pounds chicken thighs, cut into 2 x 1 inch chunks
+- [x] 2 pounds chicken thighs, cut into 2 x 1 inch chunks ✅ 2024-12-17
 - [x] 1 cup milk
 - [x] 3 tablespoons soy sauce
-- [x] 1 teaspoon ground black pepper
+- [x] 1 teaspoon ground black pepper ✅ 2024-12-17
 - [x] 8 garlic cloves, minced
 - [x] 2 teaspoons minced ginger
 - [x] ¼ cup rice syrup (corn syrup, honey, or sugar to your taste)
