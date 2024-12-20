@@ -1,0 +1,7 @@
+
+## Dad
+Projector screen
+https://www.amazon.com/SUPER-DEAL-100-Anti-Crease-Presentation/dp/B0C6X57XLJ?crid=11OUZ69ZDYJLC&dib=eyJ2IjoiMSJ9.6jRZxKoK_ulSoml6eibgxwaZ368SLIhSPF4Bl7tw3bMP7wJymOAiPUy7_obMFUDilr3QmsSTjFBxFTztLhhn09OiEiWe1n0QL_cp-AhTcFH7lqm24wY1LymPEXpNU63DXpUPdYW_svbjfIcL6GiczRsO_z84zURedo8BHvC8R4aVaVaBhMspTDxrvqJYaiWWNB-dPkJ2ZGUeqVwvpzn25qNhJcN91mgG3pJohoUuNTI.nQsdtl76yLUaYp_-wpCmteEmS-cRgBl7BSOVAIZzKQE&dib_tag=se&keywords=projector%2Bscreen%2Bpull%2Bdown&qid=1734642155&sprefix=projector%2Bscreen%2Caps%2C547&sr=8-5&th=1
+
+
+
