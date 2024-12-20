@@ -3,5 +3,22 @@
 Projector screen
 https://www.amazon.com/SUPER-DEAL-100-Anti-Crease-Presentation/dp/B0C6X57XLJ?crid=11OUZ69ZDYJLC&dib=eyJ2IjoiMSJ9.6jRZxKoK_ulSoml6eibgxwaZ368SLIhSPF4Bl7tw3bMP7wJymOAiPUy7_obMFUDilr3QmsSTjFBxFTztLhhn09OiEiWe1n0QL_cp-AhTcFH7lqm24wY1LymPEXpNU63DXpUPdYW_svbjfIcL6GiczRsO_z84zURedo8BHvC8R4aVaVaBhMspTDxrvqJYaiWWNB-dPkJ2ZGUeqVwvpzn25qNhJcN91mgG3pJohoUuNTI.nQsdtl76yLUaYp_-wpCmteEmS-cRgBl7BSOVAIZzKQE&dib_tag=se&keywords=projector%2Bscreen%2Bpull%2Bdown&qid=1734642155&sprefix=projector%2Bscreen%2Caps%2C547&sr=8-5&th=1
 
+## Mom
+Bird camera (cable powered could be an issue)
+https://www.amazon.com/Kasa-Smart-Pan-Tilt-Detection-EC71/dp/B0BXMSS8Z7?crid=3IL7MRX0YV07W&dib=eyJ2IjoiMSJ9.6hYhLlb3KaGGR5V45CXVRqxcloF8064OWbuW9ot0Qnt7l7vivgyCinYlr4ZgDr8oWeCEKgn4aGy5AuVZJSr9-XpPL1VFBqs8L6vYPJW1EICqMUGTpuUKjTaCRfiNUdYoC_1DQl3lYuxON39gRsA3UlBzy6L71SALtqzGQ3wgW62G6WeQbiSkk9gcajf1b9IbYM6d4lVZ06CHTUD3n1dXPR7g3d_dwQZ0c32sQm8uXsD97bU6ZWt7pv-E7qrYUGCwjRJC6mFwtPNAh5jruaG4pToSlk94KAATil-7zj6Ct3uAdGBz-_c93gF87drF1br29eOj1ZQ8ExRn4IpIp85SVknBsiV018S97ElZfxsVSJI.liPZ2DPM2wE6wSM84O9_ko9QIl9sKQKJjXq4YuiqZZ4&dib_tag=se&keywords=wireless%2Bbaby%2Bcamera&qid=1734642484&s=baby-products&sprefix=wireless%2Bcamera%2Cbaby-products%2C225&sr=1-9&th=1
+
+## Ben
+
+# Corban
+
+# Grandma
+
+# Papa
+Towson Grandpa shirt (look for stickers?)
+https://www.amazon.com/Towson-University-Tigers-Grandpa-T-Shirt/dp/B0BXQRQRP9?crid=1LAVX3418AR2S&dib=eyJ2IjoiMSJ9.LfYGvRlzeMRh5oC9o6HKmMB6XL_MPeortmTCF6723Oh34-MuR3rDPmuANEsa4DSK8ILp96_PAXPio98VACVofgAxyL3MZ6iakS5270QA9jB2lacp6VHxanYVSDN3erc0VoRPHLNrtTgJ0pxnN50U4XfV4rBFUH7lyGpE4SyZ6L5E-AQ1APTbiEyqwFFAN15jcRx2lRMyl3v2MHNO60c8jC1yf5HWlZQYGATwG8FlLyhOk1Y6TP5Qcn3F5wsfjuqv4zY4UcJvdwGGtpstEGv5wDBtktERwdo8po-H7fjc2c6tpPGzCtxcCiCN6yDXDymN9P_WOTJDb4xq-BVXRyhaxYaqVzMB9QHc3XVvBtfhXts2DccyXIHaZe29VS2pQqnW_Y4kmBagfw9kGrliciePuLdtJHSScCWR3ube3U4GVuo8WLUoRXpsjrfoKnC-gLCq.vp7AqV0AhNsC1fF4m-LT5PNOxMdMW9d5DB3p3Zs6E8M&dib_tag=se&keywords=towson%2Buniversity%2Bgrandpa&qid=1734643196&sprefix=towson%2Bgrand%2Caps%2C276&sr=8-4&customId=B0752XJX9Q&customizationToken=MC_Assembly_1%23B0752XJX9Q&th=1
+
+# Joyce
+
+# Abby
 
 
