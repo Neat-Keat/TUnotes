@@ -25,7 +25,7 @@ blfnjdklsabfdsjkla
 
 
 
-
+![[Pasted image 20241223134035.png]]
 
 
 
