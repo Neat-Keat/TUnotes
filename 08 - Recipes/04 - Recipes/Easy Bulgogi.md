@@ -25,7 +25,9 @@ cssclasses:
 - [x] ½ teaspoon ground black pepper
 
 ---
-#### Intro:This recipe is an easy, simplified version of traditional Korean [bulgogi](https://www.maangchi.com/recipe/bulgogi) (Korean beef BBQ). It may be simplified, but it’s still delicious and very popular!  This is one of the first recipes I published on my website, in 2008.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/srHw4xQj1I0?si=UWWP_wVpBB1xOFmv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+#### Intro: This recipe is an easy, simplified version of traditional Korean [bulgogi](https://www.maangchi.com/recipe/bulgogi) (Korean beef BBQ). It may be simplified, but it’s still delicious and very popular!  This is one of the first recipes I published on my website, in 2008.
 
 You will be surprised by how few ingredients you need to make this, and how quickly it can be done. The sweet, salty, and garlicky marinade is absorbed quickly by the thin beef slices to give a fully traditional taste and tender meat! To help you get those thin bulgogi slices, first freeze the beef for about 1½ hours so it’s a bit solid.
 
