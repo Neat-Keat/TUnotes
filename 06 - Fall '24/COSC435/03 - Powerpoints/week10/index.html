@@ -1,0 +1,738 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Reveal JS presentation</title>
+
+  <meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+  <meta name="author" content="Hakim El Hattab">
+
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="libs/reveal.js/4.3.1/reset.css">
+  <link rel="stylesheet" href="libs/reveal.js/4.3.1/reveal.css">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+  <!-- highlight Theme -->
+  
+  <link rel="stylesheet" href="libs/highlight.js/11.3.1/styles/base16/material.min.css">
+  
+	
+		
+	<link rel="stylesheet" href="libs/reveal.js/4.3.1/plugin/chalkboard/style.css">
+	
+	
+	
+	
+
+
+
+  <!-- Revealjs Theme -->
+  
+  <link rel="stylesheet" href="libs/reveal.js/4.3.1/theme/simple.css" id="theme">
+  
+  
+
+  <link rel="stylesheet" href="libs/styles/tasklist.css">
+	<link rel="stylesheet" href="libs/styles/iota.css">
+	<link rel="stylesheet" href="libs/styles/layout.css">
+
+
+  <!-- Revealjs Theme -->
+  
+
+   <!-- css list -->
+	
+
+   
+
+</head>
+
+<body>
+
+   
+
+  <div class="reveal">
+
+    <!-- Any section element inside of this container is displayed as a slide -->
+    <div class="slides">
+
+      
+
+
+    
+        <section >
+            
+            <h2>Android App Development</h2>
+<h4>Towson University</h4>
+<h5>Randy Valis</h5>
+<h5>Fall 2024</h5>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h2>Agenda</h2>
+<ul>
+<li>Lab 9 (review/finish)</li>
+<li>Persistence (cont.)</li>
+<li>Networking</li>
+<li>JSON modeling</li>
+<li>REST APIs</li>
+</ul>
+
+            </section>
+    
+
+
+
+    
+    <section>
+        <section >
+            <h2>Networking</h2>
+
+            </section>
+        
+            <section >
+                <h3>Motivation</h3>
+<ul>
+<li class="fragment">Image your mobile phone that can’t connect to the internet…</li>
+<li class="fragment">I would argue… a network connection is <em>the</em> feature of a smart phone.</li>
+<li class="fragment">Most apps talk to some web service, usually a REST API.</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h3>Permissions</h3>
+<ul>
+<li>In order to access the network, you must ask permission</li>
+<li>If you don’t, Android will throw an Exception, crashing your app</li>
+</ul>
+<pre><code class="language-kotlin">    java.lang.SecurityException: Permission denied (missing INTERNET permission?)
+</code></pre>
+<pre><code class="language-xml">    &lt;uses-permission android:name=&quot;android.permission.INTERNET&quot;/&gt;
+</code></pre>
+
+            </section>
+        
+            <section >
+                <h3>Threading</h3>
+<ul>
+<li>All network operations must be performed on a background thread.</li>
+<li>This is now enforced by throwing an Exception.</li>
+</ul>
+<pre><code class="language-kotlin">android.os.NetworkOnMainThreadException
+</code></pre>
+
+            </section>
+        
+            <section >
+                <h3>Cellular connectivity</h3>
+<ul>
+<li>It is a best practice to check to see if there is even networking available before using it.</li>
+<li>Cell phones may not have service</li>
+<li>Network connection may be very slow</li>
+<li>Use the ConnectivityManager…</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h3>ConnectivityManager</h3>
+<p>Use the ConnectivityManager to check the state of the device’s network connection</p>
+<p><a href="https://developer.android.com/reference/android/net/ConnectivityManager.NetworkCallback">NetworkCallback</a></p>
+<pre><code class="language-kotlin">cm = ctx.getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
+val nr = NetworkRequest.Builder()
+    .addCapability(NetworkCapabilities.NET_CAPABILITY_INTERNET)
+    .build()
+cm.requestNetwork(nr, object: ConnectivityManager.NetworkCallback() {
+    override fun onAvailable(network: Network) {
+        super.onAvailable(network)
+        Log.i(&quot;Connected&quot;)
+    }
+
+    override fun onLost(network: Network) {
+        super.onLost(network)
+        Log.i(&quot;Not connected&quot;)
+    }
+})
+</code></pre>
+
+            </section>
+        
+            <section >
+                <h3>Network Capabilities</h3>
+<p>Sometimes, it’s useful to know whether a device is connected to WIFI or Cellular.</p>
+<pre><code class="language-kotlin">val nc: NetworkCapabilities = cm.getNetworkCapabilities(network)
+if(nc != null) {
+    // check that we are connected to WIFI
+    Log.d(TAG, &quot;WIFI: ${nc.hasTransport(NetworkCapabilities.TRANSPORT_WIFI)}&quot;)
+    Log.d(TAG, &quot;CELLULAR: ${nc.hasTransport(NetworkCapabilities.TRANSPORT_CELLULAR)}&quot;)
+}
+</code></pre>
+
+            </section>
+        
+
+    </section>
+    
+
+
+
+    
+    <section>
+        <section >
+            <h2>REST</h2>
+<ul>
+<li>Representational State Transfer</li>
+<li>Typically used to communicate with Web Services</li>
+<li>Alternative to SOAP (XML based protocol)</li>
+<li>Stateless and simple</li>
+<li>VERY popular</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h3>Verbs</h3>
+<ul>
+<li>GET</li>
+<li>PUT</li>
+<li>POST</li>
+<li>DELETE</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h3>GET</h3>
+<ul>
+<li>Used to read a specific resource or a collection of resource</li>
+<li>GET /posts -&gt; usually would return a collection</li>
+<li>GET /posts/{id} -&gt; usually returns a single item</li>
+<li>HTTP body is empty</li>
+<li>Must not modify the server</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h3>PUT</h3>
+<ul>
+<li>Updates a resource by id or a collection of resources</li>
+<li>PUT /posts -&gt; updates all posts</li>
+<li>PUT /posts/{id} -&gt; updates a single item</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h3>POST</h3>
+<ul>
+<li>Create a new resource</li>
+<li>New data included in body of HTTP request</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h3>DELETE</h3>
+<ul>
+<li>Deletes a resource from the server</li>
+</ul>
+
+            </section>
+        
+
+    </section>
+    
+
+
+
+    
+    <section>
+        <section >
+            <h2>JSON</h2>
+<ul>
+<li>Becoming very popular due to its simplicity</li>
+<li>Alternative to XML</li>
+<li>REST apis use this often</li>
+<li>Lots of parsers for Java are available</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h3>Structure (Java API specific)</h3>
+<ul>
+<li>Objects are essentially key-value pairs</li>
+<li>Objects and Arrays can be nested</li>
+<li>Values can be strings, objects, arrays, numbers, bools</li>
+<li>No date, no binary</li>
+<li>Sometimes binary data is encoded in Base64 strings</li>
+<li>More often, binary data is placed at a special URL</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h3></h3>
+<ul>
+<li>Keys must be surrounded in double-quotes</li>
+</ul>
+<pre><code class="language-json">{
+&quot;key&quot;: {
+    &quot;someArray&quot;: [
+        {
+            &quot;some&quot;: &quot;value&quot;,
+            &quot;another&quot;: 123
+        }
+    ]
+}
+}
+</code></pre>
+
+            </section>
+        
+            <section >
+                <h3>JSON in Java</h3>
+<ul>
+<li>JSON library is found in org.json.*</li>
+<li>Main objects are JSONObject and JSONArray</li>
+<li>A JSON string can be parsed using the JSONObject(String json) constructor</li>
+<li>Build JSON objects with various json.put(String key, Object value) calls</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h3>Example (deserialize)</h3>
+<pre><code class="language-kotlin">JSONObject json = new JSONObject(jsonStr);
+res.title = json.getString(&quot;title&quot;);
+res.userId = json.getInt(&quot;userId&quot;);
+
+// for nested ojects...
+JSONObject obj = json.getJSONObject(...);
+JSONArray arr = json.getJSONArray(...);
+</code></pre>
+
+            </section>
+        
+            <section >
+                <h3>Example (serialize)</h3>
+<pre><code class="language-kotlin">val json = JSONObject()
+json.put(&quot;title&quot;, &quot;SomeTitle&quot;)
+json.put(&quot;deleted&quot;, true)
+json.put(&quot;nested&quot;, JSONObject())
+</code></pre>
+
+            </section>
+        
+            <section >
+                <h3>Even better …</h3>
+<p>Hide serialization/deserialization inside the Pojo</p>
+<pre><code class="language-kotlin">class Pojo {
+   toJSON(): String {
+      val json = JSONObject()
+      json.put(&quot;title&quot;, this.title)
+      json.put(&quot;deleted&quot;, this.deleted)
+      json.put(&quot;nested&quot;, this.nested.toJSON())
+      return json.toString()
+   }
+}
+</code></pre>
+
+            </section>
+        
+
+    </section>
+    
+
+
+
+    
+    <section>
+        <section >
+            <h2><a href="https://github.com/google/gson">GSON</a></h2>
+
+            </section>
+        
+            <section >
+                <h3>Overview</h3>
+<ul>
+<li>Easy. Let a library do the heavy lifting</li>
+<li>Focus on your own data structures</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h3>Data Modeling</h3>
+<ul>
+<li>Look at your API’s data format</li>
+<li>Create a class that models the format</li>
+<li>Can be your existing model, but likely something new</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h3>3 (typical) structures</h3>
+<ul>
+<li>Object
+<ul>
+<li>Create a single class for your object</li>
+<li>Just map keys to property names.</li>
+</ul>
+</li>
+<li>Array/List
+<ul>
+<li>Create a class for the list items</li>
+<li>Parse the list (example below)</li>
+</ul>
+</li>
+<li>Object with a single property for the list
+<ul>
+<li>Create a class with a single property for the list</li>
+</ul>
+</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h3>Object parsing</h3>
+<pre><code class="language-json">{
+    &quot;hello&quot;: &quot;world&quot;,
+    &quot;age&quot;: 20
+}
+</code></pre>
+<pre><code class="language-kotlin">data class Thing(val hello: String, val age: Double)
+
+val thing = Gson().fromJson(json, Thing::class.java)
+</code></pre>
+
+            </section>
+        
+            <section >
+                <h3>List/Array parsing</h3>
+<pre><code class="language-json">[
+    {
+        &quot;hello&quot;: &quot;world&quot;,
+        &quot;age&quot;: 20
+    },
+    ...
+]
+</code></pre>
+<pre><code class="language-kotlin">data class Thing(val hello: String, val age: Double)
+
+val listItemType = object: TypeToken&lt;List&lt;Thing&gt;&gt;() {}.type
+val things: List&lt;Thing&gt; = Gson().fromJson&lt;List&lt;Thing&gt;&gt;(json, listItemType)
+</code></pre>
+
+            </section>
+        
+            <section >
+                <h3>Nested Object parsing</h3>
+<pre><code class="language-json">{
+    &quot;thing&quot;: {
+        &quot;hello&quot;: &quot;world&quot;,
+        &quot;age&quot;: 20
+    }
+}
+</code></pre>
+<pre><code class="language-kotlin">data class Thing(val hello: String, val age: Double)
+data class ThingWrapper(val thing: Thing)
+
+val thing = Gson().fromJson(json, ThingWrapper::class.java)
+</code></pre>
+
+            </section>
+        
+
+    </section>
+    
+
+
+
+    
+    <section>
+        <section >
+            <h2>Libraries</h2>
+
+            </section>
+        
+            <section >
+                <h3><a href="https://square.github.io/okhttp">OkHttp</a></h3>
+
+            </section>
+        
+            <section >
+                <h3><a href="https://amitshekhar.me/Fast-Android-Networking/">FastHttpNetworking</a></h3>
+
+            </section>
+        
+            <section >
+                <h3><a href="https://square.github.io/retrofit">Retrofit</a></h3>
+
+            </section>
+        
+            <section >
+                <h3><a href="https://github.com/google/volley">Volley</a></h3>
+
+            </section>
+        
+
+    </section>
+    
+
+
+    </div>
+
+
+  </div>
+
+  <div class="line top"></div>
+  <div class="line bottom"></div>
+  <div class="line left"></div>
+  <div class="line right"></div>
+
+  <script src="libs/reveal.js/4.3.1/reveal.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/notes/notes.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/markdown/markdown.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/highlight/highlight.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/math/math.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/fullscreen/plugin.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/animate/plugin.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/animate/svg.min.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/anything/plugin.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/anything/Chart.min.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/anything/d3/d3.v3.min.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/anything/d3.patch.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/anything/d3/queue.v1.min.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/anything/d3/topojson.v1.min.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/anything/function-plot.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/customcontrols/plugin.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/embed-tweet/plugin.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/chart/chart.min.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/chart/plugin.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/verticator/verticator.js"></script>
+
+<script src="libs/reveal.js/4.3.1/plugin/zoom/zoom.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/search/search.js"></script>
+
+
+
+<!--	<script src="libs/reveal.js/4.3.1/plugin/audio-slideshow/plugin.js"></script>  -->
+<!--	<script src="libs/reveal.js/4.3.1/plugin/audio-slideshow/recorder.js"></script>-->
+<!--	<script src="libs/reveal.js/4.3.1/plugin/audio-slideshow/RecordRTC.js"></script>-->
+
+  
+
+<script>
+  const printPlugins = [
+      RevealNotes,
+      RevealHighlight,
+      RevealMath.MathJax3,
+      RevealAnimate,
+      
+			RevealEmbedTweet,
+			RevealChart,
+		];
+
+		const plugins =  [...printPlugins,
+		RevealZoom, 
+		RevealSearch, 
+				RevealMarkdown, 
+				
+				RevealFullscreen,
+				RevealAnything,
+				//RevealAudioSlideshow,
+				//RevealAudioRecorder,
+				
+				// poll
+				// question
+				// seminar
+				Verticator 
+				 ]
+
+
+		// Also available as an ES module, see:
+		// https://revealjs.com/initialization/
+		Reveal.initialize({
+			controls: true,
+      controlsTutorial: true,
+      controlsLayout: 'bottom-right',
+      controlsBackArrows: 'faded',
+      progress: true,
+      slideNumber: false,
+      //#showSlideNumber "all" "print" "speaker"
+      hash: true, //# hash: false,
+      //# respondToHashChanges: true,
+      //# history: false,
+      keyboard: true,
+      //#keyboardCondition: null,
+      overview: true,
+      center: true,
+      touch: true,
+      loop: false,
+      rtl: false,
+      //#navigationMode: 'default', linear grid
+      shuffle: false,
+      fragments: true,
+      fragmentInURL: false,
+      embedded: false,
+      help: true,
+      //#pause: true
+      showNotes: false,
+      autoPlayMedia: false, // TODO fix this to a nullable value
+      //#preloadIframes: null. true false
+      //#autoAnimate: true
+      //#autoAnimateMatcher: null,
+      //#autoAnimateEasing: 'ease',
+      //autoAnimateDuration: 1.0,
+      //#autoAnimateUnmatched: true
+      //#autoAnimateStyles: []
+      autoSlide: 0, // TODO fix this to a falseable value
+      autoSlideStoppable: true,
+      autoSlideMethod: '0',
+      defaultTiming: 120,
+      mouseWheel: false,
+      //#previewLinks: false
+      //#postMessage: true, // TODO : this can cause issues with the vscode api ???
+      //#postMessageEvents: false,
+      //#focusBodyOnPageVisibilityChange: true,
+      transition: 'slide',
+      transitionSpeed: 'default',
+      backgroundTransition: 'fade',
+      //#pdfMaxPagesPerSlide: Number.POSITIVE_INFINITY,
+      //#pdfSeparateFragments: true,
+      //#pdfPageHeightOffset: -1,
+      viewDistance: 3,
+      //#mobileViewDistance: 2,
+      display: 'block',
+      //#hideInactiveCursor: true,
+      //#hideCursorTime: 5000
+
+      // Parallax Background
+      parallaxBackgroundImage: '',
+      parallaxBackgroundSize: '',
+      parallaxBackgroundHorizontal: 0,
+      parallaxBackgroundVertical: 0,
+
+      //Presentation Size
+      width: 960,
+			height: 700,
+			margin: 0.04,
+      minScale: 0.2,
+      maxScale: 2,
+      disableLayout: false,
+
+      audio: {
+        prefix: 'audio/', // audio files are stored in the "audio" folder
+        suffix: '.ogg', // audio files have the ".ogg" ending
+        textToSpeechURL: null, // the URL to the text to speech converter
+        defaultNotes: false, // use slide notes as default for the text to speech converter
+        defaultText: false, // use slide text as default for the text to speech converter
+        advance: 0, // advance to next slide after given time in milliseconds after audio has played, use negative value to not advance
+        autoplay: false, // automatically start slideshow
+        defaultDuration: 5, // default duration in seconds if no audio is available
+        defaultAudios: true, // try to play audios with names such as audio/1.2.ogg
+        playerOpacity: 0.05, // opacity value of audio player if unfocused
+        playerStyle: 'position: fixed; bottom: 4px; left: 25%; width: 50%; height:75px; z-index: 33;', // style used for container of audio controls
+        startAtFragment: false, // when moving to a slide, start at the current fragment or at the start of the slide
+      },
+      
+			customcontrols: {
+					controls: [
+      						{
+						  id: 'toggle-overview',
+						  title: 'Toggle overview (O)',
+						  icon: '<i class="fa fa-th"></i>',
+						  action: 'Reveal.toggleOverview();'
+						}
+						
+				]
+			},
+			chart: {
+					defaults: { 
+						color: 'lightgray', // color of labels
+						scale: { 
+							beginAtZero: true, 
+							ticks: { stepSize: 1 },
+							grid: { color: "lightgray" } , // color of grid lines
+						},
+					},
+					line: { borderColor: [ "rgba(20,220,220,.8)" , "rgba(220,120,120,.8)", "rgba(20,120,220,.8)" ], "borderDash": [ [5,10], [0,0] ] }, 
+					bar: { backgroundColor: [ "rgba(20,220,220,.8)" , "rgba(220,120,120,.8)", "rgba(20,120,220,.8)" ]}, 
+					pie: { backgroundColor: [ ["rgba(0,0,0,.8)" , "rgba(220,20,20,.8)", "rgba(20,220,20,.8)", "rgba(220,220,20,.8)", "rgba(20,20,220,.8)"] ]},
+					radar: { borderColor: [ "rgba(20,220,220,.8)" , "rgba(220,120,120,.8)", "rgba(20,120,220,.8)" ]}, 
+			},
+			math: {
+				mathjax: 'https://cdn.jsdelivr.net/gh/mathjax/mathjax@2.7.8/MathJax.js',
+				config: 'TeX-AMS_HTML-full',
+				// pass other options into `MathJax.Hub.Config()`
+				TeX: { Macros: { RR: "{\\bf R}" } }
+				},
+				anything: [ 
+				{
+		className: "plot",
+		defaults: {width:500, height: 500, grid:true},
+		initialize: (function(container, options){ options.target = "#"+container.id; functionPlot(options) })
+	 },
+	 {
+		className: "chart",  
+		initialize: (function(container, options){ container.chart = new Chart(container.getContext("2d"), options);  })
+	 },
+	 {
+		className: "anything",
+		initialize: (function(container, options){ if (options && options.initialize) { options.initialize(container)} })
+	 },
+					],
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: (window.location.search.match(/print-pdf/gi) ? printPlugins : plugins ) 
+		});
+			
+
+
+	    // Change chalkboard theme : 
+		function changeTheme(input) {
+			var config = {};
+			config.theme = input.value;
+			Reveal.getPlugin("RevealChalkboard").configure(config);
+			input.blur();
+		}
+
+		// // Handle the message inside the webview
+        // window.addEventListener('message', event => {
+
+        //     const message = event.data; // The JSON data our extension sent
+
+        //     switch (message.command) {
+        //         case 'refactor':
+        //             Reveal.toggleHelp();
+        //     }
+        // });
+
+		if (window.location.search.match(/print-pdf-now/gi)) {
+      		setTimeout(() => {
+				window.print();
+			  }, 2500);
+			
+    }
+</script>
+
+</body>
+
+</html>

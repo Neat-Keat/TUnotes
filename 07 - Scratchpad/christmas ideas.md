@@ -1,0 +1,27 @@
+
+## Dad
+Projector screen
+https://a.co/d/4RzF1x3
+
+## Mom
+Bird camera (cable powered could be an issue)
+https://a.co/d/66sEOM6
+
+## Ben
+
+# Corban
+pokemon book
+
+# Grandma
+
+# Papa
+Towson Grandpa licenseplate holder (look for stickers?)
+https://www.amazon.com/Desert-Cactus-University-Officially-Grandparent/dp/B086XGSY8T?crid=1UDSAPMU3GLA5&dib=eyJ2IjoiMSJ9.1e8_N4EpqBB3WIkfCsesLWBCVO6cZav_kBR6O_lVT5HY-omorg14Yu2_gGZsXJML0QIy3Mt3tfsMCBZkTKvG6aSiY7oCZMZSSFO6hlzSzAeoU2wrwSRbX1cY7pQs2c0RNFu9mzGW-fjpLEvRrgmJ9RpLSiJlttGI8JudUpA5ee4NnG2phjAtJRfEiYpahC04kiQmf1PejgRjbSxmhZ99AcFTDRQoaS_E7ipMQEz7Rf4aZ-p9mYK_JYj8JaAKYwmJd8PXkoyIZvUYXU3EjQZJzdsvRb5q_rh3COYcP91DOuCCPmwm4jTRQOKVwKkGyeHP9Z67dmhTNuYnQzXSIJmhac2Aa1dzSpy_MQq8hZa_LkbdLD5oFadCD-hbbiN3U_Ai1MODLK07a28t9NB8xG1vwqiXQpbAllV-tL0bf2JWrg0_nfEPZFHYhE8LZmHQ-Nrc.axUtyMFWFgKaTg-wipAc4gUsYxXFZI_59nteOyXAfXs&dib_tag=se&keywords=towson+university+grandparent&qid=1734647694&sprefix=towson+university+grandparent%2Caps%2C130&sr=8-34
+
+# Joyce
+
+
+# Abby
+hoodie blanket thing?? + friends digitally
+
+https://www.amazon.com/Qeils-Oversized-Wearable-Sweatshirt-Girlfriend/dp/B0BZCVKLXJ?crid=GG3NGTJ7L40K&dib=eyJ2IjoiMSJ9.C1HJx2wR_-cjFx11y-7IfCMtQxvu9wdcYBfResoM9BUQ0GlfXaqi0ylUh9GdBHfArPopaWe-IAP-XZq0PnfaKRcC-zS9suboRbGJIyINscVoebS-ZZsWVQPTYgrDgd6MYrFXxBxHcFcjG2VdMxEdnk4q_nXr4ajpH8cPgR3iQQS93TQqUnwRVMSN10n9mofz-DOxTbtJYw2lGrk2UdFu1y_chnzA6dEy8zzUCUwefEp2q3MdWmO2F404Xx4H7UkgThh8Gdaqch7pNXs92dPacinxPU2R_RBoXe5vGGkfiSn_GZ0pXBFRQa4CYRuUunbx8dmS15eAvTelTo629vwW5MUzbCiMw1nIc24VVkWlBsXpCjkLo5dVcYLoi1ayVp57vW6TD-nYUIrJltHW5Jk22AFwofHDZx6c0C1gY921VfGQkrf7mvy4ljSMby0fGcIM.oxAIl6Sn7Okb3Ga-2dXGi8l50g-poHOq2mwPi9hH0cs&dib_tag=se&keywords=snoopy&qid=1734647610&sprefix=snoopy%2Cspecialty-aps%2C114&sr=8-200&xpid=YyW6dof54wlV4&th=1

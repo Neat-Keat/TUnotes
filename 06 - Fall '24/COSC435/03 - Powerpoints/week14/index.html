@@ -1,0 +1,623 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Reveal JS presentation</title>
+
+  <meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+  <meta name="author" content="Hakim El Hattab">
+
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="libs/reveal.js/4.3.1/reset.css">
+  <link rel="stylesheet" href="libs/reveal.js/4.3.1/reveal.css">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+  <!-- highlight Theme -->
+  
+  <link rel="stylesheet" href="libs/highlight.js/11.3.1/styles/base16/material.min.css">
+  
+	
+		
+	<link rel="stylesheet" href="libs/reveal.js/4.3.1/plugin/chalkboard/style.css">
+	
+	
+	
+	
+
+
+
+  <!-- Revealjs Theme -->
+  
+  <link rel="stylesheet" href="libs/reveal.js/4.3.1/theme/simple.css" id="theme">
+  
+  
+
+  <link rel="stylesheet" href="libs/styles/tasklist.css">
+	<link rel="stylesheet" href="libs/styles/iota.css">
+	<link rel="stylesheet" href="libs/styles/layout.css">
+
+
+  <!-- Revealjs Theme -->
+  
+
+   <!-- css list -->
+	
+
+   
+
+</head>
+
+<body>
+
+   
+
+  <div class="reveal">
+
+    <!-- Any section element inside of this container is displayed as a slide -->
+    <div class="slides">
+
+      
+
+
+    
+        <section >
+            
+            <h2>Android App Development</h2>
+<h4>Towson University</h4>
+<h5>Randy Valis</h5>
+<h5>Fall 2024</h5>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h2>Agenda</h2>
+<ul>
+<li>Review (Permissions/Location)</li>
+<li>Quiz</li>
+<li>BroadcastReceivers</li>
+<li>ContentProviders</li>
+</ul>
+
+            </section>
+    
+
+
+
+    
+    <section>
+        <section >
+            <h2>Quiz</h2>
+
+            </section>
+        
+            <section >
+                <p>What are Intents used for in an Android app?</p>
+<pre><code>a. To pass data between applications
+
+b. To start another application
+
+c. To start another Activity
+
+d. All of the above
+</code></pre>
+
+            </section>
+        
+            <section >
+                <p>What are Services used for in an Android app?</p>
+<pre><code>a. To run code without a user interface
+
+b. To run code in a background thread
+
+c. To make network API calls
+
+d. All of the above
+</code></pre>
+
+            </section>
+        
+            <section >
+                <p>When making network requests, care must be taken to…</p>
+<pre><code>a. Write the fewest lines of code as possible
+
+b. Make network requests on a background thread
+
+c. Make network requests on the main thread
+
+d. All of the above
+</code></pre>
+
+            </section>
+        
+
+    </section>
+    
+
+
+
+    
+    <section>
+        <section >
+            <h2>BroadcastReceivers</h2>
+<ul>
+<li class="fragment">Pub-Sub from the System and other Apps</li>
+<li class="fragment">Subscribe to system events</li>
+<li class="fragment">Broadcast events from within your app</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h3>System Events</h3>
+<ul>
+<li class="fragment">Boot finished</li>
+<li class="fragment">Wifi on</li>
+<li class="fragment">Package install</li>
+<li class="fragment">A listed in SDK/platforms/android-*/data/broadcast-actions.txt</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h3>Manifest Registered</h3>
+<pre><code class="language-xml">&lt;receiver android:name=&quot;.MyBroadcastReceiver&quot;  android:exported=&quot;true&quot;&gt;
+    &lt;intent-filter&gt;
+        &lt;action android:name=&quot;android.intent.action.BOOT_COMPLETED&quot;/&gt;
+        &lt;action android:name=&quot;android.intent.action.INPUT_METHOD_CHANGED&quot; /&gt;
+    &lt;/intent-filter&gt;
+&lt;/receiver&gt;
+</code></pre>
+
+            </section>
+        
+            <section >
+                <h3>Extend</h3>
+<ul>
+<li>Extend BroadcastReceiver and override onReceive(Intent)</li>
+</ul>
+<pre><code class="language-kotlin">class Receiver : BroadcastReceiver() {
+    override fun onReceive(context: Context?, intent: Intent?) {
+        Toast.makeText(context!!, intent?.getAction().toString(),
+                       Toast.LENGTH_SHORT).show()
+    }
+}
+</code></pre>
+
+            </section>
+        
+            <section >
+                <h3>Context-Registered</h3>
+<ul>
+<li class="fragment">Create a receiver in code.</li>
+<li class="fragment">Register it with a context</li>
+<li class="fragment">Receiver is valid as long as the context is alive</li>
+</ul>
+<pre><code class="fragment language-kotlin">val br: BroadcastReceiver = MyBroadcastReceiver()
+// do this in onResume or onStart
+val filter = IntentFilter(ConnectivityManager.CONNECTIVITY_ACTION)
+intentFilter.addAction(Intent.ACTION_AIRPLANE_MODE_CHANGED)
+this.registerReceiver(br, filter)
+// do this in onStop or onPause
+this.unregisterReceiver(br)
+</code></pre>
+
+            </section>
+        
+            <section >
+                <p>If targeting devices newer than Android 8, BroadcastReceivers <strong>must</strong> be registered in code.</p>
+
+            </section>
+        
+            <section >
+                <h3>Communication</h3>
+<ul>
+<li>How can your UI ‘know’ about an even that is received by a BroadcastReceiver?</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h3><a href="https://greenrobot.org/eventbus/">EventBus</a></h3>
+<ul>
+<li>Simple Pub/Sub (publish/subscribe) library</li>
+</ul>
+<pre><code class="language-groovy">    implementation 'org.greenrobot:eventbus:3.2.0'
+</code></pre>
+<ul>
+<li>BroadcastReceiver can publish an event when it receives one from the system.</li>
+<li>UI components (MainActivity) can subscribe to events and update the UI.</li>
+</ul>
+
+            </section>
+        
+
+    </section>
+    
+
+
+
+    
+    <section>
+        <section >
+            <h3><a href="https://developer.android.com/guide/topics/providers/content-provider-basics.html">Content Providers</a></h3>
+<ul>
+<li class="fragment">Motivation:
+<ul>
+<li class="fragment">Share Tasks with other apps</li>
+<li class="fragment">Demo</li>
+</ul>
+</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h2>Highlevel Overview</h2>
+
+            </section>
+        
+            <section >
+                <h3>Why do we need them?</h3>
+<ul>
+<li class="fragment">Content Providers are used when your app needs to share data with other components/apps.</li>
+<li class="fragment">Encapsulate your data</li>
+<li class="fragment">Provides data security</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <p><img src="./content-provider-migration.png" alt="cpm"></p>
+
+            </section>
+        
+            <section >
+                <p><img src="./content-provider-tech-stack.png" alt="cps"></p>
+
+            </section>
+        
+            <section >
+                <h3>What are they used for?</h3>
+<ul>
+<li class="fragment">Share access to your data with other apps</li>
+<li class="fragment">Send data to a widget</li>
+<li class="fragment">Return custom search suggestions for your app</li>
+<li class="fragment">Synchronize your data with a server (SyncAdapter)</li>
+<li class="fragment">Load data in your UI (CursorLoader)</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h3>How are they used?</h3>
+<ul>
+<li class="fragment">Send queries to the ContentResolver</li>
+<li class="fragment">Get back a Cursor</li>
+<li class="fragment">‘Publish’ a Content Uri (sort like a url)</li>
+</ul>
+<pre><code class="language-kotlin">   content://todos_app/todos
+</code></pre>
+
+            </section>
+        
+            <section >
+                <h2>Querying existing ContentProviders</h2>
+
+            </section>
+        
+            <section >
+                <h3>Contacts</h3>
+<p><a href="https://developer.android.com/guide/topics/providers/contacts-provider.html">https://developer.android.com/guide/topics/providers/contacts-provider.html</a></p>
+<ul>
+<li class="fragment">Ask permission</li>
+<li class="fragment">Build a query</li>
+<li class="fragment">Read from the Cursor</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <p><img src="./contacts_structure.png" alt="contacts"></p>
+
+            </section>
+        
+            <section >
+                <h3>Permissions</h3>
+<ul>
+<li class="fragment">Make sure you declare permissions.</li>
+</ul>
+<pre><code class="language-xml">&lt;uses-permission android:name=&quot;android.permission.READ_CONTACTS&quot;&gt;
+</code></pre>
+
+            </section>
+        
+            <section >
+                <h3>Query</h3>
+<pre><code class="language-kotlin">// Sets the columns to retrieve for the user profile
+mProjection = arrayOf(
+        Contacts._ID,
+        Contacts.DISPLAY_NAME_PRIMARY,
+        Contacts.LOOKUP_KEY,
+        Contacts.PHOTO_THUMBNAIL_URI
+    )
+
+// Retrieves the profile from the Contacts Provider
+mProfileCursor =
+        getContentResolver().query(
+                Contacts.CONTENT_URI,
+                mProjection,
+                null,
+                null,
+                null)
+</code></pre>
+
+            </section>
+        
+            <section >
+                <h3>Reading</h3>
+<ul>
+<li>Same as reading a cursor from a database query.</li>
+</ul>
+<pre><code class="language-kotlin">Cursor cursor = ...
+while(cursor.moveToNext()) {
+   cursor.getString(...)
+}
+</code></pre>
+
+            </section>
+        
+
+    </section>
+    
+
+
+    </div>
+
+
+  </div>
+
+  <div class="line top"></div>
+  <div class="line bottom"></div>
+  <div class="line left"></div>
+  <div class="line right"></div>
+
+  <script src="libs/reveal.js/4.3.1/reveal.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/notes/notes.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/markdown/markdown.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/highlight/highlight.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/math/math.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/fullscreen/plugin.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/animate/plugin.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/animate/svg.min.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/anything/plugin.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/anything/Chart.min.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/anything/d3/d3.v3.min.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/anything/d3.patch.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/anything/d3/queue.v1.min.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/anything/d3/topojson.v1.min.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/anything/function-plot.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/customcontrols/plugin.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/embed-tweet/plugin.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/chart/chart.min.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/chart/plugin.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/verticator/verticator.js"></script>
+
+<script src="libs/reveal.js/4.3.1/plugin/zoom/zoom.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/search/search.js"></script>
+
+
+
+<!--	<script src="libs/reveal.js/4.3.1/plugin/audio-slideshow/plugin.js"></script>  -->
+<!--	<script src="libs/reveal.js/4.3.1/plugin/audio-slideshow/recorder.js"></script>-->
+<!--	<script src="libs/reveal.js/4.3.1/plugin/audio-slideshow/RecordRTC.js"></script>-->
+
+  
+
+<script>
+  const printPlugins = [
+      RevealNotes,
+      RevealHighlight,
+      RevealMath.MathJax3,
+      RevealAnimate,
+      
+			RevealEmbedTweet,
+			RevealChart,
+		];
+
+		const plugins =  [...printPlugins,
+		RevealZoom, 
+		RevealSearch, 
+				RevealMarkdown, 
+				
+				RevealFullscreen,
+				RevealAnything,
+				//RevealAudioSlideshow,
+				//RevealAudioRecorder,
+				
+				// poll
+				// question
+				// seminar
+				Verticator 
+				 ]
+
+
+		// Also available as an ES module, see:
+		// https://revealjs.com/initialization/
+		Reveal.initialize({
+			controls: true,
+      controlsTutorial: true,
+      controlsLayout: 'bottom-right',
+      controlsBackArrows: 'faded',
+      progress: true,
+      slideNumber: false,
+      //#showSlideNumber "all" "print" "speaker"
+      hash: true, //# hash: false,
+      //# respondToHashChanges: true,
+      //# history: false,
+      keyboard: true,
+      //#keyboardCondition: null,
+      overview: true,
+      center: true,
+      touch: true,
+      loop: false,
+      rtl: false,
+      //#navigationMode: 'default', linear grid
+      shuffle: false,
+      fragments: true,
+      fragmentInURL: false,
+      embedded: false,
+      help: true,
+      //#pause: true
+      showNotes: false,
+      autoPlayMedia: false, // TODO fix this to a nullable value
+      //#preloadIframes: null. true false
+      //#autoAnimate: true
+      //#autoAnimateMatcher: null,
+      //#autoAnimateEasing: 'ease',
+      //autoAnimateDuration: 1.0,
+      //#autoAnimateUnmatched: true
+      //#autoAnimateStyles: []
+      autoSlide: 0, // TODO fix this to a falseable value
+      autoSlideStoppable: true,
+      autoSlideMethod: '0',
+      defaultTiming: 120,
+      mouseWheel: false,
+      //#previewLinks: false
+      //#postMessage: true, // TODO : this can cause issues with the vscode api ???
+      //#postMessageEvents: false,
+      //#focusBodyOnPageVisibilityChange: true,
+      transition: 'slide',
+      transitionSpeed: 'default',
+      backgroundTransition: 'fade',
+      //#pdfMaxPagesPerSlide: Number.POSITIVE_INFINITY,
+      //#pdfSeparateFragments: true,
+      //#pdfPageHeightOffset: -1,
+      viewDistance: 3,
+      //#mobileViewDistance: 2,
+      display: 'block',
+      //#hideInactiveCursor: true,
+      //#hideCursorTime: 5000
+
+      // Parallax Background
+      parallaxBackgroundImage: '',
+      parallaxBackgroundSize: '',
+      parallaxBackgroundHorizontal: 0,
+      parallaxBackgroundVertical: 0,
+
+      //Presentation Size
+      width: 960,
+			height: 700,
+			margin: 0.04,
+      minScale: 0.2,
+      maxScale: 2,
+      disableLayout: false,
+
+      audio: {
+        prefix: 'audio/', // audio files are stored in the "audio" folder
+        suffix: '.ogg', // audio files have the ".ogg" ending
+        textToSpeechURL: null, // the URL to the text to speech converter
+        defaultNotes: false, // use slide notes as default for the text to speech converter
+        defaultText: false, // use slide text as default for the text to speech converter
+        advance: 0, // advance to next slide after given time in milliseconds after audio has played, use negative value to not advance
+        autoplay: false, // automatically start slideshow
+        defaultDuration: 5, // default duration in seconds if no audio is available
+        defaultAudios: true, // try to play audios with names such as audio/1.2.ogg
+        playerOpacity: 0.05, // opacity value of audio player if unfocused
+        playerStyle: 'position: fixed; bottom: 4px; left: 25%; width: 50%; height:75px; z-index: 33;', // style used for container of audio controls
+        startAtFragment: false, // when moving to a slide, start at the current fragment or at the start of the slide
+      },
+      
+			customcontrols: {
+					controls: [
+      						{
+						  id: 'toggle-overview',
+						  title: 'Toggle overview (O)',
+						  icon: '<i class="fa fa-th"></i>',
+						  action: 'Reveal.toggleOverview();'
+						}
+						
+				]
+			},
+			chart: {
+					defaults: { 
+						color: 'lightgray', // color of labels
+						scale: { 
+							beginAtZero: true, 
+							ticks: { stepSize: 1 },
+							grid: { color: "lightgray" } , // color of grid lines
+						},
+					},
+					line: { borderColor: [ "rgba(20,220,220,.8)" , "rgba(220,120,120,.8)", "rgba(20,120,220,.8)" ], "borderDash": [ [5,10], [0,0] ] }, 
+					bar: { backgroundColor: [ "rgba(20,220,220,.8)" , "rgba(220,120,120,.8)", "rgba(20,120,220,.8)" ]}, 
+					pie: { backgroundColor: [ ["rgba(0,0,0,.8)" , "rgba(220,20,20,.8)", "rgba(20,220,20,.8)", "rgba(220,220,20,.8)", "rgba(20,20,220,.8)"] ]},
+					radar: { borderColor: [ "rgba(20,220,220,.8)" , "rgba(220,120,120,.8)", "rgba(20,120,220,.8)" ]}, 
+			},
+			math: {
+				mathjax: 'https://cdn.jsdelivr.net/gh/mathjax/mathjax@2.7.8/MathJax.js',
+				config: 'TeX-AMS_HTML-full',
+				// pass other options into `MathJax.Hub.Config()`
+				TeX: { Macros: { RR: "{\\bf R}" } }
+				},
+				anything: [ 
+				{
+		className: "plot",
+		defaults: {width:500, height: 500, grid:true},
+		initialize: (function(container, options){ options.target = "#"+container.id; functionPlot(options) })
+	 },
+	 {
+		className: "chart",  
+		initialize: (function(container, options){ container.chart = new Chart(container.getContext("2d"), options);  })
+	 },
+	 {
+		className: "anything",
+		initialize: (function(container, options){ if (options && options.initialize) { options.initialize(container)} })
+	 },
+					],
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: (window.location.search.match(/print-pdf/gi) ? printPlugins : plugins ) 
+		});
+			
+
+
+	    // Change chalkboard theme : 
+		function changeTheme(input) {
+			var config = {};
+			config.theme = input.value;
+			Reveal.getPlugin("RevealChalkboard").configure(config);
+			input.blur();
+		}
+
+		// // Handle the message inside the webview
+        // window.addEventListener('message', event => {
+
+        //     const message = event.data; // The JSON data our extension sent
+
+        //     switch (message.command) {
+        //         case 'refactor':
+        //             Reveal.toggleHelp();
+        //     }
+        // });
+
+		if (window.location.search.match(/print-pdf-now/gi)) {
+      		setTimeout(() => {
+				window.print();
+			  }, 2500);
+			
+    }
+</script>
+
+</body>
+
+</html>

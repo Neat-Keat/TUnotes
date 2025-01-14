@@ -1,0 +1,738 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Reveal JS presentation</title>
+
+  <meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+  <meta name="author" content="Hakim El Hattab">
+
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="libs/reveal.js/4.3.1/reset.css">
+  <link rel="stylesheet" href="libs/reveal.js/4.3.1/reveal.css">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+  <!-- highlight Theme -->
+  
+  <link rel="stylesheet" href="libs/highlight.js/11.3.1/styles/atom-one-dark.min.css">
+  
+	
+		
+	<link rel="stylesheet" href="libs/reveal.js/4.3.1/plugin/chalkboard/style.css">
+	
+	
+	
+	
+
+
+
+  <!-- Revealjs Theme -->
+  
+  <link rel="stylesheet" href="libs/reveal.js/4.3.1/theme/simple.css" id="theme">
+  
+  
+
+  <link rel="stylesheet" href="libs/styles/tasklist.css">
+	<link rel="stylesheet" href="libs/styles/iota.css">
+	<link rel="stylesheet" href="libs/styles/layout.css">
+
+
+  <!-- Revealjs Theme -->
+  
+
+   <!-- css list -->
+	
+
+   
+
+</head>
+
+<body>
+
+   
+
+  <div class="reveal">
+
+    <!-- Any section element inside of this container is displayed as a slide -->
+    <div class="slides">
+
+      
+
+
+    
+        <section >
+            
+            <h2>Android App Development</h2>
+<h4>Towson University</h4>
+<h5>Randy Valis</h5>
+<h5>Fall 2024</h5>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h3>Why?</h3>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h3>We will be using Git to…</h3>
+<ul>
+<li class="fragment fade-in">
+<p>Submit assignments</p>
+</li>
+<li class="fragment fade-in">
+<p>Distribute sample code</p>
+</li>
+<li class="fragment fade-in">
+<p>Collaborate with partners</p>
+</li>
+<li class="fragment fade-in">
+<p>(Reuse code)</p>
+</li>
+</ul>
+
+            </section>
+    
+
+
+
+    
+    <section>
+        <section >
+            <h2>Version Control</h2>
+
+            </section>
+        
+            <section >
+                <h3>Git</h3>
+<ul>
+<li>Distributed (No central source)</li>
+<li>Local</li>
+<li>Offline</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h3>Others</h3>
+<ul>
+<li>Subversion</li>
+<li>TFS (Team Foundation - Microsoft)</li>
+<li>Mercurial</li>
+<li>???</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h2>Hosting</h2>
+
+            </section>
+        
+            <section >
+                <h3>Github</h3>
+<p><a href="https://github.com">https://github.com</a></p>
+<ul>
+<li>Probably the most popular</li>
+<li>Open source (public) projects are free</li>
+<li>Private repos are not free</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h3>Bitbucket</h3>
+<p><a href="https://bitbucket.org">https://bitbucket.org</a></p>
+<ul>
+<li>We will be using this for our class</li>
+<li>Free private repositories for students</li>
+<li>Will host your homework assignments, labs, and projects</li>
+</ul>
+
+            </section>
+        
+
+    </section>
+    
+
+
+
+    
+    <section>
+        <section >
+            <h2>Basics</h2>
+
+            </section>
+        
+            <section >
+                <h3>4 states</h3>
+<ul>
+<li class="fragment fade-in">Untracked</li>
+<li class="fragment fade-in">Tracked</li>
+<li class="fragment fade-in">Staged</li>
+<li class="fragment fade-in">Commited</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h3>Untracked</h3>
+<ul>
+<li>Git doesn’t keep track of these.</li>
+<li>All files are initially in this state.</li>
+<li>Make git aware of these files using /add/</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h3>Tracked</h3>
+<ul>
+<li>Git is aware of these files.</li>
+<li>Changes to these files will be noticed by git.</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h3>Staged</h3>
+<ul>
+<li>Files in the staged state will be commited in the <em>next</em> commit.</li>
+<li>Use</li>
+</ul>
+<pre><code>git add
+</code></pre>
+<p>to move a file/directory into the staged state.</p>
+
+            </section>
+        
+            <section >
+                <h3>Commited</h3>
+<ul>
+<li>Once you make a commit, all the files in the staged state are included in the git history tree.</li>
+<li>Each commit is given a SHA1 hash and a parent (the previous commit)</li>
+<li>You can view this commit (the entire state of your project at this point in time) by checking out this commit!</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h3>History</h3>
+<ul>
+<li>Git history is a directed graph of commits</li>
+<li>Every time you commit, a child (your commit) is added to the end of the graph/history</li>
+<li>View this history with</li>
+</ul>
+<pre><code>git log
+</code></pre>
+<ul>
+<li>The history can take different paths (branches)</li>
+</ul>
+
+            </section>
+        
+
+    </section>
+    
+
+
+
+    
+    <section>
+        <section >
+            <h2>Basic Commands</h2>
+
+            </section>
+        
+            <section >
+                <h3>init</h3>
+<ul>
+<li>Initializes a new git repository</li>
+<li>Always add and commit a project before changing anything!</li>
+</ul>
+<pre><code>$ git init
+</code></pre>
+
+            </section>
+        
+            <section >
+                <h3>status</h3>
+<ul>
+<li>Lists the status of your current repository</li>
+<li>Shows which (tracked) files have changed and which files are staged for commit.</li>
+</ul>
+<pre><code>$ git status
+</code></pre>
+
+            </section>
+        
+            <section >
+                <h3>add</h3>
+<ul>
+<li>Stages files/directories from your repo</li>
+<li>Important: this only specifies which files will be commited in THE NEXT COMMIT!</li>
+</ul>
+<pre><code>$ git add .
+$ git add somefile.java
+$ git add somedir/
+</code></pre>
+
+            </section>
+        
+            <section >
+                <h3>commit</h3>
+<ul>
+<li>Creates a new snapshot of your staged files. Assigns a hash. Adds this as a child to the current branch</li>
+</ul>
+<pre><code>$ git commit -m 'Your commit message'
+$ git commit #(this will open vim for editing, watch out!)
+</code></pre>
+
+            </section>
+        
+            <section >
+                <h3>log</h3>
+<ul>
+<li>View the commit history</li>
+</ul>
+<pre><code>$ git log
+$ git log --oneline --decorate --all --graph
+</code></pre>
+
+            </section>
+        
+            <section >
+                <h3>tag</h3>
+<ul>
+<li>Tagging assigns a name to a specific commit.</li>
+</ul>
+<pre><code>$ git tag &lt;tag-name&gt;
+$ git tag lab1_complete
+</code></pre>
+
+            </section>
+        
+            <section >
+                <h3>Remotes</h3>
+<ul>
+<li>Everything up to this point has occured <strong>locally</strong></li>
+<li>Remotes are servers that host your repo.</li>
+<li>Very useful for accessing the same work on multiple PCs.</li>
+<li>Also useful when working in teams.</li>
+<li>git push and git pull are used to download (pull) and upload (push) your commits to the remote server.</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h3>push</h3>
+<ul>
+<li>Pushes a commit to a remote server</li>
+<li>Everything is local until you push!</li>
+</ul>
+<pre><code>$ git push origin main
+$ git push origin some_tag
+$ git push origin some_other_branch
+$ git push origin main --tags
+</code></pre>
+
+            </section>
+        
+            <section >
+                <h3>pull</h3>
+<ul>
+<li>Pulls (downloads) any changes from your remote server (and merges those changes with your current branch)</li>
+<li>Conflict can occur. Watch out!</li>
+</ul>
+<pre><code>$ git pull
+$ git pull origin main
+</code></pre>
+
+            </section>
+        
+
+    </section>
+    
+
+
+
+    
+        <section >
+            
+            <h2>Lab (part 1)</h2>
+
+            </section>
+    
+
+
+
+    
+    <section>
+        <section >
+            <h2>Project setup (git)</h2>
+
+            </section>
+        
+            <section >
+                <h3>Create remote</h3>
+<ul>
+<li>First, create a new repository on Bitbucket.</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h3>Create a new project in Android Studio</h3>
+<ul>
+<li>The Android project structure will be created.</li>
+<li>Navigate to the root of that project (it has the gradle.bat file in it)</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h3>Initialize your git repository</h3>
+<pre><code>git init 
+</code></pre>
+<ul>
+<li>(MAKE SURE YOUR AT THE ROOT OF YOUR PROJECT!)</li>
+<li>This is usually done by Android Studio!</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h3>Add the remote</h3>
+<ul>
+<li>Now add your Bitbucket address as the remote of this git repository</li>
+<li>git remote add origin <a href="http://bitbucket.org/">http://bitbucket.org/</a>…</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h3>Commit the initial files</h3>
+<ul>
+<li>ALWAYS DO THIS! This way, you can return to an initial state later</li>
+<li>git add . (this adds everything in the current directory)</li>
+<li>git commit -m ‘Some message’</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h3>Push your files to Bitbucket</h3>
+<ul>
+<li>git push origin master</li>
+</ul>
+
+            </section>
+        
+
+    </section>
+    
+
+
+
+    
+    <section>
+        <section >
+            <h2>Collaboration</h2>
+
+            </section>
+        
+            <section >
+                <h3>Branches</h3>
+<ul>
+<li>Your git repo can take different paths through time</li>
+<li>Create a new branch with</li>
+</ul>
+<pre><code>git checkout -b branch_name
+</code></pre>
+<ul>
+<li>You can then switch between branches and your working directory will reflect the different snapshots</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h3>Merging</h3>
+<ul>
+<li>Branches that have diverged can later be merged back together</li>
+<li>Possible to have conflicts if the same file was changed in both branches being merged</li>
+</ul>
+
+            </section>
+        
+
+    </section>
+    
+
+
+
+    
+        <section >
+            
+            <h2>Questions?</h2>
+<p><a href="https://www.atlassian.com/git/tutorials/what-is-version-control">https://www.atlassian.com/git/tutorials/what-is-version-control</a>
+<a href="https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud">https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud</a></p>
+
+            </section>
+    
+
+
+    </div>
+
+
+  </div>
+
+  <div class="line top"></div>
+  <div class="line bottom"></div>
+  <div class="line left"></div>
+  <div class="line right"></div>
+
+  <script src="libs/reveal.js/4.3.1/reveal.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/notes/notes.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/markdown/markdown.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/highlight/highlight.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/math/math.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/fullscreen/plugin.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/animate/plugin.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/animate/svg.min.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/anything/plugin.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/anything/Chart.min.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/anything/d3/d3.v3.min.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/anything/d3.patch.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/anything/d3/queue.v1.min.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/anything/d3/topojson.v1.min.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/anything/function-plot.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/customcontrols/plugin.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/embed-tweet/plugin.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/chart/chart.min.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/chart/plugin.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/verticator/verticator.js"></script>
+
+<script src="libs/reveal.js/4.3.1/plugin/zoom/zoom.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/search/search.js"></script>
+
+
+
+<!--	<script src="libs/reveal.js/4.3.1/plugin/audio-slideshow/plugin.js"></script>  -->
+<!--	<script src="libs/reveal.js/4.3.1/plugin/audio-slideshow/recorder.js"></script>-->
+<!--	<script src="libs/reveal.js/4.3.1/plugin/audio-slideshow/RecordRTC.js"></script>-->
+
+  
+
+<script>
+  const printPlugins = [
+      RevealNotes,
+      RevealHighlight,
+      RevealMath.MathJax3,
+      RevealAnimate,
+      
+			RevealEmbedTweet,
+			RevealChart,
+		];
+
+		const plugins =  [...printPlugins,
+		RevealZoom, 
+		RevealSearch, 
+				RevealMarkdown, 
+				
+				RevealFullscreen,
+				RevealAnything,
+				//RevealAudioSlideshow,
+				//RevealAudioRecorder,
+				
+				// poll
+				// question
+				// seminar
+				Verticator 
+				 ]
+
+
+		// Also available as an ES module, see:
+		// https://revealjs.com/initialization/
+		Reveal.initialize({
+			controls: true,
+      controlsTutorial: true,
+      controlsLayout: 'bottom-right',
+      controlsBackArrows: 'faded',
+      progress: true,
+      slideNumber: false,
+      //#showSlideNumber "all" "print" "speaker"
+      hash: true, //# hash: false,
+      //# respondToHashChanges: true,
+      //# history: false,
+      keyboard: true,
+      //#keyboardCondition: null,
+      overview: true,
+      center: true,
+      touch: true,
+      loop: false,
+      rtl: false,
+      //#navigationMode: 'default', linear grid
+      shuffle: false,
+      fragments: true,
+      fragmentInURL: false,
+      embedded: false,
+      help: true,
+      //#pause: true
+      showNotes: false,
+      autoPlayMedia: false, // TODO fix this to a nullable value
+      //#preloadIframes: null. true false
+      //#autoAnimate: true
+      //#autoAnimateMatcher: null,
+      //#autoAnimateEasing: 'ease',
+      //autoAnimateDuration: 1.0,
+      //#autoAnimateUnmatched: true
+      //#autoAnimateStyles: []
+      autoSlide: 0, // TODO fix this to a falseable value
+      autoSlideStoppable: true,
+      autoSlideMethod: '0',
+      defaultTiming: 120,
+      mouseWheel: false,
+      //#previewLinks: false
+      //#postMessage: true, // TODO : this can cause issues with the vscode api ???
+      //#postMessageEvents: false,
+      //#focusBodyOnPageVisibilityChange: true,
+      transition: 'slide',
+      transitionSpeed: 'default',
+      backgroundTransition: 'fade',
+      //#pdfMaxPagesPerSlide: Number.POSITIVE_INFINITY,
+      //#pdfSeparateFragments: true,
+      //#pdfPageHeightOffset: -1,
+      viewDistance: 3,
+      //#mobileViewDistance: 2,
+      display: 'block',
+      //#hideInactiveCursor: true,
+      //#hideCursorTime: 5000
+
+      // Parallax Background
+      parallaxBackgroundImage: '',
+      parallaxBackgroundSize: '',
+      parallaxBackgroundHorizontal: 0,
+      parallaxBackgroundVertical: 0,
+
+      //Presentation Size
+      width: 960,
+			height: 700,
+			margin: 0.04,
+      minScale: 0.2,
+      maxScale: 2,
+      disableLayout: false,
+
+      audio: {
+        prefix: 'audio/', // audio files are stored in the "audio" folder
+        suffix: '.ogg', // audio files have the ".ogg" ending
+        textToSpeechURL: null, // the URL to the text to speech converter
+        defaultNotes: false, // use slide notes as default for the text to speech converter
+        defaultText: false, // use slide text as default for the text to speech converter
+        advance: 0, // advance to next slide after given time in milliseconds after audio has played, use negative value to not advance
+        autoplay: false, // automatically start slideshow
+        defaultDuration: 5, // default duration in seconds if no audio is available
+        defaultAudios: true, // try to play audios with names such as audio/1.2.ogg
+        playerOpacity: 0.05, // opacity value of audio player if unfocused
+        playerStyle: 'position: fixed; bottom: 4px; left: 25%; width: 50%; height:75px; z-index: 33;', // style used for container of audio controls
+        startAtFragment: false, // when moving to a slide, start at the current fragment or at the start of the slide
+      },
+      
+			customcontrols: {
+					controls: [
+      						{
+						  id: 'toggle-overview',
+						  title: 'Toggle overview (O)',
+						  icon: '<i class="fa fa-th"></i>',
+						  action: 'Reveal.toggleOverview();'
+						}
+						
+				]
+			},
+			chart: {
+					defaults: { 
+						color: 'lightgray', // color of labels
+						scale: { 
+							beginAtZero: true, 
+							ticks: { stepSize: 1 },
+							grid: { color: "lightgray" } , // color of grid lines
+						},
+					},
+					line: { borderColor: [ "rgba(20,220,220,.8)" , "rgba(220,120,120,.8)", "rgba(20,120,220,.8)" ], "borderDash": [ [5,10], [0,0] ] }, 
+					bar: { backgroundColor: [ "rgba(20,220,220,.8)" , "rgba(220,120,120,.8)", "rgba(20,120,220,.8)" ]}, 
+					pie: { backgroundColor: [ ["rgba(0,0,0,.8)" , "rgba(220,20,20,.8)", "rgba(20,220,20,.8)", "rgba(220,220,20,.8)", "rgba(20,20,220,.8)"] ]},
+					radar: { borderColor: [ "rgba(20,220,220,.8)" , "rgba(220,120,120,.8)", "rgba(20,120,220,.8)" ]}, 
+			},
+			math: {
+				mathjax: 'https://cdn.jsdelivr.net/gh/mathjax/mathjax@2.7.8/MathJax.js',
+				config: 'TeX-AMS_HTML-full',
+				// pass other options into `MathJax.Hub.Config()`
+				TeX: { Macros: { RR: "{\\bf R}" } }
+				},
+				anything: [ 
+				{
+		className: "plot",
+		defaults: {width:500, height: 500, grid:true},
+		initialize: (function(container, options){ options.target = "#"+container.id; functionPlot(options) })
+	 },
+	 {
+		className: "chart",  
+		initialize: (function(container, options){ container.chart = new Chart(container.getContext("2d"), options);  })
+	 },
+	 {
+		className: "anything",
+		initialize: (function(container, options){ if (options && options.initialize) { options.initialize(container)} })
+	 },
+					],
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: (window.location.search.match(/print-pdf/gi) ? printPlugins : plugins ) 
+		});
+			
+
+
+	    // Change chalkboard theme : 
+		function changeTheme(input) {
+			var config = {};
+			config.theme = input.value;
+			Reveal.getPlugin("RevealChalkboard").configure(config);
+			input.blur();
+		}
+
+		// // Handle the message inside the webview
+        // window.addEventListener('message', event => {
+
+        //     const message = event.data; // The JSON data our extension sent
+
+        //     switch (message.command) {
+        //         case 'refactor':
+        //             Reveal.toggleHelp();
+        //     }
+        // });
+
+		if (window.location.search.match(/print-pdf-now/gi)) {
+      		setTimeout(() => {
+				window.print();
+			  }, 2500);
+			
+    }
+</script>
+
+</body>
+
+</html>

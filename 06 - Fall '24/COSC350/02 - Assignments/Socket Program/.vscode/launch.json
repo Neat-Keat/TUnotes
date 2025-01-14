@@ -1,0 +1,112 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "TCPClient_Enhanced",
+            "request": "launch",
+            "mainClass": "TCPClient_Enhanced",
+            "projectName": "Socket Program_9f04b6b0"
+        },
+        {
+            "type": "java",
+            "name": "TCPServer_Enhanced",
+            "request": "launch",
+            "mainClass": "TCPServer_Enhanced",
+            "projectName": "Socket Program_9f04b6b0"
+        },
+        {
+            "type": "java",
+            "name": "SocketClientExample",
+            "request": "launch",
+            "mainClass": "SocketClientExample",
+            "projectName": "Socket Program_9f04b6b0"
+        },
+        {
+            "type": "java",
+            "name": "ClientGUI",
+            "request": "launch",
+            "mainClass": "ClientGUI",
+            "projectName": "Socket Program_9f04b6b0"
+        },
+        {
+            "type": "java",
+            "name": "TCPClient_Enhanced",
+            "request": "launch",
+            "mainClass": "TCPClient_Enhanced",
+            "projectName": "COSC350Project_99f10ebe"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "ClientGUI",
+            "request": "launch",
+            "mainClass": "ClientGUI",
+            "projectName": "COSC350Project_99f10ebe"
+        },
+        {
+            "type": "java",
+            "name": "SimpleClient",
+            "request": "launch",
+            "mainClass": "SimpleClient",
+            "projectName": "COSC350Project_99f10ebe"
+        },
+        {
+            "type": "java",
+            "name": "SimpleServer",
+            "request": "launch",
+            "mainClass": "SimpleServer",
+            "projectName": "COSC350Project_99f10ebe"
+        },
+        {
+            "type": "java",
+            "name": "SocketClientExample",
+            "request": "launch",
+            "mainClass": "SocketClientExample",
+            "projectName": "COSC350Project_99f10ebe"
+        },
+        {
+            "type": "java",
+            "name": "SocketServerExample",
+            "request": "launch",
+            "mainClass": "SocketServerExample",
+            "projectName": "COSC350Project_99f10ebe"
+        },
+        {
+            "type": "java",
+            "name": "TCPClient",
+            "request": "launch",
+            "mainClass": "TCPClient",
+            "projectName": "COSC350Project_99f10ebe"
+        },
+        {
+            "type": "java",
+            "name": "TCPServer",
+            "request": "launch",
+            "mainClass": "TCPServer",
+            "projectName": "COSC350Project_99f10ebe"
+        },
+        {
+            "type": "java",
+            "name": "TCPServer_Enhanced",
+            "request": "launch",
+            "mainClass": "TCPServer_Enhanced",
+            "projectName": "COSC350Project_99f10ebe"
+        },
+        {
+            "type": "java",
+            "name": "newTCPServer",
+            "request": "launch",
+            "mainClass": "newTCPServer",
+            "projectName": "COSC350Project_99f10ebe"
+        }
+    ]
+}

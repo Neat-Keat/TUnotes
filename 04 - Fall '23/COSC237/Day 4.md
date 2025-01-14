@@ -1,0 +1,1 @@
+yn_response.toUpperCase().equals() is valid

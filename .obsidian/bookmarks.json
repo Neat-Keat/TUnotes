@@ -1,0 +1,188 @@
+{
+  "items": [
+    {
+      "type": "group",
+      "ctime": 1730961193332,
+      "items": [
+        {
+          "type": "folder",
+          "ctime": 1730961238120,
+          "path": "02 - Fall '22/COSC109"
+        },
+        {
+          "type": "folder",
+          "ctime": 1730961227289,
+          "path": "02 - Fall '22/COSC 175"
+        },
+        {
+          "type": "folder",
+          "ctime": 1730961242862,
+          "path": "02 - Fall '22/DFST101"
+        },
+        {
+          "type": "folder",
+          "ctime": 1730961251232,
+          "path": "02 - Fall '22/ENGL102"
+        },
+        {
+          "type": "folder",
+          "ctime": 1730961255876,
+          "path": "02 - Fall '22/MUSA160 (Timeless)"
+        },
+        {
+          "type": "folder",
+          "ctime": 1730961261845,
+          "path": "02 - Fall '22/SOCI210"
+        }
+      ],
+      "title": "SEM1"
+    },
+    {
+      "type": "group",
+      "ctime": 1730961197066,
+      "items": [
+        {
+          "type": "folder",
+          "ctime": 1730961275456,
+          "path": "03 - Spring '23/ASTR161"
+        },
+        {
+          "type": "folder",
+          "ctime": 1730961280052,
+          "path": "03 - Spring '23/COMM131"
+        },
+        {
+          "type": "folder",
+          "ctime": 1730961283666,
+          "path": "03 - Spring '23/COSC236"
+        },
+        {
+          "type": "folder",
+          "ctime": 1730961289200,
+          "path": "03 - Spring '23/MATH274"
+        },
+        {
+          "type": "folder",
+          "ctime": 1730961292757,
+          "path": "03 - Spring '23/MUSA161"
+        },
+        {
+          "type": "folder",
+          "ctime": 1730961297161,
+          "path": "03 - Spring '23/TSEM102"
+        }
+      ],
+      "title": "SEM2"
+    },
+    {
+      "type": "group",
+      "ctime": 1730961200539,
+      "items": [
+        {
+          "type": "folder",
+          "ctime": 1730961310693,
+          "path": "04 - Fall '23/CIS377"
+        },
+        {
+          "type": "folder",
+          "ctime": 1730961314020,
+          "path": "04 - Fall '23/COSC237"
+        },
+        {
+          "type": "folder",
+          "ctime": 1730961317467,
+          "path": "04 - Fall '23/ENGL317"
+        },
+        {
+          "type": "folder",
+          "ctime": 1730961323877,
+          "path": "04 - Fall '23/MATH263"
+        },
+        {
+          "type": "folder",
+          "ctime": 1730961327311,
+          "path": "04 - Fall '23/MUSA160 (Reign Cycle)"
+        },
+        {
+          "type": "folder",
+          "ctime": 1730961330126,
+          "path": "04 - Fall '23/PHYS103"
+        }
+      ],
+      "title": "SEM3"
+    },
+    {
+      "type": "group",
+      "ctime": 1730961203167,
+      "items": [
+        {
+          "type": "folder",
+          "ctime": 1730961335021,
+          "path": "05 - Spring '24/COSC290"
+        },
+        {
+          "type": "folder",
+          "ctime": 1730961338847,
+          "path": "05 - Spring '24/COSC336"
+        },
+        {
+          "type": "folder",
+          "ctime": 1730961341899,
+          "path": "05 - Spring '24/COSC418"
+        },
+        {
+          "type": "folder",
+          "ctime": 1730961346178,
+          "path": "05 - Spring '24/ITEC201"
+        },
+        {
+          "type": "folder",
+          "ctime": 1730961349421,
+          "path": "05 - Spring '24/MUSA161"
+        }
+      ],
+      "title": "SEM4"
+    },
+    {
+      "type": "group",
+      "ctime": 1730961161643,
+      "items": [
+        {
+          "type": "folder",
+          "ctime": 1730958192532,
+          "path": "06 - Fall '24/COSC350"
+        },
+        {
+          "type": "folder",
+          "ctime": 1730958198102,
+          "path": "06 - Fall '24/COSC435"
+        },
+        {
+          "type": "folder",
+          "ctime": 1730958202638,
+          "path": "06 - Fall '24/MATH330"
+        },
+        {
+          "type": "folder",
+          "ctime": 1730958178453,
+          "path": "06 - Fall '24/BIOL200"
+        },
+        {
+          "type": "folder",
+          "ctime": 1730961171561,
+          "path": "06 - Fall '24/MUSA360 (Who,...)"
+        }
+      ],
+      "title": "SEM5"
+    },
+    {
+      "type": "folder",
+      "ctime": 1730965601599,
+<<<<<<< HEAD
+      "path": "DailyNotes"
+=======
+      "path": "01 - DailyNotes"
+>>>>>>> 2d4638f7d6963f0df6851b641b0dc4adb2afa20e
+    }
+  ]
+}

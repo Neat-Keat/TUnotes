@@ -1,0 +1,571 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Reveal JS presentation</title>
+
+  <meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+  <meta name="author" content="Hakim El Hattab">
+
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="libs/reveal.js/4.3.1/reset.css">
+  <link rel="stylesheet" href="libs/reveal.js/4.3.1/reveal.css">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+  <!-- highlight Theme -->
+  
+  <link rel="stylesheet" href="libs/highlight.js/11.3.1/styles/atom-one-dark.min.css">
+  
+	
+		
+	<link rel="stylesheet" href="libs/reveal.js/4.3.1/plugin/chalkboard/style.css">
+	
+	
+	
+	
+
+
+
+  <!-- Revealjs Theme -->
+  
+  <link rel="stylesheet" href="libs/reveal.js/4.3.1/theme/simple.css" id="theme">
+  
+  
+
+  <link rel="stylesheet" href="libs/styles/tasklist.css">
+	<link rel="stylesheet" href="libs/styles/iota.css">
+	<link rel="stylesheet" href="libs/styles/layout.css">
+
+
+  <!-- Revealjs Theme -->
+  
+
+   <!-- css list -->
+	
+
+   
+
+</head>
+
+<body>
+
+   
+
+  <div class="reveal">
+
+    <!-- Any section element inside of this container is displayed as a slide -->
+    <div class="slides">
+
+      
+
+
+    
+        <section >
+            
+            <h2>Android App Development</h2>
+<h4>Towson University</h4>
+<h5>Randy Valis</h5>
+<h5>Fall 2024</h5>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h3>Agenda</h3>
+<ol>
+<li>Lab 5 Review/Finish</li>
+<li>Quiz</li>
+<li>Compose Preview</li>
+<li>Activity Lifecycle</li>
+<li>ViewModels</li>
+</ol>
+
+            </section>
+    
+
+
+
+    
+    <section>
+        <section >
+            <h2>Quiz</h2>
+
+            </section>
+        
+            <section >
+                <p>What is the type of the result?</p>
+<pre><code class="language-kotlin">(0..10)
+  .map { i -&gt; &quot;Joe $i&quot; }
+  .filter { j -&gt; j.length &gt; 2 }
+  .map { a -&gt; a.length }
+</code></pre>
+<pre><code>a. List&lt;Int&gt;
+
+b. List&lt;String&gt;
+
+c. Int
+
+d. String
+</code></pre>
+
+            </section>
+        
+            <section >
+                <p>What is the type of the result?</p>
+<pre><code class="language-kotlin">(0..10)
+  .map { s -&gt; s.toString() }
+  .filter { j -&gt; j.length &gt; 2 }
+  .map { a -&gt; a.toUpperCase() }
+</code></pre>
+<pre><code>a. List&lt;Int&gt;
+
+b. List&lt;String&gt;
+
+c. Int
+
+d. String
+</code></pre>
+
+            </section>
+        
+            <section >
+                <p>What is the type of the parameter?</p>
+<pre><code class="language-kotlin">fun View(
+    onEvent: //????
+) {
+    var x = &quot;Hello World&quot;
+    var i = 0
+
+    ...
+    i = onEvent(i, x)
+}
+</code></pre>
+<pre><code>a. (Int, String) -&gt; String
+
+b. (String, Int) -&gt; String
+
+c. (String) -&gt; Int
+
+d. (Int, String) -&gt; Int
+</code></pre>
+
+            </section>
+        
+
+    </section>
+    
+
+
+
+    
+    <section>
+        <section >
+            <h3>Activity Lifecycle</h3>
+
+            </section>
+        
+            <section >
+                <p>Activities are destroyed and recreated whenever a configuration change occurs, such as an orientation change.</p>
+
+            </section>
+        
+            <section >
+                <p><img src="./activity_lifecycle.png" alt="Lifecycle"></p>
+
+            </section>
+        
+            <section >
+                <h3>Important events</h3>
+<ul>
+<li>onCreate - Create the View hierarchy</li>
+<li>onResume - Resume any tasks paused in onPause</li>
+<li>onPause - Pause any task that should not run while the app isn’t visible</li>
+<li>onStop - Save/persist any state</li>
+<li>onDestroy - Too late :(</li>
+</ul>
+
+            </section>
+        
+
+    </section>
+    
+
+
+
+    
+    <section>
+        <section >
+            <h3>ViewModels</h3>
+<p>The Android Framework provides the ViewModel class for managing UI-related data.</p>
+
+            </section>
+        
+            <section >
+                <h3>Key Features</h3>
+<ul>
+<li>ViewModels survive configuration changes</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h3>Declare</h3>
+<pre><code class="language-kotlin">class MyViewModel : ViewModel() {
+    val name: MutableState&lt;String&gt; = mutableStateOf(&quot;&quot;)
+}
+</code></pre>
+
+            </section>
+        
+            <section >
+                <h3>Use</h3>
+<p>Important: You can on use the <em><code>viewModels()</code></em> function inside an Activity</p>
+<pre><code class="language-kotlin">override fun onCreate(...) {
+    setContent {
+        val vm: MyViewModel by viewModels()
+        ...
+        MainScreen(
+            vm,
+            ...
+        )
+    }
+}
+</code></pre>
+
+            </section>
+        
+            <section >
+                <h3>Best practice</h3>
+<ul>
+<li>Use internal/private mutable state but expose immutable state</li>
+<li>Use functions to mutate state</li>
+<li>Only access ViewModels at the top of your Composable/View hierarchy</li>
+<li>One ViewModel per screen/unit</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h3>Example</h3>
+<pre><code class="language-kotlin">class MyViewModel : ViewModel() {
+    private val _name: MutableState&lt;String&gt; = mutableStateOf(&quot;&quot;)
+    val name: State&lt;String&gt; = _name
+    fun setName(name: String) {
+        _name.value = name
+    }
+}
+</code></pre>
+<pre><code class="language-kotlin">@Composable
+fun Main() {
+    val vm: MyViewModel by viewModels()
+    MainScreen(
+        name=vm.name,
+        onNameChange=vm::setName
+    )
+}
+</code></pre>
+
+            </section>
+        
+
+    </section>
+    
+
+
+
+    
+    <section>
+        <section >
+            <h3>Orientation</h3>
+<p>Different resources can be loaded based on the orientation of the device.</p>
+<p>Different composables can be loaded by querying the orientation at runtime.</p>
+
+            </section>
+        
+            <section >
+                <h3>Configuration</h3>
+<p>In order to determine the orientation, you need to access the Configuration. Do so through the <em>LocationConfiguration.current</em> variable.</p>
+<pre><code class="language-kotlin">@Composable
+fun View() {
+
+    val configuration = LocalConfiguration.current
+    ...
+}
+</code></pre>
+
+            </section>
+        
+            <section >
+                <h3>Orientation</h3>
+<p>Then you can access the configuration’s orientation property and compare it to a few constants.</p>
+<pre><code class="language-kotlin">configuration.orientation == Configuration.ORIENTATION_PORTRAIT
+</code></pre>
+
+            </section>
+        
+
+    </section>
+    
+
+
+
+    
+        <section >
+            
+            <h3>CompositionLocal</h3>
+<p>A tool for passing data down through a composition <em>implicitly</em></p>
+<hr>
+
+            </section>
+    
+
+
+    </div>
+
+
+  </div>
+
+  <div class="line top"></div>
+  <div class="line bottom"></div>
+  <div class="line left"></div>
+  <div class="line right"></div>
+
+  <script src="libs/reveal.js/4.3.1/reveal.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/notes/notes.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/markdown/markdown.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/highlight/highlight.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/math/math.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/fullscreen/plugin.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/animate/plugin.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/animate/svg.min.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/anything/plugin.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/anything/Chart.min.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/anything/d3/d3.v3.min.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/anything/d3.patch.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/anything/d3/queue.v1.min.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/anything/d3/topojson.v1.min.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/anything/function-plot.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/customcontrols/plugin.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/embed-tweet/plugin.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/chart/chart.min.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/chart/plugin.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/verticator/verticator.js"></script>
+
+<script src="libs/reveal.js/4.3.1/plugin/zoom/zoom.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/search/search.js"></script>
+
+
+
+<!--	<script src="libs/reveal.js/4.3.1/plugin/audio-slideshow/plugin.js"></script>  -->
+<!--	<script src="libs/reveal.js/4.3.1/plugin/audio-slideshow/recorder.js"></script>-->
+<!--	<script src="libs/reveal.js/4.3.1/plugin/audio-slideshow/RecordRTC.js"></script>-->
+
+  
+
+<script>
+  const printPlugins = [
+      RevealNotes,
+      RevealHighlight,
+      RevealMath.MathJax3,
+      RevealAnimate,
+      
+			RevealEmbedTweet,
+			RevealChart,
+		];
+
+		const plugins =  [...printPlugins,
+		RevealZoom, 
+		RevealSearch, 
+				RevealMarkdown, 
+				
+				RevealFullscreen,
+				RevealAnything,
+				//RevealAudioSlideshow,
+				//RevealAudioRecorder,
+				
+				// poll
+				// question
+				// seminar
+				Verticator 
+				 ]
+
+
+		// Also available as an ES module, see:
+		// https://revealjs.com/initialization/
+		Reveal.initialize({
+			controls: true,
+      controlsTutorial: true,
+      controlsLayout: 'bottom-right',
+      controlsBackArrows: 'faded',
+      progress: true,
+      slideNumber: false,
+      //#showSlideNumber "all" "print" "speaker"
+      hash: true, //# hash: false,
+      //# respondToHashChanges: true,
+      //# history: false,
+      keyboard: true,
+      //#keyboardCondition: null,
+      overview: true,
+      center: true,
+      touch: true,
+      loop: false,
+      rtl: false,
+      //#navigationMode: 'default', linear grid
+      shuffle: false,
+      fragments: true,
+      fragmentInURL: false,
+      embedded: false,
+      help: true,
+      //#pause: true
+      showNotes: false,
+      autoPlayMedia: false, // TODO fix this to a nullable value
+      //#preloadIframes: null. true false
+      //#autoAnimate: true
+      //#autoAnimateMatcher: null,
+      //#autoAnimateEasing: 'ease',
+      //autoAnimateDuration: 1.0,
+      //#autoAnimateUnmatched: true
+      //#autoAnimateStyles: []
+      autoSlide: 0, // TODO fix this to a falseable value
+      autoSlideStoppable: true,
+      autoSlideMethod: '0',
+      defaultTiming: 120,
+      mouseWheel: false,
+      //#previewLinks: false
+      //#postMessage: true, // TODO : this can cause issues with the vscode api ???
+      //#postMessageEvents: false,
+      //#focusBodyOnPageVisibilityChange: true,
+      transition: 'slide',
+      transitionSpeed: 'default',
+      backgroundTransition: 'fade',
+      //#pdfMaxPagesPerSlide: Number.POSITIVE_INFINITY,
+      //#pdfSeparateFragments: true,
+      //#pdfPageHeightOffset: -1,
+      viewDistance: 3,
+      //#mobileViewDistance: 2,
+      display: 'block',
+      //#hideInactiveCursor: true,
+      //#hideCursorTime: 5000
+
+      // Parallax Background
+      parallaxBackgroundImage: '',
+      parallaxBackgroundSize: '',
+      parallaxBackgroundHorizontal: 0,
+      parallaxBackgroundVertical: 0,
+
+      //Presentation Size
+      width: 960,
+			height: 700,
+			margin: 0.04,
+      minScale: 0.2,
+      maxScale: 2,
+      disableLayout: false,
+
+      audio: {
+        prefix: 'audio/', // audio files are stored in the "audio" folder
+        suffix: '.ogg', // audio files have the ".ogg" ending
+        textToSpeechURL: null, // the URL to the text to speech converter
+        defaultNotes: false, // use slide notes as default for the text to speech converter
+        defaultText: false, // use slide text as default for the text to speech converter
+        advance: 0, // advance to next slide after given time in milliseconds after audio has played, use negative value to not advance
+        autoplay: false, // automatically start slideshow
+        defaultDuration: 5, // default duration in seconds if no audio is available
+        defaultAudios: true, // try to play audios with names such as audio/1.2.ogg
+        playerOpacity: 0.05, // opacity value of audio player if unfocused
+        playerStyle: 'position: fixed; bottom: 4px; left: 25%; width: 50%; height:75px; z-index: 33;', // style used for container of audio controls
+        startAtFragment: false, // when moving to a slide, start at the current fragment or at the start of the slide
+      },
+      
+			customcontrols: {
+					controls: [
+      						{
+						  id: 'toggle-overview',
+						  title: 'Toggle overview (O)',
+						  icon: '<i class="fa fa-th"></i>',
+						  action: 'Reveal.toggleOverview();'
+						}
+						
+				]
+			},
+			chart: {
+					defaults: { 
+						color: 'lightgray', // color of labels
+						scale: { 
+							beginAtZero: true, 
+							ticks: { stepSize: 1 },
+							grid: { color: "lightgray" } , // color of grid lines
+						},
+					},
+					line: { borderColor: [ "rgba(20,220,220,.8)" , "rgba(220,120,120,.8)", "rgba(20,120,220,.8)" ], "borderDash": [ [5,10], [0,0] ] }, 
+					bar: { backgroundColor: [ "rgba(20,220,220,.8)" , "rgba(220,120,120,.8)", "rgba(20,120,220,.8)" ]}, 
+					pie: { backgroundColor: [ ["rgba(0,0,0,.8)" , "rgba(220,20,20,.8)", "rgba(20,220,20,.8)", "rgba(220,220,20,.8)", "rgba(20,20,220,.8)"] ]},
+					radar: { borderColor: [ "rgba(20,220,220,.8)" , "rgba(220,120,120,.8)", "rgba(20,120,220,.8)" ]}, 
+			},
+			math: {
+				mathjax: 'https://cdn.jsdelivr.net/gh/mathjax/mathjax@2.7.8/MathJax.js',
+				config: 'TeX-AMS_HTML-full',
+				// pass other options into `MathJax.Hub.Config()`
+				TeX: { Macros: { RR: "{\\bf R}" } }
+				},
+				anything: [ 
+				{
+		className: "plot",
+		defaults: {width:500, height: 500, grid:true},
+		initialize: (function(container, options){ options.target = "#"+container.id; functionPlot(options) })
+	 },
+	 {
+		className: "chart",  
+		initialize: (function(container, options){ container.chart = new Chart(container.getContext("2d"), options);  })
+	 },
+	 {
+		className: "anything",
+		initialize: (function(container, options){ if (options && options.initialize) { options.initialize(container)} })
+	 },
+					],
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: (window.location.search.match(/print-pdf/gi) ? printPlugins : plugins ) 
+		});
+			
+
+
+	    // Change chalkboard theme : 
+		function changeTheme(input) {
+			var config = {};
+			config.theme = input.value;
+			Reveal.getPlugin("RevealChalkboard").configure(config);
+			input.blur();
+		}
+
+		// // Handle the message inside the webview
+        // window.addEventListener('message', event => {
+
+        //     const message = event.data; // The JSON data our extension sent
+
+        //     switch (message.command) {
+        //         case 'refactor':
+        //             Reveal.toggleHelp();
+        //     }
+        // });
+
+		if (window.location.search.match(/print-pdf-now/gi)) {
+      		setTimeout(() => {
+				window.print();
+			  }, 2500);
+			
+    }
+</script>
+
+</body>
+
+</html>
