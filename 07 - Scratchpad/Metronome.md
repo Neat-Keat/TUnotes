@@ -43,3 +43,12 @@ autoStart: no
 
 ```
 
+# Chameleon O-O15
+```metronome
+bpm: 156 
+meter: 4/4 
+size: large 
+instrument: click 
+style: line
+autoStart: no
+```
