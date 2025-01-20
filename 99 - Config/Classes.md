@@ -1,18 +1,15 @@
-# Classes
+
+ Classes
 ## Monday
-- BIOL200
-- MATH330
-- MUSA360 (Who,...)
-- COSC435
+- COSC412
+- COSC439
 ## Tuesday
-- COSC350
-- BIOL200L
+- MATH275
+- MUSA161
 ## Wednesday
-- BIOL200
-- MATH330
-- MUSA360 (Who,...)
+- COSC412
+- COSC439
 ## Thursday
-- COSC350
+- MATH275
+- COSC436
 ## Friday
-- BIOL200
-- MUSA360 (Who,...)

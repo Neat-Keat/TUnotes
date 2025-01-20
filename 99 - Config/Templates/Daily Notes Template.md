@@ -9,7 +9,7 @@
 
 const file = tp.file.find_tfile("Classes");
 const content = await app.vault.read(file);
-const sem = "06 - Fall '24"; // Change this for a new semester!
+const sem = "07 - Spring '25"; // Change this for a new semester!
 
 // Get the current day name.
 const day = tp.date.now("dddd"); // "dddd" returns the full name of the day.
