@@ -2,6 +2,9 @@
 aliases: 
 cssclasses: []
 ---
+| Mewtwo                                                   | Charizard | Pikachu                                 |
+| -------------------------------------------------------- | --------- | --------------------------------------- |
+| Articuno<br>Gengar ex<br>Mewtwo ex<br>Weezing<br>Pidgeot | Alakazam  | Pikachu ex<br>Nidoking<br>Wigglytuff ex |
 
 
 
