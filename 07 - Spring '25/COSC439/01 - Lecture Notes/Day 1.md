@@ -6,6 +6,7 @@ aliases:
 tags:
   - "#COSC439"
   - COSC439/CH1
+  - Introduction
 cssclasses:
 ---
 From: [[2025/01/29]]
