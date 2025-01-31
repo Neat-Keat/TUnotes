@@ -216,7 +216,7 @@ basically implement all non-essential kernel functions as user-mode processes
 	- Firmware ROM used to hold initial boot code
 - OS must be made available to hardware so hardware can start it
 	- Small piece of code - ==bootstrap loader==, stored in ==ROM== or ==EEPROM== locates the kernel, loads it into memory, and starts it
-	- Sometimes two-step process where ==boot block== at fixed location loaded by ROM code, which loads bootstrap loader from disk
+	- Sometimes two-step process where ==boot block== at fixed location oaded by ROM code, which loads bootstrap loader from disk
 - Common bootstrap loader, ==GRUB==, allows selection of kernel from multiple disks, versions, kernel options
 - Kernel loads and system is then ==running==
 virus cannot touch ROM, and by extension the boot code
