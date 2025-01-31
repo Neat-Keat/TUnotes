@@ -6,7 +6,7 @@ aliases:
   - Calc III
   - Calc 3
 tags:
-  - "#BIOL200"
+  - MATH275
 cssclasses:
 ---
 From: [[<%tp.date.now("YYYY/MM/DD")%>]]
