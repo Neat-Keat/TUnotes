@@ -157,7 +157,7 @@ a_1 & b_1 \\
 a_2 & b_2  
 \end{bmatrix}
 $$
-1. ==$\overrightarrow{u}$ * $\overrightarrow{v}$ is vector!!!== 
+1. ==$\overrightarrow{u}$ * $\overrightarrow{v}$ is a vector!!!== 
 
 ex.
 	$\overrightarrow{u}$ = <4,0,1>
