@@ -91,7 +91,7 @@ Given
 - a center (a,b,c)
 - a radius r
 the equation for a sphere at center (a,b,c) with radius r is:
-$$(x+a)^2 + (y-b)^2 + (z-c)^2 = r^2 $$
+$$(x-a)^2 + (y-b)^2 + (z-c)^2 = r^2 $$
 # (12.2) Vectors
 A vector is a mathematical object with 2 components:
 - Direction
