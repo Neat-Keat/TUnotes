@@ -50,3 +50,79 @@ geometrically:
 	$\overrightarrow{u}$ * $\overrightarrow{v}$ = |$\overrightarrow{u}$||$\overrightarrow{v}$|$\cos(\theta)$
 	
 $\overrightarrow{P} * \overrightarrow{Q}$ = 
+
+is $\triangle{PQR}$ isosceles?
+yes!
+$$|PQ| = |QR| = 3$$---
+find distance between (0,0,0) and (1,3,4)
+$$|AB| = \sqrt{(x_2 - x_1)^2+ (y_2 - y_1)^2 + (z_2 - z_1)^2}$$
+$$|AB| = \sqrt{(0 - 1)^2+ (0 - 3)^2 + (0 - 4)^2}$$
+$$|AB| = \sqrt{1+ 9 + 16}$$
+$$\fbox{$|AB| = \sqrt{26}$}$$
+-----
+Find the lengths of the sides of the triangle $\triangle{PQR}$
+P(7,5,0)
+Q(5,3,1)
+R(5,9,4)
+
+the distance between the two points is calculated as: $$|AB| = \sqrt{(x_2 - x_1)^2+ (y_2 - y_1)^2 + (z_2 - z_1)^2}$$
+$$|PQ| = \sqrt{(7 - 5)^2+ (5 - 3)^2 + (0 - 1)^2}$$
+$$|PQ| = \sqrt{4 + 4 + 1}$$
+$$\fbox{|PQ| = 3}$$
+$$|QR| = \sqrt{(5 - 5)^2+ (3 - 9)^2 + (1 - 4)^2}$$
+$$|QR| = \sqrt{0+ 36 + 9}$$
+$$\fbox{$|QR| = \sqrt{45}$}$$
+$$|RP| = \sqrt{(5 - 7)^2+ (9 - 5)^2 + (4 - 0)^2}$$
+$$|RP| = \sqrt{4 + 16 + 16}$$
+$$\fbox{$|RP| = 6$}$$
+-------
+Find the distance from (1,-2,9) to each of the following
+a. the xy-plane
+	$\fbox{9}$ (the z component)
+
+b. the yz-plane
+	$\fbox{1}$ (the x component)
+
+c. the xz-plane
+	$\fbox{3}$ (the y component)
+
+d. the x-axis
+	we want the hypotenuse of the triangle PQR where
+		P(1,-3,9)
+		Q(1,-3,0)
+		R(1,0,0)
+	in other words:
+		$|PR| = \sqrt{(y_2 - y_1)^2+ (z_2 - z_1)^2}$
+		$|PR| = \sqrt{(-3 - 0)^2+ (9 - 0)^2}$
+		$|PR| = \sqrt{9 + 81}$
+		$$\fbox{$|PR| = \sqrt{90}$}$$
+
+e. the y-axis
+	We want the distance between
+		P(1,-3,9) and
+		Q(0,-3,0)
+	In other words:
+		$|PQ| = \sqrt{(x_2 - x_1)^2+ (z_2 - z_1)^2}$
+		$|PQ| = \sqrt{(1 - 0)^2+ (9 - 0)^2}$
+		$|PQ| = \sqrt{1 + 81}$
+		$$\fbox{$|PR| = \sqrt{82}$}$$
+
+f. the z-axis
+	We want the distance between
+		P(1,-3,9) and
+		Q(0,0,9)
+	In other words:
+		$|PQ| = \sqrt{(x_2 - x_1)^2+ (y_2 - y_1)^2}$
+		$|PQ| = \sqrt{(1 - 0)^2+ ((-3) - 0)^2}$
+		$|PQ| = \sqrt{1 + 9}$
+		$$\fbox{$|PR| = \sqrt{10}$}$$
+-----
+Write the equation of the sphere in standard form.
+
+$x^2 + y^2 + z^2 + 12x − 8y + 2z + 44 = 0$
+Find its center and radius
+	center:
+	radius:
+
+Equation for a circle with radius r and center (a,b,c):
+$$(x-a)^2 + (y-b)^2 + (z-c)^2 = r^2 $$
