@@ -51,7 +51,7 @@ in 3d:
 
 ex.
 $\overrightarrow{u}$ = <2,4,5>, $\overrightarrow{v}$ = <1,2,-6>
-	$\overrightarrow{u}$ * $\overrightarrow{v}$ = 2(1) + 4*2 + 5 (-6)
+	$\overrightarrow{u}$ * $\overrightarrow{v}$ = 2(1) + (4 * 2) + 5(-6)
 	= 2+8-30
 	= -20
 

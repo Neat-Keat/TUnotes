@@ -24,4 +24,29 @@ $$Midpoint = (4, 4, 7)$$
 Equation for a circle with radius r and center (a,b,c):
 $$(x-a)^2 + (y-b)^2 + (z-c)^2 = r^2 $$
 Substituting r = $\frac{\sqrt{24}}{2}$, and center (a,b,c) = (4,4,7)
-$$(x-4)^2 + (y-4)^2 + (z-7)^2 = r^2 $$
+$$(x-4)^2 + (y-4)^2 + (z-7)^2 = 6 $$
+---
+Find the lengths of the sides of the triangle PQR
+P(6,-1,0)
+Q(8,0,2)
+R(9,-2,0)
+
+the distance between the two points is calculated as: $$|AB| = \sqrt{(x_2 - x_1)^2+ (y_2 - y_1)^2 + (z_2 - z_1)^2}$$
+$$|PQ| = \sqrt{(6 - 8)^2+ (-1 - 0)^2 + (0 - 2)^2}$$
+$$|PQ| = \sqrt{4 + 1 + 4}$$
+$$\fbox{|PQ| = 3}$$
+$$|QR| = \sqrt{(8 - 9)^2+ (0 - (-2))^2 + (2 - 0)^2}$$
+$$|QR| = \sqrt{1 + 4 + 4}$$
+$$\fbox{|QR| = 3}$$
+$$|RP| = \sqrt{(9 - 6)^2+ (-2 - (-1))^2 + (0 - 0)^2}$$
+$$|RP| = \sqrt{9 + 1 + 0}$$
+$$|RP| = \fbox{$\sqrt{10}$}$$
+is $\triangle{PQR}$ right?
+$\overrightarrow{P} * \overrightarrow{Q} = 0 \vee \overrightarrow{Q} * \overrightarrow{R} = 0 \vee \overrightarrow{P} * \overrightarrow{R} = 0$
+
+given  $\overrightarrow{u}$ = <$a_1,b_1,c_1$> &  $\overrightarrow{v}$ = <$a_2,b_2, c_2$>
+	$\overrightarrow{u}$ * $\overrightarrow{v}$ = $a_1a_2 + b_1b_2 + c_1c_2$
+geometrically:
+	$\overrightarrow{u}$ * $\overrightarrow{v}$ = |$\overrightarrow{u}$||$\overrightarrow{v}$|$\cos(\theta)$
+	
+$\overrightarrow{P} * \overrightarrow{Q}$ = 
